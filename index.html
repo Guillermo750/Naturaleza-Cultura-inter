@@ -6,10 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="js/app.js"></script>
     <title>Nature and Culture International</title>
 </head>
 
 <body>
-    
+    <!-- MENÚ -->
+    <nav id="navbar" class="fixed top-0 w-full z-50 flex flex-col transition-all duration-300">
+        <!-- FILA SUPERIOR: Contáctanos, Idioma y Lupa -->
+        <div class="flex justify-end space-x-4 px-10 py-2 text-sm text-white">
+            <a href="#">Contáctanos</a>
+            <span>|</span>
+            <!-- Dropdown de Idiomas -->
+            <div class="relative group cursor-pointer">
+                <div class="flex items-center space-x-1 gap-2">
+                    <img class="w-4 h-4 object-contain" src="imagenes/imagen02.png" alt="Bandera de España"/>
+                    <span>Español</span>
+                </div>
+                <!-- Menú desplegable -->
+                <div class="absolute right-0 top-full hidden group-hover:block w-32 bg-white text-black p-2">
+                    <a href="#" class="flex items-center space-x-2 py-1 px-2 gap-2 hover:text-[#d86a0a]">
+                        <img class="w-4 h-4 object-contain" src="imagenes/imagen01.png" alt="Bandera de Englateraa"/> 
+                        <span>English</span>
+                    </a>
+                    <a href="#" class="flex items-center space-x-2 py-1 px-2 gap-2 hover:text-[#d86a0a]">
+                        <img class="w-4 h-4 object-contain" src="imagenes/imagen02.png" alt="Bandera de España"/> 
+                        <span>Español</span>
+                    </a>
+                </div>
+            </div>
+            <a href="#">🔍</a>
+        </div>
+        <!-- FILA INFERIOR: Logo, Menú y Botón Dona -->
+        <div class="flex items-center justify-between px-10 pb-4">
+            <img src="logo/logolamolinafinal.svg" class="w-32" alt="Logo">
+            <div class="flex space-x-8 font-bold text-white">
+                <a href="#" class=" transition">QUÉ HACEMOS</a>
+                <a href="#" class=" transition">NUESTRO IMPACTO</a>
+                <a href="#" class=" transition">QUIÉNES SOMOS</a>
+                <a href="#" class=" transition">DÓNDE TRABAJAMOS</a>
+            </div>
+            <a href="#" class="bg-orange-500 text-black px-6 py-2 rounded-full font-bold hover:bg-[rgb(243, 119, 130)] transition">
+                Dona Aquí
+            </a>
+        </div>
+    </nav>
+
+
 </body>
 </html>
