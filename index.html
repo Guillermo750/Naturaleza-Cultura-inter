@@ -4,53 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link para poner icono al html -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
     <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- LLamar al js -->
     <script defer src="js/app.js"></script>
     <title>Nature and Culture International</title>
 </head>
 
 <body>
-    <!-- MENÚ -->
-    <nav id="navbar" class="fixed top-0 w-full z-50 flex flex-col transition-all duration-300">
-        <!-- FILA SUPERIOR: Contáctanos, Idioma y Lupa -->
-        <div class="flex justify-end space-x-4 px-10 py-2 text-sm text-white">
-            <a href="#">Contáctanos</a>
-            <span>|</span>
-            <!-- Dropdown de Idiomas -->
-            <div class="relative group cursor-pointer">
-                <div class="flex items-center space-x-1 gap-2">
-                    <img class="w-4 h-4 object-contain" src="imagenes/imagen02.png" alt="Bandera de España"/>
-                    <span>Español</span>
-                </div>
-                <!-- Menú desplegable -->
-                <div class="absolute right-0 top-full hidden group-hover:block w-32 bg-white text-black p-2">
-                    <a href="#" class="flex items-center space-x-2 py-1 px-2 gap-2 hover:text-[#d86a0a]">
-                        <img class="w-4 h-4 object-contain" src="imagenes/imagen01.png" alt="Bandera de Englateraa"/> 
-                        <span>English</span>
-                    </a>
-                    <a href="#" class="flex items-center space-x-2 py-1 px-2 gap-2 hover:text-[#d86a0a]">
-                        <img class="w-4 h-4 object-contain" src="imagenes/imagen02.png" alt="Bandera de España"/> 
-                        <span>Español</span>
-                    </a>
-                </div>
+    <!-- Contenedor Padre: Vídeo de fondo + todo el contenido encima -->
+<section class="relative w-full h-screen overflow-hidden flex flex-col">
+    <!-- El Vídeo de fondo -->
+    <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+        <source src="video/Header-Video_h265_20mb.mp4" type="video/mp4">
+    </video>
+
+    <!-- Capa oscura opcional para legibilidad -->
+    <div class="absolute inset-0 bg-black/20 z-0"></div>
+
+    <!-- CONTENEDOR GENERAL (Aumentamos a px-24 para meter más los márgenes hacia el centro) -->
+    <div class="relative z-20 w-full px-24 pt-6 flex flex-col flex-1">
+        
+        <!-- NAVBAR UNIFICADA -->
+        <nav id="navbar" class="w-full flex items-start justify-between">
+            
+            <!-- BLOQUE IZQUIERDO: El Logotipo -->
+            <div class="pt-1">
+                <img src="logo/logoespanol.png" class="w-40 object-contain" alt="Logo">
             </div>
-            <a href="#">🔍</a>
-        </div>
-        <!-- FILA INFERIOR: Logo, Menú y Botón Dona -->
-        <div class="flex items-center justify-between px-10 pb-4">
-            <img src="logo/logolamolinafinal.svg" class="w-32" alt="Logo">
-            <div class="flex space-x-8 font-bold text-white">
-                <a href="#" class=" transition">QUÉ HACEMOS</a>
-                <a href="#" class=" transition">NUESTRO IMPACTO</a>
-                <a href="#" class=" transition">QUIÉNES SOMOS</a>
-                <a href="#" class=" transition">DÓNDE TRABAJAMOS</a>
+            
+            <!-- BLOQUE DERECHO COMPACTO -->
+            <div class="flex flex-col items-end space-y-4">
+                
+                <!-- SUB-FILA SUPERIOR: Contáctanos, Idioma y Lupa (Alineados estrictamente a la derecha) -->
+                <!-- pr-0 asegura que "Contáctanos" muera en la misma línea que el botón naranja -->
+                <div class="flex items-center space-x-4 text-sm text-white pr-0">
+                    <a href="#">Contáctanos</a>
+                    <span>|</span>
+                    <!-- Dropdown de Idiomas (Tu lógica exacta e intacta) -->
+                    <div class="relative group cursor-pointer">
+                        <div class="flex items-center space-x-1 gap-2">
+                            <img class="w-4 h-4 object-contain" src="imagenes/imagen02.png" alt="Bandera de España"/>
+                            <span>Español</span>
+                        </div>
+                        <div class="absolute right-0 -mr-2 top-full hidden group-hover:block w-24 bg-white text-black px-1.5 py-1 z-50 border-t-[8px] border-t-transparent bg-clip-padding shadow-lg rounded-sm">
+                            <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-[11px] font-medium">
+                                <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagen01.png" alt="Bandera de Inglaterra"/> 
+                                <span>English</span>
+                            </a>
+                            <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-[11px] font-medium">
+                                <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagen02.png" alt="Bandera de España"/> 
+                                <span>Español</span>
+                            </a>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-magnifying-glass text-base"></i></a>
+                </div>
+                
+                <!-- SUB-FILA INFERIOR: Enlaces de navegación y el botón Dona Aquí -->
+                <div class="flex items-center gap-x-12">
+                    <div class="flex space-x-5 font-bold text-white text-[15px] tracking-wide">
+                        <a href="#">QUÉ HACEMOS</a>
+                        <a href="#">NUESTRO IMPACTO</a>
+                        <a href="#">QUIÉNES SOMOS</a>
+                        <a href="#">DÓNDE TRABAJAMOS</a>
+                    </div>
+                    <!-- Botón Dona Aquí -->
+                    <a href="#" class="bg-orange-500 text-black px-12 py-3 rounded-full hover:bg-[rgb(243,119,130)] whitespace-nowrap font-bold">
+                        <span>Dona Aquí</span>
+                    </a>
+                </div>
+
             </div>
-            <a href="#" class="bg-orange-500 text-black px-6 py-2 rounded-full font-bold hover:bg-[rgb(243, 119, 130)] transition">
-                Dona Aquí
-            </a>
+        </nav>
+
+        <!-- 3. CONTENEDOR DEL TEXTO PRINCIPAL RÉPLICA -->
+        <!-- mt-16 ajusta el espacio idéntico que separa el título del menú -->
+        <!-- pl-44 empuja todo el bloque hacia la derecha para que empiece justo al finalizar la imagen del logo -->
+        <div class="flex flex-col items-start mt-16 pl-44 flex-1">
+            <div class="flex flex-col items-start space-y-6 max-w-2xl">
+                <h1 class="text-white text-5xl font-extrabold leading-[1.15] text-left tracking-wide drop-shadow-md">
+                    30 AÑOS COMPROMETIDOS CON LA NATURALEZA
+                </h1>
+                <a href="#" class="bg-white text-black px-8 py-3 rounded-full font-bold hover:text-[rgb(15,125,63)] shadow-lg">
+                    <span>Celebra con nosotros</span>
+                </a>
+            </div>
         </div>
-    </nav>
+
+    </div>
+</section>
+    
 
 
 </body>
