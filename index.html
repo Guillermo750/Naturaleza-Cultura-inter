@@ -89,51 +89,90 @@
                         30 AÑOS COMPROMETIDOS <br>CON LA <br>NATURALEZA
                     </h1>
                     <a href="#" class="bg-white text-black px-8 py-3 rounded-full font-bold hover:text-[rgb(15,125,63)] shadow-lg">
-                        <span>Celebra con nosotros</span>
+                        <span class="text-sm">Celebra con nosotros</span>
                     </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="bg-white">
-        <div class="container mx-auto p-4 my-12">
-            <div class="flex flex-col md:flex-row items-stretch">
-                  <!-- Imagen a la izquierda -->
-                <div class="w-full md:w-1/2 md:pr-8">
-                    <img src="imagenes/" alt="" class="w-full h-auto">
-                </div>
-                <!-- Contenido a la derecha -->
-                <div class="w-full md:w-1/2 flex flex-col justify-between">
-                    <div class="mt-6">  <!-- Añadido margen superior aquí -->
-                        <img class="h-14 w-14" src="imagenes/imagen04.svg" alt="">
-                        <div class=" mb-4"></div>
-                        <h2 class="text-2xl font-bold mb-2 text-[rgb(72,81,79)]">UN ENFOQUE LOCAL PARA PROTEGER PAISAJES 
-                        NATURALES</h2>
-                        <div class=" mb-4"></div>
-                        <p class="">
-                            Hemos protegido más de <span class="text-[rgb(72,81,79)]">10 millones de hectáreas</span> 
-                            de los paisajes más biodiversos en América Latina y almacenando más de 
-                            <span class="text-[rgb(72,81,79)]">3 mil millones de toneladas de carbono</span> en acuerdo 
-                            con pueblos indígenas y comunidades locales.
-                        </p>
-                        <p class="">
-                            Promovemos soluciones creadas localmente porque vivimos donde trabajamos. Nuestro enfoque 
-                            inclusivo basado en la comunidad es lo que nos hace únicos. También 
-                            <span class="text-[rgb(72,81,79)]">es lo que nos ha funcionado durante más de 30 años.</span>
-                        </p>
+    <!-- Contenedor principal de dos columnas -->
+    <section class="flex flex-col md:flex-row items-center md:items-start gap-8 w-full max-w-6xl mx-auto p-4 my-6">
+
+        <!-- COLUMNA IZQUIERDA -->
+        <div class="w-full md:w-1/2 flex flex-col">
+
+            <!-- CONTENEDOR DE IMAGEN Y BORDES (Optimizado con padding fijo) -->
+            <div class="relative pt-3 pl-3 self-start">
+                <!-- Línea superior -->
+                <img src="imagenes/linea06.png" class="absolute top-0 left-3 w-[calc(100%-12px)] h-2 object-fill" alt="">
+                <!-- Línea izquierda -->
+                <img src="imagenes/linea07.png" class="absolute top-3 left-0 h-[calc(100%-12px)] w-2 object-fill" alt="">
+                <!-- Foto principal -->
+                <img src="imagenes/imagen35.jpg" class="w-full h-auto block" alt="Mujer Indígena">
+            </div>
+
+            <!-- BLOQUE VERDE (Compactado y acoplado perfectamente con mt-[-1px]) -->
+            <div class="w-full -mt-px bg-[url('imagenes/fondo-verde.svg')] bg-size:100%_100% bg-no-repeat p-8 text-white">
+                
+                <!-- CONTENEDOR GRID DE LAS TARJETAS -->
+                <div class="flex flex-wrap justify-between gap-6 text-center">
+                    
+                    <!-- INICIO: INSERTA TUS RECUADROS / TARJETAS AQUÍ -->
+                    <div class="flex flex-col flex-1">
+                        <span class="font-bold">Orientación al cliente</span> 
                     </div>
-                    <div class=" mb-4"></div>
-                    <a href="#" class="bg-[rgb(15,125,63)] text-white inline-block px-6 py-3 rounded-full font-bold 
-                    hover:bg-[rgb(31,72,34)]">
-                    <span>Celebra con nosotros</span>
-                    </a>
+                    <div class="flex flex-col flex-1">
+                        <span class="font-bold">Con una agricultura <br> sostenible</span>
+                    </div>
+                    <div class="flex flex-col flex-1">
+                        <span class="font-bold">Resptuosos con el <br> medio ambiente</span>
+                    </div>
+
+                    <!-- FIN DE LAS TARJETAS -->
                 </div>
             </div>
         </div>
+
+        <!-- COLUMNA DERECHA: Texto y botón (Tu código actual) -->
+        <div class="w-full md:w-1/2 flex flex-col justify-between min-h-full">
+            <!-- Contenedor de icono, texto con una imagen de línea en medio y botón -->
+            <div>
+                <!-- Icono pequeño -->
+                <img class="h-10 w-10 mb-4" src="imagenes/imagen04.svg" alt="">
+
+                <!-- Contenedor del h2 con un dibujo de la línea debajo -->
+                <div class="w-fit flex flex-col mb-4">
+                    <h2 class="text-2xl font-bold text-[rgb(72,81,79)]">
+                        UN ENFOQUE LOCAL PARA PROTEGER<br>PAISAJES NATURALES
+                    </h2>
+                  
+                    <div class="h-6 w-full mt-4 bg-[url('imagenes/linea01.png')] bg-contain bg-no-repeat bg-left"></div>
+                </div>
+
+                <p class="mb-4 text-gray-600">
+                    Hemos protegido más de <span class="text-[rgb(72,81,79)] font-semibold">10 millones de hectáreas</span> 
+                    de los paisajes más biodiversos en América Latina y almacenando más de 
+                    <span class="text-[rgb(72,81,79)] font-semibold">3 mil millones de toneladas de carbono</span> en acuerdo 
+                    con pueblos indígenas y comunidades locales.
+                </p>
+                
+                <p class="text-gray-600">
+                    Promovemos soluciones creadas localmente porque vivimos donde trabajamos. Nuestro enfoque 
+                    inclusivo basado en la comunidad es lo que nos hace únicos. También 
+                    <span class="text-[rgb(72,81,79)] font-semibold">es lo que nos ha funcionado durante más de 30 años.</span>
+                </p>
+            </div>
+            
+            <!-- El botón se mantiene corto y alineado con self-start -->
+            <a href="#" class="self-start mt-6 bg-[rgb(15,125,63)] text-white inline-block px-6 py-3 rounded-full 
+            font-bold hover:bg-[rgb(31,72,34)] transition-colors ">
+                <span class="text-sm">Nuestro Enfoque y Visión</span>
+            </a>
+        </div>
     </section>
-    
-    <!--     <article class="">
+
+    <!--     <section class="">
         <div class="container mx-auto p-10">
             <div class="flex justify-center my-4">
                 <h2 class="text-4xl font-bold">Nuestros pincipios</h2>
@@ -161,7 +200,7 @@
                 </div>
             </div>
         </div>
-     </article> -->
+     </section> -->
 
 </body>
 </html>
