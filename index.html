@@ -126,7 +126,6 @@
                 </div>
             </div>
         </div>
-
         <!-- COLUMNA DERECHA: Texto y botón (Tu código actual) -->
         <div class="w-full md:w-1/2 flex flex-col justify-between min-h-full">
             <!-- Contenedor de icono, texto con una imagen de línea en medio y botón -->
@@ -162,9 +161,13 @@
     </section>
 
     <!-- Contenedor de mapa interactivo de proyectos y zonas de trabajo -->
-    <section class="container mx-auto relative">
+    <section class="container mx-auto relative overflow-visible">
         <!-- IMAGEN DE FONDO DEL SECTION -->
         <img src="imagenes/imagen05.png" alt="" class="absolute inset-0 w-full h-full object-fill">
+        <!-- IMAGEN DEL GUACAMAYO (Ubicado exactamente abajo a la izquierda, cruzando la línea) -->
+        <!-- 'bottom-0' lo clava abajo del todo, '-mb-12' lo hace pisar la línea y 'left-16' o 'left-32' lo alinea con tus textos -->
+        <img src="imagenes/guacamayo.webp" alt="Guacamayo decorativo" 
+            class="absolute bottom-0 -mb-40 left-24 w-48 h-auto pointer-events-none z-30 hidden md:block">
         <!-- TODO TU CONTENIDO ENCIMA DEL FONDO -->
         <div class="flex flex-col md:flex-row items-center gap-4 w-full max-w-6xl mx-auto p-4 my-6 relative z-10">
             <!-- COLUMNA IZQUIERDA -->
@@ -190,11 +193,12 @@
                     <span class="text-sm">Apoya proyectos urgentes</span>
                 </a>
             </div>
+            
             <!-- COLUMNA DERECHA (Contenedor del mapa con las líneas extendidas) -->
             <div class="relative w-full max-w-xl mx-auto py-3 px-3">
                 <!-- Línea superior -->
                 <img src="imagenes/linea08.png" alt="" class="absolute top-0 left-0 w-full h-2 z-10">
-                <!-- Línea derecha (con w-2 y h-full restauradas correctamente) -->
+                <!-- Línea derecha -->
                 <img src="imagenes/linea09.png" alt="" class="absolute top-0 right-0 h-full w-2 z-10">
                 <!-- Línea inferior -->
                 <img src="imagenes/linea10.svg" alt="" class="absolute bottom-0 left-0 w-full h-2 z-10">
@@ -248,7 +252,7 @@
 
     <!-- Contenedor Imagen con línea decorativa -->
     <div class="relative w-full" style="height: 810px;">
-        <div class="w-full h-full bg-cover bg-center" style="background-image: url('imagenes/imagen16.webp');"></div>
+        <div class="w-full h-full bg-cover bg-center -mt-10" style="background-image: url('imagenes/imagen16.webp');"></div>
 
         <img src="imagenes/linea11_debajo_imagen.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
         style="margin-top: -10px;"> 
@@ -277,15 +281,21 @@
             </div>
         </div>
         <!-- 2. BLOQUE INFERIOR: El fondo beige vive SOLO dentro del contenedor de la imagen del lago -->
-        <div class="relative w-full py-8">
+        <div class="relative w-full py-6 overflow-visible">
             <!-- Imagen de fondo beige exclusiva para este bloque -->
             <img src="imagenes/imagen17.png" alt="" class="absolute inset-0 w-full h-full object-fill pointer-events-none">
-            
+            <!-- PALMERA (Alineada a la línea de ENCIMA del fondo beige) -->
+            <img src="imagenes/palmera.webp" alt="Palmera decorativa" 
+                class="absolute -top-44 left-0 w-auto h-4/5 max-w-[220%] object-contain pointer-events-none z-20 hidden md:block">
+            <!-- FELINO (Alineado a la línea de ABAJO del fondo beige) -->
+            <img src="imagenes/jaguar.webp" alt="Felino decorativo" 
+                class="absolute bottom-0 -mb-5 right-16 w-auto h-2/5 max-w-[220%] object-contain pointer-events-none z-30 hidden md:block">
             <!-- Contenedor del lago con las líneas y la imagen -->
-            <div class="relative z-10 w-full max-w-2xl mx-auto py-3 px-3">
-                <img src="imagenes/" alt="" class="absolute top-0 left-0 w-full h-2 z-10">
-                <img src="imagenes/" alt="" class="absolute top-0 right-0 h-full w-2 z-10">
-                <img src="imagenes/" alt="" class="absolute bottom-0 left-0 w-full h-2 z-10">
+            <div class="relative z-30 w-full max-w-2xl mx-auto py-3 px-3">
+                <img src="imagenes/linea17_azul_encima.png" alt="" class="absolute top-0 left-0 w-full h-2 z-10">
+                <img src="imagenes/linea17_azul_derecha.png" alt="" class="absolute top-0 right-0 h-full w-2 z-10">
+                <img src="imagenes/linea17_azul_izquierda.png" alt="" class="absolute top-0 left-0 h-full w-2 z-10">
+                <img src="imagenes/linea17_azul_bajo.png" alt="" class="absolute bottom-0 left-0 w-full h-2 z-10">
                 <div class="relative w-full">
                     <img src="imagenes/imagen-del-lago.JPG" alt="Lago" class="w-full h-full object-cover"> 
                 </div>
@@ -295,25 +305,30 @@
     <!-- La línea con el color de fondo colocada fuera y solapada con un pequeño margen negativo -->
     <img src="imagenes/linea12_debajo_color.png" alt="Línea divisoria" class="block w-full h-auto relative z-20 mb-14" style="margin-top: -30px;">
 
-    <!--  -->
-    <section class="container mx-auto p-16 bg-[url('imagenes/imagen23.webp')] bg-cover bg-no-repeat flex items-center" style="height: 450px;">
-        <div class="w-full flex flex-col items-start">
-            <!-- Icono pequeño, texto con una imagen de línea en medio y botón -->
-            <img class="h-10 w-10 mb-4" src="imagenes/imagen22.svg" alt="">
-            <!-- Contenedor del h2 con un dibujo de la línea debajo -->
-            <div class="w-fit flex flex-col mb-4">
-                <h2 class="text-2xl font-semibold text-[rgb(72,81,79)]">¿ESTÁS LISTO/A PARA HACER UNA <br>DIFERENCIA?</h2>
-                <img src="imagenes/linea05.png" class="h-17 w-32 mt-4">
+    <!-- Contenedor imagen de fondo con la columa de texto con su botón y líneas colocadas encima e inferior en la imagen  -->
+    <section class="container mx-auto relative z-0">
+        <!-- La línea con el color de fondo colocada encima y solapada con un margen inferior negativo -->
+        <img src="imagenes/linea16_encima_mono.png" alt="Línea divisoria" class="block w-full h-auto relative z-20" 
+        style="margin-bottom: -10px;"> 
+        <div class="p-16 bg-[url('imagenes/imagen23.webp')] bg-cover bg-no-repeat flex items-center relative z-10" style="height: 450px;">
+            <div class="w-full flex flex-col items-start">
+                <!-- Icono pequeño, texto con una imagen de línea en medio y botón -->
+                <img class="h-10 w-10 mb-4" src="imagenes/imagen22.svg" alt="">
+                <!-- Contenedor del h2 con un dibujo de la línea debajo -->
+                <div class="w-fit flex flex-col mb-4">
+                    <h2 class="text-2xl font-semibold text-[rgb(72,81,79)]">¿ESTÁS LISTO/A PARA HACER UNA <br>DIFERENCIA?</h2>
+                    <img src="imagenes/linea05.png" class="h-17 w-32 mt-4">
+                </div>
+                <p class="mb-4 text-[rgb(72,81,79)]">Las hectáreas de bosque que conservamos, las especies que protegemos, <br>
+                    el carbono que capturamos, las culturas y las comunidades locales con las <br>que trabajamos; todo comienza contigo
+                    <span class="text-[rgb(72,81,79)] font-semibold">Tu apoyo marca la diferencia para <br>las generaciones de hoy y mañana.
+                    </span>
+                </p>
+                <!-- El botón se mantiene corto y alineado con self-start -->
+                <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-6 py-3 rounded-full 
+                    font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-sm">Ingresa Aquí</span>
+                </a>
             </div>
-            <p class="mb-4 text-[rgb(72,81,79)]">Las hectáreas de bosque que conservamos, las especies que protegemos, <br>
-                el carbono que capturamos, las culturas y las comunidades locales con las <br>que trabajamos; todo comienza contigo
-                <span class="text-[rgb(72,81,79)] font-semibold">Tu apoyo marca la diferencia para <br>las generaciones de hoy y mañana.
-                </span>
-            </p>
-            <!-- El botón se mantiene corto y alineado con self-start -->
-            <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-6 py-3 rounded-full 
-                font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-sm">Ingresa Aquí</span>
-            </a>
         </div>
     </section>
     <!-- La línea con el color de fondo colocada fuera y solapada con un margen negativo -->
