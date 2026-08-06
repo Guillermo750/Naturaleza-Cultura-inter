@@ -341,72 +341,73 @@
 
     <!-- Contenedor NOTICIAS Y CASOS DE ÉXITO -->
     <section class="container mx-auto py-6 w-full">
-<!-- Cabecera: Título a la izquierda y Botón Verde pegado a su derecha -->
-<div class="flex flex-col md:flex-row items-start md:items-end justify-start gap-6 mb-6">
-    <div class="flex flex-col">
-        <img class="h-10 w-10 mb-4" src="imagenes/imagen25.svg" alt="">
-        <h2 class="text-3xl font-normal text-[rgb(72,81,79)] leading-none">NOTICIAS Y CASOS DE ÉXITO</h2>
-    </div>
-    <!-- Botón Noticias e Historias -->
-    <div class="flex shrink-0">
-        <a href="#" class="inline-block bg-[rgb(15,125,63)] text-white font-medium text-sm px-6 py-3 rounded-full hover:bg-[rgb(12,100,50)] transition-colors whitespace-nowrap">
-            Noticias e Historias
-        </a>
-    </div>
-</div>
-
-        <!-- 1. BLOQUE SUPERIOR DE TEXTOS (Fuera del fondo beige) -->
-        <div class="flex flex-wrap justify-center items-start gap-4 mb-8">
-            <!-- Columna Izquierda -->
-            <div class="w-full md:w-auto flex flex-col justify-center">
-                <div class="w-fit flex flex-col">
-                    <img src="imagenes/imagen26.webp" class="w-full mt-4 h-100px">
-                    <a href="" class="text-[24px] font-normal text-[rgb(52,72,34)] mt-6
-                    leading-snug hover:underline"><h3>Un paso adelante para una <br>Amazonía conectada</h3></a>
-                    <div class="flex flex-wrap items-center gap-3 mt-4">
-                        <p class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</p>
-                        <p class="text-[11px]">PERÚ</p>
-                    </div>
+        <!-- Cabecera: Dividida en dos columnas perfectas -->
+        <div class="grid grid-cols-2 gap-4 mb-8">
+            <!-- Columna Izquierda: Icono arriba, H2 abajo (Desplazados a la derecha) -->
+            <div class="flex flex-col items-end justify-end w-full">
+                <div class="flex flex-col items-start">
+                    <img class="h-10 w-10 mb-4" src="imagenes/imagen25.svg" alt="Icono">
+                    <h2 class="text-3xl font-normal text-[rgb(72,81,79)] leading-none m-0">
+                        NOTICIAS Y CASOS DE ÉXITO
+                    </h2>
                 </div>
             </div>
-            <!-- Columna Derecha (Se quitó pt-14 para nivelar las fotos arriba) -->
-            <div class="w-full lg:w-1/2 flex flex-col gap-6">
+            <!-- Columna Derecha: Botón alineado a la base del H2 -->
+            <div class="flex items-end justify-start pt-4">
+                <a href="#" class="inline-block bg-[rgb(15,125,63)] text-white font-medium text-sm px-6 py-3 
+                    rounded-full hover:bg-[rgb(12,100,50)] transition-colors whitespace-nowrap">Noticias e Historias
+                </a>
+            </div>
+            <!-- Columna Izquierda: Alineada exactamente al H2 de arriba usando un contenedor interno con el mismo desplazamiento -->
+            <div class="flex flex-col items-start w-full pl-60">
+                    <!-- Imagen principal alineada al ras del H2 -->
+                    <img src="imagenes/imagen26.webp" class="w-full rounded-2px" alt="Amazonía">
+                    <a href="#" class="text-[24px] font-semibold text-[rgb(31,72,34)] mt-4 leading-snug hover:underline">
+                        <h3>Un paso adelante para una <br>Amazonía conectada</h3>
+                    </a>
+                    <div class="flex flex-wrap items-center gap-3 mt-4">
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</span>
+                        <span class="text-[11px]">PERÚ</span>
+                    </div>
+            </div>
+            <!-- Columna Derecha con los artículos en miniatura -->
+            <div class="w-1/2 flex flex-col gap-6">
                 <!-- Artículo 1 -->
                 <div class="flex items-start gap-4">
                     <img src="imagenes/imagen28.webp" alt="Miel por Bosque" class="w-40 h-28 object-cover rounded-2px">
-                    <div class="flex flex-col justify-between h-full ">
-                        <a href="#" class="text-[16px]  text-[rgb(31,72,34)] leading-snug hover:underline">
+                    <div class="flex flex-col justify-between h-full">
+                        <a href="#" class="font-semibold text-[16px] text-[rgb(31,72,34)] leading-snug hover:underline">
                             <h3>Miel por Bosque <br>fortalece la <br>conservación en <br>Zamora Chinchipe</h3>
                         </a>
                         <div class="flex flex-wrap items-center gap-3 mt-3">
-                            <p class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</p>
-                            <p class="text-[11px]">ECUADOR</p>
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</span>
+                            <span class="text-[11px]">ECUADOR</span>
                         </div>
                     </div>
                 </div>
                 <!-- Artículo 2 -->
                 <div class="flex items-start gap-4">
                     <img src="imagenes/imagen27.webp" alt="San Andrés" class="w-40 h-28 object-cover rounded-2px">
-                    <div class="flex flex-col justify-between h-full ">
-                        <a href="#" class="text-[16px] font-semibold text-[rgb(31,72,34)] leading-snug hover:underline">
-                            <h3>San Andrés: la <br>comunidad que luchó <br>16 años para proteger <br>el agua y los bosques</h3>
+                    <div class="flex flex-col justify-between h-full">
+                        <a href="#" class="text-[15px] font-semibold text-[rgb(31,72,34)] leading-snug hover:underline">
+                            <h3>San Andrés: la <br>comunidad que luchó 16 años para proteger el agua y los bosques</h3>
                         </a>
                         <div class="flex flex-wrap items-center gap-3 mt-3">
-                            <p class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</p>
-                            <p class="text-[11px]">ECUADOR</p>
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</span>
+                            <span class="text-[11px]">ECUADOR</span>
                         </div>
                     </div>
                 </div>
-                <!-- Artículo 3 (Modificada la etiqueta a EVENTO según tu imagen) -->
+                <!-- Artículo 3 -->
                 <div class="flex items-start gap-4">
                     <img src="imagenes/imagen29.webp" alt="Ocho regiones del Perú" class="w-40 h-28 object-cover rounded-2px">
-                    <div class="flex flex-col justify-between h-full mt-3">
+                    <div class="flex flex-col justify-between h-full">
                         <a href="#" class="text-[16px] font-semibold text-[rgb(31,72,34)] leading-snug hover:underline">
                             <h3>Ocho regiones del <br>Perú se unen en <br>Huánuco</h3>
                         </a>
                         <div class="flex flex-wrap items-center gap-3 mt-3">
-                            <p class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">EVENTO</p>
-                            <p class="text-[11px]">PERÚ</p>
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">EVENTO</span>
+                            <span class="text-[11px]">PERÚ</span>
                         </div>
                     </div>
                 </div>
