@@ -1,0 +1,43 @@
+<!-- MENÚ -->
+
+    <section id="menu" class="hidden">
+      <div class=" flex flex-col justify-center items-center space-y-4 py-4 text-white text-15">
+                            <a href="#">QUÉ HACEMOS</a>
+                            <a href="#">NUESTRO IMPACTO</a>
+                            <a href="#">QUIÉNES SOMOS</a>
+                            <a href="#">DÓNDE TRABAJAMOS</a>
+      </div>
+    </section>
+
+
+
+const boton = document.getElementById('boton') //ESTO CREARÁ UNA VARIABLE Y VA A LLAMAR AL ID QUE ESTÁ DEFINIDO EN EL BUTTON
+const menu = document.getElementById('menu') //ESTO CREARÁ UNA VARIABLE Y VA A LLAMAR AL ID QUE ESTÁ DEFINIDO EN EL MENÚ
+
+/* FUNCIÓN DEL BOTÓN */
+boton.addEventListener("click", () => {
+    menu.classList.toggle("hidden")
+})
+
+/* FUNCIÓN DEL CUADRO DEL MENÚ*/ 
+const clickBtn = document.getElementById('clickBtn');
+  const popup = document.getElementById('popup');
+  const popupText = document.getElementById('popupText');
+  let timeoutId;
+
+  clickBtn.addEventListener('mouseenter', () => {
+    clearTimeout(timeoutId);
+    popup.classList.remove('invisible');
+    popup.classList.add('opacity-100');
+    setTimeout(() => {
+      popupText.classList.add('opacity-100');
+    }, 100);
+  });
+
+  popup.addEventListener('mouseleave', () => {
+    popupText.classList.remove('opacity-100');
+    timeoutId = setTimeout(() => {
+      popup.classList.remove('opacity-100');
+      popup.classList.add('invisible');
+    }, 300);
+  });

@@ -1,0 +1,67 @@
+<!-- COLUMNA CON CAJAS CON HIPERVÍNCULOS -->
+  <div class="container mx-auto flex justify-center">
+    <div class="flex flex-col items-center md:flex-row ">
+      <div class="w-3/5 md:w-2/5 flex justify-center items-center mb-6">
+        <img class="" src="imagenes/El-castillo-del-vino-invertido-ocre-300x282.png" alt="" />
+      </div>
+
+      <div class="w-full md:w-3/5">
+        <div class="flex flex-col md:flex-row justify-center md:flex-wrap">
+          <div class="flex justify-center cursor-pointer pb-6">
+            <div
+              class="flex flex-col bg-black text-center text-white h-[200px] w-[290px] mx-5 justify-center items-center group relative overflow-hidden">
+              <div
+                class="absolute -top-8 left-1/2 w-0.5 h-16 bg-[rgb(86,72,58)] opacity-0 transition-all duration-300 group-hover:opacity-100">
+              </div>
+              <span
+                class="h-[180px] w-[270px] border-neutral-800 border text-lg uppercase flex items-center justify-center">Quienes
+                somos</span>
+              <span
+                class="absolute bottom-6 text-neutral-400 text-base text-center mt-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">Nuestro
+                proyecto, nuestra pasión...</span>
+            </div>
+          </div>
+          <div class="flex justify-center cursor-pointer mb-6">
+            <div
+              class="flex flex-col bg-black text-center text-white h-[200px] w-[290px] mx-5 justify-center items-center group relative overflow-hidden">
+              <div
+                class="absolute -top-8 left-1/2 w-0.5 h-16 bg-[rgb(86,72,58)] opacity-0 transition-all duration-300 group-hover:opacity-100">
+              </div>
+              <span
+                class="h-[180px] w-[270px] border-neutral-800 border text-lg uppercase flex items-center justify-center">Nuestra
+                Historia</span>
+              <span
+                class="absolute bottom-6 text-neutral-400 text-sm text-center mt-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">Más
+                de 30 años en el mundo del vino...</span>
+            </div>
+          </div>
+          <div class="flex justify-center cursor-pointer mb-6">
+            <div
+              class="flex flex-col bg-black text-center text-white h-[200px] w-[290px] mx-5 justify-center items-center group relative overflow-hidden">
+              <div
+                class="absolute -top-8 left-1/2 w-0.5 h-16 bg-[rgb(86,72,58)] opacity-0 transition-all duration-300 group-hover:opacity-100">
+              </div>
+              <span
+                class="h-[180px] w-[270px] border-neutral-800 border text-lg uppercase flex items-center justify-center">¡Visítanos!</span>
+              <span
+                class="absolute bottom-6 text-neutral-400 text-lg text-center mt-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">Visita
+                nuestro castillo</span>
+            </div>
+          </div>
+          <div class="flex justify-center cursor-pointer mb-6">
+            <div
+              class="flex flex-col bg-black text-center text-white h-[200px] w-[290px] mx-5 justify-center items-center group relative overflow-hidden">
+              <div
+                class="absolute -top-8 left-1/2 w-0.5 h-16 bg-[rgb(86,72,58)] opacity-0 transition-all duration-300 group-hover:opacity-100">
+              </div>
+              <span
+                class="h-[180px] w-[270px] border-neutral-800 border text-lg uppercase flex items-center justify-center">Contacto</span>
+              <span
+                class="absolute bottom-6 text-neutral-400 text-lg text-center mt-2 opacity-0 transition-opacity duration-300 group-hover:opacity-100">¡Contacta
+                con nosotros!</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

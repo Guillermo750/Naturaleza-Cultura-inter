@@ -55,13 +55,17 @@
                         <a href="#"><i class="fa-solid fa-magnifying-glass text-base"></i></a>
                     </div>
                     <!-- SUB-FILA INFERIOR: Enlaces de navegación y el botón Dona Aquí -->
-                    <div class="flex items-center gap-x-12">
+                    <div class="hidden md:flex items-center gap-x-12">
                         <div class="flex space-x-5 font-semibold text-white text-15 tracking-wide">
                             <a href="#">QUÉ HACEMOS</a>
                             <a href="#">NUESTRO IMPACTO</a>
                             <a href="#">QUIÉNES SOMOS</a>
                             <a href="#">DÓNDE TRABAJAMOS</a>
                         </div>
+                         <!-- BOTÓN HAMBURGUESA -->
+                        <!-- <button id="boton" class="flex md:hidden">
+                            <img class="invert" src="" alt="Menu">
+                        </button> -->
                         <!-- Botón Dona Aquí -->
                         <a href="#" class="bg-orange-500 text-black px-12 py-3 rounded-full hover:bg-[rgb(243,119,130)] whitespace-nowrap font-bold">
                             <span>Dona Aquí</span>
@@ -70,6 +74,7 @@
 
                 </div>
             </nav>
+
             <!-- 3. CONTENEDOR DEL TEXTO PRINCIPAL RÉPLICA -->
             <!-- mt-16 ajusta el espacio idéntico que separa el título del menú -->
             <!-- pl-44 empuja todo el bloque hacia la derecha para que empiece justo al finalizar la imagen del logo -->
@@ -176,7 +181,7 @@
                 <img class="h-10 w-10 mb-4" src="imagenes/imagen06.svg" alt="">
                 <!-- Contenedor del h2 con un dibujo de la línea debajo -->
                 <div class="w-fit flex flex-col mb-4">
-                    <h2 class="text-2xl font-semibold text-[rgb(72,81,79)]">Explora nuestro trabajo</h2>
+                    <h2 class="text-3xl font-normal text-[rgb(72,81,79)]">Explora nuestro trabajo</h2>
                     <img src="imagenes/linea02.png" class="h-17 w-32 mt-4">
                 </div>
                 <p class="mb-4 text-[rgb(72,81,79)]">Nos enfocamos en proteger y conectar paisajes naturales en Ecuador, Perú, México, Bolivia 
@@ -220,7 +225,7 @@
                 <!-- Icono pequeño -->
                 <img class="h-10 w-10 mb-4" src="imagenes/imagen09.svg" alt="">
                 <!-- Contenedor del h2 con un dibujo de la línea debajo y un texto -->
-                <h2 class="text-2xl font-bold text-[rgb(72,81,79)] font-serif">Lo que hacemos</h2>
+                <h2 class="text-3xl font-normal text-[rgb(72,81,79)] font-serif">Lo que hacemos</h2>
                   
                 <img src="imagenes/linea03.png" class="h-17 w-40 mt-4">
                 <p class="text-[rgb(72,81,79)] mb-4 mt-4">Trabajamos en 5 áreas estratégicas para asegurar un <br>futuro más sostenible.</p>
@@ -266,7 +271,7 @@
             <div class="w-full md:w-auto flex flex-col justify-center items-start">
                 <img class="h-10 w-10 mb-4" src="imagenes/imagen18.svg" alt="">
                 <div class="w-fit flex flex-col">
-                    <h2 class="text-2xl font-semibold text-[rgb(72,81,79)]">CONOCE <br>NUESTRO TRABAJO</h2>
+                    <h2 class="text-3xl font-normal text-[rgb(72,81,79)]">CONOCE <br>NUESTRO TRABAJO</h2>
                     <img src="imagenes/linea04.png" class="h-17 w-32 mt-4">
                 </div>
             </div>
@@ -316,7 +321,7 @@
                 <img class="h-10 w-10 mb-4" src="imagenes/imagen22.svg" alt="">
                 <!-- Contenedor del h2 con un dibujo de la línea debajo -->
                 <div class="w-fit flex flex-col mb-4">
-                    <h2 class="text-2xl font-semibold text-[rgb(72,81,79)]">¿ESTÁS LISTO/A PARA HACER UNA <br>DIFERENCIA?</h2>
+                    <h2 class="text-3xl font-normal text-[rgb(72,81,79)]">¿ESTÁS LISTO/A PARA HACER UNA <br>DIFERENCIA?</h2>
                     <img src="imagenes/linea05.png" class="h-17 w-32 mt-4">
                 </div>
                 <p class="mb-4 text-[rgb(72,81,79)]">Las hectáreas de bosque que conservamos, las especies que protegemos, <br>
@@ -335,9 +340,82 @@
     <img src="imagenes/linea11_debajo_imagen.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" style="margin-top: -10px;"> 
 
     <!-- Contenedor NOTICIAS Y CASOS DE ÉXITO -->
-    <section class="container mx-auto w-full py-6">
+    <section class="container mx-auto py-6 w-full">
+<!-- Cabecera: Título a la izquierda y Botón Verde pegado a su derecha -->
+<div class="flex flex-col md:flex-row items-start md:items-end justify-start gap-6 mb-6">
+    <div class="flex flex-col">
+        <img class="h-10 w-10 mb-4" src="imagenes/imagen25.svg" alt="">
+        <h2 class="text-3xl font-normal text-[rgb(72,81,79)] leading-none">NOTICIAS Y CASOS DE ÉXITO</h2>
+    </div>
+    <!-- Botón Noticias e Historias -->
+    <div class="flex shrink-0">
+        <a href="#" class="inline-block bg-[rgb(15,125,63)] text-white font-medium text-sm px-6 py-3 rounded-full hover:bg-[rgb(12,100,50)] transition-colors whitespace-nowrap">
+            Noticias e Historias
+        </a>
+    </div>
+</div>
 
+        <!-- 1. BLOQUE SUPERIOR DE TEXTOS (Fuera del fondo beige) -->
+        <div class="flex flex-wrap justify-center items-start gap-4 mb-8">
+            <!-- Columna Izquierda -->
+            <div class="w-full md:w-auto flex flex-col justify-center">
+                <div class="w-fit flex flex-col">
+                    <img src="imagenes/imagen26.webp" class="w-full mt-4 h-100px">
+                    <a href="" class="text-[24px] font-normal text-[rgb(52,72,34)] mt-6
+                    leading-snug hover:underline"><h3>Un paso adelante para una <br>Amazonía conectada</h3></a>
+                    <div class="flex flex-wrap items-center gap-3 mt-4">
+                        <p class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</p>
+                        <p class="text-[11px]">PERÚ</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Columna Derecha (Se quitó pt-14 para nivelar las fotos arriba) -->
+            <div class="w-full lg:w-1/2 flex flex-col gap-6">
+                <!-- Artículo 1 -->
+                <div class="flex items-start gap-4">
+                    <img src="imagenes/imagen28.webp" alt="Miel por Bosque" class="w-40 h-28 object-cover rounded-2px">
+                    <div class="flex flex-col justify-between h-full ">
+                        <a href="#" class="text-[16px]  text-[rgb(31,72,34)] leading-snug hover:underline">
+                            <h3>Miel por Bosque <br>fortalece la <br>conservación en <br>Zamora Chinchipe</h3>
+                        </a>
+                        <div class="flex flex-wrap items-center gap-3 mt-3">
+                            <p class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</p>
+                            <p class="text-[11px]">ECUADOR</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Artículo 2 -->
+                <div class="flex items-start gap-4">
+                    <img src="imagenes/imagen27.webp" alt="San Andrés" class="w-40 h-28 object-cover rounded-2px">
+                    <div class="flex flex-col justify-between h-full ">
+                        <a href="#" class="text-[16px] font-semibold text-[rgb(31,72,34)] leading-snug hover:underline">
+                            <h3>San Andrés: la <br>comunidad que luchó <br>16 años para proteger <br>el agua y los bosques</h3>
+                        </a>
+                        <div class="flex flex-wrap items-center gap-3 mt-3">
+                            <p class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</p>
+                            <p class="text-[11px]">ECUADOR</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Artículo 3 (Modificada la etiqueta a EVENTO según tu imagen) -->
+                <div class="flex items-start gap-4">
+                    <img src="imagenes/imagen29.webp" alt="Ocho regiones del Perú" class="w-40 h-28 object-cover rounded-2px">
+                    <div class="flex flex-col justify-between h-full mt-3">
+                        <a href="#" class="text-[16px] font-semibold text-[rgb(31,72,34)] leading-snug hover:underline">
+                            <h3>Ocho regiones del <br>Perú se unen en <br>Huánuco</h3>
+                        </a>
+                        <div class="flex flex-wrap items-center gap-3 mt-3">
+                            <p class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">EVENTO</p>
+                            <p class="text-[11px]">PERÚ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <!-- Línea horizontal -->
+    <!-- <div class="w-full border-t border-[rgb(15,125,63)]"></div> -->
 
     <!-- PIE DE PÁGINA -->
     <!-- <footer class="flex justify-between mt-16 mx-48 mb-24">
