@@ -1,0 +1,99 @@
+<!-- Contenedor Padre: Vídeo de fondo + todo el contenido encima -->
+    <section class="relative w-full h-screen overflow-hidden flex flex-col">
+        <!-- El Vídeo de fondo -->
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
+            <source src="video/Header-Video_h265_20mb.mp4" type="video/mp4">
+        </video>
+        <!-- CONTENEDOR GENERAL (Aumentamos a px-24 para meter más los márgenes hacia el centro) -->
+        <div class="relative z-20 w-full px-24 pt-6 flex flex-col flex-1">
+            <!-- CONTENEDOR DEL MENÚ FIJO -->
+            <div id="navbar-scroll-container" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent px-24 py-6">
+                <!-- MENÚ -->
+                <nav id="navbar" class="w-full flex items-start justify-between">
+                    <!-- BLOQUE IZQUIERDO: El Logotipo -->
+                    <div id="logo-block" class="pt-1 transition-all duration-300">
+                        <img src="logo/logoespanol.png" class="w-40 object-contain" alt="Logo">
+                    </div>
+                    <!-- BLOQUE DERECHO COMPACTO -->
+                    <div class="flex flex-col items-end space-y-4">
+                        <!-- SUB-FILA SUPERIOR: Contáctanos, Idioma y Lupa (Se mantiene intacta arriba al inicio) -->
+                        <div id="top-bar-menu" class="flex items-center space-x-4 text-sm text-white pr-0 transition-opacity duration-300">
+                            <a href="#">Contáctanos</a>
+                            <span>|</span>
+                            <!-- Dropdown de Idiomas -->
+                            <div class="relative group cursor-pointer">
+                                <div class="flex items-center space-x-1 gap-2">
+                                    <img class="w-4 h-4 object-contain" src="imagenes/imagenes_principal/imagen02.png" alt="Bandera de España"/>
+                                    <span>Español</span>
+                                </div>
+                                <div class="absolute right-0 -mr-2 top-full hidden group-hover:block w-24 bg-white text-black px-1.5 
+                                py-1 z-50 border-t-8 border-t-transparent bg-clip-padding shadow-lg rounded-sm">
+                                    <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11px font-normal ">
+                                        <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen01.png" alt="Bandera de Inglaterra"/> 
+                                        <span>English</span>
+                                    </a>
+                                    <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11 font-normal ">
+                                        <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen02.png" alt="Bandera de España"/> 
+                                        <span>Español</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <a href="#"><i class="fa-solid fa-magnifying-glass text-base"></i></a>
+                        </div>
+                        <!-- SUB-FILA INFERIOR: Enlaces de navegación y elementos dinámicos -->
+                        <div class="hidden md:flex items-center gap-x-8">
+                            <!-- Enlaces principales -->
+                            <div id="nav-main-links" class="flex space-x-5 font-semibold text-white text-15 tracking-wide transition-colors duration-300">
+                                <a href="#">QUÉ HACEMOS</a>
+                                <a href="#">NUESTRO IMPACTO</a>
+                                <a href="#">QUIÉNES SOMOS</a>
+                                <a href="#">DÓNDE TRABAJAMOS</a>
+                            </div>
+                            <!-- Botón Dona Aquí -->
+                            <a href="#" class="bg-orange-500 text-black px-12 py-3 rounded-full hover:bg-[rgb(243,119,130)] whitespace-nowrap font-bold">
+                                <span>Dona Aquí</span>
+                            </a>
+                            <!-- NUEVO CONTENEDOR ALINEADO A LA DERECHA DEL BOTÓN: Sin lupa y oculto al inicio -->
+                            <div id="scrolled-side-menu" class="hidden items-center space-x-4 text-sm text-[rgb(72,81,79)] ml-2 transition-opacity duration-300">
+                                <a href="#">Contáctanos</a>
+                                <span>|</span>
+                                <div class="relative group cursor-pointer">
+                                    <div class="flex items-center space-x-1 gap-2">
+                                        <img class="w-4 h-4 object-contain" src="imagenes/imagenes_principal/imagen02.png" alt="Bandera de España"/>
+                                        <span>Español</span>
+                                    </div>
+                                    <div class="absolute right-0 -mr-2 top-full hidden group-hover:block w-24 bg-white text-black px-1.5 py-1 z-50 border-t-8 border-t-transparent bg-clip-padding shadow-lg rounded-sm">
+                                        <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11px font-normal">
+                                            <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen01.png" alt="Bandera de Inglaterra"/> 
+                                            <span>English</span>
+                                        </a>
+                                        <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11 font-normal">
+                                            <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen02.png" alt="Bandera de España"/> 
+                                            <span>Español</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- 3. CONTENEDOR DEL TEXTO PRINCIPAL RÉPLICA -->
+            <!-- Se cambia mt-16 a mt-36 para empujar el texto hacia abajo y evitar que el menú flotante lo tape -->
+            <div class="flex flex-col items-start mt-36 pl-44 flex-1">
+                <div class="flex flex-col items-start space-y-6 max-w-2xl">
+                    <h1 class="text-white text-5xl font-semibold text-left">
+                        30 AÑOS <br>COMPROMETIDOS <br>CON LA <br>NATURALEZA
+                    </h1>
+                    <a href="#" class="bg-white text-black px-8 py-3 rounded-full font-semibold hover:text-[rgb(15,125,63)]">
+                        <span class="text-sm">Celebra con nosotros</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Línea divisoria inferior aplicada exactamente con tu ajuste -->
+        <img src="imagenes/imagenes_principal/linea13_debajo_video.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
+        style="margin-top: -10px;"> 
+    </section>
+
