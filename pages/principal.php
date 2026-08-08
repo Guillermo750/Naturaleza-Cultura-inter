@@ -169,7 +169,7 @@
     style="margin-top: -30px;">
 
     <!-- Contenedor de lo que hacemos -->
-    <section class="container mx-auto p-10">
+    <section class="container mx-auto p-10 pt-10">
         <div class="w-full flex flex-col items-center">
             <div class="w-fit flex flex-col mb-4">
                 <!-- Icono pequeño -->
@@ -217,7 +217,7 @@
     </div>
 
     <!-- Contenedor Conoce nuestro trabajo  -->
-    <section class="container mx-auto w-full py-6">
+    <section class="container mx-auto w-full py-6 pt-10">
         <!-- 1. BLOQUE SUPERIOR DE TEXTOS (Fuera del fondo beige) -->
         <div class="flex flex-col md:flex-row items-center justify-center gap-6 w-full max-w-6xl p-4">
             <!-- Columna Izquierda -->
@@ -265,7 +265,7 @@
     style="margin-top: -30px;">
 
     <!-- Contenedor imagen de fondo con la columa de texto con su botón y líneas colocadas encima e inferior en la imagen  -->
-    <section class="container mx-auto relative z-0">
+    <section class="container mx-auto relative z-0 pt-10">
         <!-- La línea con el color de fondo colocada encima y solapada con un margen inferior negativo -->
         <img src="../imagenes/imagenes_principal/linea16_encima_mono.png" alt="Línea divisoria" class="block w-full h-auto relative z-20" 
         style="margin-bottom: -10px;"> 
@@ -296,7 +296,7 @@
     style="margin-top: -10px;"> 
 
     <!-- Contenedor NOTICIAS Y CASOS DE ÉXITO -->
-    <section class="container mx-auto py-6 w-full">
+    <section class="container mx-auto py-6 w-full pt-10">
         <!-- Cabecera: Dividida en dos columnas perfectas -->
         <div class="grid grid-cols-2 gap-4 mb-8">
             <!-- Columna Izquierda: Icono arriba, H2 abajo (Desplazados a la derecha) -->
