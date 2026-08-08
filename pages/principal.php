@@ -9,58 +9,19 @@
     <!-- Link para poner llamar a las clases Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- LLamar al js -->
-    <script defer src="js/app.js"></script>
+    <script defer src="../js/app.js"></script>
     <title>Nature and Culture International</title>
 </head>
 
 <body>
-    <!-- MENÚ -->
-    <nav class="fixed top-0 left-0 right-0 z-50 bg-white flex justify-around pb-4 pt-3">
-        <div class="flex">
-            <img src="logo/logoespanol.png" alt="Naturaleza y Cultura Internacional" class="w-36">
-        </div>
-        <div class="flex items-center  space-x-4 w-2/1 font-semibold text-[rgb(72,81,79)] text-14 -mt-6">
-            <span><a href="#">QUÉ HACEMOS</a></span>
-            <span><a href="#">NUESTRO IMPACTO</a></span>
-            <span><a href="#">QUIÉNES SOMOS</a></span>
-            <span><a href="#">DÓNDE TRABAJAMOS</a></span>
-        </div>
-        <div class="flex items-center space-x-4 shrink-0">
-            <!-- Botón Dona Aquí -->
-            <a href="#" class="bg-[rgb(245,131,32)] text-black px-10 py-3 rounded-full hover:bg-[rgb(243,119,130)] font-bold -mt-6"> 
-                <span>Dona Aquí</span>
-            </a>
-            <!-- Bloque Contáctanos e Idioma a la DERECHA del botón -->
-            <div class="flex items-center space-x-4 text-sm text-[rgb(72,81,79)] -mt-6">
-                <a href="#" class="hover:underline">Contáctanos</a>
-                <span>|</span>
-                <div class="relative group cursor-pointer">
-                    <div class="flex items-center space-x-1 gap-2">
-                       <img class="w-4 h-4 object-contain" src="imagenes/imagenes_principal/imagen02.png" alt="Bandera de España"/>
-                        <span>Español</span>
-                    </div>
-                    <!-- Poner al borde de la lista depegable un color [rgb(51, 87, 63)] -->
-                    <div class="absolute right-0 -mr-2 top-full hidden group-hover:block w-24 bg-white text-black px-1.5 
-                        py-1 z-50 border border-[rgb(51,87,63)] bg-clip-padding rounded-sm p-2">
-                        <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11px  font-normal">
-                            <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen01.png" alt="Bandera de Inglaterra"/> 
-                            <span>English</span>
-                        </a>
-                        <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11 font-normal">
-                            <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen02.png" alt="Bandera de España"/> 
-                            <span>Español</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <?php include_once "../components/header.php"; ?>
 
     <!-- Contenedor Padre: Vídeo de fondo + todo el contenido encima -->
     <section class="relative w-full h-screen overflow-hidden flex flex-col">
         <!-- El Vídeo de fondo -->
         <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
-            <source src="video/Header-Video_h265_20mb.mp4" type="video/mp4">
+            <source src="../video/Header-Video_h265_20mb.mp4" type="video/mp4">
         </video>
         <!-- CONTENEDOR GENERAL -->
         <div class="relative z-20 w-full px-24 pt-6 flex flex-col flex-1 mt-10">
@@ -77,7 +38,7 @@
             </div>
         </div>
         <!-- Línea divisoria inferior aplicada exactamente con tu ajuste -->
-        <img src="imagenes/imagenes_principal/linea13_debajo_video.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
+        <img src="../imagenes/imagenes_principal/linea13_debajo_video.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
         style="margin-top: -10px;"> 
     </section>
 
@@ -88,14 +49,14 @@
             <!-- CONTENEDOR DE IMAGEN Y BORDES (Optimizado con padding fijo) -->
             <div class="relative pt-3 pl-3 self-start">
                 <!-- Línea superior -->
-                <img src="imagenes/imagenes_principal/linea06.png" class="absolute top-0 left-3 w-[calc(100%-12px)] h-2 object-fill" alt="">
+                <img src="../imagenes/imagenes_principal/linea06.png" class="absolute top-0 left-3 w-[calc(100%-12px)] h-2 object-fill" alt="">
                 <!-- Línea izquierda -->
-                <img src="imagenes/imagenes_principal/linea07.png" class="absolute top-3 left-0 h-[calc(100%-12px)] w-2 object-fill" alt="">
+                <img src="../imagenes/imagenes_principal/linea07.png" class="absolute top-3 left-0 h-[calc(100%-12px)] w-2 object-fill" alt="">
                 <!-- Foto principal -->
-                <img src="imagenes/imagenes_principal/imagen35.jpg" class="w-full h-auto block" alt="Mujer Indígena">
+                <img src="../imagenes/imagenes_principal/imagen35.jpg" class="w-full h-auto block" alt="Mujer Indígena">
             </div>
             <!-- BLOQUE VERDE (Compactado y acoplado perfectamente con mt-[-1px]) -->
-            <div class="w-full -mt-px bg-[url('imagenes/imagenes_principal/fondo-verde.svg')] bg-size:100%_100% bg-no-repeat p-8 text-white">
+            <div class="w-full -mt-px bg-[url('../imagenes/imagenes_principal/fondo-verde.svg')] bg-size:100%_100% bg-no-repeat p-8 text-white">
                 <!-- CONTENEDOR DE LAS TARJETAS -->
                 <div class="flex flex-wrap justify-between gap-6 text-center">
                     <!-- INICIO: INSERTA TUS RECUADROS / TARJETAS AQUÍ -->
@@ -124,14 +85,14 @@
             <!-- Contenedor de icono, texto con una imagen de línea en medio y botón -->
             <div>
                 <!-- Icono pequeño -->
-                <img class="h-10 w-10 mb-4" src="imagenes/imagenes_principal/imagen04.svg" alt="">
+                <img class="h-10 w-10 mb-4" src="../imagenes/imagenes_principal/imagen04.svg" alt="">
                 <!-- Contenedor del h2 con un dibujo de la línea debajo -->
                 <div class="w-fit flex flex-col mb-4">
                     <h2 class="text-2xl font-semibold text-[rgb(72,81,79)]">
                         UN ENFOQUE LOCAL PARA <br>PROTEGER PAISAJES <br>NATURALES
                     </h2>
                   
-                    <img src="imagenes/imagenes_principal/linea01.png" class="h-17 w-32 mt-4">
+                    <img src="../imagenes/imagenes_principal/linea01.png" class="h-17 w-32 mt-4">
                 </div>
                 <p class="mb-4 text-gray-600">
                     Hemos protegido más de <span class="text-[rgb(72,81,79)] font-semibold">10 millones de hectáreas</span> 
@@ -156,21 +117,21 @@
     <!-- Contenedor de mapa interactivo de proyectos y zonas de trabajo -->
     <section class="container mx-auto relative overflow-visible">
         <!-- IMAGEN DE FONDO DEL SECTION -->
-        <img src="imagenes/imagenes_principal/imagen05.png" alt="" class="absolute inset-0 w-full h-full object-fill">
+        <img src="../imagenes/imagenes_principal/imagen05.png" alt="" class="absolute inset-0 w-full h-full object-fill">
         <!-- IMAGEN DEL GUACAMAYO (Ubicado exactamente abajo a la izquierda, cruzando la línea) -->
         <!-- 'bottom-0' lo clava abajo del todo, '-mb-12' lo hace pisar la línea y 'left-16' o 'left-32' lo alinea con tus textos -->
-        <img src="imagenes/imagenes_principal/guacamayo.webp" alt="Guacamayo decorativo" 
+        <img src="../imagenes/imagenes_principal/guacamayo.webp" alt="Guacamayo decorativo" 
             class="absolute bottom-0 -mb-40 left-24 w-48 h-auto pointer-events-none z-30 hidden md:block">
         <!-- TODO TU CONTENIDO ENCIMA DEL FONDO -->
         <div class="flex flex-col md:flex-row items-center gap-4 w-full max-w-6xl mx-auto p-4 my-6 relative z-10">
             <!-- COLUMNA IZQUIERDA -->
             <div class="w-full md:w-1/2 flex flex-col justify-between min-h-full">
                 <!-- Icono pequeño, texto con una imagen de línea en medio y botón -->
-                <img class="h-10 w-10 mb-4" src="imagenes/imagenes_principal/imagen06.svg" alt="">
+                <img class="h-10 w-10 mb-4" src="../imagenes/imagenes_principal/imagen06.svg" alt="">
                 <!-- Contenedor del h2 con un dibujo de la línea debajo -->
                 <div class="w-fit flex flex-col mb-4">
                     <h2 class="text-3xl font-normal text-[rgb(72,81,79)]">Explora nuestro trabajo</h2>
-                    <img src="imagenes/imagenes_principal/linea02.png" class="h-17 w-32 mt-4">
+                    <img src="../imagenes/imagenes_principal/linea02.png" class="h-17 w-32 mt-4">
                 </div>
                 <p class="mb-4 text-[rgb(72,81,79)]">Nos enfocamos en proteger y conectar paisajes naturales en Ecuador, Perú, México, Bolivia 
                     y Colombia.
@@ -190,21 +151,21 @@
             <!-- COLUMNA DERECHA (Contenedor del mapa con las líneas extendidas) -->
             <div class="relative w-full max-w-xl mx-auto py-3 px-3">
                 <!-- Línea superior -->
-                <img src="imagenes/imagenes_principal/linea08.png" alt="" class="absolute top-0 left-0 w-full h-2 z-10">
+                <img src="../imagenes/imagenes_principal/linea08.png" alt="" class="absolute top-0 left-0 w-full h-2 z-10">
                 <!-- Línea derecha -->
-                <img src="imagenes/imagenes_principal/linea09.png" alt="" class="absolute top-0 right-0 h-full w-2 z-10">
+                <img src="../imagenes/imagenes_principal/linea09.png" alt="" class="absolute top-0 right-0 h-full w-2 z-10">
                 <!-- Línea inferior -->
-                <img src="imagenes/imagenes_principal/linea10.svg" alt="" class="absolute bottom-0 left-0 w-full h-2 z-10">
+                <img src="../imagenes/imagenes_principal/linea10.svg" alt="" class="absolute bottom-0 left-0 w-full h-2 z-10">
                 <!-- Contenedor Principal del Mapa -->
                 <div class="relative w-full h-500">
                     <!-- Imagen del mapa (corregida para ocupar todo el espacio) -->
-                    <img src="imagenes/imagenes_principal/mapa-principal.JPG" alt="Mapa" class="w-full h-full"> 
+                    <img src="../imagenes/imagenes_principal/mapa-principal.JPG" alt="Mapa" class="w-full h-full"> 
                 </div>
             </div> 
         </div>
     </section>
     <!-- La línea con el color de fondo colocada fuera y solapada con un margen negativo -->
-    <img src="imagenes/imagenes_principal/linea12_debajo_color.png" alt="Línea divisoria" class="block w-full h-auto relative z-20" 
+    <img src="../imagenes/imagenes_principal/linea12_debajo_color.png" alt="Línea divisoria" class="block w-full h-auto relative z-20" 
     style="margin-top: -30px;">
 
     <!-- Contenedor de lo que hacemos -->
@@ -212,35 +173,35 @@
         <div class="w-full flex flex-col items-center">
             <div class="w-fit flex flex-col mb-4">
                 <!-- Icono pequeño -->
-                <img class="h-10 w-10 mb-4" src="imagenes/imagenes_principal/imagen09.svg" alt="">
+                <img class="h-10 w-10 mb-4" src="../imagenes/imagenes_principal/imagen09.svg" alt="">
                 <!-- Contenedor del h2 con un dibujo de la línea debajo y un texto -->
                 <h2 class="text-3xl font-normal text-[rgb(72,81,79)] font-serif">Lo que hacemos</h2>
                   
-                <img src="imagenes/imagenes_principal/linea03.png" class="h-17 w-40 mt-4">
+                <img src="../imagenes/imagenes_principal/linea03.png" class="h-17 w-40 mt-4">
                 <p class="text-[rgb(72,81,79)] mb-4 mt-4">Trabajamos en 5 áreas estratégicas para asegurar un <br>futuro más sostenible.</p>
             </div>
         </div>
         <div class="flex justify-center items-center gap-8">
             <div class="flex flex-col items-center">
-                <a href="" class="flex flex-col items-center"><img src="imagenes/imagenes_principal/imagen10.svg" alt="Bosque" class="w-28 h-28"> 
+                <a href="" class="flex flex-col items-center"><img src="../imagenes/imagenes_principal/imagen10.svg" alt="Bosque" class="w-28 h-28"> 
                 <h3 class="text-[rgb(15,125,63)] text-center mt-1">Bosques</h3></a> 
             </div>
             <div class="flex flex-col items-center">
-                <a href="" class="flex flex-col items-center"><img src="imagenes/imagenes_principal/imagen11.svg" alt="Comunidades Locales" 
+                <a href="" class="flex flex-col items-center"><img src="../imagenes/imagenes_principal/imagen11.svg" alt="Comunidades Locales" 
                     class="w-28 h-28">
                 <h3 class="text-[rgb(15,125,63)] text-center mt-1">Comunidades Locales</h3></a> 
             </div>
             <div class="flex flex-col items-center">
-                <a href="" class="flex flex-col items-center"><img src="imagenes/imagenes_principal/imagen12.svg" alt="Clima" class="w-28 h-28">
+                <a href="" class="flex flex-col items-center"><img src="../imagenes/imagenes_principal/imagen12.svg" alt="Clima" class="w-28 h-28">
                 <h3 class="text-[rgb(15,125,63)] text-center mt-1">Clima</h3></a> 
             </div>
             <div class="flex flex-col items-center">
-                <a href="" class="flex flex-col items-center"><img src="imagenes/imagenes_principal/imagen13.svg" alt="Biodiversidad" 
+                <a href="" class="flex flex-col items-center"><img src="../imagenes/imagenes_principal/imagen13.svg" alt="Biodiversidad" 
                     class="w-28 h-28">
                 <h3 class="text-[rgb(15,125,63)] text-center mt-1">Biodiversidad</h3></a> 
             </div>
             <div class="flex flex-col items-center">
-                <a href="" class="flex flex-col items-center"><img src="imagenes/imagenes_principal/imagen14.svg" alt="Fuentes de Agua" 
+                <a href="" class="flex flex-col items-center"><img src="../imagenes/imagenes_principal/imagen14.svg" alt="Fuentes de Agua" 
                     class="w-28 h-28">
                 <h3 class="text-[rgb(15,125,63)] text-center mt-1">Fuentes de Agua</h3></a> 
             </div>
@@ -249,9 +210,9 @@
 
     <!-- Contenedor Imagen con línea decorativa -->
     <div class="relative w-full" style="height: 810px;">
-        <div class="w-full h-full bg-cover bg-center -mt-10" style="background-image: url('imagenes/imagenes_principal/imagen16.webp');"></div>
+        <div class="w-full h-full bg-cover bg-center -mt-10" style="background-image: url('../imagenes/imagenes_principal/imagen16.webp');"></div>
 
-        <img src="imagenes/imagenes_principal/linea11_debajo_imagen.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
+        <img src="../imagenes/imagenes_principal/linea11_debajo_imagen.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
         style="margin-top: -10px;"> 
     </div>
 
@@ -261,10 +222,10 @@
         <div class="flex flex-col md:flex-row items-center justify-center gap-6 w-full max-w-6xl p-4">
             <!-- Columna Izquierda -->
             <div class="w-full md:w-auto flex flex-col justify-center items-start">
-                <img class="h-10 w-10 mb-4" src="imagenes/imagenes_principal/imagen18.svg" alt="">
+                <img class="h-10 w-10 mb-4" src="../imagenes/imagenes_principal/imagen18.svg" alt="">
                 <div class="w-fit flex flex-col">
                     <h2 class="text-3xl font-normal text-[rgb(72,81,79)]">CONOCE <br>NUESTRO TRABAJO</h2>
-                    <img src="imagenes/imagenes_principal/linea04.png" class="h-17 w-32 mt-4">
+                    <img src="../imagenes/imagenes_principal/linea04.png" class="h-17 w-32 mt-4">
                 </div>
             </div>
             <!-- Columna Derecha -->
@@ -280,43 +241,43 @@
         <!-- 2. BLOQUE INFERIOR: El fondo beige vive SOLO dentro del contenedor de la imagen del lago -->
         <div class="relative w-full py-6 overflow-visible">
             <!-- Imagen de fondo beige exclusiva para este bloque -->
-            <img src="imagenes/imagenes_principal/imagen17.png" alt="" class="absolute inset-0 w-full h-full object-fill pointer-events-none">
+            <img src="../imagenes/imagenes_principal/imagen17.png" alt="" class="absolute inset-0 w-full h-full object-fill pointer-events-none">
             <!-- PALMERA (Alineada a la línea de ENCIMA del fondo beige) -->
-            <img src="imagenes/imagenes_principal/palmera.webp" alt="Palmera decorativa" 
+            <img src="../imagenes/imagenes_principal/palmera.webp" alt="Palmera decorativa" 
                 class="absolute -top-44 left-0 w-auto h-4/5 max-w-[220%] object-contain pointer-events-none z-20 hidden md:block">
             <!-- FELINO (Alineado a la línea de ABAJO del fondo beige) -->
-            <img src="imagenes/imagenes_principal/jaguar.webp" alt="Felino decorativo" 
+            <img src="../imagenes/imagenes_principal/jaguar.webp" alt="Felino decorativo" 
                 class="absolute bottom-0 -mb-5 right-16 w-auto h-2/5 max-w-[220%] object-contain pointer-events-none z-30 hidden md:block">
             <!-- Contenedor del lago con las líneas y la imagen -->
             <div class="relative z-30 w-full max-w-2xl mx-auto py-3 px-3">
-                <img src="imagenes/imagenes_principal/linea17_azul_encima.png" alt="" class="absolute top-0 left-0 w-full h-2 z-10">
-                <img src="imagenes/imagenes_principal/linea17_azul_derecha.png" alt="" class="absolute top-0 right-0 h-full w-2 z-10">
-                <img src="imagenes/imagenes_principal/linea17_azul_izquierda.png" alt="" class="absolute top-0 left-0 h-full w-2 z-10">
-                <img src="imagenes/imagenes_principal/linea17_azul_bajo.png" alt="" class="absolute bottom-0 left-0 w-full h-2 z-10">
+                <img src="../imagenes/imagenes_principal/linea17_azul_encima.png" alt="" class="absolute top-0 left-0 w-full h-2 z-10">
+                <img src="../imagenes/imagenes_principal/linea17_azul_derecha.png" alt="" class="absolute top-0 right-0 h-full w-2 z-10">
+                <img src="../imagenes/imagenes_principal/linea17_azul_izquierda.png" alt="" class="absolute top-0 left-0 h-full w-2 z-10">
+                <img src="../imagenes/imagenes_principal/linea17_azul_bajo.png" alt="" class="absolute bottom-0 left-0 w-full h-2 z-10">
                 <div class="relative w-full">
-                    <img src="imagenes/imagenes_principal/imagen-del-lago.JPG" alt="Lago" class="w-full h-full object-cover"> 
+                    <img src="../imagenes/imagenes_principal/imagen-del-lago.JPG" alt="Lago" class="w-full h-full object-cover"> 
                 </div>
             </div>
         </div>
     </section>
     <!-- La línea con el color de fondo colocada fuera y solapada con un pequeño margen negativo -->
-    <img src="imagenes/imagenes_principal/linea12_debajo_color.png" alt="Línea divisoria" class="block w-full h-auto relative z-20 mb-14" 
+    <img src="../imagenes/imagenes_principal/linea12_debajo_color.png" alt="Línea divisoria" class="block w-full h-auto relative z-20 mb-14" 
     style="margin-top: -30px;">
 
     <!-- Contenedor imagen de fondo con la columa de texto con su botón y líneas colocadas encima e inferior en la imagen  -->
     <section class="container mx-auto relative z-0">
         <!-- La línea con el color de fondo colocada encima y solapada con un margen inferior negativo -->
-        <img src="imagenes/imagenes_principal/linea16_encima_mono.png" alt="Línea divisoria" class="block w-full h-auto relative z-20" 
+        <img src="../imagenes/imagenes_principal/linea16_encima_mono.png" alt="Línea divisoria" class="block w-full h-auto relative z-20" 
         style="margin-bottom: -10px;"> 
-        <div class="p-16 bg-[url('imagenes/imagenes_principal/imagen23.webp')] bg-cover bg-no-repeat flex items-center relative z-10" 
+        <div class="p-16 bg-[url('../imagenes/imagenes_principal/imagen23.webp')] bg-cover bg-no-repeat flex items-center relative z-10" 
             style="height: 450px;">
             <div class="w-full flex flex-col items-start">
                 <!-- Icono pequeño, texto con una imagen de línea en medio y botón -->
-                <img class="h-10 w-10 mb-4" src="imagenes/imagenes_principal/imagen22.svg" alt="">
+                <img class="h-10 w-10 mb-4" src="../imagenes/imagenes_principal/imagen22.svg" alt="">
                 <!-- Contenedor del h2 con un dibujo de la línea debajo -->
                 <div class="w-fit flex flex-col mb-4">
                     <h2 class="text-3xl font-normal text-[rgb(72,81,79)]">¿ESTÁS LISTO/A PARA HACER UNA <br>DIFERENCIA?</h2>
-                    <img src="imagenes/imagenes_principal/linea05.png" class="h-17 w-32 mt-4">
+                    <img src="../imagenes/imagenes_principal/linea05.png" class="h-17 w-32 mt-4">
                 </div>
                 <p class="mb-4 text-[rgb(72,81,79)]">Las hectáreas de bosque que conservamos, las especies que protegemos, <br>
                     el carbono que capturamos, las culturas y las comunidades locales con las <br>que trabajamos; todo comienza contigo
@@ -331,7 +292,7 @@
         </div>
     </section>
     <!-- La línea con el color de fondo colocada fuera y solapada con un margen negativo -->
-    <img src="imagenes/imagenes_principal/linea11_debajo_imagen.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
+    <img src="../imagenes/imagenes_principal/linea11_debajo_imagen.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
     style="margin-top: -10px;"> 
 
     <!-- Contenedor NOTICIAS Y CASOS DE ÉXITO -->
@@ -341,7 +302,7 @@
             <!-- Columna Izquierda: Icono arriba, H2 abajo (Desplazados a la derecha) -->
             <div class="flex flex-col items-end justify-end w-full">
                 <div class="flex flex-col items-start">
-                    <img class="h-10 w-10 mb-4" src="imagenes/imagenes_principal/imagen25.svg" alt="Icono">
+                    <img class="h-10 w-10 mb-4" src="../imagenes/imagenes_principal/imagen25.svg" alt="Icono">
                     <h2 class="text-3xl font-normal text-[rgb(72,81,79)] leading-none m-0">
                         NOTICIAS Y CASOS DE ÉXITO
                     </h2>
@@ -356,7 +317,7 @@
             <!-- Columna Izquierda: Alineada exactamente al H2 de arriba usando un contenedor interno con el mismo desplazamiento -->
             <div class="flex flex-col items-start w-full pl-60">
                     <!-- Imagen principal alineada al ras del H2 -->
-                    <img src="imagenes/imagenes_principal/imagen26.webp" class="w-full h-60 rounded-2px" alt="Amazonía">
+                    <img src="../imagenes/imagenes_principal/imagen26.webp" class="w-full h-60 rounded-2px" alt="Amazonía">
                     <a href="#" class="text-[24px] font-semibold text-[rgb(31,72,34)] mt-4 leading-snug hover:underline">
                         <h3>Un paso adelante para una <br>Amazonía conectada</h3>
                     </a>
@@ -369,7 +330,7 @@
             <div class="w-1/2 flex flex-col gap-6 mx-3">
                 <!-- Artículo 1 -->
                 <div class="flex items-start gap-4 space-x-1">
-                    <img src="imagenes/imagenes_principal/imagen28.webp" alt="Miel por Bosque" class="w-40 h-28 object-cover rounded-2px">
+                    <img src="../imagenes/imagenes_principal/imagen28.webp" alt="Miel por Bosque" class="w-40 h-28 object-cover rounded-2px">
                     <div class="flex flex-col justify-between h-full">
                         <a href="#" class="font-semibold text-[16px] text-[rgb(31,72,34)] leading-snug hover:underline">
                             <h3>Miel por Bosque <br>fortalece la <br>conservación en <br>Zamora Chinchipe</h3>
@@ -382,7 +343,7 @@
                 </div>
                 <!-- Artículo 2 -->
                 <div class="flex items-start gap-4 space-x-1">
-                    <img src="imagenes/imagenes_principal/imagen27.webp" alt="San Andrés" class="w-40 h-28 object-cover rounded-2px">
+                    <img src="../imagenes/imagenes_principal/imagen27.webp" alt="San Andrés" class="w-40 h-28 object-cover rounded-2px">
                     <div class="flex flex-col justify-between h-full">
                         <a href="#" class="text-[15px] font-semibold text-[rgb(31,72,34)] leading-snug hover:underline">
                             <h3>San Andrés: la <br>comunidad que luchó 16 años para proteger el agua y los bosques</h3>
@@ -395,7 +356,7 @@
                 </div>
                 <!-- Artículo 3 -->
                 <div class="flex items-start gap-4 space-x-1">
-                    <img src="imagenes/imagenes_principal/imagen29.webp" alt="Ocho regiones del Perú" class="w-40 h-28 object-cover rounded-2px">
+                    <img src="../imagenes/imagenes_principal/imagen29.webp" alt="Ocho regiones del Perú" class="w-40 h-28 object-cover rounded-2px">
                     <div class="flex flex-col justify-between h-full ">
                         <a href="#" class="text-[16px] font-semibold text-[rgb(31,72,34)] leading-snug hover:underline">
                             <h3>Ocho regiones del <br>Perú se unen en <br>Huánuco</h3>
@@ -415,14 +376,14 @@
     <!-- PONTE EN CONTACTO -->
     <section class="container mx-auto relative z-0">
         <!-- Cabecera con imagen de fondo y altura fija de 550px -->
-        <div class="bg-[url('imagenes/imagenes_principal/imagen31.jpg')] bg-cover bg-no-repeat bg-center relative z-10 w-full flex items-center px-8 md:px-16" 
-        style="height: 480px;">
+        <div class="bg-[url('../imagenes/imagenes_principal/imagen31.jpg')] bg-cover bg-no-repeat bg-center relative z-10 w-full flex 
+        items-center px-8 md:px-16" style="height: 480px;">
             <!-- Grid de dos columnas que ocupa el 100% para distribuir los elementos a lo ancho -->
             <div class="grid grid-cols-2 gap-10 w-full items-center">
                 <!-- Columna Izquierda: Icono arriba, H2 en blanco -->
                 <div class="flex flex-col items-start justify-center w-full">
                     <div class="flex flex-col items-start relative -top-20 ml-56">
-                        <img class="h-10 w-10 mb-4" src="imagenes/imagenes_principal/imagen30.svg" alt="Icono">
+                        <img class="h-10 w-10 mb-4" src="../imagenes/imagenes_principal/imagen30.svg" alt="Icono">
                         <h2 class="text-3xl font-semibold text-[rgb(72,81,79)] leading-tight">
                             PONTE EN <br>CONTACTO
                         </h2>
@@ -446,100 +407,11 @@
         </div>
     </section>
     <!-- La línea con el color de fondo colocada fuera y solapada con un margen negativo -->
-    <img src="imagenes/imagenes_principal/linea18.png" alt="Línea divisoria" class="block w-full h-auto relative z-20" style="margin-top: -10px;">
+    <img src="../imagenes/imagenes_principal/linea18.png" alt="Línea divisoria" class="block w-full h-auto relative z-20" 
+    style="margin-top: -10px;">
 
-    <!-- CONTENEDOR FOOTER  -->
-    <!-- Bloque Superior del Footer -->
-    <section class="flex justify-between mt-16 mx-48 mb-12">
-        <div class="flex flex-col space-y-4 text-[rgb(72,81,79)] font-normal text-[14px] uppercase">
-            <span><a href="">Informes <br>Financieros y <br>Reportes</a></span>
-            <span><a href="">Medios de <br>Comunicación</a></span>
-            <span><a href="">Publicaciones</a></span>
-            <span><a href="">Investigaciones</a></span>
-            <span><a href="">Contáctanos</a></span>
-            <span><a href="">Políticas de <br>Privacidad</a></span>
-            <!-- Línea Separatoria Corregida -->
-            <div class="w-full h-px bg-[rgb(195,214,219)] my-8"></div>
-            <!-- Bloque inferior en minúsculas (normal-case) para anular el uppercase del contenedor principal -->
-            <div class="normal-case text-[rgb(43,58,66)] space-y-3">
-                <span class="block font-semibold text-[12px]">Naturaleza y Cultura <br>Internacional</span>
-                <p class="text-[11px] text-[rgb(118,124,123)] leading-relaxed">Naturaleza y Cultura <br>Internacional es una <br>organización no <br>gubernamental 501 (c) (e)</p>
-                <p class="text-[11px] text-[rgb(118,124,123)]">EIN: 33-0773524</p>
-            </div>
-        </div>
-        <div class="flex flex-col space-y-4 font-normal">
-            <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Dirección</span>
-            <span class="text-[rgb(43,58,66)] font-semibold text-[15px]">1400 Maiden Lane <br>Del Mar, CA 92014, USA</span>
-            <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Llámanos</span>
-            <span><a href="" class="text-[rgb(43,58,66)] hover:underline text-[15px]">+1 (858) 259-0374</a></span>
-            <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Escríbenos</span>
-            <span><a href="" class="text-[rgb(43,58,66)] hover:underline text-[15px]">hola@naturalezaycultura.org </a></span>
-            <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Síguenos en Redes Sociales</span>
-            <div class="flex items-center space-x-4">
-                <i class="fa-brands fa-facebook-f block text-[rgb(33,37,41)] text-[16px]" 
-                alt="Facebook" width="20px" height="20px"></i>
-                <i class="fa-brands fa-x-twitter block text-[rgb(33,37,41)] text-[20px]" 
-                alt="Twitter" width="20px" height="20px"></i>
-                <i class="fa-brands fa-instagram block text-[rgb(33,37,41)] text-[20px]" 
-                alt="Instagram" width="20px" height="20px"></i>
-                <i class="fa-brands fa-youtube block text-[rgb(33,37,41)] text-[20px]" 
-                alt="YouTube" width="20px" height="20px"></i>
-                <i class="fa-brands fa-linkedin-in block text-[rgb(33,37,41)] text-[20px]" 
-                alt="LinkedIn" width="20px" height="20px"></i>
-            </div>
-        </div>
-        <div class="flex flex-col space-y-6">
-            <img src="imagenes/imagenes_principal/imagen33.webp" alt="" class="w-20 h-15">
-            <img src="imagenes/imagenes_principal/imagen32.png" alt="" class="w-20 h-15">
-            <img src="imagenes/imagenes_principal/imagen34.webp" alt="" class="w-20 h-15">
-        </div>
-        <div class="flex flex-col items-center space-y-4 ">
-            <div class="w-full max-w-280px text-center px-1">
-                <span class="text-[rgb(15,125,63)] text-[14px] uppercase">Historias reales. Impacto real.</span>
-                <h2 class="text-[rgb(72,81,79)] text-[32px] font-semibold">Suscríbete a<br>nuestro boletín!</h2>
-                <p class="text-[rgb(118,124,123)] text-[18px] font-normal">Sign up to get email<br>updates</p>
-            </div>
-            <div class="flex flex-col items-center justify-center text-center">
-                <form class="p-2 w-full mx-8 flex flex-col items-center">
-                    <div class="mb-2 w-full flex justify-center">
-                        <input type="text" id="nombre" name="nombre" class="mt-1 pl-4 py-3 block w-full 
-                        border border-[rgb(180,185,184)] rounded-md text-[rgb(118,124,123)]" placeholder="Nombre (*)">
-                    </div>
-                    <div class="mb-4 w-full flex justify-center">
-                        <input type="text" id="apellido" name="apellido" class="mt-1 pl-4 py-3 block w-full
-                        border border-[rgb(180,185,184)] rounded-md text-[rgb(118,124,123)]" placeholder="Apellido (*)">
-                    </div>
-                    <div class="mb-4 w-full flex justify-center">
-                        <input type="email" id="email" name="email" class="mt-1 pl-4 py-3 block w-full
-                        border border-[rgb(180,185,184)] rounded-md text-[rgb(118,124,123)]" placeholder="Email (*)">
-                    </div>
-                    <div class="mt-1 w-full flex justify-center">
-                        <div class="flex justify-center"> <!-- Añadido mt-4 para separar el botón -->
-                            <button type="submit" class="border-2 bg-white py-3 px-12 text-[rgba(58,99,56)] rounded-md 
-                            hover:bg-[rgb(48,59,67)] border-[rgb(62,103,60)] text-[20px] font-semibold hover:text-white">Inscríbeme</button>
-                        </div>
-                    </div>
-            </div>
-        </div>   
-    </section>
-
-    <!-- Bloque Inferior del PIE DE PÁGINA -->
-    <footer class="mx-48 mb-12 text-[12px] text-[rgb(118,124,123)] font-normal">
-        <!-- Línea separadora larga horizontal -->
-        <div class="w-full h-px bg-[rgb(215,219,218)] my-8"></div>
-        <!-- Contenedor para distribuir los textos a los extremos -->
-        <div class="flex justify-between items-center">
-            <!-- Texto Izquierdo (Derechos de autor) -->
-            <span class="">© 2025 Nature and Culture International</span>
-            <!-- Texto Derecho (Créditos) -->
-            <!-- Texto Derecho con 'by' limpio y gris -->
-            <div class="flex items-center space-x-1">
-                <a href="#" class="hover:underline text-[rgb(72,81,79)] font-semibold">Nonprofit Marketing Agency</a>
-                <span class="text-[rgb(118,124,123)] font-normal no-underline">by</span>
-                <a href="#" class="hover:underline text-[rgb(72,81,79)] font-semibold">Elevation Web</a>
-            </div>
-        </div>
-    </footer>
+    <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+    <?php include_once "../components/footer.php"; ?>
 
     <!-- ICONO DEL WHATSAPP -->
     <!-- <div class="flex items-end justify-end p-5">
