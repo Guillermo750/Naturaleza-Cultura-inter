@@ -18,13 +18,13 @@
     <?php include_once "../components/header.php"; ?>
 
     <!-- Contenedor Padre: Vídeo de fondo + todo el contenido encima -->
-    <section class="relative w-full h-screen overflow-hidden flex flex-col">
+    <section class="relative w-full h-screen overflow-hidden flex flex-col pt-3">
         <!-- El Vídeo de fondo -->
         <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover z-0">
             <source src="../video/Header-Video_h265_20mb.mp4" type="video/mp4">
         </video>
         <!-- CONTENEDOR GENERAL -->
-        <div class="relative z-20 w-full px-24 pt-6 flex flex-col flex-1 mt-10">
+        <div class="relative z-20 w-full px-24 pt-6 flex flex-col flex-1">
             <!-- 3. CONTENEDOR DEL TEXTO PRINCIPAL RÉPLICA -->
             <div class="flex flex-col items-start mt-48 pl-44 flex-1 ">
                 <div class="flex flex-col items-start space-y-6 max-w-2xl bg-black/30 p-6">
@@ -43,7 +43,7 @@
     </section>
 
     <!-- Contenedor principal de dos columnas -->
-    <section class="container flex flex-col md:flex-row items-start gap-4 w-full max-w-6xl mx-auto p-4 my-6">
+    <section class="container flex flex-col md:flex-row items-start gap-4 w-full max-w-6xl mx-auto p-4 my-6 pt-10">
         <!-- COLUMNA IZQUIERDA -->
         <div class="w-full md:w-1/2 flex flex-col">
             <!-- CONTENEDOR DE IMAGEN Y BORDES (Optimizado con padding fijo) -->

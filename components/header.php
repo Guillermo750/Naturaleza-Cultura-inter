@@ -1,5 +1,5 @@
 <!-- MENÚ -->
-<nav class="fixed top-0 left-0 right-0 z-50 bg-white flex justify-around pb-4 pt-3">
+<nav class="sticky top-0 left-0 right-0 z-50 bg-white flex justify-around pb-4 pt-3">
     <div class="flex">
         <a href="../pages/principal.php"><img src="../logo/logoespanol.png" alt="Naturaleza y Cultura Internacional" class="w-36"></a>
     </div>
