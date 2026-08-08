@@ -83,8 +83,29 @@
         </div>
     </section>
 
-
-
+    <!-- Contenedor de Conservación liderada por las personas -->
+    <section class="w-full bg-[rgb(244,244,237)] py-8 px-6 ">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-4xl ">
+            <!-- COLUMNA IZQUIERDA: Imagen -->
+            <div class="w-full">
+                <img src="../../imagenes/imagenes_bosque/custom-image-web-8-600x600.png" alt="Conservación liderada por personas" 
+                lass="w-full h-auto ">
+            </div>
+            <!-- COLUMNA DERECHA: Textos -->
+            <div class="flex flex-col text-left space-y-4">
+                <!-- Título principal -->
+                <h2 class="text-3xl font-normal text-[rgb(15,125,63)] leading-tight">Conservación liderada por las personas</h2>
+                <!-- Título pequeño verde -->
+                <h3 class="text-[rgb(72,81,79)] font-medium tracking-wider text-2xl">Una solución de conservación que perdura</h3>
+                <!-- Párrafo descriptivo -->
+                <p class="text-[rgb(72,81,79)] leading-relaxed text-[16px] font-Avenir Book">
+                    Proteger los bosques no es un logro de una sola vez. La conservación duradera depende de la custodia del territorio, 
+                    un liderazgo local sólido y los recursos a largo plazo necesarios para mantener la protección frente a los cambios políticos, 
+                    económicos y climáticos.
+                </p>
+            </div>
+        </div>
+    </section>
 
 
 
