@@ -43,7 +43,7 @@
     </section>
 
     <!-- Contenedor principal de dos columnas -->
-    <section class="container flex flex-col md:flex-row items-start gap-4 w-full max-w-6xl mx-auto p-4 my-6 pt-10">
+    <section class="container flex flex-col md:flex-row items-start gap-4 w-full max-w-6xl mx-auto p-4 my-6 pt-8">
         <!-- COLUMNA IZQUIERDA -->
         <div class="w-full md:w-1/2 flex flex-col">
             <!-- CONTENEDOR DE IMAGEN Y BORDES (Optimizado con padding fijo) -->
