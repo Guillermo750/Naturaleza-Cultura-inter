@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link para poner icono al html -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
-    <!-- <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"> -->
+    <!-- Link para poner llamar a las clases Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- LLamar al js -->
     <script defer src="js/app.js"></script>
@@ -14,6 +14,48 @@
 </head>
 
 <body>
+    <!-- MENÚ -->
+    <nav class="fixed top-0 left-0 right-0 z-50 bg-white flex justify-around pb-4 pt-3">
+        <div class="flex">
+            <img src="logo/logoespanol.png" alt="Naturaleza y Cultura Internacional" class="w-36">
+        </div>
+        <div class="flex items-center  space-x-4 w-2/1 font-semibold text-[rgb(72,81,79)] text-14 -mt-6">
+            <span><a href="#">QUÉ HACEMOS</a></span>
+            <span><a href="#">NUESTRO IMPACTO</a></span>
+            <span><a href="#">QUIÉNES SOMOS</a></span>
+            <span><a href="#">DÓNDE TRABAJAMOS</a></span>
+        </div>
+        <div class="flex items-center space-x-4 shrink-0">
+            <!-- Botón Dona Aquí -->
+            <a href="#" class="bg-[rgb(245,131,32)] text-black px-10 py-3 rounded-full hover:bg-[rgb(243,119,130)] font-bold -mt-6"> 
+                <span>Dona Aquí</span>
+            </a>
+            <!-- Bloque Contáctanos e Idioma a la DERECHA del botón -->
+            <div class="flex items-center space-x-4 text-sm text-[rgb(72,81,79)] -mt-6">
+                <a href="#" class="hover:underline">Contáctanos</a>
+                <span>|</span>
+                <div class="relative group cursor-pointer">
+                    <div class="flex items-center space-x-1 gap-2">
+                       <img class="w-4 h-4 object-contain" src="imagenes/imagenes_principal/imagen02.png" alt="Bandera de España"/>
+                        <span>Español</span>
+                    </div>
+                    <!-- Poner al borde de la lista depegable un color [rgb(51, 87, 63)] -->
+                    <div class="absolute right-0 -mr-2 top-full hidden group-hover:block w-24 bg-white text-black px-1.5 
+                        py-1 z-50 border border-t-[rgb(51,87,63)] bg-clip-padding rounded-sm ">
+                        <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11px  font-normal">
+                            <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen01.png" alt="Bandera de Inglaterra"/> 
+                            <span>English</span>
+                        </a>
+                        <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11 font-normal">
+                            <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen02.png" alt="Bandera de España"/> 
+                            <span>Español</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
     <!-- Contenedor Padre: Vídeo de fondo + todo el contenido encima -->
     <section class="relative w-full h-screen overflow-hidden flex flex-col">
         <!-- El Vídeo de fondo -->
@@ -22,104 +64,6 @@
         </video>
         <!-- CONTENEDOR GENERAL -->
         <div class="relative z-20 w-full px-24 pt-6 flex flex-col flex-1">
-            <!-- CONTENEDOR DEL MENÚ FIJO -->
-            <div id="navbar-scroll-container" class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-transparent px-24 py-6">
-                <!-- MENÚ -->
-                <nav id="navbar" class="w-full flex items-start justify-between">
-                    <!-- BLOQUE IZQUIERDO: El Logotipo -->
-                    <div id="logo-block" class="pt-1 shrink-0">
-                        <img src="logo/logoespanol.png" class="w-40 object-contain" alt="Logo">
-                    </div>
-                    <!-- BLOQUE DERECHO ORIGINAL (Estado Inicial arriba) -->
-                    <div id="original-right-block" class="flex flex-col items-end space-y-4 transition-all duration-300">
-                        <!-- SUB-FILA SUPERIOR: Contáctanos, Idioma y Lupa -->
-                        <div id="top-bar-menu" class="flex items-center space-x-4 text-sm text-white pr-0 
-                        transition-opacity duration-300">
-                            <a href="#">Contáctanos</a>
-                            <span>|</span>
-                            <!-- Dropdown de Idiomas -->
-                            <div class="relative group cursor-pointer">
-                                <div class="flex items-center space-x-1 gap-2">
-                                    <img class="w-4 h-4 object-contain" src="imagenes/imagenes_principal/imagen02.png" alt="Bandera de España"/>
-                                    <span>Español</span>
-                                </div>
-                                <div class="absolute right-0 -mr-2 top-full hidden group-hover:block w-24 bg-white text-black px-1.5 
-                                py-1 z-50 border-t-8 border-t-transparent bg-clip-padding shadow-lg rounded-sm">
-                                    <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11px font-normal ">
-                                        <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen01.png" alt="Bandera de Inglaterra"/> 
-                                        <span>English</span>
-                                    </a>
-                                    <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11 font-normal ">
-                                        <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen02.png" alt="Bandera de España"/> 
-                                        <span>Español</span>
-                                    </a>
-                                </div>
-                            </div>
-                            <a href="#"><i class="fa-solid fa-magnifying-glass text-base"></i></a>
-                        </div>
-                        <!-- SUB-FILA INFERIOR: Enlaces de navegación iniciales -->
-                        <div class="hidden md:flex items-center gap-x-8">
-                            <div id="nav-main-links-initial" class="flex space-x-5 font-semibold text-white text-15 tracking-wide 
-                            whitespace-nowrap">
-                                <a href="#">QUÉ HACEMOS</a>
-                                <a href="#">NUESTRO IMPACTO</a>
-                                <a href="#">QUIÉNES SOMOS</a>
-                                <a href="#">DÓNDE TRABAJAMOS</a>
-                            </div>
-                            <!-- Botón Dona Aquí -->
-                            <a href="#" class="bg-[rgb(245,131,32)] text-black px-12 py-3 rounded-full hover:bg-[rgb(243,119,130)] 
-                            whitespace-nowrap font-bold">
-                                <span>Dona Aquí</span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- NUEVO BLOQUE EXCLUSIVO PARA EL SCROLL (Oculto al inicio) -->
-                    <!-- w-full y justify-between logran centrar los enlaces en medio del logo y el botón -->
-                    <div id="scrolled-full-block" class="hidden w-full items-center justify-between pl-10 transition-all duration-300">
-                        <!-- Enlaces principales perfectamente centrados en su espacio -->
-                        <div id="nav-main-links" class="flex space-x-6 font-semibold text-[rgb(72,81,79)] text-14 whitespace-nowrap mx-auto">
-                            <a href="#">QUÉ HACEMOS</a>
-                            <a href="#">NUESTRO IMPACTO</a>
-                            <a href="#">QUIÉNES SOMOS</a>
-                            <a href="#">DÓNDE TRABAJAMOS</a>
-                        </div>
-                        <!-- Grupo Derecho: Botón + Contáctanos/Idioma -->
-                        <div class="flex items-center space-x-4 shrink-0">
-                            <!-- Botón Dona Aquí -->
-                            <a href="#" class="bg-orange-500 text-black px-10 py-3 rounded-full hover:bg-[rgb(243,119,130)] 
-                                        whitespace-nowrap font-bold"> <span>Dona Aquí</span>
-                            </a>
-                            <!-- Bloque Contáctanos e Idioma a la DERECHA del botón -->
-                            <div class="flex items-center space-x-4 text-sm text-[rgb(72,81,79)] whitespace-nowrap">
-                                <a href="#" class="hover:underline">Contáctanos</a>
-                                <span>|</span>
-                                <div class="relative group cursor-pointer">
-                                    <div class="flex items-center space-x-1 gap-2">
-                                        <img class="w-4 h-4 object-contain" src="imagenes/imagenes_principal/imagen02.png" 
-                                        alt="Bandera de España"/>
-                                        <span>Español</span>
-                                    </div>
-                                    <div class="absolute right-0 -mr-2 top-full hidden group-hover:block w-24 bg-white text-black px-1.5 
-                                    py-1 z-50 border-t-8 border-t-transparent bg-clip-padding shadow-lg rounded-sm">
-                                        <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11px 
-                                        font-normal">
-                                            <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen01.png" 
-                                            alt="Bandera de Inglaterra"/> 
-                                            <span>English</span>
-                                        </a>
-                                        <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11 
-                                        font-normal">
-                                            <img class="w-3.5 h-3.5 object-contain" src="imagenes/imagenes_principal/imagen02.png" 
-                                            alt="Bandera de España"/> 
-                                            <span>Español</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
             <!-- 3. CONTENEDOR DEL TEXTO PRINCIPAL RÉPLICA -->
             <div class="flex flex-col items-start mt-48 pl-44 flex-1">
                 <div class="flex flex-col items-start space-y-6 max-w-2xl">
