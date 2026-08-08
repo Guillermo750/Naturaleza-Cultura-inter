@@ -34,9 +34,9 @@
         </div>
     </div>
     <div class="flex flex-col space-y-6">
-        <img src="../imagenes/imagenes_principal/imagen33.webp" alt="" class="w-20 h-15">
-        <img src="../imagenes/imagenes_principal/imagen32.png" alt="" class="w-20 h-15">
-        <img src="../imagenes/imagenes_principal/imagen34.webp" alt="" class="w-20 h-15">
+        <img src="/imagenes/imagenes_principal/imagen33.webp" alt="" class="w-20 h-15">
+        <img src="/imagenes/imagenes_principal/imagen32.png" alt="" class="w-20 h-15">
+        <img src="/imagenes/imagenes_principal/imagen34.webp" alt="" class="w-20 h-15">
     </div>
     <div class="flex flex-col items-center space-y-4 ">
         <div class="w-full max-w-280px text-center px-1">
@@ -90,7 +90,7 @@
             py-2 pl-4 pr-4">Notice at collection </a>
 
             <a href="" class="inline-flex items-center border border-black text-black hover:bg-[rgb(228,230,232)] hover:text-black
-            py-2 pl-4 pr-4">Your Privacy Choices <img src="../imagenes/imagenes_principal/visto_no.png" class="w-9 ml-3"></a>
+            py-2 pl-4 pr-4">Your Privacy Choices <img src="/imagenes/imagenes_principal/visto_no.png" class="w-9 ml-3"></a>
         </div>
     </div>
 </footer>

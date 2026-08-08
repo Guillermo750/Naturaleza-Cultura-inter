@@ -24,9 +24,9 @@
             <source src="../video/Header-Video_h265_20mb.mp4" type="video/mp4">
         </video>
         <!-- CONTENEDOR GENERAL -->
-        <div class="relative z-20 w-full px-24 pt-6 flex flex-col flex-1">
+        <div class="container mx-auto relative z-20 px-24 pt-6 flex flex-col flex-1">
             <!-- 3. CONTENEDOR DEL TEXTO PRINCIPAL RÉPLICA -->
-            <div class="flex flex-col items-start mt-48 pl-44 flex-1 ">
+            <div class="flex flex-col items-start mt-48 flex-1 ">
                 <div class="flex flex-col items-start space-y-6 max-w-2xl bg-black/30 p-6">
                     <h1 class="text-white text-5xl font-semibold text-left">
                         30 AÑOS <br>COMPROMETIDOS <br>CON LA NATURALEZA
