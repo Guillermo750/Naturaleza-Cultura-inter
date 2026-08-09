@@ -177,10 +177,10 @@
                 </p>
             </div>
         </div>
-            <!-- La línea con el color de fondo colocada fuera y solapada con un margen negativo -->
-    <img src="../../imagenes/imagenes_bosque/linea02.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
-    style="margin-bottom: -10px;">
     </section>
+                <!-- La línea con el color de fondo colocada fuera y solapada con un margen negativo -->
+    <img src="../../imagenes/imagenes_bosque/linea01.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
+    style="margin-bottom: -10px;">
 
 
     <!-- Contenedor Cómo puedes ayudar -->
