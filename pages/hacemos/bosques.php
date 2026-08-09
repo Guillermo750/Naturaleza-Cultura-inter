@@ -89,8 +89,8 @@
     </section>
 
     <!-- Contenedor Conservación liderada por las personas -->
-    <section class="w-full bg-[rgb(244,244,237)] py-8 px-6 ">
-        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-4xl ">
+    <section class="w-full bg-[rgb(244,244,237)] py-8 px-6">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl ">
             <!-- COLUMNA IZQUIERDA: Imagen -->
             <div class="w-full">
                 <img src="../../imagenes/imagenes_bosque/custom-image-web-8-600x600.png" alt="Conservación liderada por personas" 
@@ -142,11 +142,75 @@
         </div>
     </section>
 
+    <!-- Contenedor Trabajamos en los ecosistemas más biodiversos -->
+    <section>
+
+    </section>
+
+    <!-- Contenedor Previniendo pérdidas irreemplazables -->
+    <section class="container mx-auto relative z-0 pt-10">
+        <!-- La línea con el color de fondo colocada encima y solapada con un margen inferior negativo -->
+        <img src="../../imagenes/imagenes_bosque/linea01.png" alt="Línea divisoria" class="block w-full h-auto relative z-20" 
+        style="margin-bottom: -10px;"> 
+        <div class="p-16 bg-[url('../../imagenes/imagenes_bosque/Zamora-Municipal-Conservation-and-Sustainable-Use-Area_Forest.webp')] 
+            bg-cover bg-no-repeat flex items-center relative z-10 " 
+            style="height: 450px;">
+            <!-- CAPA DE OSCURECIDO DIFUMINADO: Usa CSS nativo para crear un degradado perfecto e inmune a las versiones de Tailwind -->
+            <div class="absolute inset-0 z-0" 
+                style="background: linear-gradient(to right, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0) 70%);">
+            </div>
+            <div class="w-full max-w-2xl flex flex-col text-white  relative z-10 [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
+                <!-- Contenedor del h2 con un dibujo de la línea debajo -->
+                    <!-- Título principal -->
+                    <h2 class="text-3xl font-semibold mb-2.5 ">Previniendo pérdidas irreemplazables</h2>
+                    <!-- Título pequeño -->
+                    <h3 class="font-semibold tracking-wider text-2xl mb-2.5">Amenazas a los bosques y lo que la <br>protección previene</h3>
+                <p class="mb-2.5">
+                    Los bosques intactos enfrentan una presión creciente debido a la <br>deforestación, la degradación y la fragmentación. 
+                    Estas amenazas <br>pueden provenir del cambio de uso de suelo, la extracción <br>insostenible, las carreteras que 
+                    abren áreas remotas a actividades <br>ilegales y los incendios cada vez más intensos impulsados por el <br>clima.
+                </p>
+                <p>
+                    Proteger los bosques a tiempo, antes de que sufran una degradación <br>severa, puede prevenir pérdidas irreversibles. 
+                    Cuando los bosques <br>permanecen intactos, continúan sustentando la biodiversidad, <br>almacenando carbono, manteniendo los ciclos 
+                    del agua y <br>proporcionando una base para comunidades resilientes.
+                </p>
+            </div>
+        </div>
+            <!-- La línea con el color de fondo colocada fuera y solapada con un margen negativo -->
+    <img src="../../imagenes/imagenes_bosque/linea02.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
+    style="margin-bottom: -10px;">
+    </section>
 
 
-
-
-
+    <!-- Contenedor Cómo puedes ayudar -->
+    <section class="container mx-auto py-12 px-6 max-w-6xl">
+        <!-- Contenido a la derecha -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+            <!-- COLUMNA IZQUIERDA: Imagen -->
+            <div class="w-full h-full">
+                <img src="../../imagenes/imagenes_bosque/Team-Gift-Explain-Forest-Biodiversity.webp" alt="Proteger los bosques" 
+                class="w-full h-auto block">
+            </div>
+            <!-- COLUMNA DERECHA: Textos y un botón -->
+            <div class="flex flex-col space-y-3">
+                <!-- Título principal -->
+                <h2 class="text-[rgb(72,81,79)] font-medium tracking-wider text-3xl">Cómo puedes ayudar a proteger los bosques</h2>
+                <!-- Párrafos descriptivos -->
+                <p class="leading-relaxed text-[rgb(72,81,79)]">
+                    Proteger los bosques a gran escala requiere colaboración, compromiso y una visión de largo plazo. En Naturaleza y Cultura 
+                    Internacional trabajamos junto a pueblos indígenas, comunidades locales, gobiernos y aliados para fortalecer la gestión 
+                    territorial, ampliar las áreas de conservación y mantener los bosques en pie donde más se necesitan.
+                </p>
+                <p class="leading-relaxed text-[rgb(72,81,79)]">
+                    Conocer, valorar y apoyar estos esfuerzos es fundamental para asegurar que los paisajes más biodiversos del planeta sigan 
+                    siendo fuente de vida para las generaciones presentes y futuras.
+                </p>
+                <a href="#" class="self-start mt-6 bg-[rgb(15,125,63)] text-white inline-block px-6 py-3 rounded-full 
+                font-bold hover:bg-[rgb(31,72,34)] transition-colors "><span class="text-sm">Conoce más sobre nuestro trabajo</span></a>
+            </div>      
+        </div>
+    </section>
 
     <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <?php include_once "../../components/footer.php"; ?>
