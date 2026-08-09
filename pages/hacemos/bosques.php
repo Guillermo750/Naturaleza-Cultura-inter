@@ -52,7 +52,12 @@
             gobiernos para fortalecer la conservación de bosques en América Latina.</p>
     </section>
 
-    <!-- Contenedor de Creando y Fortaleciendo Áreas Protegidas -->
+    <!-- Contenedor Programas Destacados -->
+     <section class="container mx-auto">
+
+     </section>
+
+    <!-- Contenedor Creando y Fortaleciendo Áreas Protegidas -->
     <section class="container mx-auto py-12 px-6 max-w-4xl">
         <!-- Contenido a la derecha -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
@@ -83,7 +88,7 @@
         </div>
     </section>
 
-    <!-- Contenedor de Conservación liderada por las personas -->
+    <!-- Contenedor Conservación liderada por las personas -->
     <section class="w-full bg-[rgb(244,244,237)] py-8 px-6 ">
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center max-w-4xl ">
             <!-- COLUMNA IZQUIERDA: Imagen -->
@@ -93,9 +98,9 @@
             </div>
             <!-- COLUMNA DERECHA: Textos -->
             <div class="flex flex-col text-left space-y-4">
-                <!-- Título principal -->
+                <!-- Título principal verde-->
                 <h2 class="text-3xl font-normal text-[rgb(15,125,63)] leading-tight">Conservación liderada por las personas</h2>
-                <!-- Título pequeño verde -->
+                <!-- Título pequeño -->
                 <h3 class="text-[rgb(72,81,79)] font-medium tracking-wider text-2xl">Una solución de conservación que perdura</h3>
                 <!-- Párrafo descriptivo -->
                 <p class="text-[rgb(72,81,79)] leading-relaxed text-[16px] font-Avenir Book">
@@ -107,8 +112,35 @@
         </div>
     </section>
 
-
-
+    <!-- Contenedor Bosques Conectados -->
+    <section class="container mx-auto py-12 px-6 max-w-4xl">
+        <!-- Contenido a la derecha -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+            <!-- COLUMNA IZQUIERDA: Textos -->
+            <div class="flex flex-col space-y-3">
+                <!-- Título principal verde-->
+                <h2 class="text-3xl font-normal tracking-wide md:whitespace-nowrap mb-2.5
+                text-[rgb(15,125,63)]">Bosques Conectados</h2>
+                <!-- Título pequeño -->
+                <h3 class="text-[rgb(72,81,79)] font-medium tracking-wider text-2xl">Conservación a Escala de Paisaje</h3>
+                <!-- Párrafos descriptivos -->
+                <p class="leading-relaxed text-[rgb(72,81,79)]">
+                    Cuando los bosques se fragmentan, los ecosistemas se vuelven menos resilientes. Los <b>corredores biológicos</b> se 
+                    interrumpen,las cuencas hidrográficas se alteran y los bosques se vuelven más vulnerables a los incendios, las actividades 
+                    ilegales y el cambio de uso de suelo. <b>Conectar bosques protegidos</b> ayuda a mantener el funcionamiento de paisajes 
+                    enteros, ahora y en el futuro.
+                </p>
+                <p class="leading-relaxed text-[rgb(72,81,79)]">
+                    Esto es válido independientemente de si las piezas individuales son parques nacionales, territorios indígenas, áreas 
+                    subnacionales protegidas o una combinación de todas las anteriores.
+                </p>
+            </div>      
+            <!-- Imagen a la derecha -->
+            <div class="w-full h-full">
+                <img src="../../imagenes/imagenes_bosque/custom-image-web-6-600x600.png" alt="Escala de Paisaje" class="w-full h-auto block">
+            </div>
+        </div>
+    </section>
 
 
 
