@@ -40,11 +40,11 @@
         <!-- Subtítulo grande -->
         <h3 class="text-3xl text-[rgb(72,81,79)] font-normal leading-tight">Protección de bosques saludables y conectados</h3>
         <!-- Párrafo destacado (más grande) -->
-        <p class="font-light text-[17px]">Naturaleza y Cultura trabaja por proteger grandes extensiones de bosques. 
+        <p class="font-light text-[16px]">Naturaleza y Cultura trabaja por proteger grandes extensiones de bosques. 
             Ecosistemas críticos que sustentan la biodiversidad, regulan el clima, proveen agua limpia y apoyan a las comunidades 
             indígenas y locales.</p>
         <!-- Párrafo normal -->
-        <p class="text-[17px] text-gray-600">Al conservar paisajes extensos, salvaguardamos corredores biológicos esenciales, 
+        <p class="text-[16px] text-gray-600">Al conservar paisajes extensos, salvaguardamos corredores biológicos esenciales, 
             prevenimos la deforestación y fortalecemos la resiliencia de los ecosistemas, garantizando que la naturaleza prospere para las 
             generaciones futuras.</p>
         <!-- Último párrafo en verde destacado -->
@@ -64,16 +64,16 @@
             <!-- COLUMNA IZQUIERDA: Textos -->
             <div class="flex flex-col text-[rgb(72,81,79)] space-y-3">
                 <h2 class="text-3xl font-normal tracking-wide md:whitespace-nowrap mb-2.5">Creando y Fortaleciendo Áreas Protegidas </h2>
-                <p class="leading-relaxed">
+                <p class="leading-relaxed text-[16px]">
                     Ayudamos a establecer nuevas áreas protegidas y a fortalecer las existentes en lugares que enfrentan amenazas urgentes. 
                     <b>las áreas protegidas, territorios comunitarios y otras formas de conservación forman redes interconectadas,</b> 
                     los bosques son más resilientes y la biodiversidad tiene espacio para desplazarse y adaptarse.
                 </p>
-                <p class="leading-relaxed">
+                <p class="leading-relaxed text-[16px]">
                     Los bosques no siguen fronteras políticas. Al apoyar la planificación y colaboración a <b>escala de paisaje,</b> 
                     ayudamos a proteger ecosistemas conectados a través de diversas regiones.
                 </p>
-                <p class="leading-relaxed ">
+                <p class="leading-relaxed text-[16px]">
                     En un mundo cada vez más fragmentado, muchas especies tienen menos espacio para migrar, dispersarse, alimentarse y 
                     prosperar. Al vincular áreas protegidas nacionales, regionales y locales, creamos <b>corredores biológicos vitales</b> 
                     que permiten que especies clave <b>como el jaguar, el cóndor andino y el oso de anteojos,</b> se desplacen libremente 
@@ -124,13 +124,13 @@
                 <!-- Título pequeño -->
                 <h3 class="text-[rgb(72,81,79)] font-medium tracking-wider text-2xl">Conservación a Escala de Paisaje</h3>
                 <!-- Párrafos descriptivos -->
-                <p class="leading-relaxed text-[rgb(72,81,79)]">
+                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px]">
                     Cuando los bosques se fragmentan, los ecosistemas se vuelven menos resilientes. Los <b>corredores biológicos</b> se 
                     interrumpen,las cuencas hidrográficas se alteran y los bosques se vuelven más vulnerables a los incendios, las actividades 
                     ilegales y el cambio de uso de suelo. <b>Conectar bosques protegidos</b> ayuda a mantener el funcionamiento de paisajes 
                     enteros, ahora y en el futuro.
                 </p>
-                <p class="leading-relaxed text-[rgb(72,81,79)]">
+                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px]">
                     Esto es válido independientemente de si las piezas individuales son parques nacionales, territorios indígenas, áreas 
                     subnacionales protegidas o una combinación de todas las anteriores.
                 </p>
@@ -143,8 +143,17 @@
     </section>
 
     <!-- Contenedor Trabajamos en los ecosistemas más biodiversos -->
-    <section>
-
+    <section class="container mx-auto flex flex-col justify-start items-start my-6 space-y-4 mt-20 px-6 max-w-4xl text-left">  
+        <!-- Título verde pequeño -->
+        <h2 class="text-3xl text-[rgb(72,81,79)] tracking-wider uppercase">Ecosistemas que protegemos</h2>
+        <!-- Subtítulo grande -->
+        <h3 class="text-2xl font-normal leading-tight text-[rgb(15,125,63)]">Trabajamos en los ecosistemas más biodiversos, pero también 
+            más amenazados del planeta.</h3>
+        <!-- Párrafo destacado (más grande) -->
+        <p class="leading-relaxed text-[16px] text-[rgb(72,81,79)]">Un ecosistema está compuesto por todos los seres vivos que comparten un 
+            entorno, desde plantas y animales hasta organismos microscópicos. Garantizar la integridad y la salud de ecosistemas completos 
+            proporciona hábitat para la vida silvestre y servicios ecosistémicos vitales para toda forma de vida.
+        </p>
     </section>
 
     <!-- Contenedor Previniendo pérdidas irreemplazables -->
@@ -165,23 +174,21 @@
                     <h2 class="text-3xl font-semibold mb-2.5 ">Previniendo pérdidas irreemplazables</h2>
                     <!-- Título pequeño -->
                     <h3 class="font-semibold tracking-wider text-2xl mb-2.5">Amenazas a los bosques y lo que la <br>protección previene</h3>
-                <p class="mb-2.5">
+                <p class="mb-2.5 text-[16px]">
                     Los bosques intactos enfrentan una presión creciente debido a la <br>deforestación, la degradación y la fragmentación. 
                     Estas amenazas <br>pueden provenir del cambio de uso de suelo, la extracción <br>insostenible, las carreteras que 
                     abren áreas remotas a actividades <br>ilegales y los incendios cada vez más intensos impulsados por el <br>clima.
                 </p>
-                <p>
+                <p class="text-[16px]">
                     Proteger los bosques a tiempo, antes de que sufran una degradación <br>severa, puede prevenir pérdidas irreversibles. 
                     Cuando los bosques <br>permanecen intactos, continúan sustentando la biodiversidad, <br>almacenando carbono, manteniendo los ciclos 
                     del agua y <br>proporcionando una base para comunidades resilientes.
                 </p>
             </div>
         </div>
+        <!-- Línea divisoria inferior aplicada exactamente con tu ajuste -->
+        <img src="../../imagenes/imagenes_bosque/linea02.png" alt="Línea divisoria" class="absolute bottom-0 left-0 z-10 block w-full h-auto">
     </section>
-                <!-- La línea con el color de fondo colocada fuera y solapada con un margen negativo -->
-    <img src="../../imagenes/imagenes_bosque/linea01.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
-    style="margin-bottom: -10px;">
-
 
     <!-- Contenedor Cómo puedes ayudar -->
     <section class="container mx-auto py-12 px-6 max-w-6xl">
@@ -197,12 +204,12 @@
                 <!-- Título principal -->
                 <h2 class="text-[rgb(72,81,79)] font-medium tracking-wider text-3xl">Cómo puedes ayudar a proteger los bosques</h2>
                 <!-- Párrafos descriptivos -->
-                <p class="leading-relaxed text-[rgb(72,81,79)]">
+                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px]">
                     Proteger los bosques a gran escala requiere colaboración, compromiso y una visión de largo plazo. En Naturaleza y Cultura 
                     Internacional trabajamos junto a pueblos indígenas, comunidades locales, gobiernos y aliados para fortalecer la gestión 
                     territorial, ampliar las áreas de conservación y mantener los bosques en pie donde más se necesitan.
                 </p>
-                <p class="leading-relaxed text-[rgb(72,81,79)]">
+                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px]">
                     Conocer, valorar y apoyar estos esfuerzos es fundamental para asegurar que los paisajes más biodiversos del planeta sigan 
                     siendo fuente de vida para las generaciones presentes y futuras.
                 </p>
