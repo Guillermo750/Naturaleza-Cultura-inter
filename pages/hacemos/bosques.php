@@ -143,7 +143,7 @@
     </section>
 
     <!-- Contenedor Trabajamos en los ecosistemas más biodiversos -->
-    <section class="container mx-auto flex flex-col justify-start items-start my-6 space-y-4 mt-20 px-6 max-w-4xl text-left">  
+    <section class="container mx-auto flex flex-col justify-start items-start my-6 space-y-4 pb-12 px-6 max-w-4xl text-left">
         <!-- Título verde pequeño -->
         <h2 class="text-3xl text-[rgb(72,81,79)] tracking-wider uppercase">Ecosistemas que protegemos</h2>
         <!-- Subtítulo grande -->
@@ -154,6 +154,71 @@
             entorno, desde plantas y animales hasta organismos microscópicos. Garantizar la integridad y la salud de ecosistemas completos 
             proporciona hábitat para la vida silvestre y servicios ecosistémicos vitales para toda forma de vida.
         </p>
+    </section>
+
+    <section class="container mx-auto max-w-5xl my-12 px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- CAJA 1: Selva Amazónica -->
+           <div class="group relative overflow-hidden h-72 bg-gray-900">
+                <!-- Imagen de fondo -->
+                <img src="../../imagenes/imagenes_bosque/caja1.webp" alt="Páramos" 
+                    class="absolute inset-0 h-full w-full object-cover opacity-70 transition-all duration-500 group-hover:opacity-100 
+                    group-hover:scale-105">
+                <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 z-10 w-full p-6 text-white">
+                    <h3 class="text-xl font-bold">Selva Amazónica</h3>
+                    <p class="mt-2 text-[14px] ">
+                        La <em>selva amazónica</em> es el bosque tropical más extenso de la Tierra y posee la mayor densidad de especies vegetales y animales.
+                    </p>
+                </div>
+                <div class="absolute bottom-0 left-0 z-20 h-1.5 w-full origin-left scale-x-0 bg-[#f58320] transition-transform 
+                duration-500 group-hover:scale-x-100"></div>
+            </div>
+
+            <!-- CAJA 2: Bosque Nuboso Andino -->
+          <div class="group relative overflow-hidden h-72 bg-gray-900">
+                <!-- Imagen de fondo -->
+                <img src="../../imagenes/imagenes_bosque/caja2.webp" alt="Páramos" 
+                    class="absolute inset-0 h-full w-full object-cover opacity-70 transition-all duration-500 group-hover:opacity-100 
+                    group-hover:scale-105">
+                <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 z-10 w-full p-6 text-white">
+                    <h3 class="text-xl font-bold">Bosque Nuboso Andino</h3>
+                    <p class="mt-2 text-[14px]">
+                        Los <em>bosques nublados andinos</em>  albergan el mayor número de especies endémicas: plantas y animales que no se encuentran en ningún otro 
+                        lugar del mundo.
+                    </p>
+                </div>
+                <div class="absolute bottom-0 left-0 z-20 h-1.5 w-full origin-left scale-x-0 bg-[#f58320] transition-transform 
+                duration-500 group-hover:scale-x-100"></div>
+            </div>
+
+            <!-- CAJA 3: Páramos -->
+            <div class="group relative overflow-hidden h-72 bg-gray-900">
+                <!-- Imagen de fondo -->
+                <img src="../../imagenes/imagenes_bosque/caja3.webp" alt="Páramos" 
+                    class="absolute inset-0 h-full w-full object-cover opacity-70 transition-all duration-500 group-hover:opacity-100 
+                    group-hover:scale-105">
+                <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
+                <div class="absolute bottom-0 left-0 z-10 w-full p-6 text-white">
+                    <h3 class="text-xl font-bold">Páramos</h3>
+                    <p class="mt-2 text-[14px]">
+                        Los <em>páramos</em> son ecosistemas de pastizales de alta altitud situados por encima del límite de vegetación 
+                        arbórea, pero por debajo de la línea de nieve...
+                    </p>
+                </div>
+                <div class="absolute bottom-0 left-0 z-20 h-1.5 w-full origin-left scale-x-0 bg-[#f58320] transition-transform 
+                duration-500 group-hover:scale-x-100"></div>
+            </div>
+            <!-- CAJA 4  -->
+             <div class="md:col-span-2">
+
+            </div>
+            <!-- CAJA 5  -->
+            <div class="md:col-span-2">
+
+            </div>
+        </div>
     </section>
 
     <!-- Contenedor Previniendo pérdidas irreemplazables -->
