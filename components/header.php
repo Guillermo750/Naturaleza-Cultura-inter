@@ -3,8 +3,32 @@
     <div class="flex">
         <a href="../pages/principal.php"><img src="/logo/logoespanol.png" alt="Naturaleza y Cultura Internacional" class="w-36"></a>
     </div>
-    <div class="flex items-center  space-x-4 w-2/1 font-semibold text-[rgb(72,81,79)] text-14 -mt-6">
-        <span><a href="#">QUÉ HACEMOS</a></span>
+    <div class="flex items-center  space-x-4 w-2/1 font-semibold text-[rgb(72,81,79)] text-[14px] -mt-6">
+        <div class="relative group">
+            <span>
+                <a href="#" class="relative inline-block py-3 px-2">
+                    QUÉ HACEMOS
+                    <img src="/imagenes/imagenes_principal/linea_rosa_06.png" 
+                    class="absolute left-0 top-full w-20 h-auto opacity-0 group-hover:opacity-100 transition-opacity duration-200" 
+                    alt="Línea rosa">
+                </a>
+            </span>
+            <div class="absolute left-0 top-full mt-3 z-50 w-300px bg-white opacity-0 invisible translate-y-1 transition-all 
+            duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
+                <!-- Color de fondo bg-[rgb(195,214,219)] Y texto en blanco cuando estés dentro del enlace indicando donde estás -->
+                <a href="hacemos/bosques.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
+                hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)]">BOSQUES</a>
+                <a href="hacemos/biodiversidad.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] 
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">BIODIVERSIDAD</a>
+                <a href="hacemos/clima.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] 
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">CLIMA</a>
+                <a href="hacemos/comunidades.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] 
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">COMUNIDADES LOCALES</a>
+                <a href="hacemos/fuentes_agua.php" class="block px-6 py-3 text-[14px] leading-[1.4] tracking-[1.5px] 
+                text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] transition-colors duration-200">FUENTES DE 
+                AGUA Y SEGURIDAD HÍDRICA</a>
+            </div>
+        </div>
         <span><a href="#">NUESTRO IMPACTO</a></span>
         <span><a href="#">QUIÉNES SOMOS</a></span>
         <span><a href="#">DÓNDE TRABAJAMOS</a></span>

@@ -90,7 +90,7 @@
             py-2 pl-4 pr-4">Notice at collection </a>
 
             <a href="" class="inline-flex items-center border border-black text-black hover:bg-[rgb(228,230,232)] hover:text-black
-            py-2 pl-4 pr-4">Your Privacy Choices <img src="/imagenes/imagenes_principal/visto_no.png" class="w-9 ml-3"></a>
+            py-2 pl-4 pr-4">Your Privacy Choices <img src="/imagenes/imagenes_principal/visto_no-removebg-preview.png" class="w-9 ml-3"></a>
         </div>
     </div>
 </footer>
