@@ -16,20 +16,36 @@
             <div class="absolute left-0 top-full mt-3 z-50 w-300px bg-white opacity-0 invisible translate-y-1 transition-all 
             duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
                 <!-- Color de fondo bg-[rgb(195,214,219)] Y texto en blanco cuando estés dentro del enlace indicando donde estás -->
-                <a href="hacemos/bosques.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
+                <a href="/pages/hacemos/bosques.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
                 hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)]
                 <?= basename($_SERVER['PHP_SELF']) === 'bosques.php'
                     ? '!bg-[rgb(176,190,175)] !text-white'
                     : '' 
                 ?>">BOSQUES</a>
-                <a href="hacemos/biodiversidad.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] 
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">BIODIVERSIDAD</a>
-                <a href="hacemos/clima.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] 
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">CLIMA</a>
-                <a href="hacemos/comunidades.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] 
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">COMUNIDADES LOCALES</a>
-                <a href="hacemos/fuentes_agua.php" class="block px-6 py-3 text-[14px] leading-[1.4] tracking-[1.5px] 
-                text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] transition-colors duration-200">FUENTES DE 
+                <a href="/pages/hacemos/biodiversidad.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] 
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'biodiversidad.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">BIODIVERSIDAD</a>
+                <a href="/pages/hacemos/clima.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] 
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'clima.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">CLIMA</a>
+                <a href="/pages/hacemos/comunidades.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] 
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'comunidades.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">COMUNIDADES LOCALES</a>
+                <a href="/pages/hacemos/fuentes_agua.php" class="block px-6 py-3 text-[14px] leading-[1.4] tracking-[1.5px] 
+                text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'fuentes_agua.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">FUENTES DE 
                 AGUA Y SEGURIDAD HÍDRICA</a>
             </div>
         </div>
@@ -43,12 +59,24 @@
             <div class="absolute left-0 top-full mt-3 z-50 w-300px bg-white opacity-0 invisible translate-y-1 transition-all 
             duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
                 <!-- Color de fondo bg-[rgb(195,214,219)] Y texto en blanco cuando estés dentro del enlace indicando donde estás -->
-                <a href="hacemos/bosques.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
-                hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase">Iniciativas de Conservación</a>
-                <a href="hacemos/biodiversidad.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200 ">Noticias e Historias</a>
-                <a href="hacemos/clima.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">30 Años</a>
+                <a href="/pages/impacto/conservacion.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
+                hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase
+                <?= basename($_SERVER['PHP_SELF']) === 'conservacion.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">Iniciativas de Conservación</a>
+                <a href="/pages/impacto/historias.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'historias.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">Noticias e Historias</a>
+                <a href="/pages/impacto/años.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'años.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">30 Años</a>
             </div>
         </div>
         <div class="relative group">
@@ -61,14 +89,30 @@
             <div class="absolute left-0 top-full mt-3 z-50 w-300px bg-white opacity-0 invisible translate-y-1 transition-all 
             duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
                 <!-- Color de fondo bg-[rgb(195,214,219)] Y texto en blanco cuando estés dentro del enlace indicando donde estás -->
-                <a href="hacemos/bosques.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
-                hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase ">Nuestro enfoque y visión </a>
-                <a href="hacemos/biodiversidad.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] 
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200 uppercase">Nuestro equipo</a>
-                <a href="hacemos/clima.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">Nuestra Junta Directiva</a>
-                <a href="hacemos/comunidades.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">Trabaja con nosotros</a>
+                <a href="/pages/somos/vision.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
+                hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase
+                <?= basename($_SERVER['PHP_SELF']) === 'vision.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">Nuestro enfoque y visión </a>
+                <a href="/pages/somos/equipo.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] 
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200 uppercase
+                <?= basename($_SERVER['PHP_SELF']) === 'equipo.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">Nuestro equipo</a>
+                <a href="/pages/somos/directiva.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'directiva.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">Nuestra Junta Directiva</a>
+                <a href="/pages/somos/nostros.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'nostros.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">Trabaja con nosotros</a>
             </div>
         </div>
         <div class="relative group">
@@ -81,16 +125,36 @@
             <div class="absolute left-0 top-full mt-3 z-50 w-300px bg-white opacity-0 invisible translate-y-1 transition-all 
             duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
                 <!-- Color de fondo bg-[rgb(195,214,219)] Y texto en blanco cuando estés dentro del enlace indicando donde estás -->
-                <a href="hacemos/bosques.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
-                hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase">ECUADOR</a>
-                <a href="hacemos/biodiversidad.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] 
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200 uppercase">PERÚ</a>
-                <a href="hacemos/clima.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase 
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">MÉXICO</a>
-                <a href="hacemos/comunidades.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
-                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">COLOMBIA</a>
-                <a href="hacemos/fuentes_agua.php" class="block px-6 py-3 text-[15px] leading-[1.4] tracking-[1.5px] uppercase
-                text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] transition-colors duration-200">BOLIVIA</a>
+                <a href="/pages/trabajamos/ecuador.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
+                hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase
+                <?= basename($_SERVER['PHP_SELF']) === 'ecuador.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">ECUADOR</a>
+                <a href="/pages/trabajamos/peru.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] 
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200 uppercase
+                <?= basename($_SERVER['PHP_SELF']) === 'peru.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">PERÚ</a>
+                <a href="/pages/trabajamos/mexico.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase 
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'mexico.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">MÉXICO</a>
+                <a href="/pages/trabajamos/colombia.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
+                hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'colombia.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">COLOMBIA</a>
+                <a href="/pages/trabajamos/bolivia.php" class="block px-6 py-3 text-[15px] leading-[1.4] tracking-[1.5px] uppercase
+                text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] transition-colors duration-200
+                <?= basename($_SERVER['PHP_SELF']) === 'bolivia.php'
+                    ? '!bg-[rgb(176,190,175)] !text-white'
+                    : '' 
+                ?>">BOLIVIA</a>
             </div>
         </div>
     </div>
