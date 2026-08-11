@@ -284,7 +284,7 @@
                     <span class="text-[rgb(72,81,79)] font-semibold">Tu apoyo marca la diferencia para <br>las generaciones de hoy y mañana.
                     </span>
                 </p>
-                <!-- El botón se mantiene corto y alineado con self-start -->
+                <!-- Botón -->
                 <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-6 py-3 rounded-full 
                     font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-sm">Ingresa Aquí</span>
                 </a>

@@ -34,17 +34,17 @@
     style="margin-top: -10px;"> 
 
     <!-- Contenedor Nuestro Trabajo -->
-    <section class="container mx-auto flex flex-col justify-start items-start my-6 space-y-4 mt-20 px-6 max-w-4xl text-left">  
+    <section class="container mx-auto flex flex-col justify-start items-start my-6 space-y-4 py-10 px-6 max-w-4xl text-left">  
         <!-- Título verde pequeño -->
         <h2 class="text-4xl text-[rgb(15,125,63)] tracking-wider uppercase">NUESTRO TRABAJO</h2>
         <!-- Subtítulo grande -->
         <h3 class="text-3xl text-[rgb(72,81,79)] font-normal leading-tight">Protección de bosques saludables y conectados</h3>
         <!-- Párrafo destacado (más grande) -->
-        <p class="font-light text-[16px]">Naturaleza y Cultura trabaja por proteger grandes extensiones de bosques. 
+        <p class="font-light text-[16px] text-[rgb(72,81,79)]">Naturaleza y Cultura trabaja por proteger grandes extensiones de bosques. 
             Ecosistemas críticos que sustentan la biodiversidad, regulan el clima, proveen agua limpia y apoyan a las comunidades 
             indígenas y locales.</p>
         <!-- Párrafo normal -->
-        <p class="text-[16px] text-gray-600">Al conservar paisajes extensos, salvaguardamos corredores biológicos esenciales, 
+        <p class="text-[16px] text-[rgb(72,81,79)]">Al conservar paisajes extensos, salvaguardamos corredores biológicos esenciales, 
             prevenimos la deforestación y fortalecemos la resiliencia de los ecosistemas, garantizando que la naturaleza prospere para las 
             generaciones futuras.</p>
         <!-- Último párrafo en verde destacado -->
@@ -53,12 +53,141 @@
     </section>
 
     <!-- Contenedor Programas Destacados -->
-     <section class="container mx-auto">
+    <section class="relative container mx-auto px-4 py-8">
+        <!-- Imagen decorativa a la izquierda alineada con la altura del título -->
+        <div class="absolute left-0 top-12 hidden lg:block w-32 pointer-events-none ml-3.5 -mt-2">
+            <img src="../../imagenes/imagenes_bosque/nci-cp-illustration1-countryp.png" alt="Decoración lateral" 
+            class="w-full h-auto object-contain">
+        </div>
 
-     </section>
+        <!-- Cabecera de la sección: Título + Línea a la izquierda, Botón a la derecha -->
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-center mb-10 pl-0 lg:pl-36">
+            <div>
+                <h2 class="text-3xl font-normal text-[rgb(72,81,79)]">Programas Destacados</h2>
+                <!-- Imagen de la línea debajo del título -->
+                <img src="../../imagenes/imagenes_bosque/linea_beige.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
+            </div>
+            <!-- Botón a la derecha alineado al final -->
+            <a href="#" class="mt-4 md:mt-0 bg-[rgb(72,81,79)] text-white px-6 py-3 rounded-full hover:bg-[rgb(31,72,34)] 
+                font-medium text-sm transition"> Explora todos los programas
+            </a>
+        </div>
+
+        <!-- Contenedor de las Tarjetas (Alineado con el contenido) -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pl-0 lg:pl-36">
+            <!-- Tarjeta 1 -->
+            <div class="flex flex-col items-center">
+                <div class="relative w-full">
+                    <img src="../../imagenes/imagenes_bosque/carousel1.webp" alt="Programa 1" class="w-full h-96 object-cover">
+                            <span class="absolute top-2 right-2 bg-red-600 text-white text-[10px] px-2 py-0.5">URGENT</span>
+                </div>
+                <div class="p-4 text-center">
+                    <p class="text-xs text-[rgb(31,72,34)] mb-1"><img src="../../imagenes/imagenes_bosque/ubicacion.jpg" 
+                    alt="Ubicación" class="w-5 h-6 inline-block"> ECUADOR, PERÚ</p>
+                    <div class="flex justify-center gap-2 mb-2 py-4 uppercase">
+                                <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BIODIVERSIDAD</span>
+                                <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
+                    </div>
+                    <h3 class="font-medium text-[rgb(72,81,79)] text-[22px]">Corredor de Conservación Transfronterizo Andino Amazónico</h3>
+                    <!-- Botón -->
+                    <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-8 py-2 rounded-full 
+                        font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-[14px] font-serif">Ver más</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tarjeta 2 -->
+            <div class="flex flex-col items-center">
+                <div class="relative w-full">
+                    <img src="../../imagenes/imagenes_bosque/carousel2.jpg" alt="Programa 2" class="w-full h-96 object-cover">
+                    <span class="absolute top-2 right-2 bg-red-600 text-white text-[10px] px-2 py-0.5">URGENT</span>
+                </div>
+                <div class="p-4 text-center">
+                        <p class="text-xs text-[rgb(31,72,34)] mb-1"><img src="../../imagenes/imagenes_bosque/ubicacion.jpg" 
+                        alt="Ubicación" class="w-5 h-6 inline-block"> ECUADOR</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                    <div class="flex justify-center gap-2 mb-2 py-4 uppercase"> 
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">AGUA</span>
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Comunidades Locales</span>
+                    </div>
+                    <h3 class="font-medium text-[rgb(72,81,79)] text-[22px]">Conservación de Fuentes de Agua</h3>
+                        <!-- Botón -->
+                    <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-8 py-2 rounded-full 
+                        font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-[14px] font-serif">Ver más</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tarjeta 3 -->
+            <div class="flex flex-col items-center">
+                <div class="relative w-full">
+                    <img src="../../imagenes/imagenes_bosque/carousel3.webp" alt="Programa 3" class="w-full h-96 object-cover">
+                </div>
+                <div class="p-4 text-center">
+                    <p class="text-xs text-[rgb(31,72,34)] mb-1"><img src="../../imagenes/imagenes_bosque/ubicacion.jpg" 
+                    alt="Ubicación" class="w-5 h-6 inline-block "> PERÚ</p>
+                    <div class="flex justify-center gap-2 mb-2 py-4 uppercase">
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BIODIVERSIDAD</span>
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
+                    </div>
+                    <h3 class="font-medium text-[rgb(72,81,79)] text-[22px] ">Bosques Secos del Marañón</h3>
+                    <!-- Botón -->
+                    <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-8 py-2 rounded-full 
+                        font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-[14px] font-serif">Ver más</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tarjeta 4 -->
+            <div class="flex flex-col items-center">
+                <div class="relative w-full">
+                    <img src="../../imagenes/imagenes_bosque/carousel4.webp" alt="Programa 2" class="w-full h-96 object-cover">
+                </div>
+                <div class="p-4 text-center">
+                    <p class="text-xs text-[rgb(31,72,34)] mb-1"><img src="../../imagenes/imagenes_bosque/ubicacion.jpg" 
+                    alt="Ubicación" class="w-5 h-6 inline-block"> ECUADOR</p>
+                    <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                    <div class="flex justify-center gap-2 mb-2 py-4 uppercase"> 
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Clima</span>
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Comunidades Locales</span>
+                    </div>
+                    <h3 class="font-medium text-[rgb(72,81,79)] text-[22px]">Plataforma Amazónica por los Bosques, el Clima y 
+                    el Bienestar Humano</h3>
+                    <!-- Botón -->
+                    <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-8 py-2 rounded-full 
+                        font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-[14px] font-serif">Ver más</span>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Tarjeta 5 -->
+            <div class="flex flex-col items-center">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/imagenes_bosque/carousel5.webp" alt="Programa 2" class="w-full h-96 object-cover">
+                    </div>
+                    <div class="p-4 text-center">
+                        <p class="text-xs text-[rgb(31,72,34)] mb-1"><img src="../../imagenes/imagenes_bosque/ubicacion.jpg" 
+                        alt="Ubicación" class="w-5 h-6 inline-block"> ECUADOR</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex justify-center gap-2 mb-2 py-4 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">CLIMA</span>
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Comunidades Locales</span>
+                        </div>
+                        <h3 class="font-medium text-[rgb(72,81,79)] text-[22px]">Fondo Futuro Amazónico</h3>
+                        <!-- Botón -->
+                        <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-8 py-2 rounded-full 
+                            font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-[14px] font-serif">Ver más</span>
+                        </a>
+                    </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Contenedor Creando y Fortaleciendo Áreas Protegidas -->
-    <section class="container mx-auto py-12 px-6 max-w-4xl">
+    <section class="container mx-auto py-7 px-6 max-w-4xl">
         <!-- Contenido a la derecha -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
             <!-- COLUMNA IZQUIERDA: Textos -->
@@ -89,7 +218,7 @@
     </section>
 
     <!-- Contenedor Conservación liderada por las personas -->
-    <section class="w-full bg-[rgb(244,244,237)] py-8 px-6">
+    <section class="w-full bg-[rgb(244,244,237)] py-10 px-6">
         <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl ">
             <!-- COLUMNA IZQUIERDA: Imagen -->
             <div class="w-full">
@@ -143,7 +272,7 @@
     </section>
 
     <!-- Contenedor Trabajamos en los ecosistemas más biodiversos -->
-    <section class="container mx-auto flex flex-col justify-start items-start my-6 space-y-4 pb-12 px-6 max-w-4xl text-left">
+    <section class="container mx-auto flex flex-col justify-start items-start my-6 space-y-4 py-8 px-6 max-w-4xl text-left">
         <!-- Título verde pequeño -->
         <h2 class="text-3xl text-[rgb(72,81,79)] tracking-wider uppercase">Ecosistemas que protegemos</h2>
         <!-- Subtítulo grande -->
@@ -156,7 +285,7 @@
         </p>
     </section>
 
-    <section class="container mx-auto max-w-5xl my-12 px-6">
+    <section class="container mx-auto max-w-5xl px-6 py-8">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <!-- CAJA 1: Selva Amazónica -->
             <div class="group relative overflow-hidden h-96 bg-gray-900">
@@ -259,7 +388,7 @@
     </section>
 
     <!-- Contenedor Previniendo pérdidas irreemplazables -->
-    <section class="container mx-auto relative z-0 pt-10">
+    <section class="container mx-auto relative z-0 py-6">
         <!-- La línea con el color de fondo colocada encima y solapada con un margen inferior negativo -->
         <img src="../../imagenes/imagenes_bosque/linea01.png" alt="Línea divisoria" class="block w-full h-auto relative z-20" 
         style="margin-bottom: -10px;"> 
@@ -293,7 +422,7 @@
     </section>
 
     <!-- Contenedor Cómo puedes ayudar -->
-    <section class="container mx-auto py-12 px-6 max-w-6xl">
+    <section class="container mx-auto py-8 px-6 max-w-6xl">
         <!-- Contenido a la derecha -->
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
             <!-- COLUMNA IZQUIERDA: Imagen -->
