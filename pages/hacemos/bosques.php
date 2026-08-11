@@ -159,16 +159,18 @@
     <section class="container mx-auto max-w-5xl my-12 px-6">
         <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
             <!-- CAJA 1: Selva Amazónica -->
-           <div class="group relative overflow-hidden h-72 bg-gray-900">
+            <div class="group relative overflow-hidden h-96 bg-gray-900">
                 <!-- Imagen de fondo -->
                 <img src="../../imagenes/imagenes_bosque/caja1.webp" alt="Páramos" 
                     class="absolute inset-0 h-full w-full object-cover opacity-70 transition-all duration-500 group-hover:opacity-100 
                     group-hover:scale-105">
                 <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 z-10 w-full p-6 text-white">
-                    <h3 class="text-xl font-bold">Selva Amazónica</h3>
-                    <p class="mt-2 text-[14px] ">
-                        La <em>selva amazónica</em> es el bosque tropical más extenso de la Tierra y posee la mayor densidad de especies vegetales y animales.
+                    <div class="absolute inset-x-0 top-3 bottom-0 bg-black/60"></div>
+                    <h3 class="relative z-10 text-xl font-bold">Selva Amazónica</h3>
+                    <p class="relative z-10 mt-2 text-[14px]">
+                        La <em>selva amazónica</em> es el bosque tropical más extenso de la Tierra y alberga una gran diversidad de especies y 
+                        vegetales, además de pueblos indígenas.
                     </p>
                 </div>
                 <div class="absolute bottom-0 left-0 z-20 h-1.5 w-full origin-left scale-x-0 bg-[#f58320] transition-transform 
@@ -176,15 +178,16 @@
             </div>
 
             <!-- CAJA 2: Bosque Nuboso Andino -->
-          <div class="group relative overflow-hidden h-72 bg-gray-900">
+            <div class="group relative overflow-hidden h-96 bg-gray-900">
                 <!-- Imagen de fondo -->
                 <img src="../../imagenes/imagenes_bosque/caja2.webp" alt="Páramos" 
                     class="absolute inset-0 h-full w-full object-cover opacity-70 transition-all duration-500 group-hover:opacity-100 
                     group-hover:scale-105">
                 <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 z-10 w-full p-6 text-white">
-                    <h3 class="text-xl font-bold">Bosque Nuboso Andino</h3>
-                    <p class="mt-2 text-[14px]">
+                    <div class="absolute inset-x-0 top-3 bottom-0 bg-black/50"></div>
+                    <h3 class="relative z-10 text-xl font-bold">Bosque Nuboso Andino</h3>
+                    <p class="relative z-10 mt-2 text-[14px]">
                         Los <em>bosques nublados andinos</em>  albergan el mayor número de especies endémicas: plantas y animales que no se encuentran en ningún otro 
                         lugar del mundo.
                     </p>
@@ -194,15 +197,16 @@
             </div>
 
             <!-- CAJA 3: Páramos -->
-            <div class="group relative overflow-hidden h-72 bg-gray-900">
+            <div class="group relative overflow-hidden h-96 bg-gray-900">
                 <!-- Imagen de fondo -->
                 <img src="../../imagenes/imagenes_bosque/caja3.webp" alt="Páramos" 
                     class="absolute inset-0 h-full w-full object-cover opacity-70 transition-all duration-500 group-hover:opacity-100 
                     group-hover:scale-105">
                 <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 z-10 w-full p-6 text-white">
-                    <h3 class="text-xl font-bold">Páramos</h3>
-                    <p class="mt-2 text-[14px]">
+                    <div class="absolute inset-x-0 top-3 bottom-0 bg-black/50"></div>
+                    <h3 class="relative z-10 text-xl font-bold">Páramos</h3>
+                    <p class="relative z-10 mt-2 text-[14px]">
                         Los <em>páramos</em> son ecosistemas de pastizales de alta altitud situados por encima del límite de vegetación 
                         arbórea, pero por debajo de la línea de nieve...
                     </p>
@@ -210,13 +214,46 @@
                 <div class="absolute bottom-0 left-0 z-20 h-1.5 w-full origin-left scale-x-0 bg-[#f58320] transition-transform 
                 duration-500 group-hover:scale-x-100"></div>
             </div>
-            <!-- CAJA 4  -->
-             <div class="md:col-span-2">
 
-            </div>
-            <!-- CAJA 5  -->
-            <div class="md:col-span-2">
+            <!-- CONTENEDOR CAJAS 4 Y 5 -->
+            <div class="col-span-3 flex justify-center gap-4">
+                <!-- CAJA 4 -->
+                <div class="group relative overflow-hidden h-96 bg-gray-900 w-96">
+                    <!-- Imagen de fondo -->
+                    <img src="../../imagenes/imagenes_bosque/caja4.webp" alt="Páramos" 
+                        class="absolute inset-0 h-full w-full object-cover opacity-70 transition-all duration-500 group-hover:opacity-100 
+                        group-hover:scale-105">
+                    <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 z-10 w-full p-6 text-white">
+                        <div class="absolute inset-x-0 top-3 bottom-0 bg-black/60"></div>
+                        <h3 class="relative z-10 text-xl font-bold">Bosques Secos Tropicales</h3>
+                        <p class="relative z-10 mt-2 text-[14px]">
+                            Los <em>bosques tropicales caducifolios (o secos)</em> albergan una amplia gama de especies con adaptaciones 
+                            únicas. Trabajamos con las comunidades locales para conservar estos bosques frágiles.
+                        </p>
+                    </div>
+                    <div class="absolute bottom-0 left-0 z-20 h-1.5 w-full origin-left scale-x-0 bg-[#f58320] transition-transform 
+                    duration-500 group-hover:scale-x-100"></div>
+                </div>
 
+                <!-- CAJA 5 -->
+                <div class="group relative overflow-hidden h-96 bg-gray-900 w-96">
+                    <!-- Imagen de fondo -->
+                    <img src="../../imagenes/imagenes_bosque/caja5.webp" alt="Páramos" 
+                        class="absolute inset-0 h-full w-full object-cover opacity-70 transition-all duration-500 group-hover:opacity-100 
+                        group-hover:scale-105">
+                    <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 z-10 w-full p-6 text-white">
+                        <div class="absolute inset-x-0 top-3 bottom-0 bg-black/40"></div>
+                        <h3 class="relative z-10 text-xl font-bold">Ecosistemas Marinos y Costeros</h3>
+                        <p class="relative z-10 mt-2 text-[14px]">
+                            Los <em>manglares, estuarios, lagunas y océanos</em> sustentan las pesquerías y aportan agua dulce para los 
+                            humedales. Son clave por su biodiversidad marina y para aves migratorias.
+                        </p>
+                    </div>
+                    <div class="absolute bottom-0 left-0 z-20 h-1.5 w-full origin-left scale-x-0 bg-[#f58320] transition-transform 
+                    duration-500 group-hover:scale-x-100"></div>
+                </div>
             </div>
         </div>
     </section>
