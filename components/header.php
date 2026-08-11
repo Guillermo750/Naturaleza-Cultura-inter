@@ -1,7 +1,7 @@
 <!-- MENÚ -->
 <nav class="sticky top-0 left-0 right-0 z-50 bg-white flex justify-around pb-4 pt-3">
     <div class="flex">
-        <a href="../pages/principal.php"><img src="/logo/logoespanol.png" alt="Naturaleza y Cultura Internacional" class="w-36"></a>
+        <a href="/pages/principal.php"><img src="/logo/logoespanol.png" alt="Naturaleza y Cultura Internacional" class="w-36"></a>
     </div>
     <div class="flex items-center  space-x-4 w-2/1 font-semibold text-[rgb(72,81,79)] text-[14px] -mt-6">
         <div class="relative group">
