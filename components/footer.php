@@ -1,96 +1,104 @@
 <!-- CONTENEDOR FOOTER  -->
 <!-- Bloque Superior del Footer -->
-<section class="flex justify-between mt-16 mx-48 mb-12">
-    <div class="flex flex-col space-y-4 text-[rgb(72,81,79)] font-normal text-[14px] uppercase">
-        <span><a href="">Informes <br>Financieros y <br>Reportes</a></span>
-        <span><a href="">Medios de <br>Comunicación</a></span>
-        <span><a href="">Publicaciones</a></span>
-        <span><a href="">Investigaciones</a></span>
-        <span><a href="">Contáctanos</a></span>
-        <span><a href="">Políticas de <br>Privacidad</a></span>
-        <!-- Línea Separatoria Corregida -->
-        <div class="w-full h-px bg-[rgb(195,214,219)] my-8"></div>
-        <!-- Bloque inferior en minúsculas (normal-case) para anular el uppercase del contenedor principal -->
-        <div class="normal-case text-[rgb(43,58,66)] space-y-3">
-            <span class="block font-semibold text-[12px]">Naturaleza y Cultura <br>Internacional</span>
-            <p class="text-[11px] text-[rgb(118,124,123)] leading-relaxed">Naturaleza y Cultura <br>Internacional es una <br>organización no <br>gubernamental 501 (c) (e)</p>
-            <p class="text-[11px] text-[rgb(118,124,123)]">EIN: 33-0773524</p>
-        </div>
-    </div>
-    <div class="flex flex-col space-y-4 font-normal">
-        <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Dirección</span>
-        <span class="text-[rgb(43,58,66)] font-semibold text-[15px]">1400 Maiden Lane <br>Del Mar, CA 92014, USA</span>
-        <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Llámanos</span>
-        <span><a href="" class="text-[rgb(43,58,66)] hover:underline text-[15px]">+1 (858) 259-0374</a></span>
-        <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Escríbenos</span>
-        <span><a href="" class="text-[rgb(43,58,66)] hover:underline text-[15px]">hola@naturalezaycultura.org </a></span>
-        <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Síguenos en Redes Sociales</span>
-        <div class="flex items-center space-x-4">
-            <i class="fa-brands fa-facebook-f block text-[rgb(33,37,41)] text-[16px]" alt="Facebook" width="20px" height="20px"></i>
-            <i class="fa-brands fa-x-twitter block text-[rgb(33,37,41)] text-[20px]" alt="Twitter" width="20px" height="20px"></i>
-            <i class="fa-brands fa-instagram block text-[rgb(33,37,41)] text-[20px]" alt="Instagram" width="20px" height="20px"></i>
-            <i class="fa-brands fa-youtube block text-[rgb(33,37,41)] text-[20px]" alt="YouTube" width="20px" height="20px"></i>
-            <i class="fa-brands fa-linkedin-in block text-[rgb(33,37,41)] text-[20px]" alt="LinkedIn" width="20px" height="20px"></i>
-        </div>
-    </div>
-    <div class="flex flex-col space-y-6">
-        <img src="/imagenes/imagenes_principal/imagen33.webp" alt="" class="w-20 h-15">
-        <img src="/imagenes/imagenes_principal/imagen32.png" alt="" class="w-20 h-15">
-        <img src="/imagenes/imagenes_principal/imagen34.webp" alt="" class="w-20 h-15">
-    </div>
-    <div class="flex flex-col items-center space-y-4 ">
-        <div class="w-full max-w-280px text-center px-1">
-            <span class="text-[rgb(15,125,63)] text-[14px] uppercase">Historias reales. Impacto real.</span>
-            <h2 class="text-[rgb(72,81,79)] text-[32px] font-semibold">Suscríbete a<br>nuestro boletín!</h2>
-            <p class="text-[rgb(118,124,123)] text-[18px] font-normal">Sign up to get email<br>updates</p>
-        </div>
-        <div class="flex flex-col items-center justify-center text-center">
-            <form class="p-2 w-full mx-8 flex flex-col items-center">
-                <div class="mb-2 w-full flex justify-center">
-                    <input type="text" id="nombre" name="nombre" class="mt-1 pl-4 py-3 block w-full 
-                    border border-[rgb(180,185,184)] rounded-md text-[rgb(118,124,123)]" placeholder="Nombre (*)">
-                </div>
-                <div class="mb-4 w-full flex justify-center">
-                        <input type="text" id="apellido" name="apellido" class="mt-1 pl-4 py-3 block w-full
-                        border border-[rgb(180,185,184)] rounded-md text-[rgb(118,124,123)]" placeholder="Apellido (*)">
-                </div>
-                <div class="mb-4 w-full flex justify-center">
-                        <input type="email" id="email" name="email" class="mt-1 pl-4 py-3 block w-full
-                        border border-[rgb(180,185,184)] rounded-md text-[rgb(118,124,123)]" placeholder="Email (*)">
-                </div>
-                <div class="mt-1 w-full flex justify-center">
-                    <div class="flex justify-center"> <!-- Añadido mt-4 para separar el botón -->
-                        <button type="submit" class="border-2 bg-white py-3 px-12 text-[rgba(58,99,56)] rounded-md 
-                            hover:bg-[rgb(48,59,67)] border-[rgb(62,103,60)] text-[20px] font-semibold hover:text-white">Inscríbeme</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>   
-</section>
-
-<!-- Bloque Inferior del PIE DE PÁGINA -->
-<footer class="mx-48 mb-12 text-[12px] text-[rgb(118,124,123)] font-normal">
-    <!-- Línea separadora larga horizontal -->
-    <div class="w-full h-px bg-[rgb(215,219,218)] my-8"></div>
-        <!-- Contenedor para distribuir los textos a los extremos -->
-        <div class="flex justify-between items-center">
-            <!-- Texto Izquierdo (Derechos de autor) -->
-            <span class="">© 2025 Nature and Culture International</span>
-            <!-- Texto Derecho (Créditos) -->
-            <!-- Texto Derecho con 'by' limpio y gris -->
-            <div class="flex items-center space-x-1">
-                <a href="#" class="hover:underline text-[rgb(72,81,79)] font-semibold">Nonprofit Marketing Agency</a>
-                <span class="text-[rgb(118,124,123)] font-normal no-underline">by</span>
-                <a href="#" class="hover:underline text-[rgb(72,81,79)] font-semibold">Elevation Web</a>
+    <section class="w-full overflow-hidden flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-between items-center md:items-start text-center md:text-left mt-16 px-4 md:px-12 lg:px-48 mb-12 gap-8 md:gap-4">
+        <!-- Columna 1 -->
+        <div class="flex flex-col space-y-4 text-[rgb(72,81,79)] font-normal text-[14px] uppercase items-center text-center 
+        md:items-start md:text-left w-full max-w-full md:w-auto">
+            <span class="block w-full"><a href="">Informes <br class="hidden md:block">Financieros y <br class="hidden md:block">Reportes</a></span>
+            <span class="block w-full"><a href="">Medios de <br class="hidden md:block">Comunicación</a></span>
+            <span class="block w-full"><a href="">Publicaciones</a></span>
+            <span class="block w-full"><a href="">Investigaciones</a></span>
+            <span class="block w-full"><a href="">Contáctanos</a></span>
+            <span class="block w-full"><a href="">Políticas de <br class="hidden md:block">Privacidad</a></span>
+            <!-- Línea Separatoria -->
+            <div class="w-full h-px bg-[rgb(195,214,219)] my-8"></div>
+            <!-- Bloque inferior -->
+            <div class="normal-case text-[rgb(43,58,66)] space-y-3 w-full">
+                <span class="block font-semibold text-[12px]">Naturaleza y Cultura <br class="hidden md:block">Internacional</span>
+                <p class="text-[11px] text-[rgb(118,124,123)] leading-relaxed">Naturaleza y Cultura <br class="hidden md:block">Internacional es una <br class="hidden md:block">organización <br class="hidden md:block">no <br class="hidden md:block">gubernamental 501 (c) (e)</p>
+                <p class="text-[11px] text-[rgb(118,124,123)]">EIN: 33-0773524</p>
             </div>
         </div>
-        <div class="flex justify-center mt-6 text-[15px] font-bold">
-            <a href="" class="inline-block border border-black text-[rgb(15,125,63)] hover:bg-[rgb(228,230,232)] hover:text-black
-            py-2 pl-4 pr-4">Notice at collection </a>
 
-            <a href="" class="inline-flex items-center border border-black text-black hover:bg-[rgb(228,230,232)] hover:text-black
-            py-2 pl-4 pr-4">Your Privacy Choices <img src="/imagenes/imagenes_principal/visto_no-removebg-preview.png" class="w-9 ml-3"></a>
+        <!-- Columna 2 -->
+        <div class="flex flex-col justify-center items-center space-y-4 font-normal text-center w-full max-w-full md:w-auto">
+            <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Dirección</span>
+            <span class="text-[rgb(43,58,66)] font-semibold text-[15px] block w-full">1400 Maiden Lane <br>Del Mar, CA 92014, USA</span>
+            <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Llámanos</span>
+            <span class="block w-full"><a href="" class="text-[rgb(43,58,66)] hover:underline text-[15px]">+1 (858) 259-0374</a></span>
+            <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Escríbenos</span>
+            <span class="block w-full"><a href="" class="text-[rgb(43,58,66)] hover:underline text-[15px] break-all">hola@naturalezaycultura.org</a></span>
+            <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Síguenos en Redes Sociales</span>
+            <div class="flex flex-row items-center space-x-4 justify-center">
+                <i class="fa-brands fa-facebook-f block text-[rgb(33,37,41)] text-[16px]" alt="Facebook" width="20px" height="20px"></i>
+                <i class="fa-brands fa-x-twitter block text-[rgb(33,37,41)] text-[20px]" alt="Twitter" width="20px" height="20px"></i>
+                <i class="fa-brands fa-instagram block text-[rgb(33,37,41)] text-[20px]" alt="Instagram" width="20px" height="20px"></i>
+                <i class="fa-brands fa-youtube block text-[rgb(33,37,41)] text-[20px]" alt="YouTube" width="20px" height="20px"></i>
+                <i class="fa-brands fa-linkedin-in block text-[rgb(33,37,41)] text-[20px]" alt="LinkedIn" width="20px" height="20px"></i>
+            </div>
         </div>
+
+        <!-- Columna 3 -->
+        <div class="flex flex-col space-y-6 items-center justify-center w-full max-w-full md:w-auto">
+            <img src="/imagenes/imagenes_principal/imagen33.webp" alt="" class="w-20 h-15 shrink-0 object-contain">
+            <img src="/imagenes/imagenes_principal/imagen32.png" alt="" class="w-20 h-15 shrink-0 object-contain">
+            <img src="/imagenes/imagenes_principal/imagen34.webp" alt="" class="w-20 h-15 shrink-0 object-contain">
+        </div>
+
+        <!-- Columna 4 -->
+        <div class="flex flex-col items-center space-y-4 w-full max-w-full md:w-auto">
+            <div class="w-full text-center px-2">
+                <span class="text-[rgb(15,125,63)] text-[14px] uppercase block">Historias reales. Impacto real.</span>
+                <h2 class="text-[rgb(72,81,79)] text-[32px] font-semibold leading-tight">Suscríbete a<br>nuestro boletín!</h2>
+                <p class="text-[rgb(118,124,123)] text-[18px] font-normal">Sign up to get email<br>updates</p>
+            </div>
+            <div class="flex flex-col items-center justify-center text-center w-full px-2">
+                <form class="p-2 w-full flex flex-col items-center max-w-xs mx-auto">
+                    <div class="mb-2 w-full">
+                        <input type="text" id="nombre" name="nombre" class="pl-4 py-3 block w-full border border-[rgb(180,185,184)] rounded-md text-[rgb(118,124,123)]" placeholder="Nombre (*)">
+                    </div>
+                    <div class="mb-4 w-full">
+                        <input type="text" id="apellido" name="apellido" class="pl-4 py-3 block w-full border border-[rgb(180,185,184)] rounded-md text-[rgb(118,124,123)]" placeholder="Apellido (*)">
+                    </div>
+                    <div class="mb-4 w-full">
+                        <input type="email" id="email" name="email" class="pl-4 py-3 block w-full border border-[rgb(180,185,184)] rounded-md text-[rgb(118,124,123)]" placeholder="Email (*)">
+                    </div>
+                    <div class="mt-1 w-full flex justify-center">
+                        <!-- Botón restaurado con tus clases originales y seguro para móviles -->
+                        <button type="submit" class="w-auto max-w-full border-2 bg-white py-3 px-12 text-[rgba(58,99,56)] rounded-md hover:bg-[rgb(48,59,67)] border-[rgb(62,103,60)] text-[20px] font-semibold hover:text-white transition-colors">Inscríbeme</button>
+                    </div>
+                </form>
+            </div>
+        </div>   
+    </section>
+
+<!-- Bloque Inferior del PIE DE PÁGINA -->
+<footer class="w-full overflow-hidden text-[12px] text-[rgb(118,124,123)] font-normal px-4 md:px-12 lg:px-48 mb-12">
+    <!-- Línea separadora larga horizontal -->
+    <div class="w-full h-px bg-[rgb(215,219,218)] my-8"></div>
+    
+    <!-- Contenedor para distribuir los textos a los extremos -->
+    <div class="flex flex-col md:flex-row justify-center md:justify-between items-center text-center md:text-left gap-4">
+        <!-- Texto Izquierdo (Derechos de autor) -->
+        <span>© 2025 Nature and Culture International</span>
+        
+        <!-- Texto Derecho (Créditos) -->
+        <div class="flex items-center justify-center space-x-1">
+            <a href="#" class="hover:underline text-[rgb(72,81,79)] font-semibold">Nonprofit Marketing Agency</a>
+            <span class="text-[rgb(118,124,123)] font-normal no-underline">by</span>
+            <a href="#" class="hover:underline text-[rgb(72,81,79)] font-semibold">Elevation Web</a>
+        </div>
+    </div>
+
+    <!-- Contenedor de enlaces con borde (Uno debajo del otro en móvil) -->
+    <div class="flex flex-col md:flex-row items-center justify-center mt-6 gap-4 md:gap-0 md:space-x-4 text-[15px] font-bold">
+        <a href="" class="inline-block border border-black text-[rgb(15,125,63)] hover:bg-[rgb(228,230,232)] hover:text-black py-2 px-4 w-full max-w-xs md:w-auto text-center">
+            Notice at collection
+        </a>
+
+        <a href="" class="inline-flex items-center justify-center border border-black text-black hover:bg-[rgb(228,230,232)] hover:text-black py-2 px-4 w-full max-w-xs md:w-auto">
+            Your Privacy Choices 
+            <img src="/imagenes/imagenes_principal/visto_no-removebg-preview.png" class="w-9 ml-3 shrink-0" alt="">
+        </a>
     </div>
 </footer>
