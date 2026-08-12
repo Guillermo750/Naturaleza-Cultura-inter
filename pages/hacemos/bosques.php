@@ -18,7 +18,7 @@
     <?php include_once "../../components/header.php"; ?>
 
     <!-- Contenedor principal Imagen de fondo + título encima encima -->
-    <section class="relative w-full h-screen bg-[url(../../imagenes/imagenes_bosque/forest.jpg)] bg-cover bg-center 
+    <section class="relative w-full h-[60vh] bg-[url(../../imagenes/imagenes_bosque/forest.jpg)] bg-cover bg-center 
              bg-no-repeat flex items-center">
         <!-- Contenedor centrado y alineado (ocupa todo el ancho máximo según la pantalla) -->
         <div class="container mx-auto px-24 mt-6 max-w-5xl">
