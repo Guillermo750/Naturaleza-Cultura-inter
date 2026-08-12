@@ -12,7 +12,7 @@
                 </a>
             </span>
             <div class="absolute left-0 top-full mt-3 z-50 w-300px bg-white opacity-0 invisible translate-y-1 transition-all 
-            duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
+                duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
                 <!-- Color de fondo bg-[rgb(195,214,219)] Y texto en blanco cuando estés dentro del enlace indicando donde estás -->
                 <a href="/pages/hacemos/bosques.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
                 hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)]
@@ -55,7 +55,7 @@
                 </a>
             </span>
             <div class="absolute left-0 top-full mt-3 z-50 w-300px bg-white opacity-0 invisible translate-y-1 transition-all 
-            duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
+                duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
                 <!-- Color de fondo bg-[rgb(195,214,219)] Y texto en blanco cuando estés dentro del enlace indicando donde estás -->
                 <a href="/pages/impacto/conservacion.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
                 hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase
@@ -85,7 +85,7 @@
                 </a>
             </span>
             <div class="absolute left-0 top-full mt-3 z-50 w-300px bg-white opacity-0 invisible translate-y-1 transition-all 
-            duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
+                duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
                 <!-- Color de fondo bg-[rgb(195,214,219)] Y texto en blanco cuando estés dentro del enlace indicando donde estás -->
                 <a href="/pages/somos/vision.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
                 hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase
@@ -121,7 +121,7 @@
                 </a>
             </span>
             <div class="absolute left-0 top-full mt-3 z-50 w-300px bg-white opacity-0 invisible translate-y-1 transition-all 
-            duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
+                duration-200 group-hover:opacity-100 group-hover:visible group-hover:translate-y-0">
                 <!-- Color de fondo bg-[rgb(195,214,219)] Y texto en blanco cuando estés dentro del enlace indicando donde estás -->
                 <a href="/pages/trabajamos/ecuador.php" class="block px-6 py-3 text-[15px] tracking-[1.5px] bg-white text-[rgb(72,81,79)]
                 hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase
@@ -187,7 +187,3 @@
         </div>
     </div>
 </nav>
-
-<section>
-
-</section>

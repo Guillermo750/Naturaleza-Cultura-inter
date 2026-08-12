@@ -15,7 +15,7 @@
 
 <body>
     <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-    
+    <?php include_once "../../components/header.php"; ?>
 
     <!-- Contenedor principal Imagen de fondo + título encima encima ADAPTADA -->
     <section class="w-full relative bg-[url(../../imagenes/imagenes_bosque/forest.jpg)] bg-cover bg-center bg-no-repeat flex items-center min-h-[50vh] md:h-[60vh] overflow-hidden pt-6 pb-12">
