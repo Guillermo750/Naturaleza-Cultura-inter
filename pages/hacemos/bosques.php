@@ -15,7 +15,7 @@
 
 <body>
     <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-    <?php include_once "../../components/header.php"; ?>
+    
 
     <!-- Contenedor principal Imagen de fondo + título encima encima ADAPTADA -->
     <section class="w-full relative bg-[url(../../imagenes/imagenes_bosque/forest.jpg)] bg-cover bg-center bg-no-repeat flex items-center min-h-[50vh] md:h-[60vh] overflow-hidden pt-6 pb-12">
@@ -374,10 +374,12 @@
         <img src="../../imagenes/imagenes_bosque/linea01.png" alt="Línea divisoria" class="absolute top-0 left-0 block w-full h-auto z-20"> 
         
         <!-- Contenedor con la imagen de fondo (Se ajustó el margen superior mt-4 para que coincida perfectamente con la línea) -->
-        <div class="w-full bg-[url('../../imagenes/imagenes_bosque/Zamora-Municipal-Conservation-and-Sustainable-Use-Area_Forest.webp')] bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 px-6 md:px-12 lg:px-48 min-h-[450px] md:h-[450px]">
+        <div class="w-full bg-[url('../../imagenes/imagenes_bosque/Zamora-Municipal-Conservation-and-Sustainable-Use-Area_Forest.webp')] 
+        bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 px-6 md:px-12 lg:px-48 min-h-112 md:h-112.5">
             
             <!-- CAPA DE OSCURECIDO DIFUMINADO -->
-            <div class="absolute inset-0 z-0 bg-black/40 md:bg-transparent" style="background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.2) 100%);"></div>
+            <div class="absolute inset-0 z-0 bg-black/40 md:bg-transparent" style="background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, 
+            rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.2) 100%);"></div>
             
             <!-- Bloque de textos -->
             <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
@@ -429,7 +431,8 @@
                     siendo fuente de vida para las generaciones presentes y futuras.
                 </p>
                 <!-- Botón adaptativo centrado en móvil / a la izquierda en escritorio -->
-                <a href="#" class="mt-6 bg-[rgb(15,125,63)] text-white inline-block px-6 py-3 rounded-full font-bold hover:bg-[rgb(31,72,34)] transition-colors self-center md:self-start flex-shrink-0">
+                <a href="#" class="mt-6 bg-[rgb(15,125,63)] text-white inline-block px-6 py-3 rounded-full font-bold 
+                hover:bg-[rgb(31,72,34)] transition-colors self-center md:self-start shrink-0">
                     <span class="text-sm">Conoce más sobre nuestro trabajo</span>
                 </a>
             </div>      
