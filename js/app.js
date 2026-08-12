@@ -3,30 +3,24 @@ document.addEventListener("DOMContentLoaded", () => {
     const hamburgerBtn = document.getElementById("hamburger-btn");
     const mobileMenu = document.getElementById("mobile-menu");
 
-    // Abre y cierra el menú completo de hamburguesa en móvil
+    // Abre y cierra el menú de hamburguesa completo
     hamburgerBtn.addEventListener("click", () => {
         mobileMenu.classList.toggle("hidden");
         mobileMenu.classList.toggle("flex");
     });
 
-    // Convierte los botones del menú superior en acordeones desplegables solo en móviles
+    // Manejo táctil de submenús tipo acordeón (solo en móviles)
     const accordionBtns = document.querySelectorAll(".menu-accordion-btn");
     accordionBtns.forEach(btn => {
         btn.addEventListener("click", (e) => {
-            if (window.innerWidth < 768) {e.preventDefault();
+            if (window.innerWidth < 768) {
+                e.preventDefault();
                 const currentSubmenu = btn.nextElementSibling;
                 currentSubmenu.classList.toggle("hidden");
             }
         });
     });
 });
-
-
-
-
-
-
-
 
 
 
