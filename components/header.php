@@ -6,11 +6,9 @@
     <div class="flex items-center  space-x-4 w-2/1 font-semibold text-[rgb(72,81,79)] text-[14px] -mt-6">
         <div class="relative group">
             <span>
-                <a href="#" class="relative inline-block py-3 px-2">
-                    QUÉ HACEMOS
-                    <img src="/imagenes/imagenes_principal/linea_rosa_06.png" 
-                    class="absolute left-0 top-full w-20 h-auto opacity-0 group-hover:opacity-100 transition-opacity duration-200" 
-                    alt="Línea rosa">
+                <a href="#" class="relative inline-block py-3 px-2">QUÉ HACEMOS
+                    <img src="/imagenes/imagenes_principal/linea_rosa_06.png" class="absolute left-0 top-full w-20 h-auto opacity-0 
+                    group-hover:opacity-100 transition-opacity duration-200"alt="Línea rosa">
                 </a>
             </span>
             <div class="absolute left-0 top-full mt-3 z-50 w-300px bg-white opacity-0 invisible translate-y-1 transition-all 
@@ -189,3 +187,7 @@
         </div>
     </div>
 </nav>
+
+<section>
+
+</section>
