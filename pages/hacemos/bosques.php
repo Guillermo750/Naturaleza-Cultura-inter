@@ -79,20 +79,16 @@
             <div class="flex flex-col items-center">
                 <div class="relative w-full">
                     <img src="../../imagenes/imagenes_bosque/carousel1.webp" alt="Programa 1" class="w-full h-96 object-cover">
-                            <span class="absolute top-2 right-2 bg-red-600 text-white text-[10px] px-2 py-0.5">URGENT</span>
+                        <span class="absolute top-2 right-2 bg-red-600 text-white text-[10px] px-2 py-0.5">URGENT</span>
                 </div>
                 <div class="p-4 text-center">
                     <p class="text-xs text-[rgb(31,72,34)] mb-1"><img src="../../imagenes/imagenes_bosque/ubicacion.jpg" 
                     alt="Ubicación" class="w-5 h-6 inline-block"> ECUADOR, PERÚ</p>
                     <div class="flex justify-center gap-2 mb-2 py-4 uppercase">
-                                <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BIODIVERSIDAD</span>
-                                <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BIODIVERSIDAD</span>
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
                     </div>
                     <h3 class="font-medium text-[rgb(72,81,79)] text-[22px]">Corredor de Conservación Transfronterizo Andino Amazónico</h3>
-                    <!-- Botón -->
-                    <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-8 py-2 rounded-full 
-                        font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-[14px] font-serif">Ver más</span>
-                    </a>
                 </div>
             </div>
 
@@ -103,22 +99,19 @@
                     <span class="absolute top-2 right-2 bg-red-600 text-white text-[10px] px-2 py-0.5">URGENT</span>
                 </div>
                 <div class="p-4 text-center">
-                        <p class="text-xs text-[rgb(31,72,34)] mb-1"><img src="../../imagenes/imagenes_bosque/ubicacion.jpg" 
-                        alt="Ubicación" class="w-5 h-6 inline-block"> ECUADOR</p>
-                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                    <p class="text-xs text-[rgb(31,72,34)] mb-1"><img src="../../imagenes/imagenes_bosque/ubicacion.jpg" 
+                    alt="Ubicación" class="w-5 h-6 inline-block"> ECUADOR</p>
+                    <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
                     <div class="flex justify-center gap-2 mb-2 py-4 uppercase"> 
                         <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">AGUA</span>
                         <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
                         <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Comunidades Locales</span>
+                        
                     </div>
                     <h3 class="font-medium text-[rgb(72,81,79)] text-[22px]">Conservación de Fuentes de Agua</h3>
-                        <!-- Botón -->
-                    <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-8 py-2 rounded-full 
-                        font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-[14px] font-serif">Ver más</span>
-                    </a>
                 </div>
             </div>
-
+                
             <!-- Tarjeta 3 -->
             <div class="flex flex-col items-center">
                 <div class="relative w-full">
@@ -132,10 +125,6 @@
                         <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
                     </div>
                     <h3 class="font-medium text-[rgb(72,81,79)] text-[22px] ">Bosques Secos del Marañón</h3>
-                    <!-- Botón -->
-                    <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-8 py-2 rounded-full 
-                        font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-[14px] font-serif">Ver más</span>
-                    </a>
                 </div>
             </div>
 
@@ -155,33 +144,25 @@
                     </div>
                     <h3 class="font-medium text-[rgb(72,81,79)] text-[22px]">Plataforma Amazónica por los Bosques, el Clima y 
                     el Bienestar Humano</h3>
-                    <!-- Botón -->
-                    <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-8 py-2 rounded-full 
-                        font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-[14px] font-serif">Ver más</span>
-                    </a>
                 </div>
             </div>
 
             <!-- Tarjeta 5 -->
             <div class="flex flex-col items-center">
-                    <div class="relative w-full">
+                <div class="relative w-full">
                         <img src="../../imagenes/imagenes_bosque/carousel5.webp" alt="Programa 2" class="w-full h-96 object-cover">
+                </div>
+                <div class="p-4 text-center">
+                    <p class="text-xs text-[rgb(31,72,34)] mb-1"><img src="../../imagenes/imagenes_bosque/ubicacion.jpg" 
+                    alt="Ubicación" class="w-5 h-6 inline-block"> ECUADOR</p>
+                    <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                    <div class="flex justify-center gap-2 mb-2 py-4 uppercase"> 
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">CLIMA</span>
+                        <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Comunidades Locales</span>
                     </div>
-                    <div class="p-4 text-center">
-                        <p class="text-xs text-[rgb(31,72,34)] mb-1"><img src="../../imagenes/imagenes_bosque/ubicacion.jpg" 
-                        alt="Ubicación" class="w-5 h-6 inline-block"> ECUADOR</p>
-                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
-                        <div class="flex justify-center gap-2 mb-2 py-4 uppercase"> 
-                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">BOSQUES</span>
-                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">CLIMA</span>
-                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Comunidades Locales</span>
-                        </div>
-                        <h3 class="font-medium text-[rgb(72,81,79)] text-[22px]">Fondo Futuro Amazónico</h3>
-                        <!-- Botón -->
-                        <a href="#" class="self-start mt-2 bg-[rgb(15,125,63)] text-white inline-block px-8 py-2 rounded-full 
-                            font-semibold hover:bg-[rgb(31,72,34)]"><span class="text-[14px] font-serif">Ver más</span>
-                        </a>
-                    </div>
+                    <h3 class="font-medium text-[rgb(72,81,79)] text-[22px]">Fondo Futuro Amazónico</h3>
+                </div>
             </div>
         </div>
     </section>
