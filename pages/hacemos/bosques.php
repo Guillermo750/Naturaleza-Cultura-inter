@@ -33,22 +33,26 @@
     <img src="../../imagenes/imagenes_principal/linea13_debajo_video.png" alt="Línea divisoria" class="block w-full h-auto relative z-10" 
     style="margin-top: -10px;"> 
 
-    <!-- Contenedor Nuestro Trabajo -->
-    <section class="container mx-auto flex flex-col justify-start items-start my-6 space-y-4 py-10 px-6 max-w-4xl text-left">  
+    <!-- Contenedor Nuestro Trabajo ADAPTADA -->
+    <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 text-center md:text-left overflow-hidden">  
         <!-- Título verde pequeño -->
-        <h2 class="text-4xl text-[rgb(15,125,63)] tracking-wider uppercase">NUESTRO TRABAJO</h2>
+        <h2 class="text-3xl md:text-4xl text-[rgb(15,125,63)] tracking-wider uppercase w-full">NUESTRO TRABAJO</h2>
+        
         <!-- Subtítulo grande -->
-        <h3 class="text-3xl text-[rgb(72,81,79)] font-normal leading-tight">Protección de bosques saludables y conectados</h3>
+        <h3 class="text-2xl md:text-3xl text-[rgb(72,81,79)] font-normal leading-tight w-full">Protección de bosques saludables y conectados</h3>
+        
         <!-- Párrafo destacado (más grande) -->
-        <p class="font-light text-[16px] text-[rgb(72,81,79)]">Naturaleza y Cultura trabaja por proteger grandes extensiones de bosques. 
+        <p class="font-light text-[16px] text-[rgb(72,81,79)] w-full">Naturaleza y Cultura trabaja por proteger grandes extensiones de bosques. 
             Ecosistemas críticos que sustentan la biodiversidad, regulan el clima, proveen agua limpia y apoyan a las comunidades 
             indígenas y locales.</p>
+            
         <!-- Párrafo normal -->
-        <p class="text-[16px] text-[rgb(72,81,79)]">Al conservar paisajes extensos, salvaguardamos corredores biológicos esenciales, 
+        <p class="text-[16px] text-[rgb(72,81,79)] w-full">Al conservar paisajes extensos, salvaguardamos corredores biológicos esenciales, 
             prevenimos la deforestación y fortalecemos la resiliencia de los ecosistemas, garantizando que la naturaleza prospere para las 
             generaciones futuras.</p>
+            
         <!-- Último párrafo en verde destacado -->
-        <p class="text-xl text-[rgb(15,125,63)] font-medium">Trabajamos junto a comunidades locales, pueblos indígenas y 
+        <p class="text-lg md:text-xl text-[rgb(15,125,63)] font-medium w-full">Trabajamos junto a comunidades locales, pueblos indígenas y 
             gobiernos para fortalecer la conservación de bosques en América Latina.</p>
     </section>
 
@@ -167,87 +171,104 @@
         </div>
     </section>
 
-    <!-- Contenedor Creando y Fortaleciendo Áreas Protegidas -->
-    <section class="container mx-auto py-7 px-6 max-w-4xl">
-        <!-- Contenido a la derecha -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+    <!-- Contenedor Creando y Fortaleciendo Áreas Protegidas ADAPTADA -->
+    <section class="w-full max-w-4xl mx-auto py-7 px-6 overflow-hidden">
+        <!-- Contenedor principal con grid responsive -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-start text-center md:text-left">
             <!-- COLUMNA IZQUIERDA: Textos -->
-            <div class="flex flex-col text-[rgb(72,81,79)] space-y-3">
-                <h2 class="text-3xl font-normal tracking-wide md:whitespace-nowrap mb-2.5">Creando y Fortaleciendo Áreas Protegidas </h2>
-                <p class="leading-relaxed text-[16px]">
+            <div class="flex flex-col text-[rgb(72,81,79)] space-y-3 items-center md:items-start w-full">
+                <!-- Título corregido para evitar desborde -->
+                <h2 class="text-2xl sm:text-3xl font-normal tracking-wide mb-2.5 w-full leading-tight">
+                    Creando y Fortaleciendo Áreas Protegidas
+                </h2>
+                <p class="leading-relaxed text-[16px] w-full">
                     Ayudamos a establecer nuevas áreas protegidas y a fortalecer las existentes en lugares que enfrentan amenazas urgentes. 
                     <b>las áreas protegidas, territorios comunitarios y otras formas de conservación forman redes interconectadas,</b> 
                     los bosques son más resilientes y la biodiversidad tiene espacio para desplazarse y adaptarse.
                 </p>
-                <p class="leading-relaxed text-[16px]">
+                <p class="leading-relaxed text-[16px] w-full">
                     Los bosques no siguen fronteras políticas. Al apoyar la planificación y colaboración a <b>escala de paisaje,</b> 
                     ayudamos a proteger ecosistemas conectados a través de diversas regiones.
                 </p>
-                <p class="leading-relaxed text-[16px]">
+                <p class="leading-relaxed text-[16px] w-full">
                     En un mundo cada vez más fragmentado, muchas especies tienen menos espacio para migrar, dispersarse, alimentarse y 
                     prosperar. Al vincular áreas protegidas nacionales, regionales y locales, creamos <b>corredores biológicos vitales</b> 
                     que permiten que especies clave <b>como el jaguar, el cóndor andino y el oso de anteojos,</b> se desplacen libremente 
                     en busca de alimento, agua, refugio y sitios de reproducción.
                 </p>
             </div>      
-            <!-- Imagen a la derecha -->
-            <div class="w-full mt-16">
+            
+            <!-- COLUMNA DERECHA: Imagen con margen corregido -->
+            <div class="w-full mt-4 md:mt-16 flex justify-center">
                 <img src="../../imagenes/imagenes_bosque/Rio-Yaupi-001-Foto-Naturaleza-y-Cultura-Internacional.jpg" alt="Bosque y río" 
-                class="w-full h-auto block">
+                class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
             </div>
         </div>
     </section>
 
-    <!-- Contenedor Conservación liderada por las personas -->
-    <section class="w-full bg-[rgb(244,244,237)] py-10 px-6">
-        <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl ">
-            <!-- COLUMNA IZQUIERDA: Imagen -->
-            <div class="w-full">
-                <img src="../../imagenes/imagenes_bosque/custom-image-web-8-600x600.png" alt="Conservación liderada por personas" 
-                lass="w-full h-auto ">
-            </div>
-            <!-- COLUMNA DERECHA: Textos -->
-            <div class="flex flex-col text-left space-y-4">
-                <!-- Título principal verde-->
-                <h2 class="text-3xl font-normal text-[rgb(15,125,63)] leading-tight">Conservación liderada por las personas</h2>
+    <!-- Contenedor Conservación liderada por las personas ADAPTADA -->
+    <section class="w-full bg-[rgb(244,244,237)] py-10 px-6 overflow-hidden">
+        <!-- Contenedor principal con grid adaptable -->
+        <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
+            
+            <!-- COLUMNA DERECHA (Texto): Se renderiza PRIMERO en móvil (order-1) y SEGUNDO en pantallas grandes (md:order-2) -->
+            <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full">
+                <!-- Título principal verde -->
+                <h2 class="text-3xl font-normal text-[rgb(15,125,63)] leading-tight w-full">
+                    Conservación liderada por las personas
+                </h2>
                 <!-- Título pequeño -->
-                <h3 class="text-[rgb(72,81,79)] font-medium tracking-wider text-2xl">Una solución de conservación que perdura</h3>
+                <h3 class="text-[rgb(72,81,79)] font-medium tracking-wider text-2xl w-full">
+                    Una solución de conservación que perdura
+                </h3>
                 <!-- Párrafo descriptivo -->
-                <p class="text-[rgb(72,81,79)] leading-relaxed text-[16px] font-Avenir Book">
+                <p class="text-[rgb(72,81,79)] leading-relaxed text-[16px] font-Avenir Book w-full">
                     Proteger los bosques no es un logro de una sola vez. La conservación duradera depende de la custodia del territorio, 
                     un liderazgo local sólido y los recursos a largo plazo necesarios para mantener la protección frente a los cambios políticos, 
                     económicos y climáticos.
                 </p>
             </div>
+
+            <!-- COLUMNA IZQUIERDA (Imagen): Se renderiza SEGUNDO en móvil (order-2) y PRIMERO en pantallas grandes (md:order-1) -->
+            <div class="w-full order-2 md:order-1 flex justify-center mt-4 md:mt-0">
+                <img src="../../imagenes/imagenes_bosque/custom-image-web-8-600x600.png" alt="Conservación liderada por personas" 
+                class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
+            </div>
         </div>
     </section>
 
-    <!-- Contenedor Bosques Conectados -->
-    <section class="container mx-auto py-12 px-6 max-w-4xl">
-        <!-- Contenido a la derecha -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
+    <!-- Contenedor Bosques Conectados ADAPTADA -->
+    <section class="w-full max-w-4xl mx-auto py-12 px-6 overflow-hidden">
+        <!-- Contenedor con grid responsive sin alterar el orden original -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
+            
             <!-- COLUMNA IZQUIERDA: Textos -->
-            <div class="flex flex-col space-y-3">
-                <!-- Título principal verde-->
-                <h2 class="text-3xl font-normal tracking-wide md:whitespace-nowrap mb-2.5
-                text-[rgb(15,125,63)]">Bosques Conectados</h2>
+            <div class="flex flex-col space-y-3 items-center md:items-start w-full">
+                <!-- Título corregido para evitar desbordes en portátiles -->
+                <h2 class="text-3xl font-normal tracking-wide mb-2.5 text-[rgb(15,125,63)] w-full leading-tight">
+                    Bosques Conectados
+                </h2>
                 <!-- Título pequeño -->
-                <h3 class="text-[rgb(72,81,79)] font-medium tracking-wider text-2xl">Conservación a Escala de Paisaje</h3>
+                <h3 class="text-[rgb(72,81,79)] font-medium tracking-wider text-2xl w-full">
+                    Conservación a Escala de Paisaje
+                </h3>
                 <!-- Párrafos descriptivos -->
-                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px]">
+                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                     Cuando los bosques se fragmentan, los ecosistemas se vuelven menos resilientes. Los <b>corredores biológicos</b> se 
-                    interrumpen,las cuencas hidrográficas se alteran y los bosques se vuelven más vulnerables a los incendios, las actividades 
+                    interrumpen, las cuencas hidrográficas se alteran y los bosques se vuelven más vulnerables a los incendios, las actividades 
                     ilegales y el cambio de uso de suelo. <b>Conectar bosques protegidos</b> ayuda a mantener el funcionamiento de paisajes 
                     enteros, ahora y en el futuro.
                 </p>
-                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px]">
+                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                     Esto es válido independientemente de si las piezas individuales son parques nacionales, territorios indígenas, áreas 
                     subnacionales protegidas o una combinación de todas las anteriores.
                 </p>
             </div>      
-            <!-- Imagen a la derecha -->
-            <div class="w-full h-full">
-                <img src="../../imagenes/imagenes_bosque/custom-image-web-6-600x600.png" alt="Escala de Paisaje" class="w-full h-auto block">
+            
+            <!-- COLUMNA DERECHA: Imagen -->
+            <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0">
+                <img src="../../imagenes/imagenes_bosque/custom-image-web-6-600x600.png" alt="Escala de Paisaje" 
+                class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
             </div>
         </div>
     </section>
@@ -402,37 +423,43 @@
         <img src="../../imagenes/imagenes_bosque/linea02.png" alt="Línea divisoria" class="absolute bottom-0 left-0 z-10 block w-full h-auto">
     </section>
 
-    <!-- Contenedor Cómo puedes ayudar -->
-    <section class="container mx-auto py-8 px-6 max-w-6xl">
-        <!-- Contenido a la derecha -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
-            <!-- COLUMNA IZQUIERDA: Imagen -->
-            <div class="w-full h-full">
-                <img src="../../imagenes/imagenes_bosque/Team-Gift-Explain-Forest-Biodiversity.webp" alt="Proteger los bosques" 
-                class="w-full h-auto block">
-            </div>
-            <!-- COLUMNA DERECHA: Textos y un botón -->
-            <div class="flex flex-col space-y-3">
+    <!-- Contenedor Cómo puedes ayudar ADAPTADA -->
+    <section class="w-full max-w-6xl mx-auto py-8 px-6 overflow-hidden">
+        <!-- Contenedor con grid responsive e inversión de orden -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
+            
+            <!-- COLUMNA DERECHA (Textos y botón): Primero en móvil (order-1), segundo en pantallas grandes (md:order-2) -->
+            <div class="flex flex-col space-y-3 order-1 md:order-2 items-center md:items-start w-full">
                 <!-- Título principal -->
-                <h2 class="text-[rgb(72,81,79)] font-medium tracking-wider text-3xl">Cómo puedes ayudar a proteger los bosques</h2>
+                <h2 class="text-[rgb(72,81,79)] font-medium tracking-wider text-3xl w-full leading-tight">
+                    Cómo puedes ayudar a proteger los bosques
+                </h2>
                 <!-- Párrafos descriptivos -->
-                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px]">
+                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                     Proteger los bosques a gran escala requiere colaboración, compromiso y una visión de largo plazo. En Naturaleza y Cultura 
                     Internacional trabajamos junto a pueblos indígenas, comunidades locales, gobiernos y aliados para fortalecer la gestión 
                     territorial, ampliar las áreas de conservación y mantener los bosques en pie donde más se necesitan.
                 </p>
-                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px]">
+                <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                     Conocer, valorar y apoyar estos esfuerzos es fundamental para asegurar que los paisajes más biodiversos del planeta sigan 
                     siendo fuente de vida para las generaciones presentes y futuras.
                 </p>
-                <a href="#" class="self-start mt-6 bg-[rgb(15,125,63)] text-white inline-block px-6 py-3 rounded-full 
-                font-bold hover:bg-[rgb(31,72,34)] transition-colors "><span class="text-sm">Conoce más sobre nuestro trabajo</span></a>
+                <!-- Botón adaptativo centrado en móvil / a la izquierda en escritorio -->
+                <a href="#" class="mt-6 bg-[rgb(15,125,63)] text-white inline-block px-6 py-3 rounded-full font-bold hover:bg-[rgb(31,72,34)] transition-colors self-center md:self-start flex-shrink-0">
+                    <span class="text-sm">Conoce más sobre nuestro trabajo</span>
+                </a>
             </div>      
+
+            <!-- COLUMNA IZQUIERDA (Imagen): Segundo en móvil (order-2), primero en pantallas grandes (md:order-1) -->
+            <div class="w-full h-full order-2 md:order-1 flex justify-center items-center mt-6 md:mt-0">
+                <img src="../../imagenes/imagenes_bosque/Team-Gift-Explain-Forest-Biodiversity.webp" alt="Proteger los bosques" 
+                class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
+            </div>
         </div>
     </section>
 
     <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-    <?php include_once "../../components/footer.php"; ?>
+    <?php include_once "../../components/footer.php"; ?> <!-- ADAPTADA -->
 
 </body>
 </html>
