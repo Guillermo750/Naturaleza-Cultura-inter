@@ -46,11 +46,12 @@
             <h2 class="text-3xl md:text-4xl text-[rgb(15,125,63)] tracking-wider uppercase w-full">NUESTRO TRABAJO</h2>
             
             <!-- Subtítulo grande -->
-            <h3 class="text-2xl md:text-3xl text-[rgb(72,81,79)] font-normal leading-tight w-full">Protección de bosques saludables y conectados</h3>
+            <h3 class="text-2xl md:text-3xl text-[rgb(72,81,79)] font-normal leading-tight w-full">Protección de bosques saludables y conectados
+            </h3>
             
             <!-- Párrafo destacado (más grande) -->
-            <p class="font-light text-[16px] text-[rgb(72,81,79)] w-full">Naturaleza y Cultura trabaja por proteger grandes extensiones de bosques. 
-                Ecosistemas críticos que sustentan la biodiversidad, regulan el clima, proveen agua limpia y apoyan a las comunidades 
+            <p class="font-light text-[16px] text-[rgb(72,81,79)] w-full">Naturaleza y Cultura trabaja por proteger grandes extensiones de 
+                bosques. Ecosistemas críticos que sustentan la biodiversidad, regulan el clima, proveen agua limpia y apoyan a las comunidades 
                 indígenas y locales.</p>
                 
             <!-- Párrafo normal -->
@@ -241,8 +242,8 @@
                     <!-- Párrafo descriptivo -->
                     <p class="text-[rgb(72,81,79)] leading-relaxed text-[16px] font-Avenir Book w-full">
                         Proteger los bosques no es un logro de una sola vez. La conservación duradera depende de la custodia del territorio, 
-                        un liderazgo local sólido y los recursos a largo plazo necesarios para mantener la protección frente a los cambios políticos, 
-                        económicos y climáticos.
+                        un liderazgo local sólido y los recursos a largo plazo necesarios para mantener la protección frente a los cambios 
+                        políticos, económicos y climáticos.
                     </p>
                 </div>
 
@@ -272,9 +273,9 @@
                     <!-- Párrafos descriptivos -->
                     <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         Cuando los bosques se fragmentan, los ecosistemas se vuelven menos resilientes. Los <b>corredores biológicos</b> se 
-                        interrumpen, las cuencas hidrográficas se alteran y los bosques se vuelven más vulnerables a los incendios, las actividades 
-                        ilegales y el cambio de uso de suelo. <b>Conectar bosques protegidos</b> ayuda a mantener el funcionamiento de paisajes 
-                        enteros, ahora y en el futuro.
+                        interrumpen, las cuencas hidrográficas se alteran y los bosques se vuelven más vulnerables a los incendios, las 
+                        actividades ilegales y el cambio de uso de suelo. <b>Conectar bosques protegidos</b> ayuda a mantener el funcionamiento de 
+                        paisajes enteros, ahora y en el futuro.
                     </p>
                     <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         Esto es válido independientemente de si las piezas individuales son parques nacionales, territorios indígenas, áreas 
@@ -297,12 +298,12 @@
             <!-- Título verde pequeño -->
             <h2 class="text-3xl text-[rgb(72,81,79)] tracking-wider uppercase w-full">Ecosistemas que protegemos</h2>
             <!-- Subtítulo grande -->
-            <h3 class="text-2xl font-normal leading-tight text-[rgb(15,125,63)] w-full">Trabajamos en los ecosistemas más biodiversos, pero también
-                más amenazados del planeta.</h3>
+            <h3 class="text-2xl font-normal leading-tight text-[rgb(15,125,63)] w-full">Trabajamos en los ecosistemas más biodiversos, pero 
+                también más amenazados del planeta.</h3>
             <!-- Párrafo destacado -->
-            <p class="leading-relaxed text-[16px] text-[rgb(72,81,79)] w-full">Un ecosistema está compuesto por todos los seres vivos que comparten 
-                un entorno, desde plantas y animales hasta organismos microscópicos. Garantizar la integridad y la salud de ecosistemas completos 
-                proporciona hábitat para la vida silvestre y servicios ecosistémicos vitales para toda forma de vida.
+            <p class="leading-relaxed text-[16px] text-[rgb(72,81,79)] w-full">Un ecosistema está compuesto por todos los seres vivos que 
+                comparten un entorno, desde plantas y animales hasta organismos microscópicos. Garantizar la integridad y la salud de ecosistemas
+                completos proporciona hábitat para la vida silvestre y servicios ecosistémicos vitales para toda forma de vida.
             </p>
         </section>
 
@@ -312,7 +313,7 @@
                 
                 <!-- CAJA 1: Selva Amazónica -->
                 <div class="group relative h-96 bg-gray-900 md:col-span-2 w-full max-w-sm mx-auto md:max-w-full overflow-hidden rounded-md">
-                    <img src="../../imagenes/imagenes_bosque/caja1.webp" alt="Selva Amazónica" class="absolute inset-0 h-full w-full object-cover 
+                    <img src="../../imagenes/imagenes_bosque/caja1.webp" alt="Selva Amazónica" class="absolute inset-0 h-full w-full object-cover
                     opacity-70 transition-all duration-500 group-hover:opacity-100 group-hover:scale-105">
                     <!-- Degradado general de fondo -->
                     <div class="absolute inset-0 bg-linear-to-t from-black/90 via-black/40 to-transparent"></div>
@@ -321,12 +322,13 @@
                     <!-- Contenido de texto -->
                     <div class="absolute bottom-0 left-0 z-20 w-full p-6 text-white text-left">
                         <h3 class="text-xl font-bold">Selva Amazónica</h3>
-                        <p class="mt-2 text-[14px]">La <em>selva amazónica</em> es el bosque tropical más extenso de la Tierra y alberga una gran diversidad de especies y 
-                        vegetales, además de pueblos indígenas.</p>
+                        <p class="mt-2 text-[14px]">La <em>selva amazónica</em> es el bosque tropical más extenso de la Tierra y alberga una gran
+                        diversidad de especies y vegetales, además de pueblos indígenas.</p>
                     </div>
                     
                     <!-- Línea naranja fija exactamente en el borde inferior de la tarjeta -->
-                    <div class="absolute bottom-0 left-0 z-30 h-1.5 w-full origin-left scale-x-0 bg-[#f58320] transition-transform duration-500 group-hover:scale-x-100"></div>
+                    <div class="absolute bottom-0 left-0 z-30 h-1.5 w-full origin-left scale-x-0 bg-[#f58320] transition-transform duration-500
+                    group-hover:scale-x-100"></div>
                 </div>
 
                 <!-- CAJA 2: Bosque Nuboso Andino -->
@@ -373,8 +375,8 @@
                         <div class="absolute inset-x-0 top-3 bottom-0 bg-black/60"></div>
                         <!-- Contenido de texto -->
                         <h3 class="relative z-10 text-xl font-bold">Bosques Secos Tropicales</h3>
-                        <p class="relative z-10 mt-2 text-[14px]">Los <em>bosques tropicales caducifolios (o secos)</em> albergan una amplia gama de 
-                        especies con adaptaciones únicas. Trabajamos con las comunidades locales para conservar estos bosques frágiles.</p>
+                        <p class="relative z-10 mt-2 text-[14px]">Los <em>bosques tropicales caducifolios (o secos)</em> albergan una amplia gama 
+                        de especies con adaptaciones únicas. Trabajamos con las comunidades locales para conservar estos bosques frágiles.</p>
                     </div>
                     <div class="absolute bottom-0 left-0 z-20 h-1.5 w-full origin-left scale-x-0 bg-[#f58320] transition-transform duration-500 
                     group-hover:scale-x-100"></div>
@@ -382,8 +384,8 @@
 
                 <!-- CAJA 5: Ecosistemas Marinos -->
                 <div class="group relative h-96 bg-gray-900 md:col-span-3 w-full max-w-sm mx-auto md:max-w-full overflow-hidden rounded-md">
-                    <img src="../../imagenes/imagenes_bosque/caja5.webp" alt="Ecosistemas Marinos" class="absolute inset-0 h-full w-full object-cover 
-                    opacity-70 transition-all duration-500 group-hover:opacity-100 group-hover:scale-105">
+                    <img src="../../imagenes/imagenes_bosque/caja5.webp" alt="Ecosistemas Marinos" class="absolute inset-0 h-full w-full 
+                    object-cover opacity-70 transition-all duration-500 group-hover:opacity-100 group-hover:scale-105">
                     <div class="absolute inset-0 bg-linear-to-t from-black/80 via-black/40 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 z-10 w-full p-6 text-white text-left">
                         <!-- Fondo negro translúcido que ahora SÍ ocupa desde arriba del texto hasta abajo -->
@@ -423,10 +425,11 @@
                     </h3>
                     <!-- Párrafos descriptivos -->
                     <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        Los bosques intactos enfrentan una pressure creciente debido a la <br class="hidden md:block">deforestación, la degradación y 
-                        la fragmentación. Estas amenazas <br class="hidden md:block">pueden provenir del cambio de uso de suelo, la extracción 
+                        Los bosques intactos enfrentan una pressure creciente debido a la <br class="hidden md:block">deforestación, la degradación 
+                        y la fragmentación. Estas amenazas <br class="hidden md:block">pueden provenir del cambio de uso de suelo, la extracción 
                         <br class="hidden md:block">insostenible, las carreteras que abren áreas remotas a actividades 
-                        <br class="hidden md:block">ilegales y los incendios cada vez más intensos impulsados por el <br class="hidden md:block">clima.
+                        <br class="hidden md:block">ilegales y los incendios cada vez más intensos impulsados por el 
+                        <br class="hidden md:block">clima.
                     </p>
                     <p class="text-[16px] leading-relaxed w-full">
                         Proteger los bosques a tiempo, antes de que sufran una degradación <br class="hidden md:block">severa, puede prevenir 
