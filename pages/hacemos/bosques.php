@@ -19,16 +19,13 @@
         <?php include_once "../../components/header.php"; ?>
         
         <!-- Contenedor principal Imagen de fondo + título encima encima ADAPTADA -->
-        <section class="w-full relative bg-[url(../../imagenes/imagenes_bosque/forest.jpg)] bg-cover bg-center bg-no-repeat flex items-center 
-            min-h-[50vh] md:h-[60vh] pt-6 pb-12">
-            <!-- LÍNEA SUPERIOR: Clavada en el borde superior -->
-            <img src="../../imagenes/imagenes_bosque/linea01.png" alt="Línea divisoria superior" 
-            class="absolute top-0 inset-x-0 block w-full h-auto z-20"> 
+        <section class="w-full relative bg-[url(../../imagenes/imagenes_bosque/forest.jpg)] bg-cover bg-center bg-no-repeat 
+            flex items-center min-h-[50vh] md:h-[80vh] pt-6 pb-12">
 
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 mt-6 mb-12 flex justify-center md:justify-start">
+            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 md:mt-40 mt-36 mb-12 flex justify-center md:justify-start">
                 <!-- Bloque con fondo negro translúcido -->
-                <div class="inline-block bg-black/30 p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
+                <div class="inline-block p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
                     <!-- TÍTULO -->
                     <h1 class="text-white text-4xl sm:text-5xl font-semibold tracking-wide">Bosques</h1>
                 </div>
@@ -43,10 +40,10 @@
         <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 text-center 
             md:text-left">  
             <!-- Título verde pequeño -->
-            <h2 class="text-3xl md:text-4xl text-[rgb(15,125,63)] tracking-wider uppercase w-full">NUESTRO TRABAJO</h2>
+            <h2 class="text-3xl text-[rgb(15,125,63)] tracking-wider w-full">Nuestro Trabajo</h2>
             
             <!-- Subtítulo grande -->
-            <h3 class="text-2xl md:text-3xl text-[rgb(72,81,79)] font-normal leading-tight w-full">Protección de bosques saludables y conectados</h3>
+            <h3 class="text-2xl text-[rgb(72,81,79)] font-normal leading-tight w-full">Protección de bosques saludables y conectados</h3>
             
             <!-- Párrafo destacado (más grande) -->
             <p class="font-light text-[16px] text-[rgb(72,81,79)] w-full">Naturaleza y Cultura trabaja por proteger grandes extensiones de bosques. 
@@ -195,7 +192,7 @@
                 <!-- COLUMNA IZQUIERDA: Textos -->
                 <div class="flex flex-col text-[rgb(72,81,79)] space-y-3 items-center md:items-start w-full">
                     <!-- Título corregido para evitar desborde -->
-                    <h2 class="text-2xl sm:text-3xl font-normal tracking-wide mb-2.5 w-full leading-tight">
+                    <h2 class="text-3xl font-normal tracking-wide mb-2.5 w-full leading-tight">
                         Creando y Fortaleciendo Áreas Protegidas
                     </h2>
                     <p class="leading-relaxed text-[16px] w-full">
@@ -407,17 +404,17 @@
                 bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 px-6 md:px-12 lg:px-48 min-h-112 md:h-112.5">
                 
                 <!-- CAPA DE OSCURECIDO DIFUMINADO -->
-                <div class="absolute inset-0 z-0 bg-black/40"></div>
+                <div class="absolute inset-0 z-0 bg-black/50 md:bg-black/35"></div>
                 
                 <!-- Bloque de textos -->
                 <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
                     [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
                     <!-- Título principal -->
-                    <h2 class="text-2xl sm:text-3xl font-semibold mb-2.5 w-full leading-tight">
+                    <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
                         Previniendo pérdidas irreemplazables
                     </h2>
                     <!-- Título pequeño -->
-                    <h3 class="font-semibold tracking-wider text-xl sm:text-2xl mb-4 w-full">
+                    <h3 class="font-semibold tracking-wider text-2xl mb-4 w-full">
                         Amenazas a los bosques y lo que la <br class="hidden sm:block">protección previene
                     </h3>
                     <!-- Párrafos descriptivos -->

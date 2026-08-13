@@ -40,10 +40,10 @@
         <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 text-center 
             md:text-left">  
             <!-- Título verde pequeño -->
-            <h2 class="text-3xl md:text-4xl text-[rgb(15,125,63)] tracking-wider uppercase w-full">NUESTRO TRABAJO</h2>
+            <h2 class="text-3xl text-[rgb(15,125,63)] tracking-wider w-full">Nuestro Trabajo</h2>
             
             <!-- Subtítulo grande -->
-            <h3 class="text-2xl md:text-3xl text-[rgb(72,81,79)] font-normal leading-tight w-full">Protegemos la Biodiversidad conectando 
+            <h3 class="text-2xl text-[rgb(72,81,79)] font-normal leading-tight w-full">Protegemos la Biodiversidad conectando 
                 Paisajes Naturales
             </h3>
             
@@ -102,7 +102,7 @@
                     </div>
                     <div class="p-4 text-center w-full">
                         <p class="text-xs text-[rgb(31,72,34)] mb-1 flex items-center justify-center gap-1">
-                            <img src="../../imagenes/imagenes_bosque/ubicacion.jpg" alt="Ubicación" class="w-5 h-6 inline-block"> 
+                            <img src="../../imagenes/imagenes_biodiversidad/ubicacion.jpg" alt="Ubicación" class="w-5 h-6 inline-block"> 
                             ECUADOR, PERÚ
                         </p>
                         <div class="flex flex-wrap justify-center gap-2 mb-2 py-4 uppercase">
@@ -122,7 +122,7 @@
                     </div>
                     <div class="p-4 text-center w-full">
                         <p class="text-xs text-[rgb(31,72,34)] mb-1 flex items-center justify-center gap-1">
-                            <img src="../../imagenes/imagenes_bosque/ubicacion.jpg" alt="Ubicación" class="w-5 h-6 inline-block"> 
+                            <img src="../../imagenes/imagenes_biodiversidad/ubicacion.jpg" alt="Ubicación" class="w-5 h-6 inline-block"> 
                             PERÚ
                         </p>
                         <div class="flex flex-wrap justify-center gap-2 mb-2 py-4 uppercase">
@@ -225,13 +225,13 @@
                         Monitoreo de especies amenazadas
                     </h3>
                     <!-- Párrafos descriptivos -->
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
                         <b>Naturaleza y Cultura Internacional</b> brinda apoyo técnico y logístico a universidades locales e internacionales, 
                         instituciones de investigación y ONG para monitorear y estudiar especies clave y amenazadas. Esta investigación nos 
                         ayuda a comprender qué necesitan las especies para prosperar y fortalece las estrategias de conservación que protegen
                         la biodiversidad a largo plazo.
                     </p>
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
                         El monitoreo y la investigación no son solo ejercicios académicos. Ayudan a orientar decisiones en el mundo real 
                         sobre dónde proteger, cómo fortalecer la <b>gestión responsable</b> y cómo reducir las amenazas a las especies antes 
                         de que sea irreversible.
@@ -239,7 +239,7 @@
                 </div>      
                 
                 <!-- COLUMNA DERECHA: Imagen -->
-                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0">
+                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0 px-4 md:px-0">
                     <img src="../../imagenes/imagenes_biodiversidad/biologo.png" alt="Biologo protegiendo a la fauna" 
                     class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
                 </div>
@@ -259,14 +259,13 @@
                 <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
                     [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
                     <!-- Título principal -->
-                    <h2 class="text-2xl sm:text-3xl font-semibold mb-2.5 w-full leading-tight">
+                    <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
                         La Importancia de Proteger la <br class="hidden sm:block">Biodiversidad
                     </h2>
-                    <!-- Título pequeño -->
-                    <h3 class="font-semibold tracking-wider text-xl sm:text-2xl mb-4 w-full">
-                        Las poblaciones de las especies han disminuido un 73% <br class="hidden sm:block">en los últimos 50 años
-                    </h3>
                     <!-- Párrafos descriptivos -->
+                    <p class="mb-4 text-[16px] leading-relaxed w-full">
+                        Las poblaciones de las especies han disminuido un 73% <br class="hidden sm:block">en los últimos 50 años.
+                    </p>
                     <p class="mb-4 text-[16px] leading-relaxed w-full">
                         El monitoreo global muestra que las poblaciones de las especies han <br class="hidden md:block">disminuido de manera 
                         marcada en las últimas décadas, debido <br class="hidden md:block">principalmente a la pérdida de hábitat. América 
@@ -304,9 +303,9 @@
                         contribuyen a mantener ecosistemas saludables y resilientes en el tiempo.
                     </p>
                     <!-- Enlace adaptativo centrado en móvil / a la izquierda en escritorio -->
-                    <a href="#" class="inline-flex items-center gap-2 text-[rgb(15,125,63)] font-semibold text-base hover:underline mt-4">
+                    <a href="#" class="inline-flex items-center gap-2 text-[rgb(15,125,63)] font-bold text-base hover:underline mt-4">
                         Conoce más sobre nuestro trabajo 
-                        <span class="text-lg">→</span>
+                        <i class="fa-solid fa-arrow-right-long text-[rgb(15,125,63)]"></i>
                     </a>
                 </div>      
 
