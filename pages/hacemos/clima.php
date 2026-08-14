@@ -39,21 +39,19 @@
         <!-- Contenedor Nuestro Trabajo -->
         <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 text-center 
             md:text-left">  
-            <!-- Título verde pequeño -->
+            <!-- Título verde -->
             <h2 class="text-3xl md:text-4xl text-[rgb(15,125,63)] tracking-wider w-full">Nuestro Trabajo</h2>
             
-            <!-- Subtítulo grande -->
+            <!-- Subtítulo -->
             <h3 class="text-2xl md:text-3xl text-[rgb(72,81,79)] font-normal leading-tight w-full">La conservación de los bosques como 
                 solución climática
             </h3>
             
-            <!-- Párrafo destacado (más grande) -->
+            <!-- Párrafos descriptivos -->
             <p class="text-[16px] text-[rgb(72,81,79)] w-full">Naturaleza y Cultura ayuda a enfrentar el cambio climático protegiendo 
                 grandes extensiones de bosque. Al trabajar junto a comunidades indígenas y locales, establecemos y fortalecemos áreas 
                 protegidas que mantienen el carbono almacenado, salvaguardan la biodiversidad y apoyan a la resilencia de los ecosistemas.
             </p>
-                
-            <!-- Párrafo normal en verde destacado -->
             <p class="text-lg md:text-xl text-[rgb(15,125,63)] font-medium w-full">Nuestras áreas protegidas ayudan a evitar un estimado 
                 de <b>3,9 mil millones de toneladas de emisiones de CO₂</b> al mantener bosques en pie.
             </p>
@@ -67,18 +65,18 @@
                 <div class="flex flex-col items-center md:items-start lg:flex-row lg:items-center gap-4 w-full">
                     <!-- IMAGEN DE LA FLOR: Visible solo en ordenadores grandes, colocada de forma natural al lado del texto -->
                     <div class="hidden lg:block w-20 shrink-0">
-                        <img src="../../imagenes/imagenes_biodiversidad/nci-cp-illustration1-countryp.png" alt="Decoración lateral" 
+                        <img src="../../imagenes/imagenes_clima/nci-cp-illustration1-countryp.png" alt="Decoración lateral" 
                         class="w-full h-auto object-contain">
                     </div>
                     <!-- Contenedor interno para el texto del título y su línea beige inferior -->
                     <div class="flex flex-col items-center md:items-start w-full">
                         <h2 class="text-3xl font-normal text-[rgb(72,81,79)] w-full">Programas Destacados</h2>
                         <!-- Imagen de la línea debajo del título -->
-                        <img src="../../imagenes/imagenes_biodiversidad/linea_beige.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
+                        <img src="../../imagenes/imagenes_clima/linea_beige.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
                     </div>
                 </div>
 
-                <!-- Botón a la derecha alineado al final -->
+                <!-- Botón a la derecha -->
                 <a href="#" class="mt-4 md:mt-0 bg-[rgb(72,81,79)] text-white px-6 py-3 rounded-full hover:bg-[rgb(31,72,34)] 
                 font-medium text-sm transition shrink-0 md:mr-28"> 
                     Explora todos los programas
@@ -153,10 +151,32 @@
                     </a>
                 </div>      
                 
-                <!-- COLUMNA DERECHA: Imagen con margen corregido -->
-                <div class="w-full mt-4 md:mt-16 flex justify-center">
-                    <img src="../../imagenes/imagenes_clima/" alt="" 
-                    class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
+                <!-- COLUMNA DERECHA: Vídeo con un logo, título y subtítulo -->
+                <div class="relative w-full max-w-7xl mx-auto overflow-hidden">
+                    <!-- Capa superior flotante (Logo y Textos) -->
+                    <div id="capa-texto" class="absolute top-0 left-0 w-full pt-2 pr-2 pb-2 pl-2 flex items-start gap-4 z-10
+                        transition-opacity duration-500 opacity-100">
+                        <!-- Logo pequeño y circular -->
+                        <img src="../../logo/channels4_profile.jpg" alt="Logo" class="w-9 h-9 rounded-full object-cover shrink-0">
+                        
+                        <!-- Bloque de texto (alineación vertical automática a la izquierda) -->
+                        <div class="flex flex-col m-0 p-0">
+                        <!-- Título principal -->
+                        <h1 class="text-white font-sans text-sm font-bold m-0 mb-1 leading-tight">
+                            Para combatir el cambio climático, salvemos Wil...
+                        </h1>
+                        <!-- Subtítulo pequeño alineado (la N perfectamente bajo la P) -->
+                        <p class="text-white font-sans font-bold text-xs m-0 p-0">
+                            Naturaleza y Cultura Internacional
+                        </p>
+                        </div>
+                    </div>
+
+                    <!-- Video -->
+                    <video id="mi-video" controls preload="metadata" playsinline class="w-full h-auto block">
+                        <source src="../../video/Para_Combatir_El_Cambio_Climático_Debemos_Proteger_Los_Bosques.mp4" type="video/mp4">
+                        Tu navegador no soporta la reproducción de video.
+                    </video>
                 </div>
             </div>
         </section>

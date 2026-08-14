@@ -113,7 +113,7 @@
                     <h2 class="font-medium tracking-wider text-3xl w-full">
                         Donde se encuentran la cultura y la conservación
                     </h2>
-                    <!-- Párrafo descriptivo -->
+                    <!-- Párrafos descriptivos -->
                     <p class="leading-relaxed text-[16px] font-Avenir Book w-full">
                         Naturaleza y Cultura Internacional reconoce que proteger la naturaleza también implica respetar a las culturas y 
                         comunidades que han cuidado estos territorios durante generaciones. La diversidad cultural, además, contribuye a la 
@@ -225,7 +225,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
                 
                 <!-- COLUMNA DERECHA (Textos y botón): Primero en móvil (order-1), segundo en pantallas grandes (md:order-2) -->
-                <div class="flex flex-col space-y-3 order-1 md:order-2 items-center md:items-start w-full text-[rgb(72,81,79)]">
+                <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full text-[rgb(72,81,79)]">
                     <!-- Título principal -->
                     <h2 class="font-medium tracking-wider text-3xl w-full leading-tight">
                         Cómo fortalecer la conservación liderada desde lo local

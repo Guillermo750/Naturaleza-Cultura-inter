@@ -18,7 +18,7 @@
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <?php include_once "../../components/header.php"; ?>
         
-        <!-- Contenedor principal Imagen de fondo + título encima encima ADAPTADA -->
+        <!-- Contenedor principal Imagen de fondo + título encima encima -->
         <section class="w-full relative bg-[url(../../imagenes/imagenes_bosque/forest.jpg)] bg-cover bg-center bg-no-repeat 
             flex items-center min-h-[50vh] md:h-[80vh] pt-6 pb-12">
 
@@ -36,31 +36,27 @@
             class="absolute bottom-0 inset-x-0 block w-full h-auto z-20">
         </section>
 
-        <!-- Contenedor Nuestro Trabajo ADAPTADA -->
+        <!-- Contenedor Nuestro Trabajo -->
         <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 text-center 
             md:text-left">  
-            <!-- Título verde pequeño -->
+            <!-- Título verde -->
             <h2 class="text-3xl text-[rgb(15,125,63)] tracking-wider w-full">Nuestro Trabajo</h2>
             
-            <!-- Subtítulo grande -->
+            <!-- Subtítulo -->
             <h3 class="text-2xl text-[rgb(72,81,79)] font-normal leading-tight w-full">Protección de bosques saludables y conectados</h3>
             
-            <!-- Párrafo destacado (más grande) -->
-            <p class="font-light text-[16px] text-[rgb(72,81,79)] w-full">Naturaleza y Cultura trabaja por proteger grandes extensiones de bosques. 
-                Ecosistemas críticos que sustentan la biodiversidad, regulan el clima, proveen agua limpia y apoyan a las comunidades 
-                indígenas y locales.</p>
-                
-            <!-- Párrafo normal -->
-            <p class="text-[16px] text-[rgb(72,81,79)] w-full">Al conservar paisajes extensos, salvaguardamos corredores biológicos esenciales, 
-                prevenimos la deforestación y fortalecemos la resiliencia de los ecosistemas, garantizando que la naturaleza prospere para las 
-                generaciones futuras.</p>
-                
-            <!-- Último párrafo en verde destacado -->
-            <p class="text-lg md:text-xl text-[rgb(15,125,63)] font-medium w-full">Trabajamos junto a comunidades locales, pueblos indígenas y 
-                gobiernos para fortalecer la conservación de bosques en América Latina.</p>
+            <!-- Párrafos descriptivos -->
+            <p class="font-light text-[16px] text-[rgb(72,81,79)] w-full">Naturaleza y Cultura trabaja por proteger grandes extensiones 
+                de bosques. Ecosistemas críticos que sustentan la biodiversidad, regulan el clima, proveen agua limpia y apoyan a las 
+                comunidades indígenas y locales.</p>
+            <p class="text-[16px] text-[rgb(72,81,79)] w-full">Al conservar paisajes extensos, salvaguardamos corredores biológicos 
+                esenciales, prevenimos la deforestación y fortalecemos la resiliencia de los ecosistemas, garantizando que la naturaleza 
+                prospere para las generaciones futuras.</p>
+            <p class="text-lg md:text-xl text-[rgb(15,125,63)] font-medium w-full">Trabajamos junto a comunidades locales, pueblos 
+                indígenas y gobiernos para fortalecer la conservación de bosques en América Latina.</p>
         </section>
 
-        <!-- Contenedor Programas Destacados ADAPTADA -->
+        <!-- Contenedor Programas Destacados -->
         <section class="w-full max-w-7xl mx-auto px-4 py-8">
             <!-- Cabecera de la sección: Título + Línea, Botón a la derecha -->
             <div class="flex flex-col md:flex-row justify-between items-center mb-10 pl-0 lg:pl-36 text-center md:text-left gap-4">
@@ -86,7 +82,7 @@
                 </a>
             </div>
 
-            <!-- Contenedor de las Tarjetas Adaptable -->
+            <!-- Contenedor de las Tarjetas -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 pl-0 lg:pl-36 w-full">
                 <!-- Tarjeta 1 -->
                 <div class="flex flex-col items-center w-full max-w-sm mx-auto">
@@ -185,7 +181,7 @@
             </div>
         </section>
 
-        <!-- Contenedor Creando y Fortaleciendo Áreas Protegidas ADAPTADA -->
+        <!-- Contenedor Creando y Fortaleciendo Áreas Protegidas -->
         <section class="w-full max-w-4xl mx-auto py-7 px-6">
             <!-- Contenedor principal con grid responsive -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-start text-center md:text-left">
@@ -220,7 +216,7 @@
             </div>
         </section>
 
-        <!-- Contenedor Conservación liderada por las personas ADAPTADA -->
+        <!-- Contenedor Conservación liderada por las personas -->
         <section class="w-full bg-[rgb(244,244,237)] py-10 px-6">
             <!-- Contenedor principal con grid adaptable -->
             <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
@@ -251,7 +247,7 @@
             </div>
         </section>
 
-        <!-- Contenedor Bosques Conectados ADAPTADA -->
+        <!-- Contenedor Bosques Conectados -->
         <section class="w-full max-w-4xl mx-auto py-12 px-6">
             <!-- Contenedor con grid responsive sin alterar el orden original -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
@@ -287,7 +283,7 @@
             </div>
         </section>
 
-        <!-- Contenedor Trabajamos en los ecosistemas más biodiversos ADAPTADA-->
+        <!-- Contenedor Trabajamos en los ecosistemas más biodiversos -->
         <!-- PRIMERA SECCIÓN: Textos de Introducción -->
         <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-8 px-6 text-center 
             md:text-left">
@@ -396,7 +392,7 @@
             </div>
         </section>
 
-        <!-- Contenedor Previniendo pérdidas irreemplazables ADAPTADA -->
+        <!-- Contenedor Previniendo pérdidas irreemplazables -->
         <section class="w-full relative z-0 pt-4 pb-6">
             
             <!-- Contenedor con la imagen de fondo (Se ajustó el margen superior mt-4 para que coincida perfectamente con la línea) -->
@@ -434,7 +430,7 @@
             </div>
         </section>
 
-        <!-- Contenedor Cómo puedes ayudar ADAPTADA -->
+        <!-- Contenedor Cómo puedes ayudar -->
         <section class="w-full max-w-6xl mx-auto py-8 px-6 box-border">
             <!-- Contenedor con grid responsive e inversión de orden -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
@@ -471,7 +467,7 @@
         </section>
 
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-        <?php include_once "../../components/footer.php"; ?> <!-- ADAPTADA -->
+        <?php include_once "../../components/footer.php"; ?>
     </div>
     
 </body>

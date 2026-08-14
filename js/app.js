@@ -22,7 +22,25 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+/* Script para controlar el Play y el Pause del vídeo de la página clima.php*/
+document.addEventListener('DOMContentLoaded', () => {
+    const video = document.getElementById('mi-video');
+    const capaTexto = document.getElementById('capa-texto');
 
+    if (video && capaTexto) {
+        // Al darle PLAY el texto se desvanece
+        video.addEventListener('play', () => {
+            capaTexto.classList.remove('opacity-100');
+            capaTexto.classList.add('opacity-0');
+        });
+
+        // Al darle PAUSA el texto regresa automáticamente
+        video.addEventListener('pause', () => {
+            capaTexto.classList.remove('opacity-0');
+            capaTexto.classList.add('opacity-100');
+        });
+    }
+});
 
 /* FUNCIÓN DEL CAROUSEL CON LAS FLECHAS */
 /* document.addEventListener("DOMContentLoaded", function () {

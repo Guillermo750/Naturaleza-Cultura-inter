@@ -39,28 +39,24 @@
         <!-- Contenedor Nuestro Trabajo -->
         <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 text-center 
             md:text-left">  
-            <!-- Título verde pequeño -->
+            <!-- Título verde -->
             <h2 class="text-3xl text-[rgb(15,125,63)] tracking-wider w-full">Nuestro Trabajo</h2>
             
-            <!-- Subtítulo grande -->
+            <!-- Subtítulo -->
             <h3 class="text-2xl text-[rgb(72,81,79)] font-normal leading-tight w-full">Protegemos la Biodiversidad conectando 
                 Paisajes Naturales
             </h3>
             
-            <!-- Párrafo destacado (más grande) -->
+            <!-- Párrafos descriptivos -->
             <p class="text-[16px] text-[rgb(72,81,79)] w-full">Las especies dependen de su hábitat. Cuando los bosques están 
                 sanos y conectados, los animales pueden desplazarse, encontrar alimento y reproducirse. Cuando el hábitat se fragmenta o se 
                 pierde, las poblaciones de las especies están en riesgo y el equilibrio del ecosistema comienza a quebrarse.</p>
-                
-            <!-- Párrafo normal -->
             <p class="text-[16px] text-[rgb(72,81,79)] w-full">Naturaleza y Cultura Internacional ayuda a proteger la biodiversidad 
                 conservando grandes paisajes en toda América Latina. Nuestro trabajo sostiene el hábitat de <b>222 especies amenazadas,</b>
                 incluyendo especies emblemáticas como el <b>Jaguar <em>(Panthera Onca)</em>, el Oso de Anteojos <em>(Tremarctos ornatus),
                 </em></b> y <b>el Cóndor Andino <em>(Vultur gryphus),</em></b> junto con otras especies que son igualmente esenciales para 
                 la salud del ecosistema.
             </p>
-                
-            <!-- Último párrafo en verde destacado -->
             <p class="text-lg md:text-xl text-[rgb(15,125,63)] font-medium w-full">La protección de la biodiversidad comienza con la 
                 conservación de los bosques conectados que las especies necesitan para prosperar.</p>
         </section>
