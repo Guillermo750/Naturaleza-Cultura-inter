@@ -37,12 +37,12 @@
         </section>
 
         <!-- Contenedor 30 Años Comprometidos con la Naturaleza -->
-        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 text-center 
-            md:text-left">
+        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 
+            text-center md:text-left">
             <!-- Título Principal de la Sección -->
-            <h1 class="text-3xl md:text-4xl font-normal text-[rgb(31,72,34)] mb-8 text-center md:text-left">
+            <h2 class="text-3xl md:text-4xl font-normal text-[rgb(31,72,34)] mb-8 text-center md:text-left">
                 30 Años Comprometidos con la Naturaleza
-            </h1>
+            </h2>
             <!-- Contenedor principal con grid responsive -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-start text-center md:text-left">
                 <!-- COLUMNA IZQUIERDA: Textos -->
@@ -67,9 +67,9 @@
                         <!-- Bloque de texto (alineación vertical automática a la izquierda) -->
                         <div class="flex flex-col m-0 p-0">
                         <!-- Título principal -->
-                        <h1 class="text-white font-sans text-sm font-bold m-0 mb-1 leading-tight">
+                        <h2 class="text-white font-sans text-sm font-bold m-0 mb-1 leading-tight">
                             30 años Comprometidos con la Na...
-                        </h1>
+                        </h2>
                         <!-- Subtítulo pequeño alineado (la N perfectamente bajo la P) -->
                         <p class="text-white font-sans font-bold text-xs m-0 p-0">
                             Naturaleza y Cultura Internacional
@@ -122,23 +122,117 @@
 
         <!-- Contenedor CONSERVACIÓN SOSTENIBLE CON LIDERAZGO LOCAL -->
         <section class="w-full bg-[rgb(234,232,211)] py-10 px-6">
-            <div class="">
-                <h1 class="text-3xl md:text-4xl font-normal text-[rgb(31,72,34)] mb-8 text-center md:text-left">
+            <div class="max-w-6xl mx-auto text-center ">
+                <h2 class="text-3xl font-semibold text-[rgb(15,125,63)] mb-6">
                     30 Años Comprometidos con la Naturaleza
-                </h1>
+                </h2>
+                <h3 class="text-2xl text-[rgb(31,72,34)] font-semibold mb-6">
+                    Lo que hemos alcanzado en 30 años
+                </h3>
             </div>
 
-            <!-- Contenedor principal con grid adaptable -->
-            <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
+            <!-- Contenedor principal con grid -->
+            <div class="mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center max-w-4xl text-center md:text-left">
+                
+                <!-- Caja 1 -->
+                <div class="flex flex-col items-center text-center text-[20px]">
+                    <img src="../../imagenes/30_años/community_green-250x253.png" alt="Icono 1" class="w-16 h-16 mb-4 object-contain">
+                    <h3 class="font-normal text-[rgb(72,81,79)]">Hemos trabajado con
+                        <span class="font-medium text-[rgb(15,125,63)]"> 94 pueblos indígenas y comunidades locales</span>
+                    </h3>
+                </div>
 
+                <!-- Caja 2 -->
+                <div class="flex flex-col items-center text-center text-[20px]">
+                    <img src="../../imagenes/30_años/handshake_green-250x253.png" alt="" class="w-16 h-16 mb-4 object-contain">
+                        <h3 class="font-medium text-[rgb(15,125,63)]">361 alianzas estratégicas
+                            <span class="text-[rgb(72,81,79)] font-normal">para la conservación</span>
+                    </h3>
+                </div>
+
+                <!-- Caja 3 -->
+                <div class="flex flex-col items-center text-center text-[20px]">
+                    <img src="../../imagenes/30_años/map_green-250x253.png" alt="" class="w-16 h-16 mb-4 object-contain">
+                        <h3 class="font-semibold text-[rgb(15,125,63)]">11.9 millones de hectáreas
+                        <span class="text-[rgb(72,81,79)] font-normal">protegidas</span>
+                    </h3>
+                </div>
+
+                <!-- Caja 4 -->
+                <div class="flex flex-col items-center text-center text-[20px]">
+                    <img src="../../imagenes/30_años/globe-and-sprout_green-250x253.png" alt="" class="w-16 h-16 mb-4 object-contain">
+                        <h3 class="font-semibold text-[rgb(15,125,63)]">
+                            4.2B t CO2e almacenado
+                    </h3>
+                </div>
+
+                <!-- Caja 5 -->
+                <div class="flex flex-col items-center text-center text-[20px]">
+                    <img src="../../imagenes/30_años/jaguar_green-250x253.png" alt="" class="w-16 h-16 mb-4 object-contain">
+                    <h3 class="font-semibold text-[rgb(15,125,63)]">
+                        470 especies de vertebrados bajo amenazada protegidas
+                    </h3>
+                </div>
+
+                <!-- Caja 6 -->
+                <div class="flex flex-col items-center text-center text-[20px]">
+                    <img src="../../imagenes/30_años/life_green-250x253.png" alt="" class="w-16 h-16 mb-4 object-contain">
+                    <h3 class="font-semibold text-[rgb(15,125,63)]">
+                        8.9 millones de hectáreas dentro de KBAs
+                    </h3>
+                </div>
             </div>
         </section>
 
         <!-- Contenedor Puntos de inflexión para la naturaleza y las comunidades locales -->
+        <section class="w-full max-w-5xl mx-auto py-12 px-6">
+            <!-- Título principal -->
+            <h2 class="text-3xl font-semibold text-[rgb(72,81,79)] mb-8 text-center md:text-left">
+                Puntos de inflexión para la naturaleza y las comunidades locales
+            </h2>
 
+            <!-- Grid de 3 columnas -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                
+                <!-- Tarjeta 1 -->
+                <div class="flex flex-col">
+                    <img src="../../imagenes/30_años/Vista-panoramica-de-los-Andes-Adobe-Stock-600x200.webp" alt="" 
+                    class="w-full h-64 object-cover rounded-md mb-4">
+                    <p class="text-[rgb(72,81,79)] text-sm md:text-base leading-relaxed mb-4">
+                        Reconocimiento oficial del primer Corredor Transfronterizo por la conservación de la biodiversidad de la región.
+                    </p>
+                    <a href="#" class="text-[rgb(15,125,63)] font-bold text-sm md:text-base hover:underline mt-auto">
+                        Conoce más sobre este esfuerzo entre 2 países &rarr;
+                    </a>
+                </div>
+
+                <!-- Tarjeta 2 -->
+                <div class="flex flex-col">
+                    <img src="../../imagenes/30_años/Tiwi-Nunka--600x397.webp" alt="" class="w-full h-64 object-cover rounded-md mb-4">
+                    <p class="text-[rgb(72,81,79)] text-sm md:text-base leading-relaxed mb-4">
+                        Creación del Área de Protección Hídrica, Runahurco, la segunda más extensa en Ecuador.
+                    </p>
+                    <a href="#" class="text-[rgb(15,125,63)] font-bold text-sm md:text-base hover:underline mt-auto">
+                        Descubre este territorio clave para la conservación hídrica de Ecuador &rarr;
+                    </a>
+                </div>
+
+                <!-- Tarjeta 3 -->
+                <div class="flex flex-col">
+                    <img src="../../imagenes/30_años/Gracias-Camino-Naturaleza-Cultura-Internacional-30-Aniversario.jpg" alt="" 
+                    class="w-full h-64 object-cover rounded-md mb-4">
+                    <p class="text-[rgb(72,81,79)] text-sm md:text-base leading-relaxed mb-4">
+                        Establecimiento del Territorio de Vida y Uso Ancestral Tarímiat Pujutaí Nunka.
+                    </p>
+                    <a href="#" class="text-[rgb(15,125,63)] font-bold text-sm md:text-base hover:underline mt-auto">
+                        Conoce más sobre esta creación histórica &rarr;
+                    </a>
+                </div>
+            </div>
+        </section>
 
         <!-- Contenedor Comprometidos con -->
-
+        
 
         <!-- Contenedor Nuestros fundadores Ivan Gayler y Renzo Paladines -->
         <section class="w-full bg-[rgb(244,244,237)] py-10 px-6">
