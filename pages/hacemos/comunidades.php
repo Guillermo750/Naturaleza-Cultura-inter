@@ -64,7 +64,7 @@
             </p>
         </section>
 
-        <!-- Contenedor El liderazgo local fortalece la conservación  -->
+        <!-- Contenedor El liderazgo local fortalece la conservación -->
         <section class="w-full max-w-4xl mx-auto py-8">
             <!-- Contenedor con grid responsive sin alterar el orden original -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
@@ -140,14 +140,126 @@
             </div>
         </section>
 
-        <!-- Contenedor Fortalecer capacidades locales y liderazgo para la conservación comunidades_locales/custom-image-web-15-600x600.png -->
+        <!-- Contenedor Fortalecer capacidades locales y liderazgo para la conservación -->
+        <section class="w-full max-w-4xl mx-auto py-8 md:py-12">
+            <!-- Contenedor con grid responsive sin alterar el orden original -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
+                
+                <!-- COLUMNA IZQUIERDA: Textos -->
+                <div class="flex flex-col space-y-3 items-center md:items-start w-full text-[rgb(72,81,79)]">
+                    <!-- Título corregido para evitar desbordes en portátiles -->
+                    <h2 class="text-3xl font-semibold tracking-wide mb-2.5 w-full leading-tight">
+                        Fortalecer capacidades locales y liderazgo para la conservación
+                    </h2>
+                    <!-- Párrafos descriptivos -->
+                    <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                        La conservación a largo plazo requiere más que áreas protegidas. También necesita personas con las capacidades, 
+                        el conocimiento y los recursos necesarios para gestionar y cuidar sus territorios en el tiempo.
+                    </p>
+                     <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                        Naturaleza y Cultura trabaja junto a las comunidades para fortalecer sus capacidades locales mediante procesos de 
+                        formación, acompañamiento técnico y gestión colaborativa de los recursos naturales. Estas alianzas permiten 
+                        monitorear la biodiversidad, restaurar ecosistemas, gestionar áreas de conservación y desarrollar iniciativas que 
+                        benefician tanto a la naturaleza como a los medios de vida locales. 
+                    </p>
+                     <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                        Al invertir en liderazgo y capacidades locales, la conservación se convierte en un proceso impulsado por las 
+                        propias comunidades, y no en una iniciativa impuesta desde fuera.
+                    </p>
+                </div>      
+                
+                <!-- COLUMNA DERECHA: Imagen -->
+                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0 px-4 md:px-0">
+                    <img src="../../imagenes/comunidades_locales/custom-image-web-15-600x600.png" alt="Conservadores" 
+                    class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
+                </div>
+            </div>
+        </section>
 
+        <!-- Contenedor Por qué funciona la conservación liderada desde lo local -->
+        <section class="w-full relative z-0 pt-4 pb-6">
+            <!-- Contenedor con la imagen de fondo (Se ajustó el margen superior mt-4 para que coincida perfectamente con la línea) -->
+            <div class="w-full bg-[url('../../imagenes/comunidades_locales/Featured-image-5.png')] 
+                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 px-6 md:px-12 lg:px-48 min-h-112 md:h-112.5">
+                
+                <!-- CAPA DE OSCURECIDO DIFUMINADO -->
+                <div class="absolute inset-0 z-0 bg-black/65 md:bg-black/65"></div>
+                
+                <!-- Bloque de textos -->
+                <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
+                    [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
 
-        <!-- Contenedor Por qué funciona la conservación liderada desde lo local comunidades_locales/Featured-image-5.png -->
+                    <!-- Título principal -->
+                    <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
+                        Por qué funciona la conservación <br class="hidden sm:block">liderada desde lo local 
+                    </h2>
 
+                    <!-- Párrafos descriptivos -->
+                    <p class="mb-4 text-[16px] leading-relaxed w-full">
+                        Los esfuerzos de conservación son más efectivos cuando <br class="hidden sm:block">quienes en el territorio 
+                        participan activamente en su <br class="hidden sm:block">protección.
+                    </p>
+                    <p class="mb-4 text-[16px] leading-relaxed w-full">
+                        Los pueblos indígenas y las comunidades locales gestionan o tienen
+                        <br class="hidden md:block">derechos de tenencia sobre aproximadamente una cuarta parte de la
+                        <br class="hidden md:block">superficie terrestre del planeta. Diversos estudios muestran que
+                        <br class="hidden md:block">muchos de estos territorios albergan algunos de los ecosistemas
+                        <br class="hidden md:block">mejor conservados del mundo. También se ha encontrado que los 
+                        <br class="hidden md:block">niveles de biodiversidad en territorios gestionados por pueblos
+                        <br class="hidden md:block">indígenas suelen ser iguales o incluso superiores a los registrados 
+                        <br class="hidden md:block">en muchas áreas protegidas.
+                    </p>
+                    <p class="text-[16px] leading-relaxed w-full">
+                        El enfoque de Naturaleza y Cultura se basa en esta evidencia. Al
+                        <br class="hidden md:block">trabajar en alianza con las comunidades y fortalecer su rol como
+                        <br class="hidden md:block">guardianes de la naturaleza, las soluciones de conservación se
+                        <br class="hidden md:block">vuelven más pertinentes, resilientes y sostenibles en el tiempo.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-        <!-- Contenedor Cómo fortalecer la conservación liderada desde lo local comunidades_locales/Horizontal-Web-Image-5.png -->
+        <!-- Contenedor Cómo fortalecer la conservación liderada desde lo local -->
+        <section class="w-full max-w-6xl mx-auto py-8 px-6 box-border">
+            <!-- Contenedor con grid responsive e inversión de orden -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
+                
+                <!-- COLUMNA DERECHA (Textos y botón): Primero en móvil (order-1), segundo en pantallas grandes (md:order-2) -->
+                <div class="flex flex-col space-y-3 order-1 md:order-2 items-center md:items-start w-full text-[rgb(72,81,79)]">
+                    <!-- Título principal -->
+                    <h2 class="font-medium tracking-wider text-3xl w-full leading-tight">
+                        Cómo fortalecer la conservación liderada desde lo local
+                    </h2>
+                    <!-- Párrafos descriptivos -->
+                    <p class="leading-relaxed text-[16px] w-full">
+                        La conservación es más efectiva cuando las comunidades lideran la protección de los territorios y las fuentes de 
+                        vida que consideran su hogar.
+                    </p>
+                    <p class="leading-relaxed text-[16px] w-full">
+                        En Naturaleza y Cultura Internacional trabajamos para visibilizar y fortalecer el papel de los pueblos indígenas y 
+                        las comunidades locales en el cuidado de los ecosistemas. A través de alianzas de largo plazo, acompañamiento técnico
+                        y colaboración con actores locales, impulsamos procesos de conservación que nacen desde los territorios y se 
+                        sostienen en el tiempo.
+                    </p>
+                    <p class="leading-relaxed text-[16px] w-full">
+                        Al reconocer y apoyar el liderazgo comunitario, contribuimos a proteger algunos de los paisajes con mayor 
+                        biodiversidad del planeta y a asegurar que la conservación beneficie tanto a la naturaleza como a las personas que 
+                        dependen de ella.
+                    </p>
+                    <!-- Enlace adaptativo centrado en móvil / a la izquierda en escritorio -->
+                    <a href="#" class="mt-6 bg-[rgb(15,125,63)] text-white inline-block px-6 py-2.5 rounded-full font-bold 
+                    hover:bg-[rgb(31,72,34)] transition-colors self-center md:self-start shrink-0">
+                        <span class="text-sm">Conoce más sobre nuestro trabajo</span>
+                    </a>
+                </div>      
 
+                <!-- COLUMNA IZQUIERDA (Imagen): Segundo en móvil (order-2), primero en pantallas grandes (md:order-1) -->
+                <div class="w-full h-full order-2 md:order-1 flex justify-center items-center mt-6 md:mt-0">
+                    <img src="../../imagenes/comunidades_locales/Horizontal-Web-Image-5.png" alt="" 
+                    class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
+                </div>
+            </div>
+        </section>
 
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <?php include_once "../../components/footer.php"; ?>
