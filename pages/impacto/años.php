@@ -232,7 +232,62 @@
         </section>
 
         <!-- Contenedor Comprometidos con -->
-        
+        <section class="max-w-4xl mx-auto py-8 px-6">
+            <h2 class="text-3xl text-[rgb(72,81,79)] mb-8 text-center"> Comprometidos con </h2>
+            <div class="flex flex-col items-center gap-6">
+
+                <!-- Fila superior: 3 tarjetas -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 w-full">
+                    <!-- Tarjeta 1 -->
+                    <div class="relative group h-80 flex flex-col justify-end p-6 overflow-hidden rounded">
+                        <img src="../../imagenes/30_años/Bosques-Proteccion-NCI-30-Aniversario.jpg" alt="" 
+                        class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/40 group-hover:opacity-0 transition-opacity duration-300"></div>
+                        <h3 class="relative z-10 text-white text-2xl">Los Bosques</h3>
+                        <div class="absolute bottom-0 left-0 w-full h-1 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="relative group h-80 flex flex-col justify-end p-6 overflow-hidden rounded">
+                        <img src="../../imagenes/30_años/Mono-Biodiversidad-Proteccion-Especies.jpeg" alt="" 
+                        class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/40 group-hover:opacity-0 transition-opacity duration-300"></div>
+                        <h3 class="relative z-10 text-white text-2xl">La Biodiversidad</h3>
+                        <div class="absolute bottom-0 left-0 w-full h-1 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="relative group h-80 flex flex-col justify-end p-6 overflow-hidden rounded sm:col-span-2 lg:col-span-1">
+                        <img src="../../imagenes/30_años/Clima-Cambio-Climatico.jpeg" alt="" 
+                        class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/40 group-hover:opacity-0 transition-opacity duration-300"></div>
+                        <h3 class="relative z-10 text-white text-xl">El Clima</h3>
+                        <div class="absolute bottom-0 left-0 w-full h-1 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
+                    </div>
+                </div>
+
+                <!-- Fila inferior: 2 tarjetas centradas -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full max-w-2xl">
+                    <!-- Tarjeta 4 -->
+                    <div class="relative group h-80 flex flex-col justify-end p-6 overflow-hidden rounded">
+                        <img src="../../imagenes/30_años/Agua-Fuente-Proteccion.jpeg" alt="" 
+                        class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/40 group-hover:opacity-0 transition-opacity duration-300"></div>
+                        <h3 class="relative z-10 text-white text-2xl">El Agua</h3>
+                        <div class="absolute bottom-0 left-0 w-full h-1 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
+                    </div>
+
+                    <!-- Tarjeta 5 -->
+                    <div class="relative group h-80 flex flex-col justify-end p-6 overflow-hidden rounded">
+                        <img src="../../imagenes/30_años/Comunidades-Locales-Indigenas.jpeg" alt="" 
+                        class="absolute inset-0 w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-black/40 group-hover:opacity-0 transition-opacity duration-300"></div>
+                        <h3 class="relative z-10 text-white text-2xl">Las Comunidades Locales</h3>
+                        <div class="absolute bottom-0 left-0 w-full h-1 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Contenedor Nuestros fundadores Ivan Gayler y Renzo Paladines -->
         <section class="w-full bg-[rgb(244,244,237)] py-10 px-6">
@@ -296,7 +351,36 @@
         </section>
 
         <!-- Contenedor LOS DESAFÍOS CONTINÚAN. NUESTRA DETERMINACIÓN TAMBIÉN. -->
+        <section class="w-full bg-[rgb(31,72,34)] py-10 px-6">
+            <!-- Contenedor principal con grid adaptable -->
+            <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
+                
+                <!-- COLUMNA DERECHA (Texto): Se renderiza PRIMERO en móvil (order-1) y SEGUNDO en pantallas grandes (md:order-2) -->
+                <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full ">
+                    <!-- Título principal -->
+                    <h2 class="font-medium tracking-wider text-3xl w-full text-white">
+                        Los Desafíos continúan nuestra Determinación también
+                    </h2>
+                    <!-- Párrafos descriptivos -->
+                    <p class="leading-relaxed text-[20px] font-Avenir Book w-full text-[rgb(202,219,42)]">
+                        Los próximos 30 años comienzan ahora
+                    </p>
+                    <p class="leading-relaxed text-[16px] font-Avenir Book w-full text-white">
+                        La deforestación, las presiones climáticas y la pérdida de biodiversidad se están intensificando. Lo que ocurra en 
+                        la próxima década determinará el futuro de toda la vida en nuestro planeta.
+                    </p>
+                    <p class="leading-relaxed text-[20px] font-Avenir Book w-full text-[rgb(202,219,42)]">
+                        Seguimos comprometidos con la naturaleza, con las comunidades y con los territorios vivos que sostienen la vida.
+                    </p>
+                </div>
 
+                <!-- COLUMNA IZQUIERDA (Imagen): Se renderiza SEGUNDO en móvil (order-2) y PRIMERO en pantallas grandes (md:order-1) -->
+                <div class="w-full order-2 md:order-1 flex justify-center mt-4 md:mt-0">
+                    <img src="../../imagenes/30_años/30-Aniversario-NCI-Sticker.png" alt="" 
+                    class="w-80 h-80 block object-cover max-w-sm md:max-w-full rounded-md">
+                </div>
+            </div>
+        </section>
 
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <?php include_once "../../components/footer.php"; ?>
