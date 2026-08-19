@@ -115,6 +115,7 @@
                     <!-- Párrafos descriptivos -->
                     <p class="leading-relaxed text-[16px] font-Avenir Book w-full">
                         <b>Los países donde trabajamos albergan algunas de las reservas de agua dulce más importantes de las Américas.</b>
+                    </p>
                     <p class="leading-relaxed text-[16px] font-Avenir Book w-full">
                         Naturaleza y Cultura Internacional trabaja en algunos de los paisajes más ricos en agua y ecológicamente 
                         significativos de América Latina. Desde páramos y bosques nublados de gran altitud hasta extensas cabeceras amazónicas, estos ecosistemas funcionan como verdaderas reservas de agua para el continente.
@@ -291,7 +292,7 @@
                     <p class="text-[16px] leading-relaxed w-full">
                         La deforestación y el cambio de uso del suelo alteran los ciclos
                         <br class="hidden md:block">hidrológicos naturales, debilitando tanto la biodiversidad de agua
-                        <br class="hidden md:block">dulce como la terrestre. <br>
+                        <br class="hidden md:block">dulce como la terrestre.
                     </p>
                     <p class="mb-4 text-[16px] leading-relaxed w-full">
                         <br>Por ello, proteger el agua es una inversión directa en la supervivencia

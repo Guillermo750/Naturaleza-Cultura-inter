@@ -233,18 +233,19 @@
 
         <!-- Contenedor Comprometidos con -->
         <section class="max-w-4xl mx-auto py-8 px-6">
-            <h2 class="text-3xl text-[rgb(72,81,79)] mb-8 text-center"> Comprometidos con </h2>
+            <h2 class="text-3xl text-[rgb(72,81,79)] mb-8 text-center md:text-left"> Comprometidos con </h2>
             <div class="flex flex-col items-center gap-6">
 
                 <!-- Fila superior: 3 tarjetas -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 w-full">
+
                     <!-- Tarjeta 1 -->
                     <div class="relative group h-80 flex flex-col justify-end p-6 overflow-hidden rounded">
                         <img src="../../imagenes/30_años/Bosques-Proteccion-NCI-30-Aniversario.jpg" alt="" 
                         class="absolute inset-0 w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black/40 group-hover:opacity-0 transition-opacity duration-300"></div>
                         <h3 class="relative z-10 text-white text-2xl">Los Bosques</h3>
-                        <div class="absolute bottom-0 left-0 w-full h-1 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
+                        <div class="absolute bottom-0 left-0 w-full h-1.5 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
                     </div>
 
                     <!-- Tarjeta 2 -->
@@ -253,7 +254,7 @@
                         class="absolute inset-0 w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black/40 group-hover:opacity-0 transition-opacity duration-300"></div>
                         <h3 class="relative z-10 text-white text-2xl">La Biodiversidad</h3>
-                        <div class="absolute bottom-0 left-0 w-full h-1 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
+                        <div class="absolute bottom-0 left-0 w-full h-1.5 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
                     </div>
 
                     <!-- Tarjeta 3 -->
@@ -262,19 +263,20 @@
                         class="absolute inset-0 w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black/40 group-hover:opacity-0 transition-opacity duration-300"></div>
                         <h3 class="relative z-10 text-white text-xl">El Clima</h3>
-                        <div class="absolute bottom-0 left-0 w-full h-1 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
+                        <div class="absolute bottom-0 left-0 w-full h-1.5 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
                     </div>
                 </div>
 
                 <!-- Fila inferior: 2 tarjetas centradas -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full max-w-2xl">
+
                     <!-- Tarjeta 4 -->
                     <div class="relative group h-80 flex flex-col justify-end p-6 overflow-hidden rounded">
                         <img src="../../imagenes/30_años/Agua-Fuente-Proteccion.jpeg" alt="" 
                         class="absolute inset-0 w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black/40 group-hover:opacity-0 transition-opacity duration-300"></div>
                         <h3 class="relative z-10 text-white text-2xl">El Agua</h3>
-                        <div class="absolute bottom-0 left-0 w-full h-1 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
+                        <div class="absolute bottom-0 left-0 w-full h-1.5 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
                     </div>
 
                     <!-- Tarjeta 5 -->
@@ -283,7 +285,7 @@
                         class="absolute inset-0 w-full h-full object-cover">
                         <div class="absolute inset-0 bg-black/40 group-hover:opacity-0 transition-opacity duration-300"></div>
                         <h3 class="relative z-10 text-white text-2xl">Las Comunidades Locales</h3>
-                        <div class="absolute bottom-0 left-0 w-full h-1 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
+                        <div class="absolute bottom-0 left-0 w-full h-1.5 bg-amber-500 opacity-0 group-hover:opacity-100"></div>
                     </div>
                 </div>
             </div>
