@@ -118,7 +118,7 @@
                     ? '!bg-[rgb(176,190,175)] !text-white'
                     : '' 
                 ?>">Nuestra Junta Directiva</a>
-                <a href="/pages/somos/nostros.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
+                <a href="/pages/somos/nosotros.php" class="block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase
                 hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200
                 <?= basename($_SERVER['PHP_SELF']) === 'nostros.php'
                     ? '!bg-[rgb(176,190,175)] !text-white'
