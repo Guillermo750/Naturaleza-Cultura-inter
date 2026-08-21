@@ -42,58 +42,42 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-/* FUNCIÓN DEL CAROUSEL CON LAS FLECHAS */
-/* document.addEventListener("DOMContentLoaded", function () {
-    const carouselBody = document.getElementById("carousel");
-    if (!carouselBody) return;
+/* FUNCIÓN DE LOS ACORDEONES */
+// Seleccionamos todos los botones que activan los acordeones
+document.addEventListener('DOMContentLoaded', () => {
 
-    const container = document.getElementById("image");
-    const slides = carouselBody.querySelectorAll(".carousel-slide");
-    const prevBtn = container.querySelector(".carousel-prev");
-    const nextBtn = container.querySelector(".carousel-next");
-
-    let currentIndex = 0;
-    const totalSlides = slides.length; // 5 tarjetas
-
-    function updateCarousel() {
-        const isDesktop = window.innerWidth >= 768;
-        const visibleSlides = isDesktop ? 3 : 1;
-        const maxIndex = totalSlides - visibleSlides; // Índice máximo (2 en PC)
-
-        if (currentIndex > maxIndex) currentIndex = maxIndex;
-        if (currentIndex < 0) currentIndex = 0;
-
-        // Desplaza las tarjetas de forma porcentual exacta
-        const offset = -currentIndex * (100 / visibleSlides);
-        carouselBody.style.transform = `translateX(${offset}%)`;
-
-        // Control visual de los botones
-        if (prevBtn) prevBtn.style.opacity = currentIndex === 0 ? "0.3" : "1";
-        if (nextBtn) nextBtn.style.opacity = currentIndex >= maxIndex ? "0.3" : "1";
-    }
-
-    if (nextBtn) {
-        nextBtn.addEventListener("click", () => {
-            const isDesktop = window.innerWidth >= 768;
-            const visibleSlides = isDesktop ? 3 : 1;
-            const maxIndex = totalSlides - visibleSlides;
-
-            if (currentIndex < maxIndex) {
-                currentIndex++;
-                updateCarousel();
-            }
+    // Escuchamos los clics en absolutamente toda la página
+    document.addEventListener('click', function(e) {
+        
+        // .closest() asegura encontrar el botón .acordeon-trigger aunque hagas clic en el H2 o en el icono <i>
+        const trigger = e.target.closest('.acordeon-trigger');
+        
+        // Si el clic no fue dentro de un botón de acordeón, ignoramos el código
+        if (!trigger) return;
+        
+        // Evitamos cualquier comportamiento por defecto
+        e.preventDefault();
+        
+        const currentItem = trigger.parentElement;
+        const currentContent = currentItem.querySelector('.acordeon-content');
+        const currentIcon = currentItem.querySelector('.acordeon-icon');
+        
+        // Verificamos si el acordeón actual ya se encuentra abierto
+        const isOpen = currentContent.style.maxHeight && currentContent.style.maxHeight !== '0px';
+        
+        // 1. CERRAR TODOS LOS ACORDEONES DE LA PÁGINA
+        document.querySelectorAll('.acordeon-content').forEach(content => {
+            content.style.maxHeight = '0px';
         });
-    }
-
-    if (prevBtn) {
-        prevBtn.addEventListener("click", () => {
-            if (currentIndex > 0) {
-                currentIndex--;
-                updateCarousel();
-            }
+        document.querySelectorAll('.acordeon-icon').forEach(icon => {
+            icon.style.transform = 'rotate(0deg)';
         });
-    }
-
-    window.addEventListener("resize", updateCarousel);
-    updateCarousel();
-}); */
+        
+        // 2. SI EL SELECCIONADO ESTABA CERRADO, LO ABRIMOS
+        if (!isOpen) {
+            // scrollHeight calcula al milímetro el tamaño de los h3 y párrafos <p>
+            currentContent.style.maxHeight = currentContent.scrollHeight + "px";
+            currentIcon.style.transform = 'rotate(180deg)';
+        }
+    });
+});
