@@ -150,6 +150,53 @@
             </div>
         </section>
 
+                <!-- Contenedor Mantente al día con Naturaleza y Cultura Internacional -->
+        <section class="w-full bg-cover bg-center bg-no-repeat relative py-16 md:py-36 overflow-hidden 
+            bg-[url('../../imagenes/historias/nci-option-a-news_curve-background.png')] 
+            md:bg-[url('../../imagenes/historias/nci-option-a-news_curve-background-desktop-xl.png')]">
+            <!-- 1. ILUSTRACIÓN IZQUIERDA -->
+            <div class="hidden sm:block absolute left-4 bottom-4 md:left-10 md:bottom-6 w-24 md:w-36 pointer-events-none z-10">
+                <img src="../../imagenes/historias/nci-option-a-news_illustration-left-desktop-s.png" alt="Cactus izquierdo" class="w-full h-auto object-contain">
+            </div>
+            <!-- 2. ILUSTRACIÓN DERECHA -->
+            <div class="hidden sm:block absolute right-0 bottom-0 w-48 md:w-72 lg:w-96 pointer-events-none z-10">
+                <img src="../../imagenes/historias/nci-option-a-news_illustration-right-desktop-s.png" alt="Paisaje derecho" 
+                class="w-full h-auto object-contain object-bottom-right">
+            </div>
+            <!-- CONTENEDOR CENTRAL DEL CONTENIDO -->
+            <div class="mx-auto max-w-5xl px-6 relative z-20 flex flex-col md:flex-row items-center md:items-start justify-center gap-8 
+                md:gap-16 text-center md:text-left md:pt-36">
+                <!-- Bloque Izquierdo: Título con el megáfono -->
+                <div class="flex flex-col md:flex-row items-center md:items-start gap-4 max-w-sm">
+                    <!-- Icono de Megáfono -->
+                    <div class="w-12 h-12 shrink-0 flex items-center justify-center md:mt-1">
+                        <img src="../../imagenes/historias/nci-option-a_news_icon.png" alt="Megáfono" 
+                        class="w-full h-full object-contain">
+                    </div>
+                    <!-- Texto Principal -->
+                    <div class="relative flex flex-col items-center md:items-start">
+                        <h3 class="text-[rgb(31,72,34)] font-bold text-lg md:text-xl leading-snug">
+                            ¡Mantente al día con Naturaleza y Cultura Internacional!
+                        </h3>
+                        <!-- Línea naranja decorativa debajo del texto -->
+                        <img src="../../imagenes/historias/nci-orange-brush-short.png" alt="Línea decorativa" 
+                        class="w-32 h-auto mt-2 mx-auto md:mx-0">
+                    </div>
+                </div>
+
+                <!-- Bloque Derecho: Texto secundario y Botón -->
+                <div class="flex flex-col items-center md:items-start gap-4 max-w-xs md:pt-2">
+                    <p class="text-[rgb(72,81,79)] text-sm leading-relaxed">
+                        Echa un vistazo a lo que los medios dicen sobre nosotros.
+                    </p>
+                    <!-- Botón verde redondeado -->
+                    <a href="blog.php" class="inline-block bg-[rgb(15,125,63)] hover:bg-[rgb(31,72,34)] text-white font-bold 
+                    text-xs px-6 py-3 rounded-full transition duration-300 whitespace-nowrap shadow-sm">
+                        Blog y Noticias
+                    </a>
+                </div>
+            </div>
+        </section>
 
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <?php include_once "../../components/footer.php"; ?>
