@@ -20,7 +20,7 @@
         
         <!-- Contenedor principal Imagen de fondo + título encima encima -->
         <section class="w-full relative bg-[url(../../imagenes/30_años/30-aniversario-Banner-SPA2-Desktop.jpg)] bg-cover bg-center 
-            bg-no-repeat flex items-center min-h-[50vh] md:h-[90vh] pt-6 pb-12">
+            bg-no-repeat flex items-center min-h-[50vh] md:h-[70vh] pt-6 pb-12">
 
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
             <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 md:mt-40 mt-36 mb-12 flex justify-center md:justify-start">
