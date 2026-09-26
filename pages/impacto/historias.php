@@ -150,7 +150,33 @@
             </div>
         </section>
 
-        
+        <!-- Contenedor Blog -->
+         <section class="w-full max-w-7xl mx-auto px-4 md:py-20 relative ">
+            <!-- Cabecera de la sección: Contenedor de la línea alineado con el ancho de las tarjetas -->
+            <div class="relative w-full mb-10 px-5 sm:px-8 lg:px-12">
+                <!-- IMAGEN DEL GUACAMAYO: Absoluta a la izquierda, fuera del contenedor pero pegada al inicio de la línea -->
+                <div class="hidden sm:block absolute -left-12 top-1/2 -translate-y-1/2 w-24 shrink-0 z-10">
+                    <img src="../../imagenes/historias/nci-left-illustration1-blog-newsp.png" alt="Decoración lateral" 
+                    class="w-full h-auto object-contain">
+                </div>
+                <!-- CONTENEDOR DE LA LÍNEA -->
+                <div class="w-full h-4 bg-contain bg-repeat-x bg-left-center" 
+                    style="background-image: url('../../imagenes/historias/nci-directory-green-brush_separator.png');">
+                </div>
+            </div>
+
+            <!-- Contenedor de los blog -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 w-full justify-items-center px-5 sm:px-8 lg:px-12">
+                
+            </div>
+            <!-- ILUSTRACIÓN DE LA CURVA Y EL COLIBRÍ (CORREGIDA) -->
+            <!-- -right-20 la empuja hacia afuera de las tarjetas para situarse justo en tu trazo rojo -->
+            <!-- h-full obliga a la imagen a medir exactamente lo mismo de alto que toda la sección -->
+            <div class="hidden sm:block absolute -right-20 top-0 h-full w-24 z-0 pointer-events-none">
+                <img src="../../imagenes/historias/nci-right-illustration1-blog-newsp.png" alt="Decoración lateral derecha" 
+                class="w-full h-full object-fill object-right opacity-90">
+            </div>
+        </section>
 
         <!-- Contenedor Mantente al día con Naturaleza y Cultura Internacional -->
         <section class="w-full bg-cover bg-center bg-no-repeat relative py-16 md:py-36 overflow-hidden 
