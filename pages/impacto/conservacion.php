@@ -48,7 +48,7 @@
                     <!-- flex-row e items-center alinean la etiqueta al lado del input en el móvil -->
                     <div class="flex flex-row items-center gap-3 md:gap-12 w-full">
                         <!-- Columna Izquierda: Etiqueta principal (Alineada al centro del input con md:mt-7) -->
-                        <div class="w-20 md:w-24 shrink-0 font-medium md:mt-7 text-left">
+                        <div class="w-20 md:w-24 shrink-0 md:mt-7 text-left">
                             <span>Explorar:</span>
                         </div>
                         <!-- Columna Derecha: Input y botón -->
@@ -78,7 +78,7 @@
                     <!-- flex-row mantiene la etiqueta al lado de todo el bloque de filtros -->
                     <div class="flex flex-row items-start gap-3 md:gap-12 w-full">
                         <!-- Columna Izquierda: Etiqueta principal -->
-                        <div class="w-20 md:w-24 shrink-0 font-medium pt-9 md:pt-0 md:mt-7 text-left">
+                        <div class="w-20 md:w-24 shrink-0 pt-9 md:pt-0 md:mt-7 text-left">
                             <span>Filtrar por:</span>
                         </div>
                         
