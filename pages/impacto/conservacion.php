@@ -296,7 +296,7 @@
 
                 <!-- Bloque Derecho: Texto secundario y Botón -->
                 <div class="flex flex-col items-center md:items-start gap-4 max-w-xs md:pt-2">
-                    <p class="text-[rgb(72,81,79)] text-sm leading-relaxed">
+                    <p class="text-[rgb(72,81,79)] text-[16px] leading-relaxed">
                         Lee nuestras últimas noticias y publicaciones.
                     </p>
                     <!-- Botón verde redondeado -->

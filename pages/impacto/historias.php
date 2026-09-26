@@ -175,8 +175,8 @@
                     </div>
                     <!-- Texto Principal -->
                     <div class="relative flex flex-col items-center md:items-start">
-                        <h3 class="text-[rgb(31,72,34)] font-bold text-lg md:text-xl leading-snug">
-                            ¡Mantente al día con Naturaleza y Cultura Internacional!
+                        <h3 class="text-[rgb(31,72,34)] text-lg md:text-xl leading-snug">
+                            NATURALEZA Y CULTURA EN LAS NOTICIAS
                         </h3>
                         <!-- Línea naranja decorativa debajo del texto -->
                         <img src="../../imagenes/historias/nci-orange-brush-short.png" alt="Línea decorativa" 
@@ -186,7 +186,7 @@
 
                 <!-- Bloque Derecho: Texto secundario y Botón -->
                 <div class="flex flex-col items-center md:items-start gap-4 max-w-xs md:pt-2">
-                    <p class="text-[rgb(72,81,79)] text-sm leading-relaxed">
+                    <p class="text-[rgb(72,81,79)] text-[16px] leading-relaxed">
                         Echa un vistazo a lo que los medios dicen sobre nosotros.
                     </p>
                     <!-- Botón verde redondeado -->
