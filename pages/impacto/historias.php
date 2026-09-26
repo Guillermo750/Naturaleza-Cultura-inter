@@ -150,7 +150,9 @@
             </div>
         </section>
 
-                <!-- Contenedor Mantente al día con Naturaleza y Cultura Internacional -->
+        
+
+        <!-- Contenedor Mantente al día con Naturaleza y Cultura Internacional -->
         <section class="w-full bg-cover bg-center bg-no-repeat relative py-16 md:py-36 overflow-hidden 
             bg-[url('../../imagenes/historias/nci-option-a-news_curve-background.png')] 
             md:bg-[url('../../imagenes/historias/nci-option-a-news_curve-background-desktop-xl.png')]">
@@ -192,7 +194,7 @@
                     <!-- Botón verde redondeado -->
                     <a href="blog.php" class="inline-block bg-[rgb(15,125,63)] hover:bg-[rgb(31,72,34)] text-white font-bold 
                     text-xs px-6 py-3 rounded-full transition duration-300 whitespace-nowrap shadow-sm">
-                        Blog y Noticias
+                        In the media
                     </a>
                 </div>
             </div>
