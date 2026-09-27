@@ -12,7 +12,7 @@
     <script defer src="../js/app.js"></script>
     <title>Nature and Culture International</title>
 </head>
-
+<!-- FALTA ADAPTARLO TODO A TODAS LAS PANTALLAS Y OTRAS COSITAS QUE MEJORAR EN CADA SECCIÓN -->
 <body>
     <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
     <?php include_once "../components/header.php"; ?>
