@@ -151,7 +151,7 @@
         </section>
 
         <!-- Contenedor Blog -->
-         <section class="w-full max-w-7xl mx-auto px-4 md:py-20 relative ">
+        <section class="w-full max-w-7xl mx-auto px-4 md:py-20 relative ">
             <!-- Cabecera de la sección: Contenedor de la línea alineado con el ancho de las tarjetas -->
             <div class="relative w-full mb-10 px-5 sm:px-8 lg:px-12">
                 <!-- IMAGEN DEL GUACAMAYO: Absoluta a la izquierda, fuera del contenedor pero pegada al inicio de la línea -->
@@ -164,10 +164,245 @@
                     style="background-image: url('../../imagenes/historias/nci-directory-green-brush_separator.png');">
                 </div>
             </div>
-
             <!-- Contenedor de los blog -->
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 w-full justify-items-center px-5 sm:px-8 lg:px-12">
-                
+                <!-- Blog 1  -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/PARQUE-NACIONAL-YACURI-1-NCI-768x512.png" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">Conocer para conservar: monitoreo en el Corredor de 
+                            Conectividad Podocarpus Yacuri</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">septiembre 17, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">Guardaparques y guardabosques del <br>Corredor de Conectividad Podocarpus Yacuri 
+                        <br>fortalecieron sus capacidades para monitorear <br>la fauna silvestre mediante el...</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Blog</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">ECUADOR</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 2  -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/SalidaOrellana2024_32-253x190.webp" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">
+                            Una carrera para descubrir y conservar el territorio de Orellana
+                        </h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">septiembre 1, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">Orellana se extiende en el corazón de la 
+                            <br>Amazonía ecuatoriana, entre bosques, ríos y <br>una diversidad de paisajes que...</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Blog</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">ECUADOR</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 3  -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/Foto-principal-253x169.jpg" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">Las comunidades de los Andes del Norte se unen</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">agosto 16, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">En el VIII Encuentro de la Red de Áreas de 
+                            <br>Conservación de los Andes del Norte, <br>representantes de 13... </p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Blog</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">PERÚ</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 4 -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/Foto-de-potada_-Krisia-Espinoza-253x169.webp" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">El compromiso comunitario en la ACP Cujillo se renueva</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">agosto 11, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">Con el compromiso de seguir protegiendo
+                            <br>uno de los bosques secos interandinos de
+                            <br>Cajamarca, se realizó la renovación de...</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Blog</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">PERÚ</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 5 -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/Featured-image.jpg.webp" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">Un paso adelante para una Amazonía conectada</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">agosto 4, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">El reconocimiento del territorio indígena
+                            <br>Tsapuni marca un nuevo paso hacia una
+                            <br>Amazonía mejor conectada y conservada.
+                            <br>Después de...</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Blog</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">PERÚ</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 6 -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/Cascada-2-APH-CORAZON-DE-LA-AMAZONIA-2-1536x1024.jpeg.webp" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">Miel por Bosque fortalece la conservación en Zamora 
+                            Chinchipe</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">agosto 3, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">Las abejas sin aguijón son mucho más que
+                            <br>productoras de miel. Dependen de bosques y
+                            <br>paisajes agroforestales conservados para
+                            <br>encontrar...</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Blog</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">ECUADOR</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 7 -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/Panoramica-San-Andres.jpeg.webp" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">San Andrés: la comunidad que luchó 16 años para proteger 
+                            el agua y los bosques</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">julio 29, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">En el sur de Ecuador, en la provincia de
+                            <br>Zamora Chinchipe, cantón Chinchipe,
+                            <br>parroquia San Andrés, se ha establecido...</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Blog</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">ECUADOR</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 8 -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/Limite-PACR-Yanajanca-350x247.webp" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">Ocho regiones del Perú se unen en Huánuco</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">julio 7, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">Con el firme objetivo de consolidar la gestión
+                            <br>territorial y proteger la biodiversidad del país,
+                            <br>representantes de ocho gobiernos...</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">EVENTO</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">PERÚ</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 9 -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/IMG_8489-1536x864.jpg.webp" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">Ecosistemas y especies únicas de El Oro y Loja</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">junio 22, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">Donde el Chocó, los Andes y la región
+                            <br>Tumbesina se encuentran Por: Manuel V.
+                            <br>Sánchez-Nivicela y Juan C. Sánchez-Nivicela
+                            <br>Las...</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Blog</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">ECUADOR</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 10 -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/Foto-principal_-350x214.jpg.webp" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">Perú y Ecuador definen acciones para el Plan Estratégico 
+                            del Corredor de Conservación Transfronterizo Andino Amazónico</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">junio 16, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">Con el objetivo de consolidar una agenda
+                            <br>binacional de conservación y gestión
+                            <br>sostenible del territorio, representantes de
+                            <br>instituciones ambientales...</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">NOTICIAS</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">ECUADOR</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 11 -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/20250904_103537-Wilmer-Ortiz-Herrera-Naturaleza-y-Cultura-Internacional-350x263.jpg.webp"
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">Área de Conservación Regional Yanajanca: la mayor 
+                            apuesta de conservación en los Andes peruanos</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">junio 10, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">El Área de Conservación Regional Yanajanca
+                            <br>(Huánuco, Perú) es un territorio donde los
+                            <br>Páramos abrazan a las Yungas Peruanas....</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Blog</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">PERÚ</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog 12 -->
+                <div class="flex flex-col items-center w-full max-w-sm mx-auto">
+                    <div class="relative w-full">
+                        <img src="../../imagenes/historias/Foto-principal-de-paisaje-350x263.jpg.webp" alt="" 
+                        class="w-full h-72 object-cover">
+                    </div>
+                    <div class="p-4 space-y-4">
+                        <h3 class="font-medium text-[rgb(31,72,34)] text-[22px]">La Libertad: Bolívar avanza hacia su protección</h3>
+                        <p class="text-[16px] text-[rgb(72,81,79)] mb-1">mayo 19, 2026</p>
+                        <p class="text-16px text-[rgb(72,81,79)] mb-1">Los bosques secos del Marañón, es un
+                            <br>bosque único que hoy busca asegurar su
+                            <br>futuro. El proceso para el establecimiento del
+                            <br>Área...</p>
+                        <!-- Para poder poner el 3º span debajo y centrado ponemos 'flex-wrap' en este div -->
+                        <div class="flex gap-4 mb-2 uppercase"> 
+                            <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[10px] px-2 py-1">Blog</span>
+                            <p class="text-[10px] text-[rgb(31,72,34)]">PERÚ</p>
+                        </div>
+                    </div>
+                </div>
             </div>
             <!-- ILUSTRACIÓN DE LA CURVA Y EL COLIBRÍ (CORREGIDA) -->
             <!-- -right-20 la empuja hacia afuera de las tarjetas para situarse justo en tu trazo rojo -->
@@ -175,6 +410,31 @@
             <div class="hidden sm:block absolute -right-20 top-0 h-full w-24 z-0 pointer-events-none">
                 <img src="../../imagenes/historias/nci-right-illustration1-blog-newsp.png" alt="Decoración lateral derecha" 
                 class="w-full h-full object-fill object-right opacity-90">
+            </div>
+            <!-- Inserta esto justo debajo del grid donde terminan tus tarjetas de blog, pero antes de cerrar el </section> -->
+            <div class="mt-12 max-w-6xl mx-auto px-4">
+                <!-- Línea divisoria muy sutil -->
+                <hr class="border-[rgb(225,234,237)]/60 mb-8" />
+                <!-- Contenedor de la paginación -->
+                <nav class="flex items-center justify-center gap-1 text-sm font-semibold text-[rgb(72,81,79)]" aria-label="Paginación">
+                    <!-- Página Activa (con la línea verde debajo) -->
+                    <div class="relative flex flex-col items-center">
+                    <a href="#" class="px-3 py-2 text-[rgb(15,125,63)] transition-colors" aria-current="page">1</a>
+                    <span class="absolute bottom-0 w-4 h-0.5 bg-[rgb(15,125,63)] rounded-full"></span>
+                    </div>
+                    <!-- Páginas Siguientes -->
+                    <a href="#" class="px-3 py-2">2</a>
+                    <a href="#" class="px-3 py-2">3</a>
+                    <!-- Elipsis (...) -->
+                    <span class="px-2 py-2 font-normal">...</span>
+                    <!-- Páginas Siguientes -->
+                    <a href="#" class="px-3 py-2">19</a>
+                    <a href="#" class="px-3 py-2">20</a>
+                    <a href="#" class="px-3 py-2">21</a>
+                    <!-- Botón Siguiente -->
+                    <a href="#" class="ml-4 px-3 py-2 hover:text-[rgb(15,125,63)] transition-colors flex items-center 
+                    font-bold">Next</a>
+                </nav>
             </div>
         </section>
 
