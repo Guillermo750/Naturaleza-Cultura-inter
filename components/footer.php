@@ -6,7 +6,7 @@
             <div class="flex flex-col space-y-4 text-[rgb(72,81,79)] font-normal text-[14px] uppercase items-center text-center 
                 md:items-start md:text-left w-full max-w-full md:w-auto">
                 <span class="block w-full"><a href="">Informes <br class="hidden md:block">Financieros y <br class="hidden md:block">Reportes</a>
-            </span>
+                </span>
                 <span class="block w-full"><a href="">Medios de <br class="hidden md:block">Comunicación</a></span>
                 <span class="block w-full"><a href="">Publicaciones</a></span>
                 <span class="block w-full"><a href="">Investigaciones</a></span>
@@ -47,38 +47,7 @@
                 <img src="/imagenes/imagenes_principal/imagen33.webp" alt="" class="w-20 h-15 shrink-0 object-contain">
                 <img src="/imagenes/imagenes_principal/imagen32.png" alt="" class="w-20 h-15 shrink-0 object-contain">
                 <img src="/imagenes/imagenes_principal/imagen34.webp" alt="" class="w-20 h-15 shrink-0 object-contain">
-            </div>
-
-            <!-- Columna 4 -->
-            <div class="flex flex-col items-center space-y-4 w-full max-w-full md:w-auto">
-                <div class="w-full text-center px-2">
-                    <span class="text-[rgb(15,125,63)] text-[14px] uppercase block">Historias reales. Impacto real.</span>
-                    <h2 class="text-[rgb(72,81,79)] text-[32px] font-semibold leading-tight">Suscríbete a<br>nuestro boletín!</h2>
-                    <p class="text-[rgb(118,124,123)] text-[18px] font-normal">Sign up to get email<br>updates</p>
-                </div>
-                <div class="flex flex-col items-center justify-center text-center w-full px-2">
-                    <form class="p-2 w-full flex flex-col items-center max-w-xs mx-auto">
-                        <div class="mb-2 w-full">
-                            <input type="text" id="nombre" name="nombre" class="pl-4 py-3 block w-full border border-[rgb(180,185,184)] 
-                            rounded-md text-[rgb(118,124,123)]" placeholder="Nombre (*)">
-                        </div>
-                        <div class="mb-4 w-full">
-                            <input type="text" id="apellido" name="apellido" class="pl-4 py-3 block w-full border border-[rgb(180,185,184)] 
-                            rounded-md text-[rgb(118,124,123)]" placeholder="Apellido (*)">
-                        </div>
-                        <div class="mb-4 w-full">
-                            <input type="email" id="email" name="email" class="pl-4 py-3 block w-full border border-[rgb(180,185,184)] 
-                            rounded-md text-[rgb(118,124,123)]" placeholder="Email (*)">
-                        </div>
-                        <div class="mt-1 w-full flex justify-center">
-                            <!-- Botón restaurado con tus clases originales y seguro para móviles -->
-                            <button type="submit" class="w-auto max-w-full border-2 bg-white py-3 px-12 text-[rgba(58,99,56)] 
-                            rounded-md hover:bg-[rgb(48,59,67)] border-[rgb(62,103,60)] text-[20px] font-semibold hover:text-white 
-                            transition-colors">Inscríbeme</button>
-                        </div>
-                    </form>
-                </div>
-            </div>   
+            </div> 
         </section>
 
     <!-- Bloque Inferior del PIE DE PÁGINA -->
