@@ -23,7 +23,7 @@
             flex items-center min-h-[50vh] md:h-[80vh] pt-6 pb-12">
 
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 md:mt-40 mt-36 mb-12 flex justify-center md:justify-start">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10 md:mt-40 mt-36 mb-12 flex justify-center md:justify-start">
                 <!-- Bloque con fondo negro translúcido -->
                 <div class="inline-block p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
                     <!-- TÍTULO -->
@@ -37,8 +37,8 @@
         </section>
 
         <!-- Contenedor Nuestro Trabajo -->
-        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 text-center 
-            md:text-left">  
+        <section class="w-full max-w-5xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-5 sm:px-6 
+            md:px-8 lg:px-12 text-center md:text-left">  
             <!-- Título verde -->
             <h2 class="text-3xl md:text-4xl text-[rgb(15,125,63)] tracking-wider w-full">Nuestro Trabajo</h2>
             
@@ -58,9 +58,9 @@
         </section>
 
         <!-- Contenedor Programas Destacados -->
-        <section class="w-full max-w-6xl mx-auto px-4 md:py-8">
+        <section class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 py-8">
             <!-- Cabecera de la sección: Título + Línea, Botón a la derecha -->
-            <div class="flex flex-col md:flex-row justify-between items-center mb-10 pl-0 lg:pl-28 text-center md:text-left gap-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-10 text-center md:text-left gap-4">
                 <!-- Bloque del título estructurado en fila (Flex) en ordenadores grandes -->
                 <div class="flex flex-col items-center md:items-start lg:flex-row lg:items-center gap-4 w-full">
                     <!-- IMAGEN DE LA FLOR: Visible solo en ordenadores grandes, colocada de forma natural al lado del texto -->
@@ -84,7 +84,7 @@
             </div>
 
             <!-- Contenedor de las Tarjetas Adaptable -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 pl-0 lg:pl-36 w-full">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 w-full">
                 <!-- Tarjeta 1 -->
                 <div class="flex flex-col items-center w-full max-w-sm mx-auto">
                     <div class="relative w-full">
@@ -125,7 +125,7 @@
         </section>
 
         <!-- Contenedor SOLUCIONES CLIMÁTICAS BASADAS EN LA NATURALEZA -->
-        <section class="w-full max-w-4xl mx-auto py-12 md:py-7 px-6">
+        <section class="w-full max-w-5xl mx-auto py-12 md:py-7 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Contenedor principal con grid responsive -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-start text-center md:text-left">
                 <!-- COLUMNA IZQUIERDA: Textos -->
@@ -182,10 +182,10 @@
         </section>
 
         <!-- Contenedor Alianzas con comunidades indígenas y locales para la acción climática -->
-        <section class="w-full bg-[rgb(244,244,237)] py-10 px-6">
+        <section class="w-full bg-[rgb(244,244,237)] py-10">
             <!-- Contenedor principal con grid adaptable -->
-            <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
-                
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center 
+                md:text-left">
                 <!-- COLUMNA DERECHA (Texto): Se renderiza PRIMERO en móvil (order-1) y SEGUNDO en pantallas grandes (md:order-2) -->
                 <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full text-[rgb(72,81,79)]">
                     <!-- Título principal -->
@@ -214,7 +214,7 @@
         </section>
 
         <!-- Contenedor PROTECCIÓN DE LOS BOSQUES -->
-        <section class="w-full max-w-4xl mx-auto py-8 md:py-12">
+        <section class="w-full max-w-5xl mx-auto py-8 md:py-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Contenedor con grid responsive sin alterar el orden original -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
                 
@@ -229,7 +229,7 @@
                         Paisajes conectados: Mayor resiliencia frente al cambio climático
                     </h3>
                     <!-- Párrafo descriptivo -->
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-ful">
                         Los paisajes extensos y conectados son más resilientes ante el estrés y las perturbaciones climáticas. Los bosques 
                         intactos almacenan significativamente más carbono que los bosques fragmentados y tienen una mayor capacidad para 
                         regular las lluvias y los patrones climáticos locales a lo largo del tiempo.
@@ -237,7 +237,7 @@
                 </div>      
                 
                 <!-- COLUMNA DERECHA: Imagen -->
-                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0 px-4 md:px-0">
+                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0">
                     <img src="../../imagenes/imagenes_clima/custom-image-web-4-600x600.png" alt="Caucho de un río" 
                     class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
                 </div>
@@ -248,43 +248,41 @@
         <section class="w-full relative z-0 pt-4 pb-6">
             <!-- Contenedor con la imagen de fondo (Se ajustó el margen superior mt-4 para que coincida perfectamente con la línea) -->
             <div class="w-full bg-[url('../../imagenes/imagenes_clima/Featured-image-1.png')] 
-                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 px-6 md:px-12 lg:px-48 min-h-112 md:h-112.5">
-                
+                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 min-h-112 md:h-112.5">
                 <!-- CAPA DE OSCURECIDO DIFUMINADO -->
                 <div class="absolute inset-0 z-0 bg-black/65 md:bg-black/35"></div>
-                
-                <!-- Bloque de textos -->
-                <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
-                    [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
-
-                    <!-- Título principal -->
-                    <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
-                        La Deforestación Acelera el Cambio <br class="hidden md:block">Climático
-                    </h2>
-
-                    <!-- Párrafos descriptivos -->
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        Los bosques tropicales se encuentran entre las soluciones <br class="hidden sm:block">climáticas naturales
-                        más poderosas del planeta.
-                    </p>
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        Almacenan cantidades masivas de carbono en los árboles y el suelo, <br class="hidden md:block">ayudando a mantener 
-                        los gases de efecto invernadero fuera de la <br class="hidden md:block">atmósfera. Cuando los bosques son talados o 
-                        degradados, ese <br class="hidden md:block">carbono almacenado se libera a la atmósfera. Al mismo tiempo, se
-                        <br class="hidden md:block">pierde la capacidad del bosque para absorber carbono en el futuro. 
-                    </p>
-                    <p class="text-[16px] leading-relaxed w-full">
-                        Los bosques tropicales están siendo deforestados más 
-                        <br class="hidden md:block">rápido que cualquier otro ecosistema, y desempeñan un
-                        <br class="hidden md:block">papel crucial en la regulación y estabilización de los
-                        <br class="hidden md:block">patrones climáticos globales.
-                    </p>
+                <!-- EJE PRINCIPAL -->
+                <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10">
+                    <!-- Bloque de textos -->
+                    <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start">
+                        <!-- Título principal -->
+                        <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
+                            La Deforestación Acelera el Cambio <br class="hidden md:block">Climático
+                        </h2>
+                        <!-- Párrafos descriptivos -->
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            Los bosques tropicales se encuentran entre las soluciones <br class="hidden sm:block">climáticas naturales
+                            más poderosas del planeta.
+                        </p>
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            Almacenan cantidades masivas de carbono en los árboles y el suelo, <br class="hidden md:block">ayudando a mantener 
+                            los gases de efecto invernadero fuera de la <br class="hidden md:block">atmósfera. Cuando los bosques son talados o 
+                            degradados, ese <br class="hidden md:block">carbono almacenado se libera a la atmósfera. Al mismo tiempo, se
+                            <br class="hidden md:block">pierde la capacidad del bosque para absorber carbono en el futuro. 
+                        </p>
+                        <p class="text-[16px] leading-relaxed w-full">
+                            Los bosques tropicales están siendo deforestados más 
+                            <br class="hidden md:block">rápido que cualquier otro ecosistema, y desempeñan un
+                            <br class="hidden md:block">papel crucial en la regulación y estabilización de los
+                            <br class="hidden md:block">patrones climáticos globales.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Contenedor Cómo puedes ayudar a proteger los bosques y el clima -->
-        <section class="w-full max-w-6xl mx-auto py-8 px-6 box-border">
+        <section class="w-full max-w-5xl mx-auto py-8 px-5 sm:px-6 md:px-8 lg:px-12 box-border">
             <!-- Contenedor con grid responsive e inversión de orden -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
                 
