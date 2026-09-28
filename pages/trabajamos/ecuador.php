@@ -68,7 +68,7 @@
                             <h2 class="text-3xl tracking-tight">
                                 ¿DÓNDE TRABAJAMOS?
                             </h2>
-                            <img src="../../imagenes/ecuador/nci-orange-brush-short.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
+                            <img src="../../imagenes/ecuador/linea01.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
                             <p class="text-[16px] leading-relaxed">
                                 En Ecuador, enfocamos nuestros esfuerzos en la Amazonía y en el sur del país, protegiendo sitios críticos para la 
                                 biodiversidad, reservas de carbono y recursos hídricos para las generaciones presentes y futuras.
@@ -146,6 +146,7 @@
                             <h2 class="text-3xl tracking-tight">
                                 ¿QUÉ HACEMOS?
                             </h2>
+                            <img src="../../imagenes/ecuador/linea_02.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
                             <p class="text-[16px] leading-relaxed">
                                 Conservamos paisajes biológicamente diversos en América Latina, en acuerdo con las culturas locales para el 
                                 bienestar del planeta.
@@ -165,6 +166,7 @@
                                     Plataforma Amazónica por los Bosques, el Clima y el Bienestar Humano
                                 </h3>
                             </div>
+                            <img src="../../imagenes/ecuador/linea_rosa_06.png" alt="Línea decorativa" class="h-17 w-20 mt-3">
                             <p class="text-[16px] leading-relaxed text-[rgb(72,81,79)]">
                                 La Plataforma Amazónica por los Bosques, el Clima y el Bienestar Humano es una iniciativa regional de gobernanza 
                                 colaborativa territorial entre los gobiernos subnacionales y los pueblos y nacionalidades de la Amazonía 
