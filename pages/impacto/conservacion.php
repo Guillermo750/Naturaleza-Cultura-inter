@@ -42,8 +42,7 @@
         <!-- Contenedor FILTERS -->
         <section class="bg-white">
             <div class="mx-auto max-w-7xl px-4 py-8 sm:px-8 lg:px-12 text-sm text-[rgb(31,72,34)]">
-                <form id="filters" class="flex flex-col gap-8">
-                    
+                <form id="filters" class="flex flex-col gap-8">     
                     <!-- FILA 1: EXPLORAR (Búsqueda) -->
                     <!-- flex-row e items-center alinean la etiqueta al lado del input en el móvil -->
                     <div class="flex flex-row items-center gap-3 md:gap-12 w-full">
