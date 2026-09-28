@@ -23,7 +23,7 @@
             flex items-center min-h-[50vh] md:h-[80vh] pt-6 pb-12">
 
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 mt-6 mb-12 flex justify-center md:justify-start">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10 mt-6 mb-12 flex justify-center md:justify-start">
                 <!-- Bloque con fondo negro translúcido -->
                 <div class="inline-block p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
                     <!-- TÍTULO -->
@@ -37,8 +37,8 @@
         </section>
 
         <!-- Contenedor Nuestro Trabajo -->
-        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 text-center 
-            md:text-left">  
+        <section class="w-full max-w-5xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-5 sm:px-6 
+            md:px-8 lg:px-12 text-center md:text-left">  
             <!-- Título verde -->
             <h2 class="text-3xl text-[rgb(15,125,63)] tracking-wider w-full">Nuestro Trabajo</h2>
             
@@ -62,9 +62,9 @@
         </section>
 
         <!-- Contenedor Programas Destacados -->
-        <section class="w-full max-w-6xl mx-auto px-4 md:py-8">
+        <section class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 md:py-8">
             <!-- Cabecera de la sección: Título + Línea, Botón a la derecha -->
-            <div class="flex flex-col md:flex-row justify-between items-center mb-10 pl-0 lg:pl-28 text-center md:text-left gap-4">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-10 text-center md:text-left gap-4">
                 <!-- Bloque del título estructurado en fila (Flex) en ordenadores grandes -->
                 <div class="flex flex-col items-center md:items-start lg:flex-row lg:items-center gap-4 w-full">
                     <!-- IMAGEN DE LA FLOR: Visible solo en ordenadores grandes, colocada de forma natural al lado del texto -->
@@ -88,7 +88,7 @@
             </div>
 
             <!-- Contenedor de las Tarjetas Adaptable -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 pl-0 lg:pl-36 w-full">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 w-full">
                 <!-- Tarjeta 1 -->
                 <div class="flex flex-col items-center w-full max-w-sm mx-auto">
                     <div class="relative w-full">
@@ -132,7 +132,7 @@
         </section>
 
         <!-- Contenedor Conectividad -->
-        <section class="w-full max-w-4xl mx-auto py-12 md:py-7 px-6">
+        <section class="w-full max-w-5xl mx-auto py-12 md:py-7 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Contenedor principal con grid responsive -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-start text-center md:text-left">
                 <!-- COLUMNA IZQUIERDA: Textos -->
@@ -174,10 +174,10 @@
         </section>
 
         <!-- Contenedor Una Solución Duradera para la Biodiversidad -->
-        <section class="w-full bg-[rgb(244,244,237)] py-10 px-6">
+        <section class="w-full bg-[rgb(244,244,237)] py-10">
             <!-- Contenedor principal con grid adaptable -->
-            <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
-                
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center 
+                md:text-left">
                 <!-- COLUMNA DERECHA (Texto): Se renderiza PRIMERO en móvil (order-1) y SEGUNDO en pantallas grandes (md:order-2) -->
                 <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full text-[rgb(72,81,79)]">
                     <!-- Título principal -->
@@ -206,7 +206,7 @@
         </section>
 
         <!-- Contenedor TRANSFORMANDO LA INVESTIGACIÓN EN ACCIÓN -->
-        <section class="w-full max-w-4xl mx-auto py-8 md:py-12">
+        <section class="w-full max-w-5xl mx-auto py-8 md:py-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Contenedor con grid responsive sin alterar el orden original -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
                 
@@ -221,13 +221,13 @@
                         Monitoreo de especies amenazadas
                     </h3>
                     <!-- Párrafos descriptivos -->
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         <b>Naturaleza y Cultura Internacional</b> brinda apoyo técnico y logístico a universidades locales e internacionales, 
                         instituciones de investigación y ONG para monitorear y estudiar especies clave y amenazadas. Esta investigación nos 
                         ayuda a comprender qué necesitan las especies para prosperar y fortalece las estrategias de conservación que protegen
                         la biodiversidad a largo plazo.
                     </p>
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         El monitoreo y la investigación no son solo ejercicios académicos. Ayudan a orientar decisiones en el mundo real 
                         sobre dónde proteger, cómo fortalecer la <b>gestión responsable</b> y cómo reducir las amenazas a las especies antes 
                         de que sea irreversible.
@@ -235,7 +235,7 @@
                 </div>      
                 
                 <!-- COLUMNA DERECHA: Imagen -->
-                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0 px-4 md:px-0">
+                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0">
                     <img src="../../imagenes/imagenes_biodiversidad/biologo.png" alt="Biologo protegiendo a la fauna" 
                     class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
                 </div>
@@ -245,40 +245,40 @@
         <!-- Contenedor La Importancia de Proteger la Biodiversidad -->
         <section class="w-full relative z-0 pt-4 pb-6">
             <!-- Contenedor con la imagen de fondo (Se ajustó el margen superior mt-4 para que coincida perfectamente con la línea) -->
-            <div class="w-full bg-[url('../../imagenes/imagenes_biodiversidad/gepardo.png')] 
-                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 px-6 md:px-12 lg:px-48 min-h-112 md:h-112.5">
-                
+            <div class="w-full bg-[url('../../imagenes/imagenes_biodiversidad/gepardo.png')]  
+                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 min-h-112 md:h-112.5">
                 <!-- CAPA DE OSCURECIDO DIFUMINADO -->
                 <div class="absolute inset-0 z-0 bg-black/65 md:bg-black/35"></div>
-                
-                <!-- Bloque de textos -->
-                <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
-                    [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
-                    <!-- Título principal -->
-                    <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
-                        La Importancia de Proteger la <br class="hidden sm:block">Biodiversidad
-                    </h2>
-                    <!-- Párrafos descriptivos -->
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        Las poblaciones de las especies han disminuido un 73% <br class="hidden sm:block">en los últimos 50 años.
-                    </p>
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        El monitoreo global muestra que las poblaciones de las especies han <br class="hidden md:block">disminuido de manera 
-                        marcada en las últimas décadas, debido <br class="hidden md:block">principalmente a la pérdida de hábitat. América 
-                        Latina, y <br class="hidden md:block">particularmente la Amazonía, han experimentado algunos de los
-                        <br class="hidden md:block">mayores impactos a medida que la deforestación y la fragmentación 
-                        <br class="hidden md:block">se aceleran.
-                    </p>
-                    <p class="text-[16px] leading-relaxed w-full">
-                        La protección y conectividad del hábitat de las especies <br class="hidden md:block">en peligro es clave para 
-                        revertir estas tendencias.
-                    </p>
+                <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10">
+                    <!-- Bloque de textos -->
+                    <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
+                        [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
+                        <!-- Título principal -->
+                        <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
+                            La Importancia de Proteger la <br class="hidden sm:block">Biodiversidad
+                        </h2>
+                        <!-- Párrafos descriptivos -->
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            Las poblaciones de las especies han disminuido un 73% <br class="hidden sm:block">en los últimos 50 años.
+                        </p>
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            El monitoreo global muestra que las poblaciones de las especies han <br class="hidden md:block">disminuido de manera 
+                            marcada en las últimas décadas, debido <br class="hidden md:block">principalmente a la pérdida de hábitat. América 
+                            Latina, y <br class="hidden md:block">particularmente la Amazonía, han experimentado algunos de los
+                            <br class="hidden md:block">mayores impactos a medida que la deforestación y la fragmentación 
+                            <br class="hidden md:block">se aceleran.
+                        </p>
+                        <p class="text-[16px] leading-relaxed w-full">
+                            La protección y conectividad del hábitat de las especies <br class="hidden md:block">en peligro es clave para 
+                            revertir estas tendencias.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Contenedor Cómo contribuir a la protección de la biodiversidad -->
-        <section class="w-full max-w-6xl mx-auto py-8 px-6 box-border">
+        <section class="w-full max-w-5xl mx-auto py-8 px-5 sm:px-6 md:px-8 lg:px-12 box-border">
             <!-- Contenedor con grid responsive e inversión de orden -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
                 

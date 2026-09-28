@@ -23,7 +23,7 @@
             bg-no-repeat flex items-center min-h-[50vh] md:h-[90vh] pt-6 pb-12">
 
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
                 md:justify-start">
                 <!-- Bloque con fondo negro translúcido -->
                 <div class="inline-block p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
@@ -40,8 +40,8 @@
         </section>
         
         <!-- Contenedor Proteger paisajes saludables y conectados -->
-        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 
-            text-center md:text-left">  
+        <section class="w-full max-w-5xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-5 sm:px-6 md:px-8 
+            lg:px-12 text-center md:text-left">  
             <!-- Título -->
             <h2 class="text-3xl md:text-4xl text-[rgb(72,81,79)] tracking-wider w-full">Proteger paisajes saludables y conectados</h2>
             
@@ -71,7 +71,7 @@
         </section>
 
         <!-- Contenedor Nuestra visión para 2030   -->
-        <section class="w-full max-w-4xl mx-auto py-8 md:py-12">
+        <section class="w-full max-w-5xl mx-auto py-8 md:py-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Contenedor con grid responsive sin alterar el orden original -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
                 
@@ -83,12 +83,12 @@
                     </h2>
                     
                     <!-- Párrafos descriptivos -->
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         La próxima década será decisiva para la biodiversidad y la resiliencia climática en América Latina. Sobre la base 
                         de más de tres décadas de trabajo en conservación, nos enfocamos en asegurar que los paisajes se mantengan 
                         protegidos y se gestionen de manera efectiva a gran escala. 
                     </p>
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         Esta visión busca fortalecer la conservación de la biodiversidad ampliando la protección de bosques dentro de 
                         paisajes conectados donde la naturaleza y las personas puedan prosperar juntas. 
                     </p>
@@ -100,7 +100,7 @@
                     <h4 class="text-[rgb(72,81,79)] tracking-wider text-xl w-full">
                         14 MILLIONES DE HECTÁREAS PROTEGIDAS
                     </h4>
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         Proteger más de <b>14 millones de hectáreas de paisajes saludables y conectados</b> en América Latina. 
                     </p>
 
@@ -110,7 +110,7 @@
                     <h4 class="text-[rgb(72,81,79)] tracking-wider text-xl w-full">
                         MIL MILLIONES DE TONELADAS DE CO₂e ALMACENADAS
                     </h4>
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         Proteger bosques que almacenan mil millones de toneladas de carbono y ayudan a evitar emisiones a gran escala.
                     </p>
 
@@ -120,13 +120,13 @@
                     <h4 class="text-[rgb(72,81,79)] tracking-wider text-xl w-full">
                         500+ ESPECIES AMENAZADAS PROTEGIDAS
                     </h4>
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         Garantizar hábitat para cientos de especies amenazadas en ecosistemas conectados..
                     </p>
                 </div>      
                 
                 <!-- COLUMNA DERECHA: Imagen -->
-                <div class="w-full h-full flex justify-center items-start mt-6 md:mt-0 px-4 md:px-0">
+                <div class="w-full h-full flex justify-center items-start mt-6 md:mt-0">
                     <img src="../../imagenes/enfoque/custom-image-web-600x600.png" alt="Oso negro" 
                     class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
                 </div>
@@ -134,11 +134,12 @@
         </section>
 
         <!-- Contenedor GOBERNANZA REGIONAL -->
-        <section class="w-full bg-[rgb(234,232,211)] py-10 px-6">
+        <section class="w-full bg-[rgb(234,232,211)] py-10">
             <!-- Contenedor principal con grid adaptable -->
-            <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center 
+                md:text-left">
                 <!-- COLUMNA DERECHA (Texto): Se renderiza PRIMERO en móvil (order-1) y SEGUNDO en pantallas grandes (md:order-2) -->
-                <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full ">
+                <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full">
                     <!-- Título principal -->
                     <h2 class=" tracking-wider text-3xl w-full text-[rgb(15,125,63)]">
                         GOBERNANZA REGIONAL
@@ -174,47 +175,47 @@
         <section class="w-full relative z-0 pt-4 pb-6">
             <!-- Contenedor con la imagen de fondo (Se ajustó el margen superior mt-4 para que coincida perfectamente con la línea) -->
             <div class="w-full bg-[url('../../imagenes/enfoque/Featured-image.png')] 
-                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 px-6 md:px-12 lg:px-48 min-h-112 md:h-112.5">
-                
+                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 min-h-112 md:h-112.5">  
                 <!-- CAPA DE OSCURECIDO DIFUMINADO -->
                 <div class="absolute inset-0 z-0 bg-black/60 md:bg-black/45"></div>
-                
-                <!-- Bloque de textos -->
-                <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
-                    [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
+                <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10">
+                    <!-- Bloque de textos -->
+                    <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
+                        [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
 
-                    <!-- Título principal -->
-                    <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
-                        Por qué este trabajo es importante
-                    </h2>
+                        <!-- Título principal -->
+                        <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
+                            Por qué este trabajo es importante
+                        </h2>
 
-                    <!-- Párrafos descriptivos -->
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        Los bosques saludables y conectados se encuentran entre las
-                        <br class="hidden sm:block">defensas naturales más poderosas frente a la pérdida de
-                        <br class="hidden sm:block">biodiversidad y el cambio climático. Proveen hábitat para
-                        <br class="hidden sm:block">innumerables especies, mantienen procesos ecológicos esenciales,
-                        <br class="hidden sm:block">protegen los sistemas de agua dulce y sostienen a las comunidades
-                        <br class="hidden sm:block">que dependen de ellos.
-                    </p>
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        Sin embargo, estos ecosistemas enfrentan una fragmentación
-                        <br class="hidden md:block">creciente causada por la deforestación, el desarrollo no planificado y
-                        <br class="hidden md:block">el uso insostenible de los recursos naturales. Proteger sitios aislados
-                        <br class="hidden md:block">no es suficiente.
-                    </p>
-                    <p class="text-[16px] leading-relaxed w-full">
-                        La conservación debe mantener la conectividad entre paisajes para
-                        <br class="hidden md:block">que las especies puedan desplazarse, los ecosistemas puedan
-                        <br class="hidden md:block">adaptarse y las personas sigan beneficiándose de sistemas naturales
-                        <br class="hidden md:block">saludables.
-                    </p>
+                        <!-- Párrafos descriptivos -->
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            Los bosques saludables y conectados se encuentran entre las
+                            <br class="hidden sm:block">defensas naturales más poderosas frente a la pérdida de
+                            <br class="hidden sm:block">biodiversidad y el cambio climático. Proveen hábitat para
+                            <br class="hidden sm:block">innumerables especies, mantienen procesos ecológicos esenciales,
+                            <br class="hidden sm:block">protegen los sistemas de agua dulce y sostienen a las comunidades
+                            <br class="hidden sm:block">que dependen de ellos.
+                        </p>
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            Sin embargo, estos ecosistemas enfrentan una fragmentación
+                            <br class="hidden md:block">creciente causada por la deforestación, el desarrollo no planificado y
+                            <br class="hidden md:block">el uso insostenible de los recursos naturales. Proteger sitios aislados
+                            <br class="hidden md:block">no es suficiente.
+                        </p>
+                        <p class="text-[16px] leading-relaxed w-full">
+                            La conservación debe mantener la conectividad entre paisajes para
+                            <br class="hidden md:block">que las especies puedan desplazarse, los ecosistemas puedan
+                            <br class="hidden md:block">adaptarse y las personas sigan beneficiándose de sistemas naturales
+                            <br class="hidden md:block">saludables.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Contenedor Cómo funciona nuestro modelo de conservación  -->
-        <section class="max-w-4xl mx-auto py-8 px-6">
+        <section class="w-full max-w-5xl mx-auto py-8 px-5 sm:px-6 md:px-8 lg:px-12">
             <h2 class="text-3xl text-[rgb(15,125,63)] mb-4 text-center md:text-left"> 
                 Cómo funciona nuestro modelo de conservación
             </h2>
@@ -290,7 +291,7 @@
         </section>
 
         <!-- Contenedor CLAVE PARA LA BIODIVERSIDAD -->
-        <section class="w-full max-w-4xl mx-auto mt-4 mb-6 md:py-12">
+        <section class="w-full max-w-5xl mx-auto mt-4 mb-6 md:py-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Contenedor con grid responsive sin alterar el orden original -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
                 
@@ -302,23 +303,23 @@
                     </h2>
 
                     <!-- Párrafos descriptivos -->
-                     <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                     <p class="leading-relaxed text-[16px] w-full">
                         Naturaleza y Cultura Internacional nació de una idea sencilla: la conservación funciona mejor cuando surge de 
                         relaciones sólidas con las personas que viven en los territorios. 
                      </p>
-                    <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[16px] w-full">
                         Hoy contamos con una red de más de <b>150 profesionales de la conservación en América Latina:</b> científicos, 
                         especialistas legales, facilitadores comunitarios y expertos en cartografía, que trabajan junto a aliados locales 
                         en los paisajes que protegen. 
                     </p>
-                    <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[16px] w-full">
                         Este enfoque, arraigado en lo local, permite proteger paisajes de gran biodiversidad mientras se respeta la cultura 
                         y se fortalecen los medios de vida sostenibles y la resiliencia de las comunidades. 
                     </p>
                 </div>      
                 
                 <!-- COLUMNA DERECHA: Imagen -->
-                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0 px-4 md:px-0">
+                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0">
                     <img src="../../imagenes/enfoque/Ecuador-768x575.jpg" alt="" 
                     class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
                 </div>
@@ -326,8 +327,8 @@
         </section>
 
         <!-- Contenedor Proteger paisajes saludables y conectados -->
-        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-8 px-6 
-            text-center md:text-left text-[rgb(72,81,79)] ">  
+        <section class="w-full max-w-5xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-8 px-5 sm:px-6 md:px-8 
+            lg:px-12 text-center md:text-left text-[rgb(72,81,79)]">  
             <!-- Título -->
             <h2 class="text-3xl md:text-4xl tracking-wider w-full">Mirando hacia el futuro</h2>
             

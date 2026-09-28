@@ -21,24 +21,23 @@
         <!-- Contenedor principal Imagen de fondo + título encima encima -->
         <section class="w-full relative bg-[url(../../imagenes/comunidades_locales/fondo.jpg)] bg-cover bg-center bg-no-repeat 
             flex items-center min-h-[50vh] md:h-[80vh] pt-6 pb-12">
-
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 md:mt-40 mt-36 mb-12 flex justify-center md:justify-start">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
+                md:justify-start">
                 <!-- Bloque con fondo negro translúcido -->
                 <div class="inline-block p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
                     <!-- TÍTULO -->
                     <h1 class="text-white text-4xl sm:text-5xl font-semibold tracking-wide">Comunidades locales</h1>
                 </div>
             </div>
-
             <!-- LÍNEA INFERIOR: Clavada exactamente en el borde inferior de la imagen de fondo -->
             <img src="../../imagenes/comunidades_locales/linea02.png" alt="Línea divisoria inferior" 
             class="absolute bottom-0 inset-x-0 block w-full h-auto z-20">
         </section>
 
         <!-- Contenedor Nuestro Trabajo -->
-        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 text-center 
-            md:text-left">  
+        <section class="w-full max-w-5xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-5 sm:px-6 
+            md:px-8 lg:px-12 text-center md:text-left">  
             <!-- Título principal -->
             <h2 class="text-3xl md:text-4xl text-[rgb(72,81,79)] tracking-wider w-full">La conservación que nace en el territorio</h2>
             
@@ -65,7 +64,7 @@
         </section>
 
         <!-- Contenedor El liderazgo local fortalece la conservación -->
-        <section class="w-full max-w-4xl mx-auto py-8">
+        <section class="w-full max-w-5xl mx-auto py-8 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Contenedor con grid responsive sin alterar el orden original -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
                 
@@ -77,25 +76,25 @@
                     </h2>
 
                     <!-- Párrafos descriptivos -->
-                    <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[16px] w-full">
                         Naturaleza y Cultura Internacional colabora con comunidades, gobiernos locales y organizaciones indígenas para 
                         identificar prioridades de conservación y diseñar soluciones que respondan a las realidades de cada territorio. 
                         Estas alianzas se construyen sobre la base de la confianza, el respeto y un compromiso compartido con la protección 
                         de los paisajes de los que dependen las comunidades. 
                     </p>
-                    <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[16px] w-full">
                         Al trabajar de manera conjunta para establecer áreas de conservación, proteger cuencas hidrográficas, restaurar 
                         bosques degradados y resguardar la biodiversidad, impulsamos soluciones que cuentan con respaldo local y generan 
                         beneficios reales para los ecosistemas. 
                     </p>
-                    <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[16px] w-full">
                         Cuando las comunidades participan directamente en la protección de los territorios de los que dependen, la 
                         conservación se vuelve más sólida, resiliente y duradera. 
                     </p>
                 </div>      
                 
                 <!-- COLUMNA DERECHA: Imagen -->
-                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0 px-4 md:px-0">
+                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0">
                     <img src="../../imagenes/comunidades_locales/custom-image-web-13-600x600.png" alt="Indígena" 
                     class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
                 </div>
@@ -103,10 +102,10 @@
         </section>
 
         <!-- Contenedor Donde se encuentran la cultura y la conservación -->
-        <section class="w-full bg-[rgb(244,244,237)] py-10 px-6">
+        <section class="w-full bg-[rgb(244,244,237)] py-10">
             <!-- Contenedor principal con grid adaptable -->
-            <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
-                
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center 
+                md:text-left">
                 <!-- COLUMNA DERECHA (Texto): Se renderiza PRIMERO en móvil (order-1) y SEGUNDO en pantallas grandes (md:order-2) -->
                 <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full text-[rgb(72,81,79)]">
                     <!-- Título principal -->
@@ -141,7 +140,7 @@
         </section>
 
         <!-- Contenedor Fortalecer capacidades locales y liderazgo para la conservación -->
-        <section class="w-full max-w-4xl mx-auto py-8 md:py-12">
+        <section class="w-full max-w-5xl mx-auto py-8 md:py-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Contenedor con grid responsive sin alterar el orden original -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
                 
@@ -152,24 +151,24 @@
                         Fortalecer capacidades locales y liderazgo para la conservación
                     </h2>
                     <!-- Párrafos descriptivos -->
-                    <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[16px] w-full">
                         La conservación a largo plazo requiere más que áreas protegidas. También necesita personas con las capacidades, 
                         el conocimiento y los recursos necesarios para gestionar y cuidar sus territorios en el tiempo.
                     </p>
-                     <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                     <p class="leading-relaxed text-[16px] w-full">
                         Naturaleza y Cultura trabaja junto a las comunidades para fortalecer sus capacidades locales mediante procesos de 
                         formación, acompañamiento técnico y gestión colaborativa de los recursos naturales. Estas alianzas permiten 
                         monitorear la biodiversidad, restaurar ecosistemas, gestionar áreas de conservación y desarrollar iniciativas que 
                         benefician tanto a la naturaleza como a los medios de vida locales. 
                     </p>
-                     <p class="leading-relaxed text-[16px] w-full px-4 md:px-0">
+                     <p class="leading-relaxed text-[16px] w-full">
                         Al invertir en liderazgo y capacidades locales, la conservación se convierte en un proceso impulsado por las 
                         propias comunidades, y no en una iniciativa impuesta desde fuera.
                     </p>
                 </div>      
                 
                 <!-- COLUMNA DERECHA: Imagen -->
-                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0 px-4 md:px-0">
+                <div class="w-full h-full flex justify-center items-center mt-6 md:mt-0">
                     <img src="../../imagenes/comunidades_locales/custom-image-web-15-600x600.png" alt="Conservadores" 
                     class="w-full h-auto block object-cover max-w-sm md:max-w-full rounded-md">
                 </div>
@@ -179,48 +178,48 @@
         <!-- Contenedor Por qué funciona la conservación liderada desde lo local -->
         <section class="w-full relative z-0 pt-4 pb-6">
             <!-- Contenedor con la imagen de fondo (Se ajustó el margen superior mt-4 para que coincida perfectamente con la línea) -->
-            <div class="w-full bg-[url('../../imagenes/comunidades_locales/Featured-image-5.png')] 
-                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 px-6 md:px-12 lg:px-48 min-h-112 md:h-112.5">
+            <div class="w-full bg-[url('../../imagenes/comunidades_locales/Featured-image-5.png')]  
+                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 min-h-112 md:h-112.5">
                 
                 <!-- CAPA DE OSCURECIDO DIFUMINADO -->
                 <div class="absolute inset-0 z-0 bg-black/65 md:bg-black/65"></div>
-                
-                <!-- Bloque de textos -->
-                <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
-                    [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
+                <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10">
+                    <!-- Bloque de textos -->
+                    <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10">
 
-                    <!-- Título principal -->
-                    <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
-                        Por qué funciona la conservación <br class="hidden sm:block">liderada desde lo local 
-                    </h2>
+                        <!-- Título principal -->
+                        <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
+                            Por qué funciona la conservación <br class="hidden sm:block">liderada desde lo local 
+                        </h2>
 
-                    <!-- Párrafos descriptivos -->
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        Los esfuerzos de conservación son más efectivos cuando <br class="hidden sm:block">quienes en el territorio 
-                        participan activamente en su <br class="hidden sm:block">protección.
-                    </p>
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        Los pueblos indígenas y las comunidades locales gestionan o tienen
-                        <br class="hidden md:block">derechos de tenencia sobre aproximadamente una cuarta parte de la
-                        <br class="hidden md:block">superficie terrestre del planeta. Diversos estudios muestran que
-                        <br class="hidden md:block">muchos de estos territorios albergan algunos de los ecosistemas
-                        <br class="hidden md:block">mejor conservados del mundo. También se ha encontrado que los 
-                        <br class="hidden md:block">niveles de biodiversidad en territorios gestionados por pueblos
-                        <br class="hidden md:block">indígenas suelen ser iguales o incluso superiores a los registrados 
-                        <br class="hidden md:block">en muchas áreas protegidas.
-                    </p>
-                    <p class="text-[16px] leading-relaxed w-full">
-                        El enfoque de Naturaleza y Cultura se basa en esta evidencia. Al
-                        <br class="hidden md:block">trabajar en alianza con las comunidades y fortalecer su rol como
-                        <br class="hidden md:block">guardianes de la naturaleza, las soluciones de conservación se
-                        <br class="hidden md:block">vuelven más pertinentes, resilientes y sostenibles en el tiempo.
-                    </p>
+                        <!-- Párrafos descriptivos -->
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            Los esfuerzos de conservación son más efectivos cuando <br class="hidden sm:block">quienes en el territorio 
+                            participan activamente en su <br class="hidden sm:block">protección.
+                        </p>
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            Los pueblos indígenas y las comunidades locales gestionan o tienen
+                            <br class="hidden md:block">derechos de tenencia sobre aproximadamente una cuarta parte de la
+                            <br class="hidden md:block">superficie terrestre del planeta. Diversos estudios muestran que
+                            <br class="hidden md:block">muchos de estos territorios albergan algunos de los ecosistemas
+                            <br class="hidden md:block">mejor conservados del mundo. También se ha encontrado que los 
+                            <br class="hidden md:block">niveles de biodiversidad en territorios gestionados por pueblos
+                            <br class="hidden md:block">indígenas suelen ser iguales o incluso superiores a los registrados 
+                            <br class="hidden md:block">en muchas áreas protegidas.
+                        </p>
+                        <p class="text-[16px] leading-relaxed w-full">
+                            El enfoque de Naturaleza y Cultura se basa en esta evidencia. Al
+                            <br class="hidden md:block">trabajar en alianza con las comunidades y fortalecer su rol como
+                            <br class="hidden md:block">guardianes de la naturaleza, las soluciones de conservación se
+                            <br class="hidden md:block">vuelven más pertinentes, resilientes y sostenibles en el tiempo.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Contenedor Cómo fortalecer la conservación liderada desde lo local -->
-        <section class="w-full max-w-6xl mx-auto py-8 px-6 box-border">
+        <section class="w-full max-w-5xl mx-auto py-8 px-5 sm:px-6 md:px-8 lg:px-12 box-border">
             <!-- Contenedor con grid responsive e inversión de orden -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-6 items-center md:items-stretch text-center md:text-left">
                 

@@ -23,7 +23,8 @@
             bg-no-repeat flex items-center min-h-[50vh] md:h-[70vh] pt-6 pb-12">
 
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 md:mt-40 mt-36 mb-12 flex justify-center md:justify-start">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
+                md:justify-start">
                 <!-- Bloque con fondo negro translúcido -->
                 <div class="inline-block p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
                     <!-- TÍTULO -->
@@ -37,8 +38,8 @@
         </section>
 
         <!-- Contenedor 30 Años Comprometidos con la Naturaleza -->
-        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 
-            text-center md:text-left">
+        <section class="w-full max-w-5xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-5 sm:px-6 
+            md:px-8 lg:px-12 text-center md:text-left">
             <!-- Título Principal de la Sección -->
             <h2 class="text-3xl md:text-4xl font-normal text-[rgb(31,72,34)] mb-8 text-center md:text-left">
                 30 Años Comprometidos con la Naturaleza
@@ -86,22 +87,23 @@
         </section>
 
         <!-- Contenedor Un año para reflexionar y reafirmar nuestro compromiso -->
-        <section class="w-full py-8 px-6">
+        <section class="w-full py-8">
             <!-- Contenedor principal con grid adaptable -->
-            <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center 
+                md:text-left">
                 <!-- COLUMNA DERECHA (Texto): Se renderiza PRIMERO en móvil (order-1) y SEGUNDO en pantallas grandes (md:order-2) -->
                 <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full">
                     <h2 class="text-2xl md:text-3xl font-normal tracking-wide mb-2.5 text-[rgb(31,72,34)] w-full leading-tight">
                         Un año para reflexionar y reafirmar nuestro compromiso
                     </h2>
                     <!-- Párrafos descriptivos -->
-                     <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
+                     <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         Este año celebramos 30 años de Naturaleza y Cultura Internacional.
                      </p>
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0 font-bold">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full font-bold">
                         No es solo un aniversario. 
                     </p>
-                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full px-4 md:px-0">
+                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">
                         Es un momento para reconocer el camino recorrido, agradecer a quienes han hecho posible este trabajo y reafirmar 
                         nuestro compromiso con la naturaleza y las personas que la protegen.
                     </p>
@@ -121,8 +123,8 @@
         </section>
 
         <!-- Contenedor CONSERVACIÓN SOSTENIBLE CON LIDERAZGO LOCAL -->
-        <section class="w-full bg-[rgb(234,232,211)] py-10 px-6">
-            <div class="max-w-6xl mx-auto text-center ">
+        <section class="w-full bg-[rgb(234,232,211)] py-10">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 text-center">
                 <h2 class="text-3xl font-semibold text-[rgb(15,125,63)] mb-6">
                     30 Años Comprometidos con la Naturaleza
                 </h2>
@@ -132,8 +134,8 @@
             </div>
 
             <!-- Contenedor principal con grid -->
-            <div class="mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 items-center max-w-4xl text-center md:text-left">
-                
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-3 gap-6 items-center text-center 
+                md:text-left">
                 <!-- Caja 1 -->
                 <div class="flex flex-col items-center text-center text-[20px]">
                     <img src="../../imagenes/30_años/community_green-250x253.png" alt="Icono 1" class="w-16 h-16 mb-4 object-contain">
@@ -185,7 +187,7 @@
         </section>
 
         <!-- Contenedor Puntos de inflexión para la naturaleza y las comunidades locales -->
-        <section class="w-full max-w-5xl mx-auto py-12 px-6">
+        <section class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Título principal -->
             <h2 class="text-3xl font-semibold text-[rgb(72,81,79)] mb-8 text-center md:text-left">
                 Puntos de inflexión para la naturaleza y las comunidades locales
@@ -232,7 +234,7 @@
         </section>
 
         <!-- Contenedor Comprometidos con -->
-        <section class="max-w-4xl mx-auto py-8 px-6">
+        <section class="w-full max-w-5xl mx-auto py-8 px-5 sm:px-6 md:px-8 lg:px-12">
             <h2 class="text-3xl text-[rgb(72,81,79)] mb-8 text-center md:text-left"> Comprometidos con </h2>
             <div class="flex flex-col items-center gap-6">
 
@@ -292,10 +294,10 @@
         </section>
 
         <!-- Contenedor Nuestros fundadores Ivan Gayler y Renzo Paladines -->
-        <section class="w-full bg-[rgb(244,244,237)] py-10 px-6">
+        <section class="w-full bg-[rgb(244,244,237)] py-10">
             <!-- Contenedor principal con grid adaptable -->
-            <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
-                
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center 
+                md:text-left">
                 <!-- COLUMNA DERECHA (Texto): Se renderiza PRIMERO en móvil (order-1) y SEGUNDO en pantallas grandes (md:order-2) -->
                 <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full ">
                     <!-- Título principal -->
@@ -324,38 +326,40 @@
         <!-- Contenedor Gracias por ser parte de este camino -->
         <section class="w-full relative z-0 pt-4 pb-6">
             <!-- Contenedor con la imagen de fondo (Se ajustó el margen superior mt-4 para que coincida perfectamente con la línea) -->
-            <div class="w-full bg-[url('../../imagenes/30_años/Gracias-Camino-Naturaleza-Cultura-Internacional-30-Aniversario.jpg')] 
-                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 px-6 md:px-12 lg:px-48 min-h-112 md:h-112.5">
+            <div class="w-full bg-[url('../../imagenes/30_años/Gracias-Camino-Naturaleza-Cultura-Internacional-30-Aniversario.jpg')]  
+                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 min-h-112 md:h-112.5">
                 
                 <!-- CAPA DE OSCURECIDO DIFUMINADO -->
                 <div class="absolute inset-0 z-0 bg-black/55 md:bg-black/45"></div>
-                
-                <!-- Bloque de textos -->
-                <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
-                    [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
+                <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10">
+                    <!-- Bloque de textos -->
+                    <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
+                        [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
 
-                    <!-- Título principal -->
-                    <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight text-[rgb(202,219,42)]">
-                        Gracias por ser parte de este camino
-                    </h2>
+                        <!-- Título principal -->
+                        <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight text-[rgb(202,219,42)]">
+                            Gracias por ser parte de este camino
+                        </h2>
 
-                    <!-- Párrafos descriptivos -->
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        A nuestros fundadores, donantes, aliados, comunidades locales y 
-                        <br class="hidden sm:block">equipo: gracias.
-                    </p>
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        Estos 30 años son el resultado de un esfuerzo y una convicción
-                        <br class="hidden md:block">compartida: que la naturaleza y las personas pueden prosperar juntas
-                    </p>
+                        <!-- Párrafos descriptivos -->
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            A nuestros fundadores, donantes, aliados, comunidades locales y 
+                            <br class="hidden sm:block">equipo: gracias.
+                        </p>
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            Estos 30 años son el resultado de un esfuerzo y una convicción
+                            <br class="hidden md:block">compartida: que la naturaleza y las personas pueden prosperar juntas
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <!-- Contenedor LOS DESAFÍOS CONTINÚAN. NUESTRA DETERMINACIÓN TAMBIÉN. -->
-        <section class="w-full bg-[rgb(31,72,34)] py-10 px-6">
+        <section class="w-full bg-[rgb(31,72,34)] py-10">
             <!-- Contenedor principal con grid adaptable -->
-            <div class="mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center max-w-4xl text-center md:text-left">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-center text-center 
+                md:text-left">
                 
                 <!-- COLUMNA DERECHA (Texto): Se renderiza PRIMERO en móvil (order-1) y SEGUNDO en pantallas grandes (md:order-2) -->
                 <div class="flex flex-col space-y-4 order-1 md:order-2 items-center md:items-start w-full ">

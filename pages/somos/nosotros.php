@@ -105,26 +105,26 @@
         <section class="w-full relative z-0 pt-4 pb-6">
             <!-- Contenedor con la imagen de fondo (Se ajustó el margen superior mt-4 para que coincida perfectamente con la línea) -->
             <div class="w-full bg-[url('../../imagenes/trabajamos/Untitled-design-7.png')] 
-                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 px-6 md:px-12 lg:px-48 min-h-112 md:h-112.5">
+                bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 min-h-112 md:h-112.5">
                 
                 <!-- CAPA DE OSCURECIDO DIFUMINADO -->
                 <div class="absolute inset-0 z-0 bg-black/60 md:bg-black/45"></div>
-                
-                <!-- Bloque de textos -->
-                <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
-                    [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
+                <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10">
+                    <!-- Bloque de textos -->
+                    <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10">
 
-                    <!-- Título principal -->
-                    <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
-                        ¿Por qué trabajar con nosotros?
-                    </h2>
+                        <!-- Título principal -->
+                        <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
+                            ¿Por qué trabajar con nosotros?
+                        </h2>
 
-                    <!-- Párrafo descriptivo -->
-                    <p class="mb-4 text-[16px] leading-relaxed w-full">
-                        En Naturaleza y Cultura Internacional, nuestros valores son la base de
-                        <br class="hidden sm:block">todo lo que hacemos. Definen quiénes somos como organización y
-                        <br class="hidden sm:block">guían nuestro trabajo día a día.
-                    </p>
+                        <!-- Párrafo descriptivo -->
+                        <p class="mb-4 text-[16px] leading-relaxed w-full">
+                            En Naturaleza y Cultura Internacional, nuestros valores son la base de
+                            <br class="hidden sm:block">todo lo que hacemos. Definen quiénes somos como organización y
+                            <br class="hidden sm:block">guían nuestro trabajo día a día.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
