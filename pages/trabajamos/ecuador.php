@@ -149,7 +149,7 @@
                             <h2 class="text-3xl tracking-tight">
                                 ¿QUÉ HACEMOS?
                             </h2>
-                            <img src="../../imagenes/ecuador/linea_02.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
+                            <img src="../../imagenes/ecuador/linea_02.png" alt="Línea decorativa" class="h-17 w-24 mt-3">
                             <p class="text-[16px] leading-relaxed">
                                 Conservamos paisajes biológicamente diversos en América Latina, en acuerdo con las culturas locales para el 
                                 bienestar del planeta.

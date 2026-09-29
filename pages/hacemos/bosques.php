@@ -30,7 +30,7 @@
                     </h1>
                 </div>
             </div>
-            <img src="../../imagenes/imagenes_principal/linea13_debajo_video.png"
+            <img src="../../imagenes/imagenes_bosque/linea02.png"
                 alt="Línea divisoria inferior"
                 class="absolute bottom-0 inset-x-0 block w-full h-auto z-20">
         </section>
