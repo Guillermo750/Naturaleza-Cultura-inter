@@ -129,11 +129,14 @@
                         border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
                         <a href="" class="block transition-colors">Resumen</a>
                         <a href="" class="block transition-colors">¿Qué hacemos?</a>
-                        <a href="" class="block transition-colors text-[rgb(245,131,32)]">Plataforma Amazónica</a>
-                        <a href="" class="block transition-colors text-[rgb(245,131,32)]">Corredor Transfronterizo Andino Amazónico</a>
-                        <a href="" class="block transition-colors text-[rgb(245,131,32)]">Conservación de Fuentes de Agua</a>
-                        <a href="" class="block transition-colors text-[rgb(245,131,32)]">Bosque Seco</a>
-                        <a href="" class="block transition-colors text-[rgb(245,131,32)]">Otras iniciativas</a>
+                        <!-- Submenú sutil alineado y con sangría para no recargar -->
+                        <div class="pl-3 space-y-3 border-l border-[rgb(195,214,219)] text-[12px] text-[rgb(245,131,32)]">
+                            <a href="#plataforma-amazonica" class="block transition-colors">Plataforma Amazónica</a>
+                            <a href="#corredor-andino" class="block transition-colors">Corredor Transfronterizo</a>
+                            <a href="#fuentes-agua" class="block transition-colors">Fuentes de Agua</a>
+                            <a href="#bosque-seco" class="block transition-colors">Bosque Seco</a>
+                            <a href="#otras-iniciativas" class="block transition-colors">Otras Iniciativas</a>
+                        </div>
                         <a href="" class="block transition-colors">Noticias y eventos</a>
                         <a href="" class="block transition-colors">Publicaciones</a>
                         <a href="" class="block transition-colors">Socios locales</a>
