@@ -20,7 +20,7 @@
 
         <!-- Contenedor principal Imagen de fondo + título encima encima -->
         <section class="w-full relative bg-[url(../../imagenes/comunidades_locales/fondo.jpg)] bg-cover bg-center bg-no-repeat 
-            flex items-center min-h-[50vh] md:h-[80vh] pt-6 pb-12">
+            flex items-center min-h-[50vh] md:h-[70vh] pt-6 pb-12">
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
             <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
                 md:justify-start">

@@ -20,10 +20,10 @@
 
         <!-- Contenedor principal Imagen de fondo + título encima encima -->
         <section class="w-full relative bg-[url(../../imagenes/nuestro_equipo/interior-banner.jpg)] bg-cover bg-center 
-            bg-no-repeat flex items-center min-h-[50vh] md:h-[90vh] pt-6 pb-12">
+            bg-no-repeat flex items-center min-h-[50vh] md:h-[70vh] pt-6 pb-12">
 
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
                 md:justify-start">
                 <!-- Bloque con fondo negro translúcido -->
                 <div class="inline-block p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
@@ -40,8 +40,8 @@
         </section>
 
         <!-- Contenedor Conoce al equipo de Naturaleza y Cultura Internacional -->
-        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-6 
-            text-center md:text-left">  
+        <section class="w-full max-w-5xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-10 px-5 sm:px-6 md:px-8
+            lg:px-12 text-center md:text-left">  
             <!-- Título -->
             <h2 class="text-3xl md:text-4xl text-[rgb(15,125,63)] tracking-wider w-full">
                 Conoce al equipo de Naturaleza y Cultura Internacional
@@ -60,11 +60,10 @@
         </section>
 
         <!-- Contenedor Equipo Internacional -->
-        <section class="max-w-4xl mx-auto">
+        <section class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12">
             <h2 class="text-3xl  text-[rgb(15,125,63)] mb-8">
                 Equipo Internacional
             </h2>
-
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
 
                 <!-- Miembro 1 -->
@@ -174,11 +173,10 @@
         </section>
 
         <!-- Contenedor Equipo en Ecuador -->
-        <section class="max-w-4xl mx-auto py-12">
+        <section class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <h2 class="text-3xl text-[rgb(15,125,63)] mb-8">
                 Equipo en Ecuador
             </h2>
-
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-7 lg:grid-cols-4 gap-4">
 
                 <!-- Miembro 1 -->
@@ -471,11 +469,10 @@
         </section>
 
         <!-- Contenedor Equipo en Perú -->
-        <section class="max-w-4xl mx-auto pb-12">
+        <section class="w-full max-w-5xl mx-auto pb-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <h2 class="text-3xl  text-[rgb(15,125,63)] mb-8">
                 Equipo en Perú
             </h2>
-
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-8 lg:grid-cols-4 gap-4">
 
                 <!-- Miembro 1 -->
@@ -811,11 +808,10 @@
         </section>
 
         <!-- Contenedor Equipo en México -->
-        <section class="max-w-4xl mx-auto pb-12">
+        <section class="w-full max-w-5xl mx-auto pb-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <h2 class="text-3xl  text-[rgb(15,125,63)] mb-8">
                 Equipo en México
             </h2>
-
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-4 gap-4">
 
                 <!-- Miembro 1 -->
@@ -865,13 +861,11 @@
         </section>
 
         <!-- Contenedor Equipo en Colombia (Instituto Humboldt) -->
-        <section class="max-w-4xl mx-auto pb-12">
+        <section class="w-full max-w-5xl mx-auto pb-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <h2 class="text-3xl  text-[rgb(15,125,63)] mb-8">
                 Equipo en Colombia (Instituto Humboldt)
             </h2>
-
             <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1">
-
                 <!-- Único Miembro -->
                 <div class="relative w-80">
                     <img src="../../imagenes/nuestro_equipo/Juliana_Cortes-600x400.webp" alt="Juliana Cortés R" 

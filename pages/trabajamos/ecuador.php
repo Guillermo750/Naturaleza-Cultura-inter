@@ -23,7 +23,8 @@
             bg-no-repeat flex items-center min-h-[50vh] md:h-[70vh] pt-6 pb-12">
 
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 md:mt-40 mt-36 mb-12 flex justify-center md:justify-start">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
+                md:justify-start">
                 <!-- Bloque con fondo negro translúcido -->
                 <div class="inline-block p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
                     <!-- TÍTULO -->
@@ -41,11 +42,11 @@
         </section>
 
         <!-- Contenedor ¿DÓNDE TRABAJAMOS? -->
-        <section class="w-full py-16 mx-auto px-6 md:px-12 lg:px-24 max-w-5xl">
+        <section class="w-full max-w-5xl mx-auto py-16 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                 <!-- 1. MENÚ LATERAL IZQUIERDO (Ocupa 3 columnas en pantallas grandes) -->
-                <aside class="hidden lg:block lg:col-span-3 text-xs uppercase tracking-wider font-semibold
+                <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider font-semibold
                     text-[rgb(31,72,34)] pt-2 border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
                     <!-- Opción Activa (Con su marquita naranja característica en el borde) -->
                     <a href="" class="block relative">
@@ -120,25 +121,24 @@
         <!-- Contenedor ¿QUÉ HACEMOS? -->
         <section class="w-full py-16">
             <!-- Contenedor global alineado con max-w-5xl y los mismos paddings -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12">
                 <!-- Grid principal de la página (Menú lateral + Contenido) -->
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                     <!-- 1. MENÚ LATERAL IZQUIERDO (Actualizado a "¿Qué hacemos?" activo) -->
-                    <aside class="hidden lg:block lg:col-span-3 text-xs uppercase tracking-wider font-semibold text-[rgb(31,72,34)] pt-2 
-                        border-l border-[[rgb(195,214,219)]] pl-4 space-y-6 relative">
+                    <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider font-semibold text-[rgb(31,72,34)] pt-2 
+                        border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
                         <a href="" class="block transition-colors">Resumen</a>
-                        <!-- Opción Activa: ¿Qué hacemos? (Con su indicador naranja) -->
-                        <a href="" class="block relative">
-                            <span class="absolute -left-4.25 top-0 bottom-0 w-0.75 bg-[[rgb(245,131,32)]]"></span>
-                            ¿Qué hacemos?
-                            
-                        </a>
+                        <a href="" class="block transition-colors">¿Qué hacemos?</a>
+                        <a href="" class="block transition-colors text-[rgb(245,131,32)]">Plataforma Amazónica</a>
+                        <a href="" class="block transition-colors text-[rgb(245,131,32)]">Corredor Transfronterizo Andino Amazónico</a>
+                        <a href="" class="block transition-colors text-[rgb(245,131,32)]">Conservación de Fuentes de Agua</a>
+                        <a href="" class="block transition-colors text-[rgb(245,131,32)]">Bosque Seco</a>
+                        <a href="" class="block transition-colors text-[rgb(245,131,32)]">Otras iniciativas</a>
                         <a href="" class="block transition-colors">Noticias y eventos</a>
                         <a href="" class="block transition-colors">Publicaciones</a>
                         <a href="" class="block transition-colors">Socios locales</a>
                         <a href="" class="block transition-colors">Equipo</a>
                     </aside>
-
                     <!-- 2. CONTENIDO PRINCIPAL DE LA SECCIÓN -->
                     <div class="lg:col-span-9 space-y-12">
                         <!-- Encabezado y textos introductorios -->

@@ -20,10 +20,10 @@
 
         <!-- Contenedor principal Imagen de fondo + título encima encima -->
         <section class="w-full relative bg-[url(../../imagenes/trabajamos/Featured-image-2.png)] bg-cover bg-center 
-            bg-no-repeat flex items-center min-h-[50vh] md:h-[90vh] pt-6 pb-12">
+            bg-no-repeat flex items-center min-h-[50vh] md:h-[70vh] pt-6 pb-12">
 
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
                 md:justify-start">
                 <!-- Bloque con fondo negro translúcido -->
                 <div class="inline-block p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
@@ -40,8 +40,8 @@
         </section>
 
         <!-- Contenedor Únete a un equipo que impulsa la conservación desde lo local. -->
-        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-4 px-6 
-            text-center md:text-left text-[rgb(72,81,79)]">  
+        <section class="w-full max-w-5xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-4 px-5 sm:px-6 md:px-8 
+            lg:px-12 text-center md:text-left text-[rgb(72,81,79)]">  
             <!-- Título -->
             <h2 class="text-2xl font-semibold tracking-wider w-full">
                 Únete a un equipo que impulsa la conservación desde lo local
@@ -58,18 +58,15 @@
         </section>
 
         <!-- Contenedor Última actualización: abril 2026 -->
-        <section class="w-full md:max-w-4xl mx-auto p-4 sm:p-6 space-y-4">
-
+        <section class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 py-4 sm:py-6 space-y-4">
             <!-- Título del puesto (H2 o H3 según la jerarquía de tu página) -->
             <h2 class="text-2xl font-semibold text-[rgb(72,81,79)] tracking-tight">
                 Secretario/a técnico/a Fondo Futuro Amazónico
             </h2>
-
             <!-- Fecha de última actualización (SEO: Importante mantener la fecha visible) -->
             <p class="text-base text-[rgb(31,72,54)]">
                 Última actualización: abril de 2026
             </p>
-
             <!-- BLOQUES DE INFORMACIÓN (Ubicación y Fechas) -->
             <div class="space-y-4 text-[rgb(72,81,79)]">
                 <!-- Bloque 1: Ubicación -->
@@ -82,7 +79,6 @@
                 Aplicaciones abiertas hasta el 15 de abril de 2026
                 </p>
             </div>
-
             <!-- BOTONES DE ACCIÓN -->
             <!-- flex-wrap y space-y/space-x aseguran que si la pantalla es muy pequeña, los botones se apilen suavemente sin romperse -->
             <div class="flex flex-wrap items-center gap-3 pt-2">
@@ -106,18 +102,15 @@
             <!-- Contenedor con la imagen de fondo (Se ajustó el margen superior mt-4 para que coincida perfectamente con la línea) -->
             <div class="w-full bg-[url('../../imagenes/trabajamos/Untitled-design-7.png')] 
                 bg-cover bg-center bg-no-repeat flex items-center relative z-10 mt-4 py-16 min-h-112 md:h-112.5">
-                
                 <!-- CAPA DE OSCURECIDO DIFUMINADO -->
                 <div class="absolute inset-0 z-0 bg-black/60 md:bg-black/45"></div>
                 <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10">
                     <!-- Bloque de textos -->
                     <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10">
-
                         <!-- Título principal -->
                         <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight">
                             ¿Por qué trabajar con nosotros?
                         </h2>
-
                         <!-- Párrafo descriptivo -->
                         <p class="mb-4 text-[16px] leading-relaxed w-full">
                             En Naturaleza y Cultura Internacional, nuestros valores son la base de
@@ -130,13 +123,12 @@
         </section>
 
         <!-- Contenedor Acordeón -->
-        <section class="w-full md:max-w-4xl mx-auto p-0 sm:p-4 space-y-2.5">
+        <section class="w-full max-w-5xl mx-auto p-0 sm:p-4 px-5 sm:px-6 md:px-8 lg:px-12 space-y-2.5">
             <!-- TÍTULO DE LA SECCIÓN -->
             <!-- px-4 asegura que en móviles el título no toque los bordes de la pantalla -->
             <h2 class="text-2xl font-medium text-[rgb(72,81,79)] px-4 pt-4 mb-4 text-center md:text-left">
                 Nuestros Valores
             </h2>
-
             <!-- ACORDEÓN 01 -->
             <div class="acordeon-item group border-b border-transparent transition-all duration-300 text-[rgb(15,125,63)]">
                 <button class="acordeon-trigger flex w-full justify-between items-center p-4 sm:p-6 cursor-pointer bg-[rgb(244,244,237)]
@@ -157,7 +149,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- ACORDEÓN 02 -->
             <div class="acordeon-item group border-b border-transparent transition-all duration-300 text-[rgb(15,125,63)]">
                 <button class="acordeon-trigger flex w-full justify-between items-center p-4 sm:p-6 cursor-pointer bg-[rgb(244,244,237)]
@@ -176,7 +167,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- ACORDEÓN 03 -->
             <div class="acordeon-item group border-b border-transparent transition-all duration-300 text-[rgb(15,125,63)]">
                 <button class="acordeon-trigger flex w-full justify-between items-center p-4 sm:p-6 cursor-pointer bg-[rgb(244,244,237)] 
@@ -195,7 +185,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- ACORDEÓN 04 -->
             <div class="acordeon-item group border-b border-transparent transition-all duration-300 text-[rgb(15,125,63)]">
                 <button class="acordeon-trigger flex w-full justify-between items-center p-4 sm:p-6 cursor-pointer bg-[rgb(244,244,237)] 
@@ -214,7 +203,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- ACORDEÓN 05 -->
             <div class="acordeon-item group border-b border-transparent transition-all duration-300 text-[rgb(15,125,63)]">
                 <button class="acordeon-trigger flex w-full justify-between items-center p-4 sm:p-6 cursor-pointer bg-[rgb(244,244,237)] 
@@ -233,7 +221,6 @@
                     </div>
                 </div>
             </div>
-
             <!-- ACORDEÓN 06 -->
             <div class="acordeon-item group border-b border-transparent transition-all duration-300 text-[rgb(15,125,63)]">
                 <button class="acordeon-trigger flex w-full justify-between items-center p-4 sm:p-6 cursor-pointer bg-[rgb(244,244,237)] 
@@ -255,13 +242,12 @@
         </section>
 
         <!-- Contenedor ¿Cómo aplicar? -->
-        <section class="w-full max-w-4xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-4 px-6 
-            text-center md:text-left text-[rgb(72,81,79)]">  
+        <section class="w-full max-w-5xl mx-auto flex flex-col justify-start items-center md:items-start my-6 space-y-4 py-4 px-5 sm:px-6 md:px-8 
+            lg:px-12 text-center md:text-left text-[rgb(72,81,79)]">  
             <!-- Título -->
             <h2 class="text-2xl font-semibold tracking-wider w-full">
                 ¿Cómo aplicar?
             </h2>
-
             <!-- Párrafos descriptivos -->
             <p class="text-[16px] w-full">
                 Para aplicar, revisa los términos de referencia de cada vacante y envía tu postulación a través del link de Jotform. Solo 

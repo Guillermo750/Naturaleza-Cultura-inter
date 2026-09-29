@@ -23,7 +23,7 @@
             bg-no-repeat flex items-center min-h-[50vh] md:h-[70vh] pt-6 pb-12">
 
             <!-- Contenedor del título (Centrado en móvil, alineado a la izquierda en portátiles) -->
-            <div class="w-full mx-auto px-6 md:px-12 lg:px-24 max-w-5xl relative z-10 md:mt-40 mt-36 mb-12 flex justify-center 
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10 md:mt-40 mt-36 mb-12 flex justify-center  
                 md:justify-start">
                 <!-- Bloque con fondo negro translúcido -->
                 <div class="inline-block p-6 w-full max-w-xs sm:max-w-xl rounded-lg text-center md:text-left">
@@ -41,7 +41,7 @@
 
         <!-- Contenedor FILTERS -->
         <section class="bg-white">
-            <div class="mx-auto max-w-7xl px-4 py-8 sm:px-8 lg:px-12 text-sm text-[rgb(31,72,34)]">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 py-8 text-sm text-[rgb(31,72,34)]">
                 <form id="filters" class="flex flex-col gap-8">     
                     <!-- FILA 1: EXPLORAR (Búsqueda) -->
                     <!-- flex-row e items-center alinean la etiqueta al lado del input en el móvil -->
@@ -138,9 +138,9 @@
         </section>
 
         <!-- Contenedor Programas Destacados -->
-        <section class="w-full max-w-7xl mx-auto px-4 md:py-8 relative">
+        <section class="w-full max-w-5xl mx-auto md:py-8 relative">
             <!-- Cabecera de la sección: Contenedor de la línea alineado con el ancho de las tarjetas -->
-            <div class="relative w-full mb-10 px-5 sm:px-8 lg:px-12">
+            <div class="relative w-full mb-10 px-5 sm:px-6 md:px-8 lg:px-12">
                 <!-- IMAGEN DEL GUACAMAYO: Absoluta a la izquierda, fuera del contenedor pero pegada al inicio de la línea -->
                 <div class="hidden sm:block absolute -left-12 top-1/2 -translate-y-1/2 w-24 shrink-0 z-10">
                     <img src="../../imagenes/conservacion/nci-left-illustration1-blog-newsp.png" alt="Decoración lateral" 
@@ -153,7 +153,7 @@
             </div>
 
             <!-- Contenedor de las Tarjetas Adaptable -->
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 w-full justify-items-center px-5 sm:px-8 lg:px-12">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 w-full justify-items-center px-5 sm:px-6 md:px-8 lg:px-12">
                 <!-- Tarjeta 1 -->
                 <div class="flex flex-col items-center w-full max-w-sm mx-auto">
                     <div class="relative w-full">
@@ -273,8 +273,8 @@
                 class="w-full h-auto object-contain object-bottom-right">
             </div>
             <!-- CONTENEDOR CENTRAL DEL CONTENIDO -->
-            <div class="mx-auto max-w-5xl px-6 relative z-20 flex flex-col md:flex-row items-center md:items-start justify-center gap-8 
-                md:gap-16 text-center md:text-left md:pt-36">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-20 flex flex-col md:flex-row items-center md:items-start 
+                justify-center gap-8 md:gap-16 text-center md:text-left md:pt-36">
                 <!-- Bloque Izquierdo: Título con el megáfono -->
                 <div class="flex flex-col md:flex-row items-center md:items-start gap-4 max-w-sm">
                     <!-- Icono de Megáfono -->

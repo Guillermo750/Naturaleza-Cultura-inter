@@ -5,13 +5,11 @@
     <div class="flex items-center shrink-0 md:order-1">
         <a href="/pages/principal.php"><img src="/logo/logoespanol.png" alt="Naturaleza y Cultura Internacional" class="w-28 sm:w-36"></a>
     </div>
-
     <!-- BOTÓN DE HAMBURGUESA MÓVIL (Circular, verde, centrado) -->
     <button id="hamburger-btn" class="flex md:hidden items-center justify-center w-12 h-12 rounded-full bg-[rgb(31,72,34)] 
         text-white text-xl focus:outline-none transition-transform active:scale-95 ml-2 sm:ml-4" aria-label="Abrir menú">
         ☰
     </button>
-    
     <!-- BLOQUE 2: MENÚ DE ENLACES PRINCIPALES -->
     <div id="mobile-menu" class="hidden md:flex flex-col md:flex-row items-center w-full md:w-auto order-3 md:order-2 mt-4 md:mt-0 
         space-y-4 md:space-y-0 md:space-x-4">
