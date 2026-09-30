@@ -195,7 +195,7 @@
             </div>
         </section>
         
-        <!-- Contenedor Banner con texto y una imagen a la izquierda del Banner -->
+        <!-- Contenedor Banner, texto y una imagen a la izquierda del Banner -->
         <section class="py-12 w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 z-10">
             <div class="relative">
                 <!-- Ilustración del jaguar (Oculta en móvil, visible desde md) -->
