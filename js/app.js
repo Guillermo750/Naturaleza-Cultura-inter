@@ -83,53 +83,103 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* LÓGICA DEL CARRUSEL EN JAVASCRIPT */
-window.addEventListener("load", () => {
+let currentSlide = 0;
+let slideInterval;
+
+function adjustBannerHeight() {
+    const banner = document.getElementById("amazon-banner");
+    const slides = document.querySelectorAll(".banner-slide");
+
+    if (!banner || slides.length === 0) return;
+
+    // En escritorio mantenemos la altura original
+    if (window.innerWidth >= 768) {
+        banner.style.height = "";
+        return;
+    }
+
+    const activeSlide = slides[currentSlide];
+
+    if (!activeSlide) return;
+
+    // Medimos el contenido real del slide activo
+    const content = activeSlide.querySelector("div");
+
+    if (!content) return;
+
+    const slidePadding = 32; // p-4 del banner
+    const contentHeight = content.offsetHeight + slidePadding;
+
+    banner.style.height = `${contentHeight}px`;
+}
+
+function showSlide(index) {
     const slides = document.querySelectorAll(".banner-slide");
     const dots = document.querySelectorAll(".banner-dot");
-    
-    let currentSlide = 0;
-    let slideInterval;
 
     if (slides.length === 0 || dots.length === 0) return;
 
-    function showSlide(index) {
-        // Ocultar slide y apagar punto anterior nativamente
-        slides[currentSlide].style.opacity = "0";
-        slides[currentSlide].style.visibility = "hidden";
-        slides[currentSlide].style.zIndex = "5";
-        dots[currentSlide].style.opacity = "0.4";
+    // Ocultar slide anterior
+    slides[currentSlide].style.opacity = "0";
+    slides[currentSlide].style.pointerEvents = "none";
+    slides[currentSlide].style.zIndex = "5";
+    dots[currentSlide].style.opacity = "0.4";
 
-        // Cambiar al nuevo índice
-        currentSlide = index;
+    // Cambiar índice
+    currentSlide = index;
 
-        // Mostrar nuevo slide y encender punto activo nativamente
-        slides[currentSlide].style.opacity = "1";
-        slides[currentSlide].style.visibility = "visible";
-        slides[currentSlide].style.zIndex = "10";
-        dots[currentSlide].style.opacity = "1";
-    }
+    // Mostrar nuevo slide
+    slides[currentSlide].style.opacity = "1";
+    slides[currentSlide].style.pointerEvents = "auto";
+    slides[currentSlide].style.zIndex = "10";
+    dots[currentSlide].style.opacity = "1";
 
-    function nextSlide() {
-        let nextIndex = (currentSlide + 1) % slides.length;
-        showSlide(nextIndex);
-    }
+    // Ajustar altura al nuevo contenido
+    requestAnimationFrame(() => {
+        adjustBannerHeight();
+    });
+}
 
-    function startInterval() {
-        slideInterval = setInterval(nextSlide, 5000);
-    }
+function nextSlide() {
+    const slides = document.querySelectorAll(".banner-slide");
 
-    function resetInterval() {
+    if (slides.length === 0) return;
+
+    let nextIndex = (currentSlide + 1) % slides.length;
+
+    showSlide(nextIndex);
+}
+
+// Iniciar temporizador
+function startInterval() {
+    slideInterval = setInterval(nextSlide, 6000);
+}
+
+// Escuchar clics en los indicadores
+document.addEventListener("click", (e) => {
+    if (e.target && e.target.classList.contains("banner-dot")) {
+
+        const targetIndex = parseInt(
+            e.target.getAttribute("data-slide")
+        );
+
+        showSlide(targetIndex);
+
         clearInterval(slideInterval);
         startInterval();
     }
-
-    dots.forEach(dot => {
-        dot.addEventListener("click", (e) => {
-            const targetIndex = parseInt(e.target.getAttribute("data-slide"));
-            showSlide(targetIndex);
-            resetInterval();
-        });
-    });
-
-    startInterval();
 });
+
+// Ajustar altura al cargar
+document.addEventListener("DOMContentLoaded", () => {
+    adjustBannerHeight();
+});
+
+// Ajustar altura al cambiar el tamaño de pantalla
+window.addEventListener("resize", () => {
+    adjustBannerHeight();
+});
+
+// Arrancar carrusel automático
+clearInterval(slideInterval);
+startInterval();

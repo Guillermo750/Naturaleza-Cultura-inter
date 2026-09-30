@@ -82,7 +82,7 @@
                         </div>
                         <!-- Imagen / Mapa -->
                         <div class="md:col-span-5 w-full h-80 rounded-lg overflow-hidden">
-                            <img src="../../imagenes/ecuador/mapa-ecuador.jpg" alt="Mapa de áreas de trabajo en Ecuador" class="w-full h-full 
+                            <img src="" alt="Mapa de áreas de trabajo en Ecuador" class="w-full h-full 
                                 object-cover">
                         </div>
                     </div>
@@ -169,7 +169,7 @@
         </section>
         
         <!-- Contenedor Plataforma Amazónica -->
-        <section class="w-full py-12">
+        <section class="w-full pb-12">
             <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 space-y-4">
                 <img src="../../imagenes/ecuador/nci-country-b-1-climate_icon.webp" alt="" class="w-16 h-16 object-contain">
                 <div class="flex items-center gap-3">
@@ -194,33 +194,87 @@
                 </p>
             </div>
         </section>
-        
+         
         <!-- Contenedor Banner, texto y una imagen a la izquierda del Banner -->
-        <section class="py-12 w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 z-10">
+        <section class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 z-10">
             <div class="relative">
                 <!-- Ilustración del jaguar (Oculta en móvil, visible desde md) -->
                 <img src="../../imagenes/ecuador/nci-cp-illustration2-countryp.webp" alt="" 
-                    class="absolute -left-6 bottom-0 w-36 translate-x-[-55%] hidden md:block z-20">
-                <!-- Contenedor del fondo (Ocupa todo el ancho en móvil 'w-full' y tiene altura mínima controlada) -->
-                <div class="w-full relative bg-[url(../../imagenes/ecuador/PAISAJE_MENADROS-RIO-BOBONAZA-2-scaled-1-1920x1080-1-1536x864.jpg.webp)]
-                    bg-cover bg-center bg-no-repeat min-h-112 md:h-112.5 grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8">
-                    <!-- Caja de texto interna -->
-                    <div class="md:col-span-7 text-white p-6 rounded-lg space-y-3 bg-black/55 md:bg-black/45">
-                        <h2 class="text-2xl uppercase tracking-wider block">Acciones por la Amazonía</h2> 
-                        <div class="text-[16px] leading-relaxed">
-                            <p><b>Área de implementación:</b> Zamora Chinchipe, Morona Santiago, Pastaza</p>
-                            <p><b>Años:</b> 2021-2025</p>
+                    class="absolute -left-7 bottom-0 w-36 translate-x-[-55%] hidden md:block z-20">
+                <!-- CONTENEDOR PRINCIPAL CON EL REDONDEADO RECUPERADO EN TODAS LAS PANTALLAS (rounded-lg) -->
+                <div id="amazon-banner" class="relative w-full h-auto min-h-145 sm:min-h-120 md:min-h-112.5" style="min-height: 450px;">
+                    <!-- BANNER 1 (Activo por defecto) -->
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full
+                        bg-[url(../../imagenes/ecuador/PAISAJE_MENADROS-RIO-BOBONAZA-2-scaled-1-1920x1080-1-1536x864.jpg.webp)] 
+                        bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8" 
+                        style="transition: opacity 1.8s ease-in-out; opacity: 1; pointer-events: auto; z-index: 10;">
+                        <!-- Caja de texto interna -->
+                        <div class="md:col-span-7 text-white p-5 sm:p-6 rounded-lg space-y-3 bg-black/60 md:bg-black/45 backdrop-blur-xs">
+                            <h2 class="text-xl uppercase tracking-wider block font-semibold">Acciones por la Amazonía</h2> 
+                            <div class="text-[16px] leading-relaxed">
+                                <p><b>Área de implementación:</b> Zamora <br>Chinchipe, Morona Santiago, Pastaza</p>
+                                <p><b>Años:</b> 2021-2025</p>
+                            </div>
+                            <p class="text-[16px] leading-relaxed opacity-95">
+                                Organizaciones indígenas, sociedad civil, sector privado responsable y otros actores unen esfuerzos en una 
+                                agenda común sobre bosques y cambio climático, tanto a nivel nacional como internacional. Juntos 
+                                impulsan acciones coordinadas que fortalecen la conservación y promueven un futuro
+                                más sostenible para el Ecuador y el planeta.
+                            </p>
                         </div>
-                        <p class="text-[16px] leading-relaxed">
-                            Organizaciones indígenas, sociedad civil, sector privado responsable y otros actores unen esfuerzos en una 
-                            agenda común sobre bosques y cambio climático, tanto a nivel nacional como internacional. Juntos impulsan 
-                            acciones coordinadas que fortalecen la conservación y promueven un futuro más sostenible para el Ecuador y el 
-                            planeta.
-                        </p>
                     </div>
+                    <!-- BANNER 2 -->
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full
+                        bg-[url(../../imagenes/ecuador/Amazon-Howler.webp)] bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 
+                        items-center p-4 sm:p-6 md:p-8" style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; 
+                        z-index: 5;">
+                        <!-- Caja de texto interna -->
+                        <div class="md:col-span-7 text-white p-5 sm:p-6 rounded-lg space-y-4 bg-black/60 md:bg-black/45 backdrop-blur-xs">
+                            <h2 class="text-xl uppercase tracking-wider block font-semibold">Construyendo la Plataforma Amazónica</h2> 
+                            <div class="text-[16px] leading-relaxed">
+                                <p><b>Área de implementación:</b> Zamora Chinchipe, <br>Morona Santiago, Pastaza</p>
+                                <p><b>Años:</b> 2022-2025</p>
+                            </div>
+                            <p class="text-[16px] leading-relaxed opacity-95">
+                                La Plataforma Amazónica trabaja para ampliar la protección de los bosques en el sur de la Amazonía 
+                                ecuatoriana, para alcanzar 11 millones de hectáreas conservadas. A través de la colaboración entre 
+                                pueblos indígenas, gobiernos locales y organizaciones aliadas, impulsa la gestión sostenible del 
+                                territorio y la protección de ecosistemas vitales para el clima y el bienestar de las comunidades
+                                amazónicas.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- BANNER 3 -->
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full
+                        bg-[url(../../imagenes/ecuador/Untitled-design-51-1536x864.webp)] bg-cover bg-center bg-no-repeat flex items-center p-4 
+                        sm:p-6 md:p-8" style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
+                        <!-- Caja de texto interna -->
+                        <div class="w-full md:w-7/12 text-white p-5 sm:p-6 rounded-lg space-y-3 bg-black/60 md:bg-black/45 backdrop-blur-xs">
+                            <h2 class="text-xl uppercase tracking-wider block font-semibold">
+                                Expansión de la Plataforma Amazónica a través de la integración de la Provincia de Orellana
+                            </h2> 
+                            <div class="text-[16px] leading-relaxed">
+                                <p><b>Área de implementación:</b> Orellana</p>
+                                <p><b>Años:</b> 2024-2028</p>
+                            </div>
+                            <p class="text-[16px] leading-relaxed opacity-95">
+                                El proyecto apoya al Gobierno Provincial de Orellana en la declaración legal de su Área de Conservación 
+                                Provincial y en el fortalecimiento de sus capacidades para una gestión sostenible a largo plazo. Con 
+                                ello, se busca asegurar la conservación de su valiosa biodiversidad y el bienestar de las comunidades 
+                                locales.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- PUNTOS INDICADORES (DOTS) -->
+                <div class="absolute bottom-1.5 left-1/2 -translate-x-1/2 flex space-x-2 z-40">
+                    <button class="banner-dot w-3 h-3 rounded-full bg-white transition-all cursor-pointer" style="opacity: 1;" data-slide="0"></button>
+                    <button class="banner-dot w-3 h-3 rounded-full bg-white transition-all cursor-pointer" style="opacity: 0.4;" data-slide="1"></button>
+                    <button class="banner-dot w-3 h-3 rounded-full bg-white opacity-40 hover:opacity-80 transition-all cursor-pointer" data-slide="2"></button>
                 </div>
             </div>
         </section>
+
         
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <?php include_once "../../components/footer.php"; ?>
