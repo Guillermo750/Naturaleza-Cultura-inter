@@ -81,3 +81,55 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
+/* LÓGICA DEL CARRUSEL EN JAVASCRIPT */
+window.addEventListener("load", () => {
+    const slides = document.querySelectorAll(".banner-slide");
+    const dots = document.querySelectorAll(".banner-dot");
+    
+    let currentSlide = 0;
+    let slideInterval;
+
+    if (slides.length === 0 || dots.length === 0) return;
+
+    function showSlide(index) {
+        // Ocultar slide y apagar punto anterior nativamente
+        slides[currentSlide].style.opacity = "0";
+        slides[currentSlide].style.visibility = "hidden";
+        slides[currentSlide].style.zIndex = "5";
+        dots[currentSlide].style.opacity = "0.4";
+
+        // Cambiar al nuevo índice
+        currentSlide = index;
+
+        // Mostrar nuevo slide y encender punto activo nativamente
+        slides[currentSlide].style.opacity = "1";
+        slides[currentSlide].style.visibility = "visible";
+        slides[currentSlide].style.zIndex = "10";
+        dots[currentSlide].style.opacity = "1";
+    }
+
+    function nextSlide() {
+        let nextIndex = (currentSlide + 1) % slides.length;
+        showSlide(nextIndex);
+    }
+
+    function startInterval() {
+        slideInterval = setInterval(nextSlide, 5000);
+    }
+
+    function resetInterval() {
+        clearInterval(slideInterval);
+        startInterval();
+    }
+
+    dots.forEach(dot => {
+        dot.addEventListener("click", (e) => {
+            const targetIndex = parseInt(e.target.getAttribute("data-slide"));
+            showSlide(targetIndex);
+            resetInterval();
+        });
+    });
+
+    startInterval();
+});
