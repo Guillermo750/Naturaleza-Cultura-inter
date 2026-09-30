@@ -42,7 +42,7 @@
         </section>
 
         <!-- Contenedor ¿DÓNDE TRABAJAMOS? -->
-        <section class="w-full max-w-5xl mx-auto py-16 px-5 sm:px-6 md:px-8 lg:px-12">
+        <section class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                 <!-- 1. MENÚ LATERAL IZQUIERDO (Ocupa 3 columnas en pantallas grandes) -->
@@ -119,7 +119,7 @@
         </section>
 
         <!-- Contenedor ¿QUÉ HACEMOS? -->
-        <section class="w-full py-16">
+        <section class="w-full py-12">
             <!-- Contenedor global alineado con max-w-5xl y los mismos paddings -->
             <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12">
                 <!-- Grid principal de la página (Menú lateral + Contenido) -->
@@ -143,13 +143,16 @@
                         <a href="" class="block transition-colors">Equipo</a>
                     </aside>
                     <!-- 2. CONTENIDO PRINCIPAL DE LA SECCIÓN -->
-                    <div class="lg:col-span-9 space-y-12">
+                    <div class="lg:col-span-9">
                         <!-- Encabezado y textos introductorios -->
                         <div class="space-y-4 text-[rgb(72,81,79)]">
-                            <h2 class="text-3xl tracking-tight">
-                                ¿QUÉ HACEMOS?
-                            </h2>
-                            <img src="../../imagenes/ecuador/linea_02.png" alt="Línea decorativa" class="h-17 w-24 mt-3">
+                            <div class="relative flex items-start justify-between">
+                                <h2 class="text-3xl tracking-tight">¿QUÉ HACEMOS?</h2>  
+                                <!-- FLOR DECORATIVA -->
+                                <img src="../../imagenes/ecuador/nci-cp-illustration1-countryp.webp" alt="flor" 
+                                    class="hidden md:block h-auto w-20 absolute right-0 -mt-6">
+                            </div>
+                            <img src="../../imagenes/ecuador/linea_02.png" alt="Línea decorativa" class="h-17 w-24 mt-3 pb-6">
                             <p class="text-[16px] leading-relaxed">
                                 Conservamos paisajes biológicamente diversos en América Latina, en acuerdo con las culturas locales para el 
                                 bienestar del planeta.
@@ -160,48 +163,60 @@
                                 confianza, fomentamos soluciones basadas en la naturaleza que se originan localmente.
                             </p>
                         </div>
-                        <!-- Subsección: Plataforma Amazónica -->
-                        <div class="space-y-4 pt-4">
-                            <img src="../../imagenes/ecuador/nci-country-b-1-climate_icon.webp" alt="" class="w-16 h-16 object-contain">
-                            <!-- Icono decorativo opcional y título -->
-                            <div class="flex items-center gap-3">
-                                <h3 class="text-2xl text-[rgb(15,125,63)]">
-                                    Plataforma Amazónica por los Bosques, el Clima y el Bienestar Humano
-                                </h3>
-                            </div>
-                            <img src="../../imagenes/ecuador/linea_rosa_06.png" alt="Línea decorativa" class="h-17 w-20 mt-3">
-                            <p class="text-[16px] leading-relaxed text-[rgb(72,81,79)]">
-                                La Plataforma Amazónica por los Bosques, el Clima y el Bienestar Humano es una iniciativa regional de gobernanza 
-                                colaborativa territorial entre los gobiernos subnacionales y los pueblos y nacionalidades de la Amazonía 
-                                ecuatoriana.
-                            </p>
-                            <p class="text-[16px] leading-relaxed text-[rgb(72,81,79)]">
-                                Esta propuesta innovadora articula esfuerzos para conservar y gestionar más de 5 millones de hectáreas del bosque 
-                                continuo más grande del Ecuador, a escala provincial y de paisaje, e impulsar medios de vida sostenibles.
-                            </p>
-                            <p class="text-[16px] font-medium text-[rgb(72,81,79)]">
-                                <a href="">Más información <span class="underline text-[rgb(15,125,63)] hover:no-underline
-                                hover:text-[rgb(72,81,79)]">aquí</span></a>
-                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Contenedor Plataforma Amazónica -->
+        <section class="w-full py-12">
+            <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 space-y-4">
+                <img src="../../imagenes/ecuador/nci-country-b-1-climate_icon.webp" alt="" class="w-16 h-16 object-contain">
+                <div class="flex items-center gap-3">
+                    <h3 class="text-2xl text-[rgb(15,125,63)]">
+                        Plataforma Amazónica por los Bosques, el Clima y el Bienestar Humano
+                    </h3>
+                </div>
+                <img src="../../imagenes/ecuador/linea_rosa_06.png" alt="Línea decorativa" class="h-17 w-20 mt-3">
+                <p class="text-[16px] leading-relaxed text-[rgb(72,81,79)]">
+                    La Plataforma Amazónica por los Bosques, el Clima y el Bienestar Humano es una iniciativa regional de gobernanza 
+                    colaborativa territorial entre los gobiernos subnacionales y los pueblos y nacionalidades de la Amazonía 
+                    ecuatoriana.
+                </p>
+                <p class="text-[16px] leading-relaxed text-[rgb(72,81,79)]">
+                    Esta propuesta innovadora articula esfuerzos para conservar y gestionar más de 5 millones de hectáreas del bosque 
+                    continuo más grande del Ecuador, a escala provincial y de paisaje, e impulsar medios de vida sostenibles.
+                </p>
+                <p class="text-[16px] font-medium text-[rgb(72,81,79)]">
+                    <a href=""> Más información <span class="underline text-[rgb(15,125,63)] hover:no-underline hover:text-[rgb(72,81,79)]">
+                        aquí </span>
+                    </a>
+                </p>
+            </div>
+        </section>
+        
+        <!-- Contenedor Banner con texto y una imagen a la izquierda del Banner -->
+        <section class="py-12 w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 z-10">
+            <div class="relative">
+                <!-- Ilustración del jaguar (Oculta en móvil, visible desde md) -->
+                <img src="../../imagenes/ecuador/nci-cp-illustration2-countryp.webp" alt="" 
+                    class="absolute -left-6 bottom-0 w-36 translate-x-[-55%] hidden md:block z-20">
+                <!-- Contenedor del fondo (Ocupa todo el ancho en móvil 'w-full' y tiene altura mínima controlada) -->
+                <div class="w-full relative bg-[url(../../imagenes/ecuador/PAISAJE_MENADROS-RIO-BOBONAZA-2-scaled-1-1920x1080-1-1536x864.jpg.webp)]
+                    bg-cover bg-center bg-no-repeat min-h-112 md:h-112.5 grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8">
+                    <!-- Caja de texto interna -->
+                    <div class="md:col-span-7 text-white p-6 rounded-lg space-y-3 bg-black/55 md:bg-black/45">
+                        <h2 class="text-2xl uppercase tracking-wider block">Acciones por la Amazonía</h2> 
+                        <div class="text-[16px] leading-relaxed">
+                            <p><b>Área de implementación:</b> Zamora Chinchipe, Morona Santiago, Pastaza</p>
+                            <p><b>Años:</b> 2021-2025</p>
                         </div>
-                        <!-- Banner con imagen de fondo y tarjeta de información superpuesta (Usando Grid) -->
-                        <div class="w-full relative bg-[url(../../imagenes/ecuador/PAISAJE_MENADROS-RIO-BOBONAZA-2-scaled-1-1920x1080-1-1536x864.jpg.webp)] 
-                            bg-cover bg-center bg-no-repeat rounded-lg overflow-hidden 
-                            min-h-100 grid grid-cols-1 md:grid-cols-12 items-center p-6 md:p-8">
-                            <!-- Tarjeta con fondo oscuro translúcido a la izquierda -->
-                            <div class="md:col-span-7 text-white p-6 rounded-lg space-y-3 bg-black/55 md:bg-black/45">
-                                <span class="text-[16px] uppercase tracking-wider font-semibold block">Acciones por la Amazonía</span>
-                                <p class="text-[16px]"><strong class="font-bold">Área de implementación:</strong> Zamora Chinchipe, Morona Santiago, 
-                                Pastaza</p>
-                                <p class="text-[16px]"><strong class="font-bold">Años:</strong> 2021-2025</p>
-                                <p class="text-[16px] leading-relaxed">
-                                    Organizaciones indígenas, sociedad civil, sector privado responsable y otros actores unen esfuerzos en una 
-                                    agenda común sobre bosques y cambio climático, tanto a nivel nacional como internacional. Juntos impulsan 
-                                    acciones coordinadas que fortalecen la conservación y promueven un futuro más sostenible para el Ecuador y el 
-                                    planeta.
-                                </p>
-                            </div>
-                        </div>
+                        <p class="text-[16px] leading-relaxed">
+                            Organizaciones indígenas, sociedad civil, sector privado responsable y otros actores unen esfuerzos en una 
+                            agenda común sobre bosques y cambio climático, tanto a nivel nacional como internacional. Juntos impulsan 
+                            acciones coordinadas que fortalecen la conservación y promueven un futuro más sostenible para el Ecuador y el 
+                            planeta.
+                        </p>
                     </div>
                 </div>
             </div>

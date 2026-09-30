@@ -333,8 +333,7 @@
                 <div class="absolute inset-0 z-0 bg-black/55 md:bg-black/45"></div>
                 <div class="w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 relative z-10">
                     <!-- Bloque de textos -->
-                    <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10 
-                        [text-shadow:0_2px_4px_rgba(0,0,0,0.8)]">
+                    <div class="w-full max-w-2xl flex flex-col text-white text-center md:text-left items-center md:items-start relative z-10">
 
                         <!-- Título principal -->
                         <h2 class="text-3xl font-semibold mb-2.5 w-full leading-tight text-[rgb(202,219,42)]">
