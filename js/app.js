@@ -83,103 +83,84 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 /* LÓGICA DEL CARRUSEL EN JAVASCRIPT */
-let currentSlide = 0;
-let slideInterval;
-
-function adjustBannerHeight() {
+document.addEventListener("DOMContentLoaded", () => {
     const banner = document.getElementById("amazon-banner");
-    const slides = document.querySelectorAll(".banner-slide");
+    const slides = banner
+        ? banner.querySelectorAll(".banner-slide")
+        : [];
 
-    if (!banner || slides.length === 0) return;
+    const dots = document.querySelectorAll(".banner-dot");
 
-    // En escritorio mantenemos la altura original
-    if (window.innerWidth >= 768) {
-        banner.style.height = "";
+    if (!banner || slides.length === 0) {
         return;
     }
 
-    const activeSlide = slides[currentSlide];
+    let currentSlide = 0;
+    let slideInterval;
 
-    if (!activeSlide) return;
+    function adjustBannerHeight() {
+        const activeSlide = slides[currentSlide];
 
-    // Medimos el contenido real del slide activo
-    const content = activeSlide.querySelector("div");
+        if (!activeSlide) {
+            return;
+        }
 
-    if (!content) return;
+        const content = activeSlide.querySelector(":scope > div");
 
-    const slidePadding = 32; // p-4 del banner
-    const contentHeight = content.offsetHeight + slidePadding;
+        if (window.innerWidth < 768 && content) {
+            banner.style.height = `${content.offsetHeight + 48}px`;
+        } else {
+            banner.style.height = "450px";
+        }
+    }
 
-    banner.style.height = `${contentHeight}px`;
-}
+    function showSlide(index) {
+        currentSlide = (index + slides.length) % slides.length;
 
-function showSlide(index) {
-    const slides = document.querySelectorAll(".banner-slide");
-    const dots = document.querySelectorAll(".banner-dot");
+        slides.forEach((slide, slideIndex) => {
+            const isActive = slideIndex === currentSlide;
 
-    if (slides.length === 0 || dots.length === 0) return;
+            slide.style.opacity = isActive ? "1" : "0";
+            slide.style.pointerEvents = isActive ? "auto" : "none";
+            slide.style.zIndex = isActive ? "10" : "5";
+        });
 
-    // Ocultar slide anterior
-    slides[currentSlide].style.opacity = "0";
-    slides[currentSlide].style.pointerEvents = "none";
-    slides[currentSlide].style.zIndex = "5";
-    dots[currentSlide].style.opacity = "0.4";
+        dots.forEach((dot, dotIndex) => {
+            dot.style.opacity = dotIndex === currentSlide ? "1" : "0.4";
+        });
 
-    // Cambiar índice
-    currentSlide = index;
-
-    // Mostrar nuevo slide
-    slides[currentSlide].style.opacity = "1";
-    slides[currentSlide].style.pointerEvents = "auto";
-    slides[currentSlide].style.zIndex = "10";
-    dots[currentSlide].style.opacity = "1";
-
-    // Ajustar altura al nuevo contenido
-    requestAnimationFrame(() => {
         adjustBannerHeight();
+    }
+
+    function nextSlide() {
+        showSlide(currentSlide + 1);
+    }
+
+    function startInterval() {
+        clearInterval(slideInterval);
+        slideInterval = setInterval(nextSlide, 6000);
+    }
+
+    dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+            showSlide(index);
+            startInterval();
+        });
     });
-}
 
-function nextSlide() {
-    const slides = document.querySelectorAll(".banner-slide");
+    showSlide(0);
 
-    if (slides.length === 0) return;
+    window.addEventListener("load", () => {
 
-    let nextIndex = (currentSlide + 1) % slides.length;
-
-    showSlide(nextIndex);
-}
-
-// Iniciar temporizador
-function startInterval() {
-    slideInterval = setInterval(nextSlide, 6000);
-}
-
-// Escuchar clics en los indicadores
-document.addEventListener("click", (e) => {
-    if (e.target && e.target.classList.contains("banner-dot")) {
-
-        const targetIndex = parseInt(
-            e.target.getAttribute("data-slide")
-        );
-
-        showSlide(targetIndex);
+        adjustBannerHeight();
 
         clearInterval(slideInterval);
         startInterval();
-    }
-});
+    });
 
-// Ajustar altura al cargar
-document.addEventListener("DOMContentLoaded", () => {
-    adjustBannerHeight();
-});
+    /* CAMBIO DE TAMAÑO */
+    window.addEventListener("resize", () => {
 
-// Ajustar altura al cambiar el tamaño de pantalla
-window.addEventListener("resize", () => {
-    adjustBannerHeight();
+        adjustBannerHeight();
+    });
 });
-
-// Arrancar carrusel automático
-clearInterval(slideInterval);
-startInterval();
