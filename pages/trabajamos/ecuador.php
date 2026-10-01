@@ -394,6 +394,71 @@
             </div>
         </section>
 
+        <!-- Contenedor Corredor de Conservación -->
+        <section class="w-full pb-12 md:pb-16 max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12 py-12
+            bg-[url(../../imagenes/ecuador/nci-cp-water-background.png)] bg-cover bg-center bg-no-repeat">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <!-- 1. MENÚ LATERAL IZQUIERDO (Actualizado a "¿Qué hacemos?" activo) -->
+                <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider font-semibold text-[rgb(31,72,34)] pt-2 
+                    border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
+                    <a href="" class="block transition-colors">Resumen</a>
+                    <a href="" class="block transition-colors">¿Qué hacemos?</a>
+                    <!-- Submenú sutil alineado y con sangría para no recargar -->
+                    <div class="pl-3 space-y-3 border-l border-[rgb(195,214,219)] text-[12px] text-[rgb(245,131,32)]">
+                        <a href="#plataforma-amazonica" class="block transition-colors">Plataforma Amazónica</a>
+                        <a href="#corredor-andino" class="block transition-colors">Corredor Transfronterizo</a>
+                        <a href="#fuentes-agua" class="block transition-colors">Fuentes de Agua</a>
+                        <a href="#bosque-seco" class="block transition-colors">Bosque Seco</a>
+                        <a href="#otras-iniciativas" class="block transition-colors">Otras Iniciativas</a>
+                    </div>
+                    <a href="" class="block transition-colors">Noticias y eventos</a>
+                    <a href="" class="block transition-colors">Publicaciones</a>
+                    <a href="" class="block transition-colors">Socios locales</a>
+                    <a href="" class="block transition-colors">Equipo</a>
+                </aside>
+                <!-- 2. CONTENIDO PRINCIPAL DE LA SECCIÓN -->
+               <div class="lg:col-span-9 lg:col-start-4 w-full space-y-4 md:pr-8 lg:pr-12">
+                    <img src="../../imagenes/ecuador/nci-water_icon.webp" alt="" class="w-16 h-16 object-contain">
+                    <div class="flex items-center gap-3">
+                        <h3 class="text-2xl text-[rgb(15,125,63)]">
+                            Conservación de Fuentes de Agua
+                        </h3>
+                    </div>
+                    <img src="../../imagenes/ecuador/linea_rosa_06.png" alt="Línea decorativa" class="h-17 w-20 mt-3">
+                    <p class="text-[16px] leading-relaxed text-[rgb(72,81,79)]">
+                        Trabajamos en estrecha colaboración con la Autoridad Ambiental Nacional para establecer Áreas de Protección Hídrica (APH).
+                        proporcionando asistencia técnica y financiera.
+                    </p>
+                </div> 
+            </div>
+        </section>
+
+        <!-- Contenedor texto y una imagen a la izquierda del Banner -->
+        <section class="w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] md:ml-auto 
+            lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10">
+            <div class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
+                    style="min-height: 450px;">
+                <div class="absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
+                    bg-[url(../../imagenes/ecuador/Palora-Municipal-Conservation-and-Sustainable-Use-Area-_River_Quilicos.webp)]
+                    bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8">
+                    <!-- Caja de texto interna -->
+                    <div class="md:col-span-7 text-white p-5 sm:p-6 rounded-lg space-y-3 bg-black/60 md:bg-black/45 backdrop-blur-xs">
+                        <h2 class="text-xl uppercase tracking-wider block font-semibold">BLF Andes Amazónico</h2>
+                        <div class="text-[16px] leading-relaxed">
+                            <p><b>Área de implementación:</b> Zamora<br>Chinchipe</p>
+                            <p><b>Años:</b> 2024-2027</p>
+                        </div>
+                        <p class="text-[16px] leading-relaxed opacity-95">
+                            El Proyecto del Fondo de Paisajes Biodiversos del Reino Unido (BLF Andes Amazónico) se desarrolla en Ecuador y 
+                            Perú.  Este proyecto se enmarca en las políticas y planes nacionales de desarrollo del Perú y Ecuador y el Plan 
+                            Binacional de Desarrollo, aporta directamente a las estrategias y metas nacionales de biodiversidad y de cambio 
+                            climático, así como a los planes de vida de los pueblos y nacionalidades indígenas en ambos países.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
             
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <?php include_once "../../components/footer.php"; ?>
