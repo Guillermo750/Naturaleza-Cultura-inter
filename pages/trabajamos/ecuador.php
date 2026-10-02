@@ -670,8 +670,8 @@
         </section>
         
         <!-- Contenedor NOTICIAS Y EVENTOS -->
-        <section class="w-full max-w-5xl mx-auto py-32 px-5 sm:px-6 md:px-8 lg:px-12 relative overflow-hidden">
-            <div class="relative z-10 max-w-3xl mx-auto md:mx-0 space-y-4">
+        <section class="w-full max-w-5xl mx-auto py-20 px-5 sm:px-6 md:px-8 lg:px-12 relative overflow-visible">
+            <div class="relative z-10 w-full space-y-4">
                 <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                     <!-- 1. MENÚ LATERAL IZQUIERDO (Ocupa 3 columnas en pantallas grandes) -->
@@ -690,9 +690,9 @@
                         <a href="" class="block transition-colors">Equipo</a>
                     </aside>
                     <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
-                    <div class="lg:col-span-9 space-y-12">
+                    <div class="lg:col-span-9 lg:col-start-4 w-full space-y-10">
                         <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
-                        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+                        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
                             <!-- Textos explicativos -->
                             <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
                                 <h2 class="text-3xl tracking-tight">
@@ -709,7 +709,7 @@
                             </div>
                         </div>
                         <!-- Bloque Estadísticas  -->
-                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-[16px] items-stretch">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-[16px] items-stretch">
                             <!-- Tarjeta 1 -->
                             <div class="flex flex-col items-start w-full h-full">
                                 <img src="../../imagenes/ecuador/Paramo-y-agua-350x233.png" 
@@ -746,20 +746,101 @@
                                     <span class="text-[11px] text-[rgb(31,72,34)]">ECUADOR</span>
                                 </div>
                             </div>
-                            <!-- AQUÍ VAN LAS DEMÁS TARJETAS El código sería -->
+                            <!-- AQUÍ VAN LAS DEMÁS TARJETAS El código sería en carrusel `!-- CARRUSEL DE NOTICIAS --.txt´-->
                         </div>
                     </div>
                 </div>
-                <!-- PALMERA - OCULTA EN MÓVIL -->
-                <img src="../../imagenes/ecuador/nci-cp-illustration6-countryp.webp" alt=""
-                    class="hidden md:block absolute bottom-0 left-0 w-40 lg:w-40 z-30 pointer-events-none">
-                <!-- ARMADILLO - OCULTO EN MÓVIL -->
-                <img src="../../imagenes/ecuador/nci-cp-illustration7-countryp.webp" alt=""
-                    class="hidden md:block absolute bottom-0 right-0 w-40 lg:w-40 z-20 pointer-events-none">
             </div>
+            <!-- PALMERA - OCULTA EN MÓVIL -->
+            <img src="../../imagenes/ecuador/nci-cp-illustration6-countryp.webp" alt=""
+                class="hidden md:block absolute -bottom-1 -left-96 w-40 lg:w-40 z-30 pointer-events-none">
+            <!-- ARMADILLO - OCULTO EN MÓVIL -->
+            <img src="../../imagenes/ecuador/nci-cp-illustration7-countryp.webp" alt="" 
+                class="hidden md:block absolute -bottom-1 -right-96 w-40 lg:w-40 z-20 pointer-events-none">
         </section>
 
         <!-- Contenedor PUBLICACIONES -->
+        <section class="w-full relative bg-[rgb(240,245,246)] bg-cover bg-center 
+            bg-no-repeat flex items-center min-h-[50vh] md:h-[70vh] pt-6 pb-12">
+            <!-- LÍNEA INFERIOR: Clavada exactamente en el borde inferior de la imagen de fondo -->
+            <img src="../../imagenes/ecuador/nci-divider-cp-brush-texture_top-publications.png" alt="Línea divisoria inferior" 
+            class="absolute top-0 inset-x-0 block w-full h-auto z-20">
+            <div class="w-full max-w-5xl mx-auto py-20 px-5 sm:px-6 md:px-8 lg:px-12 relative overflow-visible">
+                <div class="relative z-10 w-full space-y-4">
+                    <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
+                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                        <!-- 1. MENÚ LATERAL IZQUIERDO (Ocupa 3 columnas en pantallas grandes) -->
+                        <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider font-semibold
+                            text-[rgb(31,72,34)] pt-2 border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
+                            <!-- Opción Activa (Con su marquita naranja característica en el borde) -->
+                            <a href="" class="block relative">
+                                <span class="absolute -left-4.25 top-0 bottom-0 w-0.75 border-[rgb(245,131,32)]"></span>
+                                Resumen
+                            </a>
+                            <!-- Resto de opciones del menú -->
+                            <a href="" class="block transition-colors">¿Qué hacemos?</a>
+                            <a href="" class="block transition-colors">Noticias y eventos</a>
+                            <a href="" class="block transition-colors">Publicaciones</a>
+                            <a href="" class="block transition-colors">Socios locales</a>
+                            <a href="" class="block transition-colors">Equipo</a>
+                        </aside>
+                        <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
+                        <div class="lg:col-span-9 lg:col-start-4 w-full space-y-10">
+                            <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
+                            <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+                                <!-- Textos explicativos -->
+                                <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
+                                    <h2 class="text-3xl tracking-tight">
+                                        PUBLICACIONES
+                                    </h2>
+                                    <img src="../../imagenes/ecuador/linea05.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
+                                    <p class="text-[16px] leading-relaxed">
+                                        Mantente al día con las últimas publicaciones en Ecuador.
+                                    </p>
+                                    <a href="#" class="mt-6 bg-[rgb(15,125,63)] text-white inline-block px-6 py-2.5 rounded-full font-bold 
+                                    hover:bg-[rgb(31,72,34)] transition-colors self-center md:self-start shrink-0">
+                                        <span class="text-sm">Ver todas las publicaciones</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- Bloque Estadísticas  -->
+                            <div class="grid grid-cols-1 md:grid-cols-3 gap-5 text-[16px] items-stretch">
+                                <!-- Tarjeta 1 -->
+                                <div class="flex flex-col items-start w-full h-full">
+                                    <img src="../../imagenes/ecuador/Vainillo-1-350x263.webp" 
+                                        class="w-full h-44 md:h-48 object-cover rounded-2px" alt="">
+                                    <a href=""><h3 class="text-xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4">
+                                        Integrating financial and climate scenario analyses into forest restoration: a framework with NTFP trees
+                                    </h3></a>
+                                    <p>Nora Sanchez See Full Bio</p>
+                                </div> 
+                                <!-- Tarjeta 2 -->
+                                <div class="flex flex-col items-start w-full h-full">
+                                    <img src="../../imagenes/ecuador/APH-El-Pangui-350x233.webp" 
+                                        class="w-full h-44 md:h-48 object-cover rounded-2px" alt="">
+                                    <a href=""><h3 class="text-xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4 mb-4">
+                                        Atlas de Áreas de Protección Hídrica
+                                    </h3></a>
+                                    <p>El Atlas de Áreas de Protección Hídrica (APH), elaborado por la Autoridad Ambiental y Naturaleza y Cultura 
+                                       Internacional (NCI), es una herramienta científica...
+                                    </p>
+                                </div>
+                                <!-- Tarjeta 3 -->
+                                <div class="flex flex-col items-start w-full h-full bg-[rgb(200,227,230)] bg-cover bg-center bg-no-repeat">
+                                    <h3 class="text-xl text-[rgb(4,142,152)] mt-4">
+                                        Recursos disponibles para descarga
+                                    </h3>
+                                    <hr class="my-4 border border-t-2 border-[rgb(4,142,152)]" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- LÍNEA INFERIOR: Clavada exactamente en el borde inferior de la imagen de fondo -->
+            <img src="../../imagenes/ecuador/nci-cp-publications_background-brush-bottom.png" alt="Línea divisoria inferior" 
+            class="absolute bottom-0 inset-x-0 block w-full h-auto z-20">
+        </section>
 
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <?php include_once "../../components/footer.php"; ?>
