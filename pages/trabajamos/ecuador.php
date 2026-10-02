@@ -759,6 +759,8 @@
             </div>
         </section>
 
+        <!-- Contenedor PUBLICACIONES -->
+
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <?php include_once "../../components/footer.php"; ?>
     </div>
