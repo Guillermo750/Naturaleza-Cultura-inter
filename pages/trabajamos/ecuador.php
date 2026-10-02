@@ -449,8 +449,8 @@
         </section>
 
         <!-- Contenedor texto y una imagen a la izquierda del Banner -->
-        <section class="w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] md:ml-auto 
-            lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10">
+        <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-32">
             <div class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
                     style="min-height: 450px;">
                 <div class="absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
@@ -520,8 +520,8 @@
         </section>
 
         <!-- Contenedor texto y una imagen a la izquierda del Banner -->
-        <section class="w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] md:ml-auto 
-            lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10">
+        <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-32">
             <div class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
                     style="min-height: 450px;">
                 <div class="absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
@@ -546,7 +546,7 @@
         </section>
 
         <!-- Contenedor Otras iniciativas -->
-        <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-12">
+        <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-32">
             <!-- FONDO DECORATIVO -->
                 <div class="absolute -top-24 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
                     bg-[url(../../imagenes/ecuador/nci-cp-people-background.png)]
@@ -577,8 +577,8 @@
         </section>
 
         <!-- Contenedor Banner, texto y una imagen a la izquierda del Banner -->
-        <section class="w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] md:ml-auto 
-            lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10">
+        <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-32">
             <div class="relative">
                 <!-- CONTENEDOR PRINCIPAL -->
                 <div id="amazon-banner" class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
@@ -593,11 +593,11 @@
                             <h2 class="text-xl uppercase tracking-wider block font-semibold">Fortalecimiento de capacidades para la conservación 
                                 de ecosistemas a través del establecimiento y manejo de reservas naturales, el ordenamiento territorial y otras 
                                 estrategias complementarias de conservación</h2>
-                            <div class="text-[16px] leading-relaxed">
+                            <div class="text-[15px] leading-relaxed">
                                 <p><b>Área de implementación:</b> Pastaza, Zamora Chinchipe, Morona Santiago, Azuay, Loja</p>
                                 <p><b>Años:</b> 2024-2028</p>
                             </div>
-                            <p class="text-[16px] leading-relaxed opacity-95">
+                            <p class="text-[15px] leading-relaxed opacity-95">
                                 Impulsamos la creación y gestión participativa de áreas de conservación en el sur del Ecuador y la Amazonía, 
                                 fortaleciendo la conectividad del Sistema Nacional de Áreas Protegidas y la protección de fuentes de agua que 
                                 abastecen a comunidades locales. A través del trabajo conjunto con autoridades ambientales y gobiernos locales, 
@@ -669,83 +669,93 @@
             </div>
         </section>
         
-        <!-- Contenedor -->
-        <section class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
-            <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                <!-- 1. MENÚ LATERAL IZQUIERDO (Ocupa 3 columnas en pantallas grandes) -->
-                <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider font-semibold
-                    text-[rgb(31,72,34)] pt-2 border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
-                    <!-- Opción Activa (Con su marquita naranja característica en el borde) -->
-                    <a href="" class="block relative">
-                        <span class="absolute -left-4.25 top-0 bottom-0 w-0.75 border-[rgb(245,131,32)]"></span>
-                        Resumen
-                    </a>
-                    <!-- Resto de opciones del menú -->
-                    <a href="" class="block transition-colors">¿Qué hacemos?</a>
-                    <a href="" class="block transition-colors">Noticias y eventos</a>
-                    <a href="" class="block transition-colors">Publicaciones</a>
-                    <a href="" class="block transition-colors">Socios locales</a>
-                    <a href="" class="block transition-colors">Equipo</a>
-                </aside>
-                <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
-                <div class="lg:col-span-9 space-y-12">
-                    <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
-                    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
-                        <!-- Textos explicativos -->
-                        <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
-                            <h2 class="text-3xl tracking-tight">
-                                NOTICIAS Y EVENTOS
-                            </h2>
-                            <img src="../../imagenes/ecuador/linea03.png" alt="Línea decorativa" class="h-17 w-20 mt-3">
-                            <p class="text-[16px] leading-relaxed">
-                                No te pierdas las últimas noticias, historias y eventos de Naturaleza y Cultura Internacional en Ecuador.
-                            </p>
-			                <a href="#" class="mt-6 bg-[rgb(15,125,63)] text-white inline-block px-6 py-2.5 rounded-full font-bold 
-                            hover:bg-[rgb(31,72,34)] transition-colors self-center md:self-start shrink-0">
-                                <span class="text-sm">Ver todas las noticias</span>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Bloque Estadísticas  -->
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-[16px] items-stretch">
-                        <!-- Tarjeta 1 -->
-                         <div class="flex flex-col items-start w-full h-full">
-                            <img src="../../imagenes/ecuador/SalidaOrellana2024_32-350x262.webp" class="w-full h-44 md:h-48 object-cover rounded-2px" alt="">
-                            <a href=""><h3 class="text-2xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4">
-                                Una carrera para descubrir y conservar el territorio de Orellana
-                            </h3></a>
-                            <div class="flex flex-wrap items-center gap-3 mt-4">
-                                <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</span>
-                                <span class="text-[11px] text-[rgb(31,72,34)]">ECUADOR</span>
-                            </div>
-                        </div> 
-                        <!-- Tarjeta 2 -->
-                        <div class="flex flex-col items-start w-full h-full">
-                            <img src="../../imagenes/ecuador/P6280015-scaled-e1790695782515-350x163.jpg" 
-                                class="w-full h-44 md:h-48 object-cover rounded-2px" alt="">
-                            <a href=""><h3 class="text-2xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4">
-                                El Abra de Zamora es el sitio donde más especies nuevas de anfibios se han descrito en Ecuador
-                            </h3></a>
-                            <div class="flex flex-wrap items-center gap-3 mt-4">
-                                <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</span>
-                                <span class="text-[11px] text-[rgb(31,72,34)]">ECUADOR</span>
+        <!-- Contenedor NOTICIAS Y EVENTOS -->
+        <section class="w-full max-w-5xl mx-auto py-32 px-5 sm:px-6 md:px-8 lg:px-12 relative overflow-hidden">
+            <div class="relative z-10 max-w-3xl mx-auto md:mx-0 space-y-4">
+                <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                    <!-- 1. MENÚ LATERAL IZQUIERDO (Ocupa 3 columnas en pantallas grandes) -->
+                    <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider font-semibold
+                        text-[rgb(31,72,34)] pt-2 border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
+                        <!-- Opción Activa (Con su marquita naranja característica en el borde) -->
+                        <a href="" class="block relative">
+                            <span class="absolute -left-4.25 top-0 bottom-0 w-0.75 border-[rgb(245,131,32)]"></span>
+                            Resumen
+                        </a>
+                        <!-- Resto de opciones del menú -->
+                        <a href="" class="block transition-colors">¿Qué hacemos?</a>
+                        <a href="" class="block transition-colors">Noticias y eventos</a>
+                        <a href="" class="block transition-colors">Publicaciones</a>
+                        <a href="" class="block transition-colors">Socios locales</a>
+                        <a href="" class="block transition-colors">Equipo</a>
+                    </aside>
+                    <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
+                    <div class="lg:col-span-9 space-y-12">
+                        <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
+                        <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+                            <!-- Textos explicativos -->
+                            <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
+                                <h2 class="text-3xl tracking-tight">
+                                    NOTICIAS Y EVENTOS
+                                </h2>
+                                <img src="../../imagenes/ecuador/linea03.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
+                                <p class="text-[16px] leading-relaxed">
+                                    No te pierdas las últimas noticias, historias y eventos de Naturaleza y Cultura Internacional en Ecuador.
+                                </p>
+                                <a href="#" class="mt-6 bg-[rgb(15,125,63)] text-white inline-block px-6 py-2.5 rounded-full font-bold 
+                                hover:bg-[rgb(31,72,34)] transition-colors self-center md:self-start shrink-0">
+                                    <span class="text-sm">Ver todas las noticias</span>
+                                </a>
                             </div>
                         </div>
-                        <!-- Tarjeta 3 -->
-                        <div class="flex flex-col items-start w-full h-full">
-                            <img src="../../imagenes/ecuador/PARQUE-NACIONAL-YACURI-1-NCI-350x233.png" 
-                                class="w-full h-44 md:h-48 object-cover rounded-2px" alt="">
-                            <a href=""><h3 class="text-2xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4">
-                                    Conocer para conservar: monitoreo en el Corredor de Conectividad Podocarpus Yacuri
-                            </h3></a>
-                            <div class="flex flex-wrap items-center gap-3 mt-4">
-                                <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</span>
-                                <span class="text-[11px] text-[rgb(31,72,34)]">ECUADOR</span>
+                        <!-- Bloque Estadísticas  -->
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-[16px] items-stretch">
+                            <!-- Tarjeta 1 -->
+                            <div class="flex flex-col items-start w-full h-full">
+                                <img src="../../imagenes/ecuador/Paramo-y-agua-350x233.png" 
+                                    class="w-full h-44 md:h-48 object-cover rounded-2px" alt="">
+                                <a href=""><h3 class="text-2xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4">
+                                    Cañar protege su agua y biodiversidad
+                                </h3></a>
+                                <div class="flex flex-wrap items-center gap-3 mt-4">
+                                    <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">NOTICIAS</span>
+                                    <span class="text-[11px] text-[rgb(31,72,34)]">ECUADOR</span>
+                                </div>
+                            </div> 
+                            <!-- Tarjeta 2 -->
+                            <div class="flex flex-col items-start w-full h-full">
+                                <img src="../../imagenes/ecuador/P6280015-scaled-e1790695782515-350x163.jpg" 
+                                    class="w-full h-44 md:h-48 object-cover rounded-2px" alt="">
+                                <a href=""><h3 class="text-2xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4">
+                                    El Abra de Zamora es el sitio donde más especies nuevas de anfibios se han descrito en Ecuador
+                                </h3></a>
+                                <div class="flex flex-wrap items-center gap-3 mt-4">
+                                    <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</span>
+                                    <span class="text-[11px] text-[rgb(31,72,34)]">ECUADOR</span>
+                                </div>
                             </div>
+                            <!-- Tarjeta 3 -->
+                            <div class="flex flex-col items-start w-full h-full">
+                                <img src="../../imagenes/ecuador/PARQUE-NACIONAL-YACURI-1-NCI-350x233.png" 
+                                    class="w-full h-44 md:h-48 object-cover rounded-2px" alt="">
+                                <a href=""><h3 class="text-2xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4">
+                                        Conocer para conservar: monitoreo en el Corredor de Conectividad Podocarpus Yacuri
+                                </h3></a>
+                                <div class="flex flex-wrap items-center gap-3 mt-4">
+                                    <span class="bg-[rgb(211,228,218)] text-[rgb(15,125,63)] text-[11px] px-2 py-1 rounded-2px">BLOG</span>
+                                    <span class="text-[11px] text-[rgb(31,72,34)]">ECUADOR</span>
+                                </div>
+                            </div>
+                            <!-- AQUÍ VAN LAS DEMÁS TARJETAS El código sería -->
                         </div>
                     </div>
                 </div>
+                <!-- PALMERA - OCULTA EN MÓVIL -->
+                <img src="../../imagenes/ecuador/nci-cp-illustration6-countryp.webp" alt=""
+                    class="hidden md:block absolute bottom-0 left-0 w-40 lg:w-40 z-30 pointer-events-none">
+                <!-- ARMADILLO - OCULTO EN MÓVIL -->
+                <img src="../../imagenes/ecuador/nci-cp-illustration7-countryp.webp" alt=""
+                    class="hidden md:block absolute bottom-0 right-0 w-40 lg:w-40 z-20 pointer-events-none">
             </div>
         </section>
 
