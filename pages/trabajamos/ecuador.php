@@ -568,10 +568,9 @@
             lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 mt-8 sm:mt-8 md:-mt-28 lg:-mt-32">
             <div class="relative">
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="amazon-banner" class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
-                    style="min-height: 450px;">
+                <div id="amazon-banner" class="relative flex flex-col w-full h-190 sm:h-175 lg:h-140">
                     <!-- BANNER 1 -->
-                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
+                    <div class="banner-slide relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/ecuador/5-1536x1152.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 1; pointer-events: auto; z-index: 10;">
@@ -657,7 +656,7 @@
         </section>
         
         <!-- Contenedor NOTICIAS Y EVENTOS -->
-        <section class="w-full max-w-5xl mx-auto py-20 px-5 sm:px-6 md:px-8 lg:px-12 relative overflow-visible">
+        <section class="w-full max-w-5xl mx-auto py-10 px-5 sm:px-6 md:px-8 lg:px-12 relative overflow-visible">
             <div class="relative z-10 w-full space-y-4">
                 <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
@@ -869,7 +868,7 @@
                                 las personas que viven en los territorios que pretendemos proteger.
                             </p>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
@@ -931,7 +930,7 @@
                                 </button >
                             </div>
                         </div>
-
+                        
                     </div>
                 </div>
             </div>
