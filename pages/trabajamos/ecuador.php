@@ -761,7 +761,7 @@
 
         <!-- Contenedor PUBLICACIONES -->
         <section class="w-full relative bg-[rgb(240,245,246)] bg-cover bg-center 
-            bg-no-repeat flex items-center min-h-[50vh] md:h-[70vh] pt-6 pb-12">
+            bg-no-repeat flex items-center min-h-[50vh] md:min-h-[70vh] h-auto pt-6 pb-12">
             <!-- LÍNEA INFERIOR: Clavada exactamente en el borde inferior de la imagen de fondo -->
             <img src="../../imagenes/ecuador/nci-divider-cp-brush-texture_top-publications.png" alt="Línea divisoria inferior" 
             class="absolute top-0 inset-x-0 block w-full h-auto z-20">
@@ -809,10 +809,10 @@
                                 <div class="flex flex-col items-start w-full h-full">
                                     <img src="../../imagenes/ecuador/Vainillo-1-350x263.webp" 
                                         class="w-full h-44 md:h-48 object-cover rounded-2px" alt="">
-                                    <a href=""><h3 class="text-xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4">
+                                    <a href=""><h3 class="text-xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4 mb-4">
                                         Integrating financial and climate scenario analyses into forest restoration: a framework with NTFP trees
                                     </h3></a>
-                                    <p>Nora Sanchez See Full Bio</p>
+                                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">Nora Sanchez See Full Bio</p>
                                 </div> 
                                 <!-- Tarjeta 2 -->
                                 <div class="flex flex-col items-start w-full h-full">
@@ -821,16 +821,35 @@
                                     <a href=""><h3 class="text-xl font-semibold text-[rgb(72,81,79)] hover:text-[rgb(31,72,34)] mt-4 mb-4">
                                         Atlas de Áreas de Protección Hídrica
                                     </h3></a>
-                                    <p>El Atlas de Áreas de Protección Hídrica (APH), elaborado por la Autoridad Ambiental y Naturaleza y Cultura 
-                                       Internacional (NCI), es una herramienta científica...
+                                    <p class="leading-relaxed text-[rgb(72,81,79)] text-[16px] w-full">El Atlas de Áreas de Protección Hídrica 
+                                        (APH), elaborado por la Autoridad Ambiental y Naturaleza y Cultura Internacional (NCI), es una 
+                                        herramienta científica...
                                     </p>
                                 </div>
                                 <!-- Tarjeta 3 -->
-                                <div class="flex flex-col items-start w-full h-full bg-[rgb(200,227,230)] bg-cover bg-center bg-no-repeat">
-                                    <h3 class="text-xl text-[rgb(4,142,152)] mt-4">
+                                <div class="flex flex-col w-full h-full bg-[rgb(200,227,230)] bg-cover bg-center bg-no-repeat p-5 md:p-6">
+                                    <h3 class="text-[14px] text-[rgb(4,142,152)] mt-4 uppercase">
                                         Recursos disponibles para descarga
                                     </h3>
-                                    <hr class="my-4 border border-t-2 border-[rgb(4,142,152)]" />
+                                    <hr class="my-4 border-0 border-t-2 border-[rgb(4,142,152)]"/>
+                                    <!-- Recursos -->
+                                    <div class="flex flex-col gap-x-6 gap-y-4">
+                                        <a href="#" class="flex items-center justify-between gap-4">
+                                            <span class="text-[14px] text-[rgb(4,142,152)] font-bold">Informe De Impacto Ecuador 2024</span>
+                                            <span class="shrink-0 text-[rgb(4,142,152)] hover:text-[rgb(72,81,79)]">
+                                                <i class="fa-solid fa-download"></i></span>
+                                        </a>
+                                        <a href="#" class="flex items-center justify-between gap-4">
+                                            <span class="text-[14px] text-[rgb(4,142,152)] font-bold">Geovisor Del Mapa Nacional Ne ACUS</span>
+                                            <span class="shrink-0 text-[rgb(4,142,152)] hover:text-[rgb(72,81,79)]">
+                                                <i class="fa-solid fa-download"></i></span>
+                                        </a>
+                                        <a href="#" class="flex items-center justify-between gap-4">
+                                            <span class="text-[14px] text-[rgb(4,142,152)] font-bold">Atlas De Áreas de Protección Hídrica</span>
+                                            <span class="shrink-0 text-[rgb(4,142,152)] hover:text-[rgb(72,81,79)]">
+                                                <i class="fa-solid fa-download"></i></span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
