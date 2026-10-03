@@ -46,29 +46,22 @@
             <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                 <!-- 1. MENÚ LATERAL IZQUIERDO (Ocupa 3 columnas en pantallas grandes) -->
-                <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider font-semibold
-                    text-[rgb(31,72,34)] pt-2 border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
-                    <!-- Opción Activa (Con su marquita naranja característica en el borde) -->
-                    <a href="" class="block relative">
-                        <span class="absolute -left-4.25 top-0 bottom-0 w-0.75 border-[rgb(245,131,32)]"></span>
-                        Resumen
-                    </a>
-                    <!-- Resto de opciones del menú -->
-                    <a href="" class="block transition-colors">¿Qué hacemos?</a>
-                    <a href="" class="block transition-colors">Noticias y eventos</a>
-                    <a href="" class="block transition-colors">Publicaciones</a>
-                    <a href="" class="block transition-colors">Socios locales</a>
-                    <a href="" class="block transition-colors">Equipo</a>
-                </aside>
+                <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider text-[rgb(31,72,34)] pt-2 
+                        border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
+                        <a href="" class="block transition-colors font-semibold">Resumen</a>
+                        <a href="" class="block transition-colors">¿Qué hacemos?</a>
+                        <a href="" class="block transition-colors">Noticias y eventos</a>
+                        <a href="" class="block transition-colors">Publicaciones</a>
+                        <a href="" class="block transition-colors">Socios locales</a>
+                        <a href="" class="block transition-colors">Equipo</a>
+                    </aside>
                 <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
                 <div class="lg:col-span-9 space-y-12">
                     <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
                     <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
                         <!-- Textos explicativos -->
                         <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
-                            <h2 class="text-3xl tracking-tight">
-                                ¿DÓNDE TRABAJAMOS?
-                            </h2>
+                            <h2 class="text-3xl tracking-tight">¿DÓNDE TRABAJAMOS?</h2>
                             <img src="../../imagenes/ecuador/linea01.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
                             <p class="text-[16px] leading-relaxed">
                                 En Ecuador, enfocamos nuestros esfuerzos en la Amazonía y en el sur del país, protegiendo sitios críticos para la 
@@ -119,7 +112,7 @@
         </section>
 
         <!-- Contenedor ¿QUÉ HACEMOS? -->
-        <section class="py-12 w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12">
+        <section class="md:pt-8 pb-16 w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12">
             <!-- Grid principal de la página (Menú lateral + Contenido) -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                 <!-- 1. MENÚ LATERAL IZQUIERDO (Actualizado a "¿Qué hacemos?" activo) -->
@@ -166,7 +159,7 @@
         </section>
         
         <!-- Contenedor Plataforma Amazónica -->
-        <section class="relative w-full pb-12 md:pb-16 overflow-hidden">
+        <section class="relative w-full pb-12 overflow-hidden">
             <!-- FONDO DECORATIVO -->
             <div class="absolute -top-16 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
                 bg-[url(../../imagenes/ecuador/nci-cp-climate-background.png)]
@@ -178,9 +171,7 @@
                     <div class="lg:col-span-9 lg:col-start-4 w-full space-y-4 md:pr-8 lg:pr-12">
                         <img src="../../imagenes/ecuador/nci-country-b-1-climate_icon.webp" alt="" class="w-16 h-16 object-contain">
                         <div class="flex items-center gap-3">
-                            <h3 class="text-2xl text-[rgb(15,125,63)]">
-                                Plataforma Amazónica por los Bosques, el Clima y el Bienestar Humano
-                            </h3>
+                            <h3 class="text-2xl text-[rgb(15,125,63)]">Plataforma Amazónica por los Bosques, el Clima y el Bienestar Humano</h3>
                         </div>
                         <img src="../../imagenes/ecuador/linea_rosa_06.png" alt="Línea decorativa" class="h-17 w-20 mt-3">
                         <p class="text-[16px] leading-relaxed text-[rgb(72,81,79)]">
@@ -345,7 +336,7 @@
             lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10">
             <div class="relative">
                 <!-- Ilustración del colibrí (Oculta en móvil, visible desde md) -->
-                <img src="../../imagenes/ecuador/nci-cp-illustration3-countryp.webp" alt="" class="absolute -left-24 bottom-0 w-32 
+                <img src="../../imagenes/ecuador/nci-cp-illustration3-countryp.webp" alt="" class="absolute -left-24 bottom-28 w-32 
                     translate-x-[-55%] hidden md:block z-20" >
                 <!-- CONTENEDOR PRINCIPAL -->
                 <div id="amazon-banner" class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
@@ -404,7 +395,7 @@
         </section>
 
         <!-- Contenedor Conservación de Fuentes de Agua -->
-        <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-20">
+        <section class="relative w-full mt-12 md:pb-16 overflow-hidden py-20">
             <!-- FONDO DECORATIVO -->
             <div class="absolute -top-24 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
                 bg-[url(../../imagenes/ecuador/nci-cp-water-background.png)]
@@ -434,9 +425,7 @@
                     <div class="lg:col-span-9 lg:col-start-4 w-full space-y-4 md:pr-8 lg:pr-12">
                             <img src="../../imagenes/ecuador/nci-water_icon.webp" alt="" class="w-16 h-16 object-contain">
                             <div class="flex items-center gap-3">
-                                <h3 class="text-2xl text-[rgb(15,125,63)]">
-                                    Conservación de Fuentes de Agua
-                                </h3>
+                                <h3 class="text-2xl text-[rgb(15,125,63)]">Conservación de Fuentes de Agua</h3>
                             </div>
                             <img src="../../imagenes/ecuador/linea_rosa_06.png" alt="Línea decorativa" class="h-17 w-20 mt-3">
                             <p class="text-[16px] leading-relaxed text-[rgb(72,81,79)]">
@@ -450,7 +439,7 @@
 
         <!-- Contenedor texto y una imagen a la izquierda del Banner -->
         <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
-            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-32">
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-56">
             <div class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
                     style="min-height: 450px;">
                 <div class="absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
@@ -475,7 +464,7 @@
         </section>
 
         <!-- Contenedor Bosque Seco -->
-        <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-28">
+        <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-20">
             <!-- FONDO DECORATIVO -->
                 <div class="absolute -top-56 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
                     bg-[url(../../imagenes/ecuador/nci-cp-species-background.png)]
@@ -505,9 +494,7 @@
                     <div class="lg:col-span-9 lg:col-start-4 w-full space-y-4 md:pr-8 lg:pr-12">
                             <img src="../../imagenes/ecuador/nci-species_icon.webp" alt="" class="w-16 h-16 object-contain">
                             <div class="flex items-center gap-3">
-                                <h3 class="text-2xl text-[rgb(15,125,63)]">
-                                    Bosque Seco
-                                </h3>
+                                <h3 class="text-2xl text-[rgb(15,125,63)]">Bosque Seco</h3>
                             </div>
                             <img src="../../imagenes/ecuador/linea_rosa_06.png" alt="Línea decorativa" class="h-17 w-20 mt-3">
                             <p class="text-[16px] leading-relaxed text-[rgb(72,81,79)]">
@@ -521,7 +508,7 @@
 
         <!-- Contenedor texto y una imagen a la izquierda del Banner -->
         <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
-            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-32">
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-52">
             <div class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
                     style="min-height: 450px;">
                 <div class="absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
@@ -546,7 +533,7 @@
         </section>
 
         <!-- Contenedor Otras iniciativas -->
-        <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-32">
+        <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-20">
             <!-- FONDO DECORATIVO -->
                 <div class="absolute -top-24 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
                     bg-[url(../../imagenes/ecuador/nci-cp-people-background.png)]
@@ -577,8 +564,8 @@
         </section>
 
         <!-- Contenedor Banner, texto y una imagen a la izquierda del Banner -->
-        <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
-            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-32">
+        <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] md:ml-auto 
+            lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 mt-8 sm:mt-8 md:-mt-28 lg:-mt-32">
             <div class="relative">
                 <!-- CONTENEDOR PRINCIPAL -->
                 <div id="amazon-banner" class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
@@ -675,14 +662,9 @@
                 <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                     <!-- 1. MENÚ LATERAL IZQUIERDO (Ocupa 3 columnas en pantallas grandes) -->
-                    <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider font-semibold
-                        text-[rgb(31,72,34)] pt-2 border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
-                        <!-- Opción Activa (Con su marquita naranja característica en el borde) -->
-                        <a href="" class="block relative">
-                            <span class="absolute -left-4.25 top-0 bottom-0 w-0.75 border-[rgb(245,131,32)]"></span>
-                            Resumen
-                        </a>
-                        <!-- Resto de opciones del menú -->
+                    <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider text-[rgb(31,72,34)] pt-2 
+                        border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
+                        <a href="" class="block transition-colors font-semibold">Resumen</a>
                         <a href="" class="block transition-colors">¿Qué hacemos?</a>
                         <a href="" class="block transition-colors">Noticias y eventos</a>
                         <a href="" class="block transition-colors">Publicaciones</a>
@@ -695,9 +677,7 @@
                         <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
                             <!-- Textos explicativos -->
                             <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
-                                <h2 class="text-3xl tracking-tight">
-                                    NOTICIAS Y EVENTOS
-                                </h2>
+                                <h2 class="text-3xl tracking-tight">NOTICIAS Y EVENTOS</h2>
                                 <img src="../../imagenes/ecuador/linea03.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
                                 <p class="text-[16px] leading-relaxed">
                                     No te pierdas las últimas noticias, historias y eventos de Naturaleza y Cultura Internacional en Ecuador.
@@ -859,6 +839,102 @@
             <!-- LÍNEA INFERIOR: Clavada exactamente en el borde inferior de la imagen de fondo -->
             <img src="../../imagenes/ecuador/nci-cp-publications_background-brush-bottom.png" alt="Línea divisoria inferior" 
             class="absolute bottom-0 inset-x-0 block w-full h-auto z-20">
+        </section>
+
+        <!-- Contenedor NUESTROS SOCIOS LOCALES -->
+        <section class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
+            <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider text-[rgb(31,72,34)] pt-2 
+                    border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
+                    <a href="" class="block transition-colors font-semibold">Resumen</a>
+                    <a href="" class="block transition-colors">¿Qué hacemos?</a>
+                    <a href="" class="block transition-colors">Noticias y eventos</a>
+                    <a href="" class="block transition-colors">Publicaciones</a>
+                    <a href="" class="block transition-colors">Socios locales</a>
+                    <a href="" class="block transition-colors">Equipo</a>
+                </aside>
+                <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
+                <div class="lg:col-span-9 lg:col-start-4 w-full space-y-10">
+                    <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
+                    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+                        <!-- Textos explicativos -->
+                        <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
+                            <h2 class="text-3xl tracking-tight">NUESTROS SOCIOS LOCALES</h2>
+                            <img src="../../imagenes/ecuador/linea04.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
+                            <p class="text-[16px] leading-relaxed">
+                                Naturaleza y Cultura trabaja junto a universidades, instituciones públicas y privadas, comunidades y gobiernos 
+                                locales para proteger paisajes biológica y culturalmente diversos. Nuestros socios son fundamentales para lograr 
+                                nuestros objetivos de conservación. Creemos que la conservación sólo es posible cuando se trabaja en conjunto con 
+                                las personas que viven en los territorios que pretendemos proteger.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contenedor NUESTRO EQUIPO EN ECUADOR -->
+        <section class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
+            <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider text-[rgb(31,72,34)] pt-2 
+                    border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
+                    <a href="" class="block transition-colors font-semibold">Resumen</a>
+                    <a href="" class="block transition-colors">¿Qué hacemos?</a>
+                    <!-- Submenú sutil alineado y con sangría para no recargar -->
+                    <div class="pl-3 space-y-3 border-l border-[rgb(195,214,219)] text-[12px] text-[rgb(245,131,32)]">
+                        <a href="#plataforma-amazonica" class="block transition-colors">Plataforma Amazónica</a>
+                        <a href="#corredor-andino" class="block transition-colors">Corredor Transfronterizo</a>
+                        <a href="#fuentes-agua" class="block transition-colors">Fuentes de Agua</a>
+                        <a href="#bosque-seco" class="block transition-colors">Bosque Seco</a>
+                        <a href="#otras-iniciativas" class="block transition-colors">Otras Iniciativas</a>
+                    </div>
+                    <a href="" class="block transition-colors">Noticias y eventos</a>
+                    <a href="" class="block transition-colors">Publicaciones</a>
+                    <a href="" class="block transition-colors">Socios locales</a>
+                    <a href="" class="block transition-colors">Equipo</a>
+                </aside>
+                <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
+                <div class="lg:col-span-9 lg:col-start-4 w-full space-y-10">
+                    <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
+                    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+                        <!-- Textos explicativos -->
+                        <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
+                            <h2 class="text-3xl tracking-tight">NUESTRO EQUIPO EN ECUADOR</h2>
+                            <img src="../../imagenes/ecuador/linea01.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
+                            <p class="text-[16px] leading-relaxed">
+                                <b>Nuestro equipo experto en conservación</b> trabaja con las comunidades locales y los gobiernos proporcionando apoyo 
+                                técnico para el establecimiento de áreas de conservación.
+                            </p>
+                            <!-- flex-wrap y space-y/space-x aseguran que si la pantalla es muy pequeña, los botones se apilen suavemente sin romperse -->
+                            <div class="flex flex-wrap sm:flex-nowrap items-center gap-3 pt-2">
+                                <!-- Botón de Twitter (X) -->
+                                <a href="#" class="relative inline-flex items-center justify-center h-12 w-12 shrink-0">
+                                    <img src="../../imagenes/ecuador/nci-social-btn-bg.png" alt="Twitter" class="absolute inset-0 w-full h-full 
+                                        object-cover">
+                                    <i class="fa-brands fa-twitter relative z-10 text-white text-sm"></i>
+                                </a>
+                                <!-- Botón de Facebook -->
+                                <a href="#" class="relative inline-flex items-center justify-center h-12 w-12 shrink-0">
+                                    <img src="../../imagenes/ecuador/nci-social-btn-bg.png" alt="Facebook" class="absolute inset-0 w-full h-full 
+                                        object-cover">
+                                    <i class="fa-brands fa-facebook-f relative z-10 text-white text-sm"></i>
+                                </a>
+                                <!-- Línea Vertical de separación (Solo visible desde pantallas sm en adelante) -->
+                                <div class="h-8 w-px bg-[rgb(31,72,34)] hidden sm:block mx-2 shrink-0"></div>
+                                <!-- Botón Conoce al equipo en Ecuador -->
+                                <button class="px-6 py-3 bg-[rgb(74,85,78)] hover:bg-[rgb(31,72,34)] text-white font-semibold 
+                                    text-base rounded-full transition-colors duration-200 text-center whitespace-nowrap">
+                                    Conoce al equipo en Ecuador
+                                </button >
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->

@@ -57,6 +57,40 @@
                 biodiversidad extraordinaria. Al mismo tiempo, almacenan carbono, resguardan fuentes de agua dulce y sostienen culturas y 
                 medios de vida.
             </p>
+            <!-- BOTONES DE ACCIÓN -->
+            <!-- flex-wrap y space-y/space-x aseguran que si la pantalla es muy pequeña, los botones se apilen suavemente sin romperse -->
+            <div class="flex flex-nowrap items-center gap-3 pt-2">
+                <!-- Botón Términos de Referencia -->
+                <a href=""
+                    class="inline-block px-5 py-3 bg-[rgb(15,125,63)] hover:bg-[rgb(12,100,50)] text-white font-semibold 
+                    text-base rounded-full transition-colors duration-200 text-center whitespace-nowrap">
+                    Equipo Internacional
+                </a>
+                <!-- Botón Equipo en Ecuador -->
+                <a href=""
+                    class="inline-block px-5 py-3 bg-[rgb(15,125,63)] hover:bg-[rgb(12,100,50)] text-white font-semibold 
+                    text-base rounded-full transition-colors duration-200 text-center whitespace-nowrap">
+                    Equipo en Ecuador
+                </a>
+                <!-- Botón Equipo en Perú -->
+                <a href="" download=""
+                    class="inline-block px-5 py-3 bg-[rgb(15,125,63)] hover:bg-[rgb(12,100,50)] text-white font-semibold 
+                    text-base rounded-full transition-colors duration-200 text-center whitespace-nowrap">
+                    Equipo en Perú
+                </a>
+                <!-- Botón Equipo en México -->
+                <a href=""
+                    class="inline-block px-5 py-3 bg-[rgb(15,125,63)] hover:bg-[rgb(12,100,50)] text-white font-semibold 
+                    text-base rounded-full transition-colors duration-200 text-center whitespace-nowrap">
+                    Equipo en México
+                </a>
+                <!-- Equipo en Colombia (Instituto Humboldt) -->
+                <a href=""
+                    class="inline-block px-5 py-3 bg-[rgb(15,125,63)] hover:bg-[rgb(12,100,50)] text-white font-semibold 
+                    text-base rounded-full transition-colors duration-200 text-center whitespace-nowrap">
+                    Equipo en Colombia (Instituto Humboldt)
+                </a>
+            </div>
         </section>
 
         <!-- Contenedor Equipo Internacional -->
