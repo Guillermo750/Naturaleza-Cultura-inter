@@ -164,3 +164,69 @@ document.addEventListener("DOMContentLoaded", () => {
         adjustBannerHeight();
     });
 });
+
+
+
+/*CARRUSEL DE LA SECCIÓN DE NUESTROS SOCIOS LOCALES*/
+document.addEventListener('DOMContentLoaded', function () {
+
+    const track = document.getElementById('partners-track');
+    const slides = document.querySelectorAll('.partners-slide');
+    const dots = document.querySelectorAll('.partners-dot');
+    const prev = document.getElementById('partners-prev');
+    const next = document.getElementById('partners-next');
+
+    if (!track || !slides.length) return;
+
+    let current = 0;
+
+    function updateSlider() {
+
+        track.style.transform =
+            'translateX(-' + (current * 100) + '%)';
+
+        dots.forEach(function (dot, index) {
+
+            dot.style.opacity =
+                index === current ? '1' : '0.4';
+
+        });
+    }
+
+    if (prev) {
+
+        prev.addEventListener('click', function () {
+
+            current =
+                (current - 1 + slides.length) %
+                slides.length;
+
+            updateSlider();
+        });
+    }
+
+    if (next) {
+
+        next.addEventListener('click', function () {
+
+            current =
+                (current + 1) %
+                slides.length;
+
+            updateSlider();
+        });
+    }
+
+    dots.forEach(function (dot, index) {
+
+        dot.addEventListener('click', function () {
+
+            current = index;
+
+            updateSlider();
+        });
+    });
+
+    updateSlider();
+
+});

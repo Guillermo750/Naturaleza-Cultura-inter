@@ -466,31 +466,30 @@
         <!-- Contenedor Bosque Seco -->
         <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-20">
             <!-- FONDO DECORATIVO -->
-                <div class="absolute -top-56 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
-                    bg-[url(../../imagenes/ecuador/nci-cp-species-background.png)]
-                    bg-cover bg-center bg-no-repeat z-0">
-                </div>
+            <div class="absolute -top-56 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
+                bg-[url(../../imagenes/ecuador/nci-cp-species-background.png)] bg-cover bg-center bg-no-repeat z-0">
+            </div>
             <div class="relative z-10 w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                        <!-- 1. MENÚ LATERAL IZQUIERDO (Actualizado a "¿Qué hacemos?" activo) -->
-                        <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider text-[rgb(31,72,34)] pt-2 
-                            border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
-                            <a href="" class="block transition-colors font-semibold">Resumen</a>
-                            <a href="" class="block transition-colors">¿Qué hacemos?</a>
-                            <!-- Submenú sutil alineado y con sangría para no recargar -->
-                            <div class="pl-3 space-y-3 border-l border-[rgb(195,214,219)] text-[12px] text-[rgb(245,131,32)]">
-                                <a href="#plataforma-amazonica" class="block transition-colors">Plataforma Amazónica</a>
-                                <a href="#corredor-andino" class="block transition-colors">Corredor Transfronterizo</a>
-                                <a href="#fuentes-agua" class="block transition-colors">Fuentes de Agua</a>
-                                <a href="#bosque-seco" class="block transition-colors">Bosque Seco</a>
-                                <a href="#otras-iniciativas" class="block transition-colors">Otras Iniciativas</a>
-                            </div>
-                            <a href="" class="block transition-colors">Noticias y eventos</a>
-                            <a href="" class="block transition-colors">Publicaciones</a>
-                            <a href="" class="block transition-colors">Socios locales</a>
-                            <a href="" class="block transition-colors">Equipo</a>
-                        </aside>
-                        <!-- 2. CONTENIDO PRINCIPAL DE LA SECCIÓN -->
+                    <!-- 1. MENÚ LATERAL IZQUIERDO (Actualizado a "¿Qué hacemos?" activo) -->
+                    <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider text-[rgb(31,72,34)] pt-2 
+                        border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
+                        <a href="" class="block transition-colors font-semibold">Resumen</a>
+                        <a href="" class="block transition-colors">¿Qué hacemos?</a>
+                        <!-- Submenú sutil alineado y con sangría para no recargar -->
+                        <div class="pl-3 space-y-3 border-l border-[rgb(195,214,219)] text-[12px] text-[rgb(245,131,32)]">
+                            <a href="#plataforma-amazonica" class="block transition-colors">Plataforma Amazónica</a>
+                            <a href="#corredor-andino" class="block transition-colors">Corredor Transfronterizo</a>
+                            <a href="#fuentes-agua" class="block transition-colors">Fuentes de Agua</a>
+                            <a href="#bosque-seco" class="block transition-colors">Bosque Seco</a>
+                            <a href="#otras-iniciativas" class="block transition-colors">Otras Iniciativas</a>
+                        </div>
+                        <a href="" class="block transition-colors">Noticias y eventos</a>
+                        <a href="" class="block transition-colors">Publicaciones</a>
+                        <a href="" class="block transition-colors">Socios locales</a>
+                        <a href="" class="block transition-colors">Equipo</a>
+                    </aside>
+                    <!-- 2. CONTENIDO PRINCIPAL DE LA SECCIÓN -->
                     <div class="lg:col-span-9 lg:col-start-4 w-full space-y-4 md:pr-8 lg:pr-12">
                             <img src="../../imagenes/ecuador/nci-species_icon.webp" alt="" class="w-16 h-16 object-contain">
                             <div class="flex items-center gap-3">
@@ -673,7 +672,7 @@
                     <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
                     <div class="lg:col-span-9 lg:col-start-4 w-full space-y-10">
                         <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
-                        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 items-start">
                             <!-- Textos explicativos -->
                             <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
                                 <h2 class="text-3xl tracking-tight">NOTICIAS Y EVENTOS</h2>
@@ -766,7 +765,7 @@
                         <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
                         <div class="lg:col-span-9 lg:col-start-4 w-full space-y-10">
                             <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
-                            <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-2 items-start">
                                 <!-- Textos explicativos -->
                                 <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
                                     <h2 class="text-3xl tracking-tight">
@@ -842,9 +841,10 @@
 
         <!-- Contenedor NUESTROS SOCIOS LOCALES -->
         <section class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
-            <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
+            <!-- Grid principal: Menú lateral izquierdo y Contenido a la derecha -->
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider text-[rgb(31,72,34)] pt-2 
+                <!-- MENÚ LATERAL -->
+                <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider text-[rgb(31,72,34)] pt-2
                     border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
                     <a href="" class="block transition-colors font-semibold">Resumen</a>
                     <a href="" class="block transition-colors">¿Qué hacemos?</a>
@@ -853,23 +853,133 @@
                     <a href="" class="block transition-colors">Socios locales</a>
                     <a href="" class="block transition-colors">Equipo</a>
                 </aside>
-                <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
+                <!-- CONTENIDO PRINCIPAL -->
                 <div class="lg:col-span-9 lg:col-start-4 w-full space-y-10">
-                    <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
-                    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
-                        <!-- Textos explicativos -->
+                    <!-- TEXTO -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 items-start">
                         <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
                             <h2 class="text-3xl tracking-tight">NUESTROS SOCIOS LOCALES</h2>
                             <img src="../../imagenes/ecuador/linea04.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
                             <p class="text-[16px] leading-relaxed">
-                                Naturaleza y Cultura trabaja junto a universidades, instituciones públicas y privadas, comunidades y gobiernos 
-                                locales para proteger paisajes biológica y culturalmente diversos. Nuestros socios son fundamentales para lograr 
-                                nuestros objetivos de conservación. Creemos que la conservación sólo es posible cuando se trabaja en conjunto con 
+                                Naturaleza y Cultura trabaja junto a universidades, instituciones públicas y privadas, comunidades y gobiernos
+                                locales para proteger paisajes biológica y culturalmente diversos. Nuestros socios son fundamentales para lograr
+                                nuestros objetivos de conservación. Creemos que la conservación sólo es posible cuando se trabaja en conjunto con
                                 las personas que viven en los territorios que pretendemos proteger.
                             </p>
                         </div>
-
                     </div>
+                    <!-- CARRUSEL DE SOCIOS LOCALES: DEBAJO DEL TEXTO -->
+                    <div class="relative w-full mt-10 overflow-visible">
+                        <!-- VENTANA DEL CARRUSEL -->
+                        <div class="w-full overflow-hidden">
+                            <!-- TRACK -->
+                            <div id="partners-track" class="flex transition-transform duration-500 ease-in-out">
+                                <!-- POSICIÓN 1 -->
+                                <div class="partners-slide min-w-full shrink-0">
+                                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 items-center justify-items-center gap-2">
+                                        <img src="../../imagenes/ecuador/logos-1-e1669046633614.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-1-1-e1669046700302.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-1-2-e1669046739463.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-1-3-e1669046777503.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-1-4-e1669046813295.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-2-4-e1669047940139.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                    </div>
+                                </div>
+                                <!-- POSICIÓN 2 -->
+                                <div class="partners-slide min-w-full shrink-0">
+                                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 items-center justify-items-center gap-2">
+                                        <img src="../../imagenes/ecuador/logos-2-3-e1669046991976.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-2-2-e1669046957269.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-2-1-e1669046898628.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-2-e1669046855975.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-3-e1669047152769.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-3-1-e1669047175197.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                    </div>
+                                </div>
+                                <!-- POSICIÓN 3 -->
+                                <div class="partners-slide min-w-full shrink-0">
+                                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 items-center justify-items-center gap-2">
+                                        <img src="../../imagenes/ecuador/logos-3-2-e1669047205229.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-3-3-e1669047238448.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-3-4-e1669047313405.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-4-3-e1669047467101.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-4-2-e1669047435273.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-4-1-e1669047408793.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                    </div>
+                                </div>
+                                <!-- POSICIÓN 4 -->
+                                <div class="partners-slide min-w-full shrink-0">
+                                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 items-center justify-items-center gap-2">
+                                        <img src="../../imagenes/ecuador/logos-4-e1669047378786.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-4-4-e1669047489217.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-5-1-e1669047550976.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-5-4-e1669047996719.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-5-3-e1669047636617.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-5-2-e1669047601110.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                    </div>
+                                </div>
+                                <!-- POSICIÓN 5 -->
+                                <div class="partners-slide min-w-full shrink-0">
+                                    <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 items-center justify-items-center gap-2">
+                                        <img src="../../imagenes/ecuador/logos-6-e1669047663444.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-6-1-e1669047694710.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-6-4-e1669047789538.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-6-3-e1669047767402.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                        <img src="../../imagenes/ecuador/logos-6-2-e1669047735794.webp" alt=""
+                                            class="w-32 h-32 object-contain">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- PUNTOS -->
+                    <div id="partners-dots" class="flex items-center justify-center gap-2 mt-6">
+                        <button type="button" data-partner-slide="0" class="partners-dot w-2 h-2 rounded-full bg-[rgb(15,125,63)] 
+                            transition-all">
+                        </button>
+                        <button type="button" data-partner-slide="1" class="partners-dot w-2 h-2 rounded-full bg-[rgb(15,125,63)] 
+                            opacity-40 transition-all">
+                        </button>
+                        <button type="button" data-partner-slide="2" class="partners-dot w-2 h-2 rounded-full bg-[rgb(15,125,63)] 
+                            opacity-40 transition-all">
+                        </button>
+                        <button type="button" data-partner-slide="3" class="partners-dot w-2 h-2 rounded-full bg-[rgb(15,125,63)] 
+                            opacity-40 transition-all">
+                        </button>
+                        <button type="button" data-partner-slide="4" class="partners-dot w-2 h-2 rounded-full bg-[rgb(15,125,63)] 
+                            opacity-40 transition-all">
+                        </button>
+                    </div>
+                    <!-- Línea Separadora Verde -->
+                    <img src="../../imagenes/ecuador/nci-cp-green-brush_separator.png" alt="Línea separadora" class="w-full mt-3">
                 </div>
             </div>
         </section>
@@ -898,7 +1008,7 @@
                 <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
                 <div class="lg:col-span-9 lg:col-start-4 w-full space-y-10">
                     <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
-                    <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-start">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 items-start">
                         <!-- Textos explicativos -->
                         <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
                             <h2 class="text-3xl tracking-tight">NUESTRO EQUIPO EN ECUADOR</h2>
@@ -930,7 +1040,54 @@
                                 </button >
                             </div>
                         </div>
-                        
+                    </div>
+                    <!-- Equipo ecuador -->
+                    <div class="relative mt-10">
+                        <!-- Fondo decorativo inferior con paisaje y colibrí -->
+                        <div class="absolute left-1/2 top-24 -z-10 h-162.5 w-screen -translate-x-1/2 overflow-hidden">
+                            <img src="../../imagenes/ecuador/nci-bg-photo-background_our-team.jpg" alt="" class="absolute inset-0 h-full w-full 
+                            object-cover object-bottom">
+                            <!-- Colibrí en la esquina superior izquierda -->
+                            <img src="../../imagenes/ecuador/nci-cp-illustration8-countryp.webp" alt="" class="absolute left-0 top-0 w-40
+                            opacity-90 z-10">
+                        </div>
+                        <!-- Tarjeta blanca que contiene al equipo -->
+                        <div class="relative z-10 bg-white px-5 py-8 shadow-sm sm:px-8 sm:py-10 lg:px-12">
+                            <!-- Grid de personas -->
+                            <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+                                <!-- Felipe Serrano -->
+                                <article class="overflow-hidden bg-white">
+                                    <div class="bg-[rgb(235,241,237)] p-4 sm:p-5">
+                                        <img src="../../imagenes/ecuador/Felipe-Serrano-Ecuador-600x400.webp" alt="Felipe Serrano" 
+                                        class="h-64 w-full object-cover sm:h-72">
+                                    </div>
+                                    <div class="pt-4">
+                                        <h3 class="text-[12px] font-bold text-[rgb(15,125,63)]">Felipe Serrano</h3>
+                                        <p class="mt-4 text-[16px] leading-relaxed text-[rgb(72,81,79)]">Director Ejecutivo en Ecuador</p>
+                                        <a href="mailto:fserrano@naturalezaycultura.org" class="mt-3 inline-block text-[14px] 
+                                            text-[rgb(15,125,63)] underline">
+                                            fserrano@naturalezaycultura.org
+                                        </a>
+                                    </div>
+                                </article>
+                                <!-- Nora Sánchez Luzardo -->
+                                <article class="overflow-hidden bg-white">
+                                    <div class="bg-[rgb(235,241,237)] p-4 sm:p-5">
+                                        <img src="../../imagenes/ecuador/Headshot-Nora-e1674845675886.webp" alt="Nora Sánchez Luzardo" 
+                                        class="h-64 w-full object-cover sm:h-72">
+                                    </div>
+                                    <div class="pt-4">
+                                        <h3 class="text-[12px] font-bold text-[rgb(15,125,63)]">Nora Sánchez Luzardo</h3>
+                                        <p class="mt-4 text-[16px] leading-relaxed text-[rgb(72,81,79)]">Coordinadora de Comunicación para 
+                                            América Latina</p>
+                                        <a href="mailto:nsanchez@naturalezaycultura.org" class="mt-3 inline-block text-[14px] 
+                                            text-[rgb(15,125,63)] underline">
+                                            nsanchez@naturalezaycultura.org
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
