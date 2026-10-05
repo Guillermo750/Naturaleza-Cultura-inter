@@ -464,7 +464,7 @@
         </section>
 
         <!-- Contenedor Bosque Seco -->
-        <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-20">
+        <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-28">
             <!-- FONDO DECORATIVO -->
             <div class="absolute -top-56 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
                 bg-[url(../../imagenes/ecuador/nci-cp-species-background.png)] bg-cover bg-center bg-no-repeat z-0">
@@ -507,7 +507,7 @@
 
         <!-- Contenedor texto y una imagen a la izquierda del Banner -->
         <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
-            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-52">
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-56">
             <div class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
                     style="min-height: 450px;">
                 <div class="absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
@@ -532,7 +532,7 @@
         </section>
 
         <!-- Contenedor Otras iniciativas -->
-        <section class="relative w-full pb-12 md:pb-16 overflow-hidden py-20">
+        <section class="relative w-full pb-12 md:pb-87.5 lg:pb-92.5 overflow-hidden py-12">
             <!-- FONDO DECORATIVO -->
                 <div class="absolute -top-24 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
                     bg-[url(../../imagenes/ecuador/nci-cp-people-background.png)]
@@ -563,11 +563,11 @@
         </section>
 
         <!-- Contenedor Banner, texto y una imagen a la izquierda del Banner -->
-        <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] md:ml-auto 
-            lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 mt-8 sm:mt-8 md:-mt-28 lg:-mt-32">
+        <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] md:ml-auto
+            lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 mt-8 sm:mt-8 md:-mt-28 lg:-mt-32 md:mb-20 lg:mb-20">
             <div class="relative">
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="amazon-banner" class="relative flex flex-col w-full h-190 sm:h-175 lg:h-140">
+                <div id="amazon-banner" class="relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
                     <!-- BANNER 1 -->
                     <div class="banner-slide relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/ecuador/5-1536x1152.webp)]
