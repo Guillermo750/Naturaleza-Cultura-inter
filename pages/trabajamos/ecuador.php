@@ -339,10 +339,10 @@
                 <img src="../../imagenes/ecuador/nci-cp-illustration3-countryp.webp" alt="" class="absolute -left-24 bottom-28 w-32 
                     translate-x-[-55%] hidden md:block z-20" >
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="amazon-banner" class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
+                <div id="blf-banner" class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
                     style="min-height: 450px;">
                     <!-- BANNER 1 -->
-                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
+                    <div class="blf-banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/ecuador/Cloud-Forest-Andean-Bear-1.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 1; pointer-events: auto; z-index: 10;">
@@ -362,7 +362,7 @@
                         </div>
                     </div>
                     <!-- BANNER 2 -->
-                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="blf-banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/ecuador/Amazonian-Platform-YellowFrog-Bird-Gallery-4-1536x864.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -385,9 +385,9 @@
                     <!-- PUNTOS INDICADORES (DOTS) -->
                     <div class="relative flex justify-center gap-2 pt-1 pb-4 z-40 pointer-events-auto md:absolute md:bottom-4 md:left-1/2 
                         md:-translate-x-1/2 md:pt-0 md:pb-0">
-                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
-                            tyle="opacity: 1;" data-slide="0"></button>
-                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="blf-banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                            style="opacity: 1;" data-slide="0"></button>
+                        <button class="blf-banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             style="opacity: 0.4;" data-slide="1"></button>
                     </div>
                 </div>
@@ -500,6 +500,9 @@
                                 Trabajamos para mejorar la resiliencia de los paisajes forestales y el entorno socio ecológico para las comunidades 
                                 locales que viven en las áreas de intervención en el Bosque Seco del Sur.
                             </p>
+                            <!-- Imagen del Captus a la derecha -->
+                            <img src="../../imagenes/ecuador/nci-cp-illustration4-countryp.webp" alt="Captus" 
+                                class="hidden md:block absolute -right-96 bottom-40 w-20 h-auto object-contain pointer-events-none">
                         </div> 
                     </div>
                 </div>
@@ -532,7 +535,7 @@
         </section>
 
         <!-- Contenedor Otras iniciativas -->
-        <section class="relative w-full pb-12 md:pb-87.5 lg:pb-92.5 overflow-hidden py-12">
+        <section class="relative w-full pb-12 md:pb-87.5 lg:pb-92.5 overflow-hidden py-28">
             <!-- FONDO DECORATIVO -->
                 <div class="absolute -top-24 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
                     bg-[url(../../imagenes/ecuador/nci-cp-people-background.png)]
@@ -557,6 +560,9 @@
                             <h3 class="text-2xl text-[rgb(15,125,63)]">Otras iniciativas</h3>
                         </div>
                         <img src="../../imagenes/ecuador/linea_rosa_06.png" alt="Línea decorativa" class="h-17 w-20 mt-3">
+                        <!-- Imagen del guacamayo a la derecha -->
+                        <img src="../../imagenes/ecuador/nci-cp-illustration5-countryp.webp" alt="Guacamayo" 
+                            class="hidden md:block absolute -right-96 bottom-32 w-28 h-auto object-contain pointer-events-none">
                     </div> 
                 </div>
             </div>
@@ -567,9 +573,9 @@
             lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 mt-8 sm:mt-8 md:-mt-28 lg:-mt-32 md:mb-20 lg:mb-20">
             <div class="relative">
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="amazon-banner" class="relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
+                <div id="blf-banner3" class="relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
                     <!-- BANNER 1 -->
-                    <div class="banner-slide relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
+                    <div class="blf-banner-slide3 relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/ecuador/5-1536x1152.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 1; pointer-events: auto; z-index: 10;">
@@ -591,7 +597,7 @@
                         </div>
                     </div>
                     <!-- BANNER 2 -->
-                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/ecuador/FRL_0002-1536x1020.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -612,7 +618,7 @@
                         </div>
                     </div>
                     <!-- BANNER 3 -->
-                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/ecuador/SF-FieldStaion.webp)] bg-cover bg-center bg-no-repeat flex items-center p-4 
                         sm:p-6 md:p-8" style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
                         <!-- Caja de texto interna -->
@@ -626,7 +632,7 @@
                         </div>
                     </div>
                     <!-- BANNER 4 -->
-                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/ecuador/RESTAURACION_MAYCU_PIC2-1536x864.webp)] bg-cover bg-center bg-no-repeat flex items-center 
                         p-4 sm:p-6 md:p-8" style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
                         <!-- Caja de texto interna -->
@@ -643,11 +649,11 @@
                     <!-- PUNTOS INDICADORES (DOTS) -->
                     <div class="relative flex justify-center gap-2 pt-1 pb-4 z-40 pointer-events-auto md:absolute md:bottom-4 md:left-1/2 
                         md:-translate-x-1/2 md:pt-0 md:pb-0">
-                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             tyle="opacity: 1;" data-slide="0"></button>
-                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             style="opacity: 0.4;" data-slide="1"></button>
-                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white opacity-40 hover:opacity-80 transition-all 
+                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white opacity-40 hover:opacity-80 transition-all 
                             cursor-pointer" data-slide="2"></button>
                     </div>
                 </div>
@@ -1046,10 +1052,10 @@
                         <!-- Fondo decorativo inferior con paisaje y colibrí -->
                         <div class="absolute left-1/2 top-24 -z-10 h-162.5 w-screen -translate-x-1/2 overflow-hidden">
                             <img src="../../imagenes/ecuador/nci-bg-photo-background_our-team.jpg" alt="" class="absolute inset-0 h-full w-full 
-                            object-cover object-bottom">
+                                object-cover object-bottom">
                             <!-- Colibrí en la esquina superior izquierda -->
-                            <img src="../../imagenes/ecuador/nci-cp-illustration8-countryp.webp" alt="" class="absolute left-0 top-0 w-40
-                            opacity-90 z-10">
+                            <img src="../../imagenes/ecuador/nci-cp-illustration8-countryp.webp" alt="" class="hidden md:block absolute left-0 
+                                top-0 w-40 opacity-90 z-10">
                         </div>
                         <!-- Tarjeta blanca que contiene al equipo -->
                         <div class="relative z-10 bg-white px-5 py-8 shadow-sm sm:px-8 sm:py-10 lg:px-12">
