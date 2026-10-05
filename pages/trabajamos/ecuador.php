@@ -74,8 +74,8 @@
                             </p>
                         </div>
                         <!-- Imagen / Mapa -->
-                        <div class="md:col-span-5 w-full h-80 rounded-lg overflow-hidden">
-                            <img src="" alt="Mapa de áreas de trabajo en Ecuador" class="w-full h-full 
+                        <div class="md:col-span-5 w-96 h-96 overflow-hidden">
+                            <img src="../../imagenes/ecuador/mapa.png" alt="Mapa de áreas de trabajo en Ecuador" class="w-full h-full 
                                 object-cover">
                         </div>
                     </div>
