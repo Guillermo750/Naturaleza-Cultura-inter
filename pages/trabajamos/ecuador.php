@@ -537,10 +537,10 @@
         <!-- Contenedor Otras iniciativas -->
         <section class="relative w-full pb-12 md:pb-87.5 lg:pb-92.5 overflow-hidden py-28">
             <!-- FONDO DECORATIVO -->
-                <div class="absolute -top-24 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
-                    bg-[url(../../imagenes/ecuador/nci-cp-people-background.png)]
-                    bg-cover bg-center bg-no-repeat z-0">
-                </div>
+            <div class="absolute -top-24 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
+                bg-[url(../../imagenes/ecuador/nci-cp-people-background.png)]
+                bg-cover bg-center bg-no-repeat z-0">
+            </div>
             <div class="relative z-10 w-full max-w-5xl mx-auto px-5 sm:px-6 md:px-8 lg:px-12">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
                     <!-- 1. MENÚ LATERAL IZQUIERDO (Actualizado a "¿Qué hacemos?" activo) -->
