@@ -346,3 +346,84 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 //PÁGINA DE PERÚ
+/* PRIMER BANNER DE PERÚ*/
+document.addEventListener("DOMContentLoaded", () => {
+    const banner = document.getElementById("blf-banner4");
+    const slides = banner
+        ? banner.querySelectorAll(".blf-banner-slide4")
+        : [];
+    const dots = document.querySelectorAll(".blf-banner-dot4");
+    const prevButton = document.getElementById("banner-prev");
+    const nextButton = document.getElementById("banner-next");
+
+    if (!banner || slides.length === 0) {
+        return;
+    }
+    let currentSlide = 0;
+
+    /* ALTURA DEL BANNER */
+    function adjustBannerHeight() {
+        const activeSlide = slides[currentSlide];
+        if (!activeSlide) {
+            return;
+        }
+        const content = activeSlide.querySelector(":scope > div");
+        if (window.innerWidth < 768 && content) {
+            banner.style.height =
+                `${content.offsetHeight + 48}px`;
+        } else {
+            banner.style.height = "450px";
+        }
+    }
+
+    /* MOSTRAR SLIDE */
+    function showSlide(index) {
+        currentSlide =
+            (index + slides.length) % slides.length;
+        slides.forEach((slide, slideIndex) => {
+            const isActive =
+                slideIndex === currentSlide;
+            slide.style.opacity =
+                isActive ? "1" : "0";
+            slide.style.pointerEvents =
+                isActive ? "auto" : "none";
+            slide.style.zIndex =
+                isActive ? "10" : "5";
+        });
+
+        /* PUNTOS */
+        dots.forEach((dot, dotIndex) => {
+            dot.style.opacity =
+                dotIndex === currentSlide
+                    ? "1"
+                    : "0.4";
+        });
+        adjustBannerHeight();
+    }
+
+    /* PUNTOS */
+    dots.forEach((dot, index) => {
+        dot.addEventListener("click", () => {
+            showSlide(index);
+        });
+    });
+
+    /* SLIDE INICIAL */
+    showSlide(0);
+
+
+    /* CARGA INICIAL */
+    window.addEventListener("load", () => {
+        adjustBannerHeight();
+    });
+
+
+    /* CAMBIO DE TAMAÑO */
+    window.addEventListener("resize", () => {
+
+        adjustBannerHeight();
+
+    });
+});
+
+/* SEGUNDO BANNER DE PERÚ*/
