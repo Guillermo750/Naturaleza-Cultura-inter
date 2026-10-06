@@ -509,10 +509,10 @@
         </section>
 
         <!-- Contenedor texto y una imagen a la izquierda del Banner -->
-        <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
-            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-56">
-            <div class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
-                    style="min-height: 450px;">
+        <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)]  
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 mt-8 md:-mt-28 lg:-mt-56">
+            <div class="relative flex flex-col w-full min-h-[430px] sm:min-h-[420px] md:h-140 lg:h-140" 
+                    >
                 <div class="absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                     bg-[url(../../imagenes/ecuador/Dry-Forest-in-Bloom-copy-2.webp)]
                     bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8">
@@ -734,13 +734,14 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
             <!-- PALMERA - OCULTA EN MÓVIL -->
             <img src="../../imagenes/ecuador/nci-cp-illustration6-countryp.webp" alt=""
-                class="hidden md:block absolute -bottom-1 -left-96 w-40 lg:w-40 z-30 pointer-events-none">
+                class="hidden md:block absolute -bottom-6 -left-96 w-48 z-30 pointer-events-none">
             <!-- ARMADILLO - OCULTO EN MÓVIL -->
             <img src="../../imagenes/ecuador/nci-cp-illustration7-countryp.webp" alt="" 
-                class="hidden md:block absolute -bottom-1 -right-96 w-40 lg:w-40 z-20 pointer-events-none">
+                class="hidden md:block absolute -bottom-1 -right-96 w-48 z-20 pointer-events-none">
         </section>
 
         <!-- Contenedor PUBLICACIONES -->
@@ -991,107 +992,120 @@
         </section>
 
         <!-- Contenedor NUESTRO EQUIPO EN ECUADOR -->
-        <section class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
-            <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-                <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider text-[rgb(31,72,34)] pt-2 
-                    border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
-                    <a href="" class="block transition-colors font-semibold">Resumen</a>
-                    <a href="" class="block transition-colors">¿Qué hacemos?</a>
-                    <!-- Submenú sutil alineado y con sangría para no recargar -->
-                    <div class="pl-3 space-y-3 border-l border-[rgb(195,214,219)] text-[12px] text-[rgb(245,131,32)]">
-                        <a href="#plataforma-amazonica" class="block transition-colors">Plataforma Amazónica</a>
-                        <a href="#corredor-andino" class="block transition-colors">Corredor Transfronterizo</a>
-                        <a href="#fuentes-agua" class="block transition-colors">Fuentes de Agua</a>
-                        <a href="#bosque-seco" class="block transition-colors">Bosque Seco</a>
-                        <a href="#otras-iniciativas" class="block transition-colors">Otras Iniciativas</a>
-                    </div>
-                    <a href="" class="block transition-colors">Noticias y eventos</a>
-                    <a href="" class="block transition-colors">Publicaciones</a>
-                    <a href="" class="block transition-colors">Socios locales</a>
-                    <a href="" class="block transition-colors">Equipo</a>
-                </aside>
-                <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
-                <div class="lg:col-span-9 lg:col-start-4 w-full space-y-10">
-                    <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-2 items-start">
-                        <!-- Textos explicativos -->
-                        <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
-                            <h2 class="text-3xl tracking-tight">NUESTRO EQUIPO EN ECUADOR</h2>
-                            <img src="../../imagenes/ecuador/linea01.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
-                            <p class="text-[16px] leading-relaxed">
-                                <b>Nuestro equipo experto en conservación</b> trabaja con las comunidades locales y los gobiernos proporcionando apoyo 
-                                técnico para el establecimiento de áreas de conservación.
-                            </p>
-                            <!-- flex-wrap y space-y/space-x aseguran que si la pantalla es muy pequeña, los botones se apilen suavemente sin romperse -->
-                            <div class="flex flex-wrap sm:flex-nowrap items-center gap-3 pt-2">
-                                <!-- Botón de Twitter (X) -->
-                                <a href="#" class="relative inline-flex items-center justify-center h-12 w-12 shrink-0">
-                                    <img src="../../imagenes/ecuador/nci-social-btn-bg.png" alt="Twitter" class="absolute inset-0 w-full h-full 
-                                        object-cover">
-                                    <i class="fa-brands fa-twitter relative z-10 text-white text-sm"></i>
-                                </a>
-                                <!-- Botón de Facebook -->
-                                <a href="#" class="relative inline-flex items-center justify-center h-12 w-12 shrink-0">
-                                    <img src="../../imagenes/ecuador/nci-social-btn-bg.png" alt="Facebook" class="absolute inset-0 w-full h-full 
-                                        object-cover">
-                                    <i class="fa-brands fa-facebook-f relative z-10 text-white text-sm"></i>
-                                </a>
-                                <!-- Línea Vertical de separación (Solo visible desde pantallas sm en adelante) -->
-                                <div class="h-8 w-px bg-[rgb(31,72,34)] hidden sm:block mx-2 shrink-0"></div>
-                                <!-- Botón Conoce al equipo en Ecuador -->
-                                <button class="px-6 py-3 bg-[rgb(74,85,78)] hover:bg-[rgb(31,72,34)] text-white font-semibold 
-                                    text-base rounded-full transition-colors duration-200 text-center whitespace-nowrap">
-                                    Conoce al equipo en Ecuador
-                                </button >
+        <section class="relative w-full py-10 overflow-visible">
+            <!-- FONDO DE PAISAJE: SOLO EN LA PARTE INFERIOR Y A TODO EL ANCHO -->
+            <div class="absolute left-1/2 top-[300px] -bottom-3 -z-10 w-screen -translate-x-1/2 overflow-hidden">
+                <img src="../../imagenes/ecuador/nci-bg-photo-background_our-team.jpg" alt="" class="absolute inset-0 h-full w-full 
+                    object-cover object-bottom">
+                <!-- FLOR + COLIBRÍ EN LA ESQUINA SUPERIOR IZQUIERDA -->
+                <img src="../../imagenes/ecuador/nci-cp-illustration8-countryp.webp" alt="" class="hidden md:block absolute left-2 top-44 w-48
+                    opacity-90 z-10">
+                <!-- LÍNEA INFERIOR: Clavada exactamente en el borde inferior de la imagen de fondo -->
+                <img src="../../imagenes/ecuador/nci-brush-texture_bottom-banner.png" alt="Línea divisoria inferior" 
+                class="absolute bottom-0 inset-x-0 block w-full h-auto z-20">
+            </div>
+            <div class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
+                <!-- Grid principal: Menú lateral izquierdo (oculto en móvil o adaptado) y Contenido a la derecha -->
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                    <aside class="hidden lg:block lg:col-span-3 text-[12px] uppercase tracking-wider text-[rgb(31,72,34)] pt-2 
+                        border-l border-[rgb(195,214,219)] pl-4 space-y-6 relative">
+                        <a href="" class="block transition-colors font-semibold">Resumen</a>
+                        <a href="" class="block transition-colors">¿Qué hacemos?</a>
+                        <!-- Submenú sutil alineado y con sangría para no recargar -->
+                        <div class="pl-3 space-y-3 border-l border-[rgb(195,214,219)] text-[12px] text-[rgb(245,131,32)]">
+                            <a href="#plataforma-amazonica" class="block transition-colors">Plataforma Amazónica</a>
+                            <a href="#corredor-andino" class="block transition-colors">Corredor Transfronterizo</a>
+                            <a href="#fuentes-agua" class="block transition-colors">Fuentes de Agua</a>
+                            <a href="#bosque-seco" class="block transition-colors">Bosque Seco</a>
+                            <a href="#otras-iniciativas" class="block transition-colors">Otras Iniciativas</a>
+                        </div>
+                        <a href="" class="block transition-colors">Noticias y eventos</a>
+                        <a href="" class="block transition-colors">Publicaciones</a>
+                        <a href="" class="block transition-colors">Socios locales</a>
+                        <a href="" class="block transition-colors">Equipo</a>
+                    </aside>
+                    <!-- 2. CONTENIDO PRINCIPAL (Ocupa 9 columnas en pantallas grandes) -->
+                    <div class="lg:col-span-9 lg:col-start-4 w-full space-y-10">
+                        <!-- Bloque ¿Dónde trabajamos? + Mapa + Estadísticas -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 items-start">
+                            <!-- Textos explicativos -->
+                            <div class="md:col-span-7 space-y-4 text-[rgb(72,81,79)]">
+                                <h2 class="text-3xl tracking-tight">NUESTRO EQUIPO EN ECUADOR</h2>
+                                <img src="../../imagenes/ecuador/linea01.png" alt="Línea decorativa" class="h-17 w-32 mt-3">
+                                <p class="text-[16px] leading-relaxed">
+                                    <b>Nuestro equipo experto en conservación</b> trabaja con las comunidades locales y los gobiernos proporcionando apoyo 
+                                    técnico para el establecimiento de áreas de conservación.
+                                </p>
+                                <!-- flex-wrap y space-y/space-x aseguran que si la pantalla es muy pequeña, los botones se apilen suavemente sin romperse -->
+                                <div class="flex flex-wrap sm:flex-nowrap items-center gap-3 pt-2">
+                                    <!-- Botón de Twitter (X) -->
+                                    <a href="#" class="relative inline-flex items-center justify-center h-12 w-12 shrink-0">
+                                        <img src="../../imagenes/ecuador/nci-social-btn-bg.png" alt="Twitter" class="absolute inset-0 w-full h-full 
+                                            object-cover">
+                                        <i class="fa-brands fa-twitter relative z-10 text-white text-sm"></i>
+                                    </a>
+                                    <!-- Botón de Facebook -->
+                                    <a href="#" class="relative inline-flex items-center justify-center h-12 w-12 shrink-0">
+                                        <img src="../../imagenes/ecuador/nci-social-btn-bg.png" alt="Facebook" class="absolute inset-0 w-full h-full 
+                                            object-cover">
+                                        <i class="fa-brands fa-facebook-f relative z-10 text-white text-sm"></i>
+                                    </a>
+                                    <!-- Línea Vertical de separación (Solo visible desde pantallas sm en adelante) -->
+                                    <div class="h-8 w-px bg-[rgb(31,72,34)] hidden sm:block mx-2 shrink-0"></div>
+                                    <!-- Botón Conoce al equipo en Ecuador -->
+                                    <button class="px-6 py-3 bg-[rgb(74,85,78)] hover:bg-[rgb(31,72,34)] text-white font-semibold 
+                                        text-base rounded-full transition-colors duration-200 text-center whitespace-nowrap">
+                                        Conoce al equipo en Ecuador
+                                    </button >
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- Equipo ecuador -->
-                    <div class="relative mt-10">
-                        <!-- Fondo decorativo inferior con paisaje y colibrí -->
-                        <div class="absolute left-1/2 top-24 -z-10 h-162.5 w-screen -translate-x-1/2 overflow-hidden">
-                            <img src="../../imagenes/ecuador/nci-bg-photo-background_our-team.jpg" alt="" class="absolute inset-0 h-full w-full 
-                                object-cover object-bottom">
-                            <!-- Colibrí en la esquina superior izquierda -->
-                            <img src="../../imagenes/ecuador/nci-cp-illustration8-countryp.webp" alt="" class="hidden md:block absolute left-0 
-                                top-0 w-40 opacity-90 z-10">
-                        </div>
-                        <!-- Tarjeta blanca que contiene al equipo -->
-                        <div class="relative z-10 bg-white px-5 py-8 shadow-sm sm:px-8 sm:py-10 lg:px-12">
-                            <!-- Grid de personas -->
-                            <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
-                                <!-- Felipe Serrano -->
-                                <article class="overflow-hidden bg-white">
-                                    <div class="bg-[rgb(235,241,237)] p-4 sm:p-5">
-                                        <img src="../../imagenes/ecuador/Felipe-Serrano-Ecuador-600x400.webp" alt="Felipe Serrano" 
-                                        class="h-64 w-full object-cover sm:h-72">
-                                    </div>
-                                    <div class="pt-4">
-                                        <h3 class="text-[12px] font-bold text-[rgb(15,125,63)]">Felipe Serrano</h3>
-                                        <p class="mt-4 text-[16px] leading-relaxed text-[rgb(72,81,79)]">Director Ejecutivo en Ecuador</p>
-                                        <a href="mailto:fserrano@naturalezaycultura.org" class="mt-3 inline-block text-[14px] 
-                                            text-[rgb(15,125,63)] underline">
-                                            fserrano@naturalezaycultura.org
-                                        </a>
-                                    </div>
-                                </article>
-                                <!-- Nora Sánchez Luzardo -->
-                                <article class="overflow-hidden bg-white">
-                                    <div class="bg-[rgb(235,241,237)] p-4 sm:p-5">
-                                        <img src="../../imagenes/ecuador/Headshot-Nora-e1674845675886.webp" alt="Nora Sánchez Luzardo" 
-                                        class="h-64 w-full object-cover sm:h-72">
-                                    </div>
-                                    <div class="pt-4">
-                                        <h3 class="text-[12px] font-bold text-[rgb(15,125,63)]">Nora Sánchez Luzardo</h3>
-                                        <p class="mt-4 text-[16px] leading-relaxed text-[rgb(72,81,79)]">Coordinadora de Comunicación para 
-                                            América Latina</p>
-                                        <a href="mailto:nsanchez@naturalezaycultura.org" class="mt-3 inline-block text-[14px] 
-                                            text-[rgb(15,125,63)] underline">
-                                            nsanchez@naturalezaycultura.org
-                                        </a>
-                                    </div>
-                                </article>
+                        <!-- Equipo ecuador -->
+                        <div class="relative mt-10">
+                            <!-- Fondo decorativo inferior con paisaje y colibrí -->
+                            <div class="absolute left-1/2 top-24 -z-10 h-162.5 w-screen -translate-x-1/2 overflow-hidden">
+                                <img src="../../imagenes/ecuador/nci-bg-photo-background_our-team.jpg" alt="" class="absolute inset-0 h-full w-full 
+                                    object-cover object-bottom">
+                                <!-- Colibrí en la esquina superior izquierda -->
+                                <img src="../../imagenes/ecuador/nci-cp-illustration8-countryp.webp" alt="" class="hidden md:block absolute left-0 
+                                    top-0 w-40 opacity-90 z-10">
+                            </div>
+                            <!-- Tarjeta blanca que contiene al equipo -->
+                            <div class="relative z-10 bg-white px-5 py-8 shadow-sm sm:px-8 sm:py-10 lg:px-12">
+                                <!-- Grid de personas -->
+                                <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+                                    <!-- Felipe Serrano -->
+                                    <article class="overflow-hidden bg-white">
+                                        <div class="bg-[rgb(235,241,237)] p-4 sm:p-5">
+                                            <img src="../../imagenes/ecuador/Felipe-Serrano-Ecuador-600x400.webp" alt="Felipe Serrano" 
+                                            class="h-64 w-full object-cover sm:h-72">
+                                        </div>
+                                        <div class="pt-4">
+                                            <h3 class="text-[12px] font-bold text-[rgb(15,125,63)]">Felipe Serrano</h3>
+                                            <p class="mt-4 text-[16px] leading-relaxed text-[rgb(72,81,79)]">Director Ejecutivo en Ecuador</p>
+                                            <a href="mailto:fserrano@naturalezaycultura.org" class="mt-3 inline-block text-[14px] 
+                                                text-[rgb(15,125,63)] underline">
+                                                fserrano@naturalezaycultura.org
+                                            </a>
+                                        </div>
+                                    </article>
+                                    <!-- Nora Sánchez Luzardo -->
+                                    <article class="overflow-hidden bg-white">
+                                        <div class="bg-[rgb(235,241,237)] p-4 sm:p-5">
+                                            <img src="../../imagenes/ecuador/Headshot-Nora-e1674845675886.webp" alt="Nora Sánchez Luzardo" 
+                                            class="h-64 w-full object-cover sm:h-72">
+                                        </div>
+                                        <div class="pt-4">
+                                            <h3 class="text-[12px] font-bold text-[rgb(15,125,63)]">Nora Sánchez Luzardo</h3>
+                                            <p class="mt-4 text-[16px] leading-relaxed text-[rgb(72,81,79)]">Coordinadora de Comunicación para 
+                                                América Latina</p>
+                                            <a href="mailto:nsanchez@naturalezaycultura.org" class="mt-3 inline-block text-[14px] 
+                                                text-[rgb(15,125,63)] underline">
+                                                nsanchez@naturalezaycultura.org
+                                            </a>
+                                        </div>
+                                    </article>
+                                </div>
                             </div>
                         </div>
                     </div>
