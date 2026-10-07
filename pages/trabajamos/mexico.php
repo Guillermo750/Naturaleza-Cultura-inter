@@ -36,7 +36,7 @@
             <!-- LÍNEA INFERIOR: Clavada exactamente en el borde inferior de la imagen de fondo -->
             <img src="../../imagenes/mexico/linea02.png" alt="Línea divisoria inferior" 
             class="absolute bottom-0 inset-x-0 block w-full h-auto z-20">
-        </section>
+        </section>uu
 
         <!-- Contenedor ¿DÓNDE TRABAJAMOS? -->
         <section class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
