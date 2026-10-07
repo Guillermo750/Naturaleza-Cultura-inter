@@ -845,13 +845,13 @@
         <section class="relative w-full py-10 overflow-visible">
             <!-- FONDO DE PAISAJE: SOLO EN LA PARTE INFERIOR Y A TODO EL ANCHO -->
             <div class="absolute left-1/2 top-[300px] -bottom-3 -z-10 w-screen -translate-x-1/2 overflow-hidden">
-                <img src="../../imagenes/ecuador/nci-bg-photo-background_our-team.jpg" alt="" class="absolute inset-0 h-full w-full 
+                <img src="../../imagenes/peru/nci-bg-photo-background_our-team.jpg" alt="" class="absolute inset-0 h-full w-full 
                     object-cover object-bottom">
                 <!-- FLOR + COLIBRÍ EN LA ESQUINA SUPERIOR IZQUIERDA -->
-                <img src="../../imagenes/ecuador/nci-cp-illustration8-countryp.webp" alt="" class="hidden md:block absolute left-2 top-44 w-48
+                <img src="../../imagenes/peru/nci-cp-illustration8-countryp.webp" alt="" class="hidden md:block absolute left-2 top-44 w-48
                     opacity-90 z-10">
                 <!-- LÍNEA INFERIOR: Clavada exactamente en el borde inferior de la imagen de fondo -->
-                <img src="../../imagenes/ecuador/nci-brush-texture_bottom-banner.png" alt="Línea divisoria inferior" 
+                <img src="../../imagenes/peru/nci-brush-texture_bottom-banner.png" alt="Línea divisoria inferior" 
                 class="absolute bottom-0 inset-x-0 block w-full h-auto z-20">
             </div>
             <div class="w-full max-w-5xl mx-auto py-12 px-5 sm:px-6 md:px-8 lg:px-12">
