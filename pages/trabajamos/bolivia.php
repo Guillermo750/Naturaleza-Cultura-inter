@@ -66,7 +66,7 @@
                             <p class="text-[16px] leading-relaxed">
                                 Nuestros esfuerzos están enfocados en conectar grandes territorios, que hemos organizado en “mosaicos” que nos ayudan a identificar áreas de conectividad por su importancia biológica, ecosistémica y cultural en América Latina.
                             </p>
-			    <p class="text-[16px] leading-relaxed">
+			                <p class="text-[16px] leading-relaxed">
                                 En Bolivia trabajamos en dos Mosaicos: el Mosaico Guaraní, que abarca los ecosistemas del Chaco Americano, y el Mosaico del Corredor de Agua, que protege los ecosistemas del Chaco Serrano y la Selva Tucumana Boliviana, conectando Parques Nacionales con áreas protegidas municipales.
                             </p>
                         </div>
