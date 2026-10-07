@@ -10,7 +10,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- LLamar al js -->
     <script defer src="../../js/app.js"></script>
-    <title>Ecuador</title>
+    <title>Colombia</title>
 </head>
 
 <body>
@@ -18,8 +18,10 @@
         <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
         <?php include_once "../../components/header.php"; ?>
 
-        
 
+
+        <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+        <?php include_once "../../components/footer.php"; ?>
     </div>
 
 </body>

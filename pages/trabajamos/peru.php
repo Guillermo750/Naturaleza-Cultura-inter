@@ -125,7 +125,7 @@
                         <a href="#plataforma-amazonica" class="block transition-colors">clima</a>
                         <a href="#corredor-andino" class="block transition-colors">paisajes naturales</a>
                         <a href="#fuentes-agua" class="block transition-colors">agua</a>
-                        <a href="#bosque-seco" class="block transition-colors">especies Seco</a>
+                        <a href="#bosque-seco" class="block transition-colors">especies</a>
                         <a href="#otras-iniciativas" class="block transition-colors">personas</a>
                     </div>
                     <a href="" class="block transition-colors">Noticias y eventos</a>
@@ -249,7 +249,7 @@
                             <a href="#plataforma-amazonica" class="block transition-colors">clima</a>
                             <a href="#corredor-andino" class="block transition-colors">paisajes naturales</a>
                             <a href="#fuentes-agua" class="block transition-colors">agua</a>
-                            <a href="#bosque-seco" class="block transition-colors">especies Seco</a>
+                            <a href="#bosque-seco" class="block transition-colors">especies</a>
                             <a href="#otras-iniciativas" class="block transition-colors">personas</a>
                         </div>
                         <a href="" class="block transition-colors">Noticias y eventos</a>
@@ -335,7 +335,7 @@
                                 <a href="#plataforma-amazonica" class="block transition-colors">clima</a>
                             	<a href="#corredor-andino" class="block transition-colors">paisajes naturales</a>
                             	<a href="#fuentes-agua" class="block transition-colors">agua</a>
-                            	<a href="#bosque-seco" class="block transition-colors">especies Seco</a>
+                            	<a href="#bosque-seco" class="block transition-colors">especies</a>
                             	<a href="#otras-iniciativas" class="block transition-colors">personas</a>
                             </div>
                             <a href="" class="block transition-colors">Noticias y eventos</a>
@@ -425,7 +425,7 @@
                                 <a href="#plataforma-amazonica" class="block transition-colors">clima</a>
                             	<a href="#corredor-andino" class="block transition-colors">paisajes naturales</a>
                             	<a href="#fuentes-agua" class="block transition-colors">agua</a>
-                            	<a href="#bosque-seco" class="block transition-colors">especies Seco</a>
+                            	<a href="#bosque-seco" class="block transition-colors">especies</a>
                             	<a href="#otras-iniciativas" class="block transition-colors">personas</a>
                             </div>
                             <a href="" class="block transition-colors">Noticias y eventos</a>
@@ -535,7 +535,7 @@
                                 <a href="#plataforma-amazonica" class="block transition-colors">clima</a>
                             	<a href="#corredor-andino" class="block transition-colors">paisajes naturales</a>
                             	<a href="#fuentes-agua" class="block transition-colors">agua</a>
-                            	<a href="#bosque-seco" class="block transition-colors">especies Seco</a>
+                            	<a href="#bosque-seco" class="block transition-colors">especies</a>
                             	<a href="#otras-iniciativas" class="block transition-colors">personas</a>
                             </div>
                             <a href="" class="block transition-colors">Noticias y eventos</a>
@@ -866,7 +866,7 @@
                                <a href="#plataforma-amazonica" class="block transition-colors">clima</a>
                             <a href="#corredor-andino" class="block transition-colors">paisajes naturales</a>
                             <a href="#fuentes-agua" class="block transition-colors">agua</a>
-                            <a href="#bosque-seco" class="block transition-colors">especies Seco</a>
+                            <a href="#bosque-seco" class="block transition-colors">especies</a>
                             <a href="#otras-iniciativas" class="block transition-colors">personas</a>
                         </div>
                         <a href="" class="block transition-colors">Noticias y eventos</a>
