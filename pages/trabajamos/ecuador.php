@@ -201,7 +201,7 @@
                 <img src="../../imagenes/ecuador/nci-cp-illustration2-countryp.webp" alt="" class="absolute -left-7 bottom-0 w-36 
                     translate-x-[-55%] hidden md:block z-20" >
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="amazon-banner" class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" style="min-height: 450px;">
+                <div id="amazon-banner" class="banner-carousel relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" style="min-height: 450px;">
                     <!-- BANNER 1 -->
                     <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/ecuador/PAISAJE_MENADROS-RIO-BOBONAZA-2-scaled-1-1920x1080-1-1536x864.webp)]
@@ -339,10 +339,10 @@
                 <img src="../../imagenes/ecuador/nci-cp-illustration3-countryp.webp" alt="" class="absolute -left-24 bottom-28 w-32 
                     translate-x-[-55%] hidden md:block z-20" >
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="blf-banner" class="relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
+                <div class="banner-carousel relative flex flex-col w-full h-auto min-h-145 sm:min-h-120 md:h-140 lg:h-140" 
                     style="min-height: 450px;">
                     <!-- BANNER 1 -->
-                    <div class="blf-banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/ecuador/Cloud-Forest-Andean-Bear-1.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 1; pointer-events: auto; z-index: 10;">
@@ -362,7 +362,7 @@
                         </div>
                     </div>
                     <!-- BANNER 2 -->
-                    <div class="blf-banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/ecuador/Amazonian-Platform-YellowFrog-Bird-Gallery-4-1536x864.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -385,9 +385,9 @@
                     <!-- PUNTOS INDICADORES (DOTS) -->
                     <div class="relative flex justify-center gap-2 pt-1 pb-4 z-40 pointer-events-auto md:absolute md:bottom-4 md:left-1/2 
                         md:-translate-x-1/2 md:pt-0 md:pb-0">
-                        <button class="blf-banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             style="opacity: 1;" data-slide="0"></button>
-                        <button class="blf-banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             style="opacity: 0.4;" data-slide="1"></button>
                     </div>
                 </div>
@@ -573,9 +573,9 @@
             lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 mt-8 sm:mt-8 md:-mt-28 lg:-mt-32 md:mb-20 lg:mb-20">
             <div class="relative">
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="blf-banner3" class="relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
+                <div class="banner-carousel relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
                     <!-- BANNER 1 -->
-                    <div class="blf-banner-slide3 relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
+                    <div class="banner-slide relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/ecuador/5-1536x1152.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 1; pointer-events: auto; z-index: 10;">
@@ -597,7 +597,7 @@
                         </div>
                     </div>
                     <!-- BANNER 2 -->
-                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/ecuador/FRL_0002-1536x1020.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -618,7 +618,7 @@
                         </div>
                     </div>
                     <!-- BANNER 3 -->
-                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/ecuador/SF-FieldStaion.webp)] bg-cover bg-center bg-no-repeat flex items-center p-4 
                         sm:p-6 md:p-8" style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
                         <!-- Caja de texto interna -->
@@ -632,7 +632,7 @@
                         </div>
                     </div>
                     <!-- BANNER 4 -->
-                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/ecuador/RESTAURACION_MAYCU_PIC2-1536x864.webp)] bg-cover bg-center bg-no-repeat flex items-center 
                         p-4 sm:p-6 md:p-8" style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
                         <!-- Caja de texto interna -->
@@ -649,12 +649,14 @@
                     <!-- PUNTOS INDICADORES (DOTS) -->
                     <div class="relative flex justify-center gap-2 pt-1 pb-4 z-40 pointer-events-auto md:absolute md:bottom-4 md:left-1/2 
                         md:-translate-x-1/2 md:pt-0 md:pb-0">
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             tyle="opacity: 1;" data-slide="0"></button>
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             style="opacity: 0.4;" data-slide="1"></button>
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white opacity-40 hover:opacity-80 transition-all 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white opacity-40 hover:opacity-80 transition-all 
                             cursor-pointer" data-slide="2"></button>
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white opacity-40 hover:opacity-80 transition-all 
+                        cursor-pointer" data-slide="3"></button>
                     </div>
                 </div>
             </div>

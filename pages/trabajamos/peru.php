@@ -164,7 +164,7 @@
         </section>
 
         <!-- Contenedor CLIMA -->
-        <section class="relative w-full pb-12 overflow-hidden">
+        <section class="relative w-full pb-64 md:pb-87.5 lg:pb-92.5 overflow-hidden py-20">
             <!-- FONDO DECORATIVO -->
             <div class="absolute -top-16 bottom-0 left-0 w-full lg:w-[calc(50%+18rem)]
                 bg-[url(../../imagenes/peru/nci-cp-climate-background.png)]
@@ -185,16 +185,16 @@
         </section>
 
         <!-- Contenedor Banner, texto y una imagen a la izquierda del Banner -->
-        <section class="w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] md:ml-auto 
-            lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10">
+        <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-56">
             <div class="relative">
 		        <!-- Ilustración del jaguar (Oculta en móvil, visible desde md) -->
                 <img src="../../imagenes/peru/nci-cp-illustration2-countryp.webp" alt="" class="absolute -left-7 bottom-0 w-36 
                     translate-x-[-55%] hidden md:block z-20" >
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="blf-banner3" class="relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
+                <div class="banner-carousel relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
                     <!-- BANNER 1 -->
-                    <div class="blf-banner-slide3 relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
+                    <div class="banner-slide relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/peru/Chaupe-29-1_peru_michell-Leon-1536x1025.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 1; pointer-events: auto; z-index: 10;">
@@ -207,7 +207,7 @@
                         </div>
                     </div>
                     <!-- BANNER 2 -->
-                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/peru/IMG_0262ok_peru_huanuco-scaled-1-1536x1024.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -222,9 +222,9 @@
                    <!-- PUNTOS INDICADORES (DOTS) -->
                     <div class="relative flex justify-center gap-2 pt-1 pb-4 z-40 pointer-events-auto md:absolute md:bottom-4 md:left-1/2 
                         md:-translate-x-1/2 md:pt-0 md:pb-0">
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             tyle="opacity: 1;" data-slide="0"></button>
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             style="opacity: 0.4;" data-slide="1"></button>
                     </div>
                 </div>
@@ -271,15 +271,15 @@
 
         <!-- Contenedor Banner, texto y una imagen a la izquierda del Banner -->
         <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
-            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-56">
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-80">
             <div class="relative">
 		        <!-- Ilustración del colibrí (Oculta en móvil, visible desde md) -->
-                <img src="../../imagenes/peru/nci-cp-illustration3-countryp.webp" alt="" class="absolute -left-24 bottom-28 w-32 
+                <img src="../../imagenes/peru/nci-cp-illustration3-countryp.webp" alt="" class="absolute -left-48 bottom-28 w-32 
                     translate-x-[-55%] hidden md:block z-20" >
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="blf-banner3" class="relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
+                <div class="banner-carousel relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
                     <!-- BANNER 1 -->
-                    <div class="blf-banner-slide3 relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
+                    <div class="banner-slide relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/peru/Chaupe-29-1_peru_michell-Leon-1536x1025.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 1; pointer-events: auto; z-index: 10;">
@@ -292,7 +292,7 @@
                         </div>
                     </div>
                     <!-- BANNER 2 -->
-                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/peru/20220310-P1012343-1-scaled-1.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -307,9 +307,9 @@
                    <!-- PUNTOS INDICADORES (DOTS) -->
                     <div class="relative flex justify-center gap-2 pt-1 pb-4 z-40 pointer-events-auto md:absolute md:bottom-4 md:left-1/2 
                         md:-translate-x-1/2 md:pt-0 md:pb-0">
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             tyle="opacity: 1;" data-slide="0"></button>
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             style="opacity: 0.4;" data-slide="1"></button>
                     </div>
                 </div>
@@ -357,12 +357,12 @@
 
         <!-- Contenedor Banner, texto y una imagen a la izquierda del Banner -->
         <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
-            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-56">
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-80">
             <div class="relative">
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="blf-banner3" class="relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
+                <div class="banner-carousel relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
                     <!-- BANNER 1 -->
-                    <div class="blf-banner-slide3 relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
+                    <div class="banner-slide relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/peru/RCA-Nanay-scaled-1-1536x1152.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 1; pointer-events: auto; z-index: 10;">
@@ -378,7 +378,7 @@
                         </div>
                     </div>
                     <!-- BANNER 2 -->
-                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/peru/Quiroz-Water-Fund-1536x1024.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -397,9 +397,9 @@
                    <!-- PUNTOS INDICADORES (DOTS) -->
                     <div class="relative flex justify-center gap-2 pt-1 pb-4 z-40 pointer-events-auto md:absolute md:bottom-4 md:left-1/2 
                         md:-translate-x-1/2 md:pt-0 md:pb-0">
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             tyle="opacity: 1;" data-slide="0"></button>
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             style="opacity: 0.4;" data-slide="1"></button>
                     </div>
                 </div>
@@ -450,10 +450,10 @@
 
         <!-- Contenedor Banner, texto y una imagen a la izquierda del Banner -->
         <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
-            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-56">
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-72">
             <div class="relative">
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="blf-banner3" class="relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
+                <div class="banner-carousel relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
                     <!-- BANNER 1 -->
                     <div class="blf-banner-slide3 relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/peru/Baby-Tapir-1536x1017.webp)]
@@ -471,7 +471,7 @@
                         </div>
                     </div>
                     <!-- BANNER 2 -->
-                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/peru/spectacled-bear_cub-scaled-1-1536x760.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -487,7 +487,7 @@
                         </div>
                     </div>
 		            <!-- BANNER 3 -->
-                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/peru/Golden-backed-mountain-tanager.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -505,12 +505,12 @@
                     <!-- PUNTOS INDICADORES (DOTS) -->
                     <div class="relative flex justify-center gap-2 pt-1 pb-4 z-40 pointer-events-auto md:absolute md:bottom-4 md:left-1/2 
                         md:-translate-x-1/2 md:pt-0 md:pb-0">
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             tyle="opacity: 1;" data-slide="0"></button>
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             style="opacity: 0.4;" data-slide="1"></button>
-			            <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
-                            style="opacity: 0.4;" data-slide="1"></button>
+			            <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                            style="opacity: 0.4;" data-slide="2"></button>
                     </div>
                 </div>
             </div>
@@ -563,9 +563,9 @@
             md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-80">
             <div class="relative">
                 <!-- CONTENEDOR PRINCIPAL -->
-                <div id="blf-banner3" class="relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
+                <div class="banner-carousel relative flex flex-col w-full h-190 sm:h-175 md:h-[450px] lg:h-[450px]">
                     <!-- BANNER 1 -->
-                    <div class="blf-banner-slide3 relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
+                    <div class="banner-slide relative md:absolute inset-x-0 top-0 w-full md:inset-0 md:h-full
                         bg-[url(../../imagenes/peru/Ikiitus-mom-and-son_DSC1364-scaled-e1672438941572-1536x1322.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 1; pointer-events: auto; z-index: 10;">
@@ -578,7 +578,7 @@
                         </div>
                     </div>
                     <!-- BANNER 2 -->
-                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/peru/DSC1500_peru-ikiitus-scaled-1-1536x866.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -591,7 +591,7 @@
                         </div>
                     </div>
 		            <!-- BANNER 3 -->
-                    <div class="blf-banner-slide3 absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
+                    <div class="banner-slide absolute inset-x-0 top-0 w-full md:inset-0 md:h-full 
                         bg-[url(../../imagenes/peru/20220311-P1012790-1-scaled-1-1439x1080.webp)]
                         bg-cover bg-center bg-no-repeat grid grid-cols-1 md:grid-cols-12 items-center p-4 sm:p-6 md:p-8"
                         style="transition: opacity 1.8s ease-in-out; opacity: 0; pointer-events: none; z-index: 5;">
@@ -606,12 +606,12 @@
                     <!-- PUNTOS INDICADORES (DOTS) -->
                     <div class="relative flex justify-center gap-2 pt-1 pb-4 z-40 pointer-events-auto md:absolute md:bottom-4 md:left-1/2 
                         md:-translate-x-1/2 md:pt-0 md:pb-0">
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             tyle="opacity: 1;" data-slide="0"></button>
-                        <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                        <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
                             style="opacity: 0.4;" data-slide="1"></button>
-			            <button class="blf-banner-dot3 w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
-                            style="opacity: 0.4;" data-slide="1"></button>
+			            <button class="banner-dot w-2.5 h-2.5 md:w-3 md:h-3 rounded-full bg-white transition-all cursor-pointer" 
+                            style="opacity: 0.4;" data-slide="2"></button>
                     </div>
                 </div>
             </div>

@@ -82,214 +82,108 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-//PÁGINA DE ECUADOR
 /* LÓGICA DEL CARRUSEL EN JAVASCRIPT */
-/* PRIMER BANNER DE ECUADOR*/
-document.addEventListener("DOMContentLoaded", () => {
-    const banner = document.getElementById("amazon-banner");
-    const slides = banner
-        ? banner.querySelectorAll(".banner-slide")
-        : [];
-    const dots = document.querySelectorAll(".banner-dot");
-    const prevButton = document.getElementById("banner-prev");
-    const nextButton = document.getElementById("banner-next");
+document.addEventListener("DOMContentLoaded", function () {
+    const banners = document.querySelectorAll(".banner-carousel");
 
-    if (!banner || slides.length === 0) {
+    if (!banners.length) {
         return;
     }
-    let currentSlide = 0;
 
-    /* ALTURA DEL BANNER */
-    function adjustBannerHeight() {
-        const activeSlide = slides[currentSlide];
-        if (!activeSlide) {
+    banners.forEach(function (banner) {
+        const slides = banner.querySelectorAll(".banner-slide");
+        const dots = banner.querySelectorAll(".banner-dot");
+
+        if (!slides.length) {
             return;
         }
-        const content = activeSlide.querySelector(":scope > div");
-        if (window.innerWidth < 768 && content) {
-            banner.style.height =
-                `${content.offsetHeight + 48}px`;
-        } else {
-            banner.style.height = "450px";
+
+        let currentSlide = 0;
+
+        /* =========================================
+           ALTURA DEL BANNER
+        ========================================= */
+        function adjustBannerHeight() {
+            const activeSlide = slides[currentSlide];
+            if (!activeSlide) {
+                return;
+            }
+
+            if (window.innerWidth < 768) {
+                const content = activeSlide.querySelector(":scope > div");
+                if (content) {
+                    banner.style.height =
+                        (content.offsetHeight + 48) + "px";
+                }
+            } else {
+                banner.style.height = "450px";
+            }
         }
-    }
 
-    /* MOSTRAR SLIDE */
-    function showSlide(index) {
-        currentSlide =
-            (index + slides.length) % slides.length;
-        slides.forEach((slide, slideIndex) => {
-            const isActive =
-                slideIndex === currentSlide;
-            slide.style.opacity =
-                isActive ? "1" : "0";
-            slide.style.pointerEvents =
-                isActive ? "auto" : "none";
-            slide.style.zIndex =
-                isActive ? "10" : "5";
-        });
+        /* =========================================
+           MOSTRAR SLIDE
+        ========================================= */
+        function showSlide(index) {
+            currentSlide =
+                (index + slides.length) % slides.length;
 
-        /* PUNTOS */
-        dots.forEach((dot, dotIndex) => {
-            dot.style.opacity =
-                dotIndex === currentSlide
-                    ? "1"
-                    : "0.4";
-        });
-        adjustBannerHeight();
-    }
+            slides.forEach(function (slide, slideIndex) {
+                if (slideIndex === currentSlide) {
+                    slide.style.opacity = "1";
+                    slide.style.pointerEvents = "auto";
+                    slide.style.zIndex = "10";
+                } else {
+                    slide.style.opacity = "0";
+                    slide.style.pointerEvents = "none";
+                    slide.style.zIndex = "5";
+                }
+            });
 
-    /* PUNTOS */
-    dots.forEach((dot, index) => {
-        dot.addEventListener("click", () => {
-            showSlide(index);
-        });
-    });
-
-    /* SLIDE INICIAL */
-    showSlide(0);
-
-
-    /* CARGA INICIAL */
-    window.addEventListener("load", () => {
-        adjustBannerHeight();
-    });
-
-
-    /* CAMBIO DE TAMAÑO */
-    window.addEventListener("resize", () => {
-
-        adjustBannerHeight();
-
-    });
-});
-
-/* SEGUNDO BANNER DE ECUADOR*/
-document.addEventListener("DOMContentLoaded", () => {
-    const banner = document.getElementById("blf-banner");
-    const slides = banner
-        ? banner.querySelectorAll(".blf-banner-slide")
-        : [];
-
-    const dots = banner
-        ? banner.querySelectorAll(".blf-banner-dot")
-        : [];
-
-    if (!banner || slides.length === 0) return;
-
-    let currentSlide = 0;
-
-    function adjustBannerHeight() {
-        const activeSlide = slides[currentSlide];
-
-        if (!activeSlide) return;
-
-        const content = activeSlide.querySelector(":scope > div");
-
-        if (window.innerWidth < 768 && content) {
-            banner.style.height = `${content.offsetHeight + 48}px`;
-        } else {
-            banner.style.height = "450px";
+            /* =====================================
+               ACTUALIZAR PUNTOS
+            ===================================== */
+            dots.forEach(function (dot, dotIndex) {
+                dot.style.opacity =
+                    dotIndex === currentSlide
+                        ? "1"
+                        : "0.4";
+            });
+            adjustBannerHeight();
         }
-    }
 
-    function showSlide(index) {
-        currentSlide = (index + slides.length) % slides.length;
-
-        slides.forEach((slide, slideIndex) => {
-            const isActive = slideIndex === currentSlide;
-
-            slide.style.opacity = isActive ? "1" : "0";
-            slide.style.pointerEvents = isActive ? "auto" : "none";
-            slide.style.zIndex = isActive ? "10" : "5";
+        /* =========================================
+           CLIC EN LOS PUNTOS
+        ========================================= */
+        dots.forEach(function (dot, index) {
+            dot.addEventListener("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+                showSlide(index);
+            });
         });
 
-        dots.forEach((dot, dotIndex) => {
-            dot.style.opacity = dotIndex === currentSlide ? "1" : "0.4";
+        /* =========================================
+           INICIAR
+        ========================================= */
+        showSlide(0);
+
+
+        /* =========================================
+           CARGA
+        ========================================= */
+        window.addEventListener("load", function () {
+            adjustBannerHeight();
         });
 
-        adjustBannerHeight();
-    }
-
-    dots.forEach((dot, index) => {
-        dot.addEventListener("click", () => {
-            showSlide(index);
-        });
-    });
-
-    showSlide(0);
-
-    window.addEventListener("load", () => {
-        adjustBannerHeight();
-    });
-
-    window.addEventListener("resize", () => {
-        adjustBannerHeight();
-    });
-});
-
-/* TERCER BANNER DE ECUADOR*/
-document.addEventListener("DOMContentLoaded", () => {
-    const banner = document.getElementById("blf-banner3");
-    const slides = banner
-        ? banner.querySelectorAll(".blf-banner-slide3")
-        : [];
-
-    const dots = banner
-        ? banner.querySelectorAll(".blf-banner-dot3")
-        : [];
-
-    if (!banner || slides.length === 0) return;
-
-    let currentSlide = 0;
-
-    function adjustBannerHeight() {
-        const activeSlide = slides[currentSlide];
-
-        if (!activeSlide) return;
-
-        const content = activeSlide.querySelector(":scope > div");
-
-        if (window.innerWidth < 768 && content) {
-            banner.style.height = `${content.offsetHeight + 48}px`;
-        } else {
-            banner.style.height = "450px";
-        }
-    }
-
-    function showSlide(index) {
-        currentSlide = (index + slides.length) % slides.length;
-
-        slides.forEach((slide, slideIndex) => {
-            const isActive = slideIndex === currentSlide;
-
-            slide.style.opacity = isActive ? "1" : "0";
-            slide.style.pointerEvents = isActive ? "auto" : "none";
-            slide.style.zIndex = isActive ? "10" : "5";
+        /* =========================================
+           REDIMENSIONAR
+        ========================================= */
+        window.addEventListener("resize", function () {
+            adjustBannerHeight();
         });
 
-        dots.forEach((dot, dotIndex) => {
-            dot.style.opacity = dotIndex === currentSlide ? "1" : "0.4";
-        });
-
-        adjustBannerHeight();
-    }
-
-    dots.forEach((dot, index) => {
-        dot.addEventListener("click", () => {
-            showSlide(index);
-        });
     });
 
-    showSlide(0);
-
-    window.addEventListener("load", () => {
-        adjustBannerHeight();
-    });
-
-    window.addEventListener("resize", () => {
-        adjustBannerHeight();
-    });
 });
 
 /*CARRUSEL DE LA SECCIÓN DE NUESTROS SOCIOS LOCALES*/
