@@ -186,7 +186,7 @@
 
         <!-- Contenedor Banner, texto y una imagen a la izquierda del Banner -->
         <section class="relative w-full px-5 sm:px-6 md:px-0 md:w-[calc(50%+1rem)] lg:w-[calc(100vw-(100vw-64rem)/2-19rem)] 
-            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-16 md:-mt-28 lg:-mt-56">
+            md:ml-auto lg:ml-[calc((100vw-64rem)/2+19rem)] mr-0 z-10 -mt-48 md:-mt-28 lg:-mt-56">
             <div class="relative">
 		        <!-- Ilustración del jaguar (Oculta en móvil, visible desde md) -->
                 <img src="../../imagenes/peru/nci-cp-illustration2-countryp.webp" alt="" class="absolute -left-7 bottom-0 w-36 
