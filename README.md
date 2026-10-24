@@ -13,11 +13,11 @@ exit();
 ?>
 
 
-Y para el menú y el footer lo mismo `header.php´ `footer.php´ que iría en la carpeta components en la raíz ddel proyecto y poniendo este código en todas las páginas:
+Y para el menú y el footer lo mismo ```header.php``` y ```footer.php``` que iría en la carpeta components en la raíz ddel proyecto y poniendo este código en todas las páginas:
 
-```<?php include_once "../../components/header.php"; ?>
+```<?php include_once "../../components/header.php"; ?>```
 
-```<?php include_once "../../components/footer.php"; ?>
+```<?php include_once "../../components/footer.php"; ?>```
 
 Y cambiar el código de enlace de los submenú por esto y así con todos dentro de `header.php´:
 
@@ -26,4 +26,4 @@ Y cambiar el código de enlace de los submenú por esto y así con todos dentro 
     <?= basename($_SERVER['PHP_SELF']) === 'bosques.php'
         ? '!bg-[rgb(176,190,175)] !text-white'
         : '' 
-    ?>">BOSQUES</a>
+    ?>">BOSQUES</a>```
