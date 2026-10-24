@@ -4,10 +4,7 @@ Para convertir el proyecto en PHP, las páginas tendrían la extensión '.php' y
 
 NOTA: El código que tiene index.html se pasaría al archivo ```principal.php``` y estaría en la carpeta de pages
 
-```<?php
-header('Location: ./pages/principal.php');
-exit();
-?>```
+```<?php header('Location: ./pages/principal.php'); exit(); ?>```
 
 
 Y para el menú y el footer lo mismo ```header.php``` y ```footer.php``` que iría en la carpeta components en la raíz ddel proyecto y poniendo este código en todas las páginas:
