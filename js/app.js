@@ -1,24 +1,49 @@
 /* MENÚ */
 document.addEventListener("DOMContentLoaded", () => {
+    console.log("JS cargado correctamente");
+
+    // 1. Menú hamburguesa
     const hamburgerBtn = document.getElementById("hamburger-btn");
     const mobileMenu = document.getElementById("mobile-menu");
 
-    // Abre y cierra el menú de hamburguesa completo
-    hamburgerBtn.addEventListener("click", () => {
-        mobileMenu.classList.toggle("hidden");
-        mobileMenu.classList.toggle("flex");
-    });
+    if (hamburgerBtn && mobileMenu) {
+        console.log("Botón hamburguesa y menú encontrados");
+        hamburgerBtn.addEventListener("click", () => {
+            mobileMenu.classList.toggle("hidden");
+            mobileMenu.classList.toggle("flex");
+        });
+    } else {
+        console.warn("No se encontró el botón hamburguesa o el menú con esos IDs.");
+    }
 
-    // Manejo táctil de submenús tipo acordeón (solo en móviles)
+    // 2. Acordeón para móviles
     const accordionBtns = document.querySelectorAll(".menu-accordion-btn");
     accordionBtns.forEach(btn => {
         btn.addEventListener("click", (e) => {
             if (window.innerWidth < 768) {
                 e.preventDefault();
                 const currentSubmenu = btn.nextElementSibling;
-                currentSubmenu.classList.toggle("hidden");
+                if (currentSubmenu) {
+                    currentSubmenu.classList.toggle("hidden");
+                }
             }
         });
+    });
+
+    // 3. Resaltar enlace activo
+    const rutaActual = window.location.pathname;
+    const archivoActual = rutaActual.substring(rutaActual.lastIndexOf('/') + 1) || 'index.html';
+    console.log("Archivo actual detectado:", archivoActual);
+
+    document.querySelectorAll('.enlace-menu').forEach(enlace => {
+        const href = enlace.getAttribute('href');
+        if (href) {
+            const archivoEnlace = href.substring(href.lastIndexOf('/') + 1);
+            if (archivoActual === archivoEnlace) {
+                console.log("Enlace activo encontrado:", archivoEnlace);
+                enlace.classList.add('!bg-[rgb(176,190,175)]', '!text-white');
+            }
+        }
     });
 });
 

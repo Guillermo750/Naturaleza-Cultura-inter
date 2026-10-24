@@ -15,8 +15,111 @@
 
 <body>
     <div class="overflow-x-hidden w-full">
-        <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL HEADER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-        <?php include_once "../../components/header.php"; ?>
+        <!-- MENÚ -->
+        <nav class="sticky top-0 left-0 right-0 z-50 bg-white flex flex-wrap md:flex-nowrap justify-between md:justify-between items-center px-4 
+            md:px-6 py-4">
+            <!-- BLOQUE 1: LOGOTIPO -->
+            <div class="flex items-center shrink-0 md:order-1">
+                <a href="../../index.html"><img src="../../logo/logoespanol.png" alt="Naturaleza y Cultura Internacional" class="w-28 sm:w-36"></a>
+            </div>
+            <!-- BOTÓN DE HAMBURGUESA MÓVIL (Circular, verde, centrado) -->
+            <button id="hamburger-btn" class="flex md:hidden items-center justify-center w-12 h-12 rounded-full bg-[rgb(31,72,34)] 
+                text-white text-xl focus:outline-none transition-transform active:scale-95 ml-2 sm:ml-4" aria-label="Abrir menú">
+                ☰
+            </button>
+            <!-- BLOQUE 2: MENÚ DE ENLACES PRINCIPALES -->
+            <div id="mobile-menu" class="hidden md:flex flex-col md:flex-row items-center w-full md:w-auto order-3 md:order-2 mt-4 md:mt-0 space-y-4 md:space-y-0 md:space-x-4">
+                
+                <!-- SUBMENÚ 1: QUÉ HACEMOS -->
+                <div class="relative group w-full md:w-auto text-center md:text-left">
+                    <button class="menu-accordion-btn w-full md:w-auto relative inline-block py-3 px-2 focus:outline-none uppercase text-[rgb(72,81,79)]"> QUÉ HACEMOS
+                        <img src="../../imagenes/imagenes_principal/linea_rosa_06.png" class="hidden md:block absolute left-0 top-full w-20 h-auto opacity-0 group-hover:opacity-100 transition-opacity duration-200" alt="Línea rosa">
+                    </button>
+                    <div class="submenu-list md:absolute left-0 top-full mt-1 md:mt-3 z-50 w-full md:w-75 bg-white hidden md:block md:opacity-0 md:invisible md:translate-y-1 md:transition-all md:duration-200 md:group-hover:opacity-100 md:group-hover:visible md:group-hover:translate-y-0">
+                        
+                        <a href="bosques.html" class="enlace-menu block px-2.5 py-3 text-[14px] tracking-[1.5px] bg-white text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)]">BOSQUES</a>
+                        <a href="biodiversidad.html" class="enlace-menu block px-2.5 py-3 text-[13px] tracking-[1.5px] text-[rgb(72,81,79)] hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">BIODIVERSIDAD</a>
+                        <a href="clima.html" class="enlace-menu block px-2.5 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">CLIMA</a>
+                        <a href="comunidades.html" class="enlace-menu block px-2.5 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">COMUNIDADES LOCALES</a>
+                        <a href="fuentes_agua.html" class="enlace-menu block px-2.5 py-3 text-[14px] leading-[1.4] tracking-[1.5px] text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] transition-colors duration-200">FUENTES DE AGUA Y SEGURIDAD HÍDRICA</a>
+                    </div>
+                </div>
+
+                <!-- SUBMENÚ 2: NUESTRO IMPACTO -->
+                <div class="relative group w-full md:w-auto text-center md:text-left">
+                    <button class="menu-accordion-btn w-full md:w-auto relative inline-block py-3 px-2 focus:outline-none uppercase text-[rgb(72,81,79)]">NUESTRO IMPACTO
+                        <img src="../../imagenes/imagenes_principal/linea_rosa_06.png" class="hidden md:block absolute left-0 top-full w-20 h-auto opacity-0 group-hover:opacity-100 transition-opacity duration-200" alt="Línea rosa">
+                    </button>
+                    <div class="submenu-list md:absolute left-0 top-full mt-1 md:mt-3 z-50 w-full md:w-75 bg-white hidden md:block md:opacity-0 md:invisible md:translate-y-1 md:transition-all md:duration-200 md:group-hover:opacity-100 md:group-hover:visible md:group-hover:translate-y-0">
+                        
+                        <a href="../impacto/conservacion.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] bg-white text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase">Iniciativas de Conservación</a>
+                        <a href="../impacto/historias.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">Noticias e Historias</a>
+                        <a href="../impacto/años.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">30 Años</a>
+                    </div>
+                </div>
+
+                <!-- SUBMENÚ 3: QUIÉNES SOMOS -->
+                <div class="relative group w-full md:w-auto text-center md:text-left">
+                    <button class="menu-accordion-btn w-full md:w-auto relative inline-block py-3 px-2 focus:outline-none uppercase text-[rgb(72,81,79)]">
+                        QUIÉNES SOMOS
+                        <img src="../../imagenes/imagenes_principal/linea_rosa_06.png" class="hidden md:block absolute left-0 top-full w-20 h-auto opacity-0 group-hover:opacity-100 transition-opacity duration-200" alt="Línea rosa">
+                    </button>
+                    <div class="submenu-list md:absolute left-0 top-full mt-1 md:mt-3 z-50 w-full md:w-75 bg-white hidden md:block md:opacity-0 md:invisible md:translate-y-1 md:transition-all md:duration-200 md:group-hover:opacity-100 md:group-hover:visible md:group-hover:translate-y-0">
+                        
+                        <a href="../somos/vision.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] bg-white text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase">Nuestro enfoque y visión </a>
+                        <a href="../somos/equipo.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200 uppercase">Nuestro equipo</a>
+                        <a href="../somos/directiva.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">Nuestra Junta Directiva</a>
+                        <a href="../somos/nosotros.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">Trabaja con nosotros</a>
+                    </div>
+                </div>
+                
+                <!-- SUBMENÚ 4: DÓNDE TRABAJAMOS -->
+                <div class="relative group w-full md:w-auto text-center md:text-left">
+                    <button class="menu-accordion-btn w-full md:w-auto relative inline-block py-3 px-2 focus:outline-none uppercase text-[rgb(72,81,79)]">
+                        DÓNDE TRABAJAMOS
+                        <img src="../../imagenes/imagenes_principal/linea_rosa_06.png" class="hidden md:block absolute left-0 top-full w-20 h-auto opacity-0 group-hover:opacity-100 transition-opacity duration-200" alt="Línea rosa">
+                    </button>
+                    <div class="submenu-list md:absolute left-0 top-full mt-1 md:mt-3 z-50 w-full md:w-75 bg-white hidden md:block md:opacity-0 md:invisible md:translate-y-1 md:transition-all md:duration-200 md:group-hover:opacity-100 md:group-hover:visible md:group-hover:translate-y-0">
+                        
+                        <a href="../trabajamos/ecuador.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] bg-white text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] uppercase">ECUADOR</a>
+                        <a href="../trabajamos/peru.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200 uppercase">PERÚ</a>
+                        <a href="../trabajamos/mexico.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">MÉXICO</a>
+                        <a href="../trabajamos/colombia.html" class="enlace-menu block px-6 py-3 text-[14px] tracking-[1.5px] text-[rgb(72,81,79)] uppercase hover:bg-[rgb(195,214,219)] hover:text-[rgb(15,125,63)] transition-colors duration-200">COLOMBIA</a>
+                        <a href="../trabajamos/bolivia.html" class="enlace-menu block px-6 py-3 text-[14px] leading-[1.4] tracking-[1.5px] uppercase text-[rgb(72,81,79)] hover:text-[rgb(15,125,63)] hover:bg-[rgb(195,214,219)] transition-colors duration-200">BOLIVIA</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-4 shrink-0  ml-2 sm:ml-4 md:order-3">
+                <!-- Botón Dona Aquí: Ajustado de forma fluida para móvil y portátil -->
+                <a href="#" class="bg-[rgb(245,131,32)] text-black px-4 sm:px-10 py-2.5 sm:py-3 rounded-full hover:bg-[rgb(243,119,130)] 
+                    font-bold transition-all text-base sm:text-base"><span>Dona Aquí</span></a>
+                <!-- Bloque Contáctanos e Idioma a la DERECHA del botón -->
+                <div class="hidden md:flex items-center space-x-4 text-sm text-[rgb(72,81,79)] -mt-6">
+                    <a href="#" class="hover:underline">Contáctanos</a>
+                    <span>|</span>
+
+                    <div class="relative group cursor-pointer">
+                        <div class="flex items-center space-x-1 gap-2">
+                            <img class="w-4 h-4 object-contain" src="../../imagenes/imagenes_principal/imagen02.png" alt="Bandera de España" />
+                            <span>Español</span>
+                        </div>
+                        <!-- Poner al borde de la lista depegable un color [rgb(51, 87, 63)] -->
+                        <div class="absolute right-0 -mr-2 top-full hidden group-hover:block w-24 bg-white text-black px-1.5 py-1 z-50 
+                            border-2 border-[rgb(51,87,63)] bg-clip-padding rounded-sm p-2">
+                            <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11px  font-normal">
+                                <img class="w-3.5 h-3.5 object-contain" src="../../imagenes/imagenes_principal/imagen01.png" alt="Bandera de Inglaterra" />
+                                <span>English</span>
+                            </a>
+                            <a href="#" class="flex items-center space-x-2 py-1 px-1 gap-1.5 hover:text-[#d86a0a] text-11 font-normal">
+                                <img class="w-3.5 h-3.5 object-contain" src="../../imagenes/imagenes_principal/imagen02.png" alt="Bandera de España" />
+                                <span>Español</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
         <!-- Contenedor principal Imagen de fondo + título encima encima -->
         <section class="w-full relative bg-[url(../../imagenes/imagenes_biodiversidad/imagen-fondo.jpg)] bg-cover bg-center bg-no-repeat 
@@ -313,8 +416,88 @@
             </div>
         </section>
 
-        <!-- ¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡ AQUI LA MAGIA DE INCLUYE EL FOOTER !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-        <?php include_once "../../components/footer.php"; ?>
+        <!-- Bloque Superior del Footer -->
+        <section class="w-full max-w-5xl mx-auto flex flex-col md:flex-row md:flex-wrap lg:flex-nowrap justify-between items-center md:items-start 
+            text-center md:text-left mt-16 px-5 sm:px-6 md:px-8 lg:px-12 mb-12 gap-8 md:gap-4">
+            <!-- Columna 1 -->
+            <div class="flex flex-col space-y-4 text-[rgb(72,81,79)] font-normal text-[14px] uppercase items-center text-center 
+                md:items-start md:text-left w-full max-w-full md:w-auto">
+                <span class="block w-full"><a href="">Informes <br class="hidden md:block">Financieros y <br class="hidden md:block">Reportes</a>
+                </span>
+                <span class="block w-full"><a href="">Medios de <br class="hidden md:block">Comunicación</a></span>
+                <span class="block w-full"><a href="">Publicaciones</a></span>
+                <span class="block w-full"><a href="">Investigaciones</a></span>
+                <span class="block w-full"><a href="">Contáctanos</a></span>
+                <span class="block w-full"><a href="">Políticas de <br class="hidden md:block">Privacidad</a></span>
+                <!-- Línea Separatoria -->
+                <div class="w-full h-px bg-[rgb(195,214,219)] my-8"></div>
+                <!-- Bloque inferior -->
+                <div class="normal-case text-[rgb(43,58,66)] space-y-3 w-full">
+                    <span class="block font-semibold text-[12px]">Naturaleza y Cultura <br class="hidden md:block">Internacional</span>
+                    <p class="text-[11px] text-[rgb(118,124,123)] leading-relaxed">Naturaleza y Cultura <br class="hidden md:block">Internacional 
+                    es una <br class="hidden md:block">organización <br class="hidden md:block">no <br class="hidden md:block">
+                    gubernamental 501 (c) (e)</p>
+                    <p class="text-[11px] text-[rgb(118,124,123)]">EIN: 33-0773524</p>
+                </div>
+            </div>
+            <!-- Columna 2 -->
+            <div class="flex flex-col justify-center items-center space-y-4 font-normal text-center w-full max-w-full md:w-auto">
+                <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Dirección</span>
+                <span class="text-[rgb(43,58,66)] font-semibold text-[15px] block w-full">1400 Maiden Lane <br>Del Mar, CA 92014, USA</span>
+                <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Llámanos</span>
+                <span class="block w-full"><a href="" class="text-[rgb(43,58,66)] hover:underline text-[15px]">+1 (858) 259-0374</a></span>
+                <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Escríbenos</span>
+                <span class="block w-full"><a href="" class="text-[rgb(43,58,66)] hover:underline text-[15px] break-all">hola@naturalezaycultura.org</a></span>
+                <span class="uppercase text-[rgb(15,125,63)] text-[11px]">Síguenos en Redes Sociales</span>
+                <div class="flex flex-row items-center space-x-4 justify-center">
+                    <i class="fa-brands fa-facebook-f block text-[rgb(33,37,41)] text-[16px]" alt="Facebook" width="20px" height="20px"></i>
+                    <i class="fa-brands fa-x-twitter block text-[rgb(33,37,41)] text-[20px]" alt="Twitter" width="20px" height="20px"></i>
+                    <i class="fa-brands fa-instagram block text-[rgb(33,37,41)] text-[20px]" alt="Instagram" width="20px" height="20px"></i>
+                    <i class="fa-brands fa-youtube block text-[rgb(33,37,41)] text-[20px]" alt="YouTube" width="20px" height="20px"></i>
+                    <i class="fa-brands fa-linkedin-in block text-[rgb(33,37,41)] text-[20px]" alt="LinkedIn" width="20px" height="20px"></i>
+                </div>
+            </div>
+
+            <!-- Columna 3 -->
+            <div class="flex flex-col space-y-6 items-center justify-center w-full max-w-full md:w-auto">
+                <img src="../../imagenes/imagenes_principal/imagen33.webp" alt="" class="w-20 h-15 shrink-0 object-contain">
+                <img src="../../imagenes/imagenes_principal/imagen32.png" alt="" class="w-20 h-15 shrink-0 object-contain">
+                <img src="../../imagenes/imagenes_principal/imagen34.webp" alt="" class="w-20 h-15 shrink-0 object-contain">
+            </div> 
+        </section>
+
+        <!-- Bloque Inferior del PIE DE PÁGINA -->
+        <footer class="w-full max-w-5xl mx-auto text-[12px] text-[rgb(118,124,123)] font-normal px-5 sm:px-6 md:px-8 lg:px-12 mb-12">
+            <!-- Línea separadora larga horizontal -->
+            <div class="w-full h-px bg-[rgb(215,219,218)] my-8"></div>
+            
+            <!-- Contenedor para distribuir los textos a los extremos -->
+            <div class="flex flex-col md:flex-row justify-center md:justify-between items-center text-center md:text-left gap-4">
+                <!-- Texto Izquierdo (Derechos de autor) -->
+                <span>© 2025 Nature and Culture International</span>
+                
+                <!-- Texto Derecho (Créditos) -->
+                <div class="flex items-center justify-center space-x-1">
+                    <a href="#" class="hover:underline text-[rgb(72,81,79)] font-semibold">Nonprofit Marketing Agency</a>
+                    <span class="text-[rgb(118,124,123)] font-normal no-underline">by</span>
+                    <a href="#" class="hover:underline text-[rgb(72,81,79)] font-semibold">Elevation Web</a>
+                </div>
+            </div>
+
+            <!-- Contenedor de enlaces con borde (Uno debajo del otro en móvil) -->
+            <div class="flex flex-col md:flex-row items-center justify-center mt-6 gap-4 md:gap-0 md:space-x-4 text-[15px] font-bold">
+                <a href="" class="inline-block border border-black text-[rgb(15,125,63)] hover:bg-[rgb(228,230,232)] hover:text-black py-2 
+                px-4 w-full max-w-xs md:w-auto text-center">
+                    Notice at collection
+                </a>
+
+                <a href="" class="inline-flex items-center justify-center border border-black text-black hover:bg-[rgb(228,230,232)]
+                hover:text-black py-2 px-4 w-full max-w-xs md:w-auto">
+                    Your Privacy Choices 
+                    <img src="../../imagenes/imagenes_principal/visto_no-removebg-preview.png" class="w-9 ml-3 shrink-0" alt="">
+                </a>
+            </div>
+        </footer>
     </div>
 
 </body>
