@@ -5,11 +5,8 @@ Para convertir el proyecto en PHP, las páginas tendrían la extensión '.php' y
 NOTA: El código que tiene index.html se pasaría al archivo ```principal.php``` y estaría en la carpeta de pages
 
 ```<?php
-
 header('Location: ./pages/principal.php');
-
 exit();
-
 ?>```
 
 
